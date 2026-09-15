@@ -1,0 +1,377 @@
+{
+  "status": "validation_partial",
+  "dataset_final": false,
+  "config": {
+    "seed": 20260907,
+    "target": 120,
+    "generation_model": "llama3.2:latest",
+    "generation_params": {
+      "temperature": 0,
+      "top_p": 0.1,
+      "top_k": 10
+    },
+    "quality_screen_model": "llama3.2:latest",
+    "quality_screen_params": {
+      "temperature": 0,
+      "top_p": 0.1,
+      "top_k": 10
+    },
+    "retrieval_top_k": 3,
+    "span_coverage_threshold": 0.85,
+    "dedup": {
+      "gold16_protect_jaccard": 0.45,
+      "span_dedup_jaccard": 0.85,
+      "question_dedup_jaccard": 0.8,
+      "max_per_chunk": 2
+    },
+    "distribution": {
+      "floors": 15,
+      "caps": 22,
+      "weight_power": 0.5
+    },
+    "max_calls": null,
+    "max_drawn": 12000,
+    "truncated_by_max_calls": false,
+    "termination_reason": "target_not_reached"
+  },
+  "candidate_pool_size": 3702,
+  "candidate_pool_by_document": {
+    "nia_caregivers_handbook.pdf": 454,
+    "understanding-memory-loss.pdf": 77,
+    "Dietary_Guidelines_for_Americans_2020-2025.pdf": 1432,
+    "exercise-and-older-adults-nia.pdf": 131,
+    "who_icope_handbook.pdf": 1585,
+    "tips-take-medicines-safely.pdf": 23
+  },
+  "target_allocation": {
+    "Dietary_Guidelines_for_Americans_2020-2025.pdf": 22,
+    "exercise-and-older-adults-nia.pdf": 21,
+    "nia_caregivers_handbook.pdf": 22,
+    "tips-take-medicines-safely.pdf": 16,
+    "understanding-memory-loss.pdf": 17,
+    "who_icope_handbook.pdf": 22
+  },
+  "final_accepted_count": 96,
+  "final_distribution_by_document": {
+    "Dietary_Guidelines_for_Americans_2020-2025.pdf": 22,
+    "exercise-and-older-adults-nia.pdf": 21,
+    "nia_caregivers_handbook.pdf": 22,
+    "tips-take-medicines-safely.pdf": 5,
+    "understanding-memory-loss.pdf": 4,
+    "who_icope_handbook.pdf": 22
+  },
+  "rejected": {
+    "by_source": 22,
+    "by_anchor_chunk": 119,
+    "by_span_verification": 0,
+    "by_span_length": 135,
+    "span_not_in_chunk": 0,
+    "by_quality_deterministic": {
+      "yes-no": 224,
+      "medical-judgment": 11,
+      "not-anchored": 43,
+      "mirrors-span": 1,
+      "low-information": 6
+    },
+    "by_quality_llm": {
+      "unresolved pronoun": 441,
+      "out of range score": 1,
+      "insufficient context for calorie recommendation": 1,
+      "out of scope": 15,
+      "out of context question": 2,
+      "out of range": 1,
+      "unanswerable without context": 6,
+      "insufficient context": 1,
+      "out of scope age range": 1,
+      "unrelated age group": 1,
+      "out of context": 3,
+      "unrelated topic": 3,
+      "open-ended question": 1,
+      "out of scope elderly care": 1,
+      "loose child safety cap context needed": 1,
+      "too broad": 1,
+      "out-of-scope question": 2,
+      "unanswerable without outside context": 4,
+      "unusual symptoms are not defined": 1,
+      "unresolvable context": 1,
+      "unresolved pronoun 'they'": 1,
+      "unresolvable without outside context": 1,
+      "out of scope care plan updates": 1,
+      "unresolved pronouns": 1,
+      "unresolved pronoun 'my'": 1,
+      "out-of-pocket expenses unclear": 1,
+      "unanswerable": 1,
+      "unnecessary person mentioned": 1,
+      "requires outside context": 1,
+      "influenced by others is not a decision-making issue": 1,
+      "too specific": 1,
+      "no specific treatments mentioned": 1
+    },
+    "by_gold16_duplicate": 12,
+    "by_fact_duplicate": 1,
+    "by_question_duplicate": 0,
+    "by_chunk_cap": 20,
+    "llm_generation_failure": 0,
+    "retrieval_error": 0
+  },
+  "verification_results": {
+    "pct_source_correct": 100.0,
+    "pct_chunk_recall": 100.0,
+    "pct_supporting_span_supported": 100.0,
+    "note": "acceptance is mandatory, so these should be 100%"
+  },
+  "llm_calls_used": 1759,
+  "candidates_drawn": 1190,
+  "termination_reason": "target_not_reached",
+  "discarded_examples": {
+    "by_quality_deterministic": [
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "Is it true that people over 71 tend to eat less protein than those between 60 and 70?",
+        "reason": "yes-no"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "Can I reduce my saturated fat and sodium intake by eating foods like hot dogs or sausages with seafood?",
+        "reason": "yes-no"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "How much iron should I take while breastfeeding?",
+        "reason": "medical-judgment"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "Is cow milk suitable for my baby's diet?",
+        "reason": "yes-no"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "How can I make mealtime more enjoyable and engaging for my elderly loved one?",
+        "reason": "not-anchored"
+      }
+    ],
+    "by_anchor_chunk": [
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What types of cereal are recommended for pregnant women?",
+        "retrieved_sources": [
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          323,
+          324,
+          341
+        ]
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What foods should I focus on eating to meet my daily nutrient needs?",
+        "retrieved_sources": [
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          29,
+          70,
+          78
+        ]
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What should I look for in the grocery store to reduce my sodium intake?",
+        "retrieved_sources": [
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          155,
+          156,
+          157
+        ]
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "How can I make small changes to my daily eating habits?",
+        "retrieved_sources": [
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          70,
+          90,
+          143
+        ]
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What are the dietary goals for older adults?",
+        "retrieved_sources": [
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+          "Dietary_Guidelines_for_Americans_2020-2025.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          357,
+          358,
+          368
+        ]
+      }
+    ],
+    "by_span_length": [
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "sentence": "½ Fruits (cup eq/day) ½ ¾ Grains (ounce eq/day) 1 ¾ 2 ¼ 2 ¾ Whole Grains (ounce eq/day) 1 ¼ 1 ¾ Refi"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "sentence": "Although women of reproductive age generally have adequate iodine intake, some women, particularly t"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "sentence": "Guideline Dietary Guidelines for Americans, 2020-2025 | Chapter 1: Nutrition and Health Across the L"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "sentence": "Evidence on the association between dietary patterns and reduced risk of diet-related chronic diseas"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "sentence": "WOMEN WHO ARE PREGNANT OR LACTATING Dietary Guidelines for Americans, 2020-2025 | Chapter 5: Women W"
+      }
+    ],
+    "by_quality_llm": [
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What should I give my child aged 5 to drink instead of sugary drinks?",
+        "reason": "unresolved pronoun"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What percentage of adults between the ages of 21 and 59 drink alcohol at least once a month?",
+        "reason": "unresolved pronoun"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What types of food and drinks should I serve my elderly client to ensure they get the nutrients they need?",
+        "reason": "unresolved pronoun"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What percentage of families with children in our area are struggling to get enough food?",
+        "reason": "unresolved pronoun"
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What types of grains should I focus on eating to get more nutrients?",
+        "reason": "unresolved pronoun"
+      }
+    ],
+    "by_source": [
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "How can I ensure my elderly loved one is getting enough nutrients to maintain a healthy weight?",
+        "retrieved_sources": [
+          "who_icope_handbook.pdf",
+          "who_icope_handbook.pdf",
+          "who_icope_handbook.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          245,
+          247,
+          256
+        ]
+      },
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "question": "What resources can I use to get reliable advice on how to communicate nutrition information to my clients?",
+        "retrieved_sources": [
+          "nia_caregivers_handbook.pdf",
+          "who_icope_handbook.pdf",
+          "who_icope_handbook.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          104,
+          111,
+          247
+        ]
+      },
+      {
+        "doc": "nia_caregivers_handbook.pdf",
+        "question": "What are some common health issues that older adults with dementia are more likely to experience?",
+        "retrieved_sources": [
+          "exercise-and-older-adults-nia.pdf",
+          "understanding-memory-loss.pdf",
+          "who_icope_handbook.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          9,
+          15,
+          184
+        ]
+      },
+      {
+        "doc": "who_icope_handbook.pdf",
+        "question": "What kind of information should I be getting about my health and wellbeing from my doctor?",
+        "retrieved_sources": [
+          "nia_caregivers_handbook.pdf",
+          "nia_caregivers_handbook.pdf",
+          "nia_caregivers_handbook.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          104,
+          105,
+          111
+        ]
+      },
+      {
+        "doc": "who_icope_handbook.pdf",
+        "question": "What should I do to make sure my medication is safe and effective for me?",
+        "retrieved_sources": [
+          "tips-take-medicines-safely.pdf",
+          "tips-take-medicines-safely.pdf",
+          "tips-take-medicines-safely.pdf"
+        ],
+        "retrieved_chunk_ids": [
+          1,
+          2,
+          5
+        ]
+      }
+    ],
+    "by_gold16_duplicate": [
+      {
+        "doc": "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+        "sentence": "To attain the most health benefits from physical activity, older adults need at least 150 to 300 min"
+      },
+      {
+        "doc": "nia_caregivers_handbook.pdf",
+        "sentence": "Respite services provide short-term care for an older adult at home, in a health care facility, or a"
+      },
+      {
+        "doc": "nia_caregivers_handbook.pdf",
+        "sentence": "Don’t give the person a larger dose of a medicine, thinking it will help them more ."
+      },
+      {
+        "doc": "exercise-and-older-adults-nia.pdf",
+        "sentence": "Weight-bearing exercises, such as walking, climbing stairs, or dancing, produce a force on bones tha"
+      },
+      {
+        "doc": "exercise-and-older-adults-nia.pdf",
+        "sentence": "Type 2 Diabetes Physical activity can help older adults manage type 2 diabetes and stay healthy long"
+      }
+    ],
+    "by_fact_duplicate": [
+      {
+        "doc": "who_icope_handbook.pdf",
+        "sentence": "Box 13.2 How to exercise pelvic floor muscles Health workers can provide information to older women "
+      }
+    ]
+  },
+  "elapsed_seconds": 529.07
+}

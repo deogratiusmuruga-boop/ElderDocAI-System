@@ -1,0 +1,1277 @@
+chunks=1143 candidates=3702 gold16_questions=16
+target allocation: {"Dietary_Guidelines_for_Americans_2020-2025.pdf": 22, "exercise-and-older-adults-nia.pdf": 21, "nia_caregivers_handbook.pdf": 22, "tips-take-medicines-safely.pdf": 16, "understanding-memory-loss.pdf": 17, "who_icope_handbook.pdf": 22}
+== doc Dietary_Guidelines_for_Americans_2020-2025.pdf budget=22
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of cereal are recommended for pregnant women?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=5 produced=0 span='Cow milk does not have the correct amount of nutrients for infants, an'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I help my toddler develop a taste preference for less salty fo' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-001 [Dietary_Guidelines_for_Americans_2020-2025.pdf c196] How can I help my toddler develop a taste preference for less salty fo
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=10 produced=1 span='Consuming beverages with no added sugars is particularly important for'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What should I give my child aged 5 to drink instead of sugary drinks?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What populations will the new Dietary Guidelines provide dietary guida' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-002 [Dietary_Guidelines_for_Americans_2020-2025.pdf c53] What populations will the new Dietary Guidelines provide dietary guida
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What percentage of adults between the ages of 21 and 59 drink alcohol ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of food and drinks should I serve my elderly client to ensu' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=15 produced=2 span='Particular attention should be given to consuming adequate amounts of '
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What nutrients should I focus on eating for good bone health as I get ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-003 [Dietary_Guidelines_for_Americans_2020-2025.pdf c300] What nutrients should I focus on eating for good bone health as I get 
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What percentage of families with children in our area are struggling t' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=20 produced=3 span='Dietary Guidelines for Americans, 2020-2025 | Chapter 1: Nutrition and'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods should I focus on eating to meet my daily nutrient needs?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of grains should I focus on eating to get more nutrients?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods are commonly consumed by young people that may be of concer' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What are some special health concerns I should be aware of as I age?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=25 produced=3 span='Page 47 | Dietary Guidelines for Americans, 2020-2025 | Chapter 1: Nut'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What are the top sources of sodium in my diet?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-004 [Dietary_Guidelines_for_Americans_2020-2025.pdf c157] What are the top sources of sodium in my diet?
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='As I get older, do I need fewer calories to stay healthy?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=30 produced=4 span='About 50 percent of women and 30 percent of men 71 and older fall shor'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What percentage of seniors are not getting enough protein in their die' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What should I look for in the grocery store to reduce my sodium intake' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=35 produced=4 span='For toddlers ages 12 through 23 months, who are no longer receiving ei'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="What types of food should I offer my toddler if they're not drinking b" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of drinks should I avoid serving to my elderly clients?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods should I focus on eating more of to follow a healthy vegeta' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-005 [Dietary_Guidelines_for_Americans_2020-2025.pdf c127] What foods should I focus on eating more of to follow a healthy vegeta
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I ensure my elderly loved one is getting enough nutrients to m' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I make small changes to my daily eating habits?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How long does food insecurity typically last?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=45 produced=5 span='Consuming the recommended amount of seafood and choosing foods that ar'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods should I eat to get enough vitamin D?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-006 [Dietary_Guidelines_for_Americans_2020-2025.pdf c300] What foods should I eat to get enough vitamin D?
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What kind of diet is best for someone who wants to know if they are at' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What was the highest average score for healthy eating from the Dietary' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="What should I eat to stay healthy while I'm pregnant?" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=50 produced=6 span='Today, 60 percent of adults have one or more diet-related chronic dise'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What percentage of adults in my care have diet-related health issues?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What are the dietary goals for older adults?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I ensure my elderly client is drinking enough fluids?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-007 [Dietary_Guidelines_for_Americans_2020-2025.pdf c374] How can I ensure my elderly client is drinking enough fluids?
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What happens to the types of food I eat if my body needs more nutrient' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What source provides detailed scientific information about the relatio' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-008 [Dietary_Guidelines_for_Americans_2020-2025.pdf c91] What source provides detailed scientific information about the relatio
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=55 produced=8 span='The Dietary Guidelines is the foundation of Federal food, nutrition, a'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What document sets the standard for federal food and nutrition policie' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-009 [Dietary_Guidelines_for_Americans_2020-2025.pdf c36] What document sets the standard for federal food and nutrition policie
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='As my child becomes more independent, how can I ensure they make healt' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What nutrients do I need extra of as I age?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='Why are most Americans not following the recommended dietary guideline' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=60 produced=9 span='The Guidelines are supported by Key Recommendations that provide furth'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What kind of recommendations can I find to help me eat healthily as an' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What percentage of my daily sugar intake comes from sugary drinks?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is included in the latest edition of the Dietary Guidelines?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the main composition of many juice products?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-010 [Dietary_Guidelines_for_Americans_2020-2025.pdf c268] What is the main composition of many juice products?
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of diseases can I have that are related to my eating habits' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-011 [Dietary_Guidelines_for_Americans_2020-2025.pdf c24] What types of diseases can I have that are related to my eating habits
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I encourage my child to make healthy food choices?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=70 produced=11 span='When consistently followed, these healthy dietary patterns can provide'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What dietary patterns should I follow to stay healthy as I age?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="What are my options if I don't want to give my baby a supplement?" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What does it mean to have a dietary pattern?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of exercise are good for my heart?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How much dairy product should my child eat each day if they need over ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=75 produced=11 span='NOTE: The total dietary pattern should not exceed Dietary Guidelines l'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What are the limits I should follow when planning my daily meals?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What resources can I use to get reliable advice on how to communicate ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What should I consider when selecting drinks for my elderly loved one?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=80 produced=11 span='Making changes to the type of ingredients as well as amount and/or fre'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="Where can I find detailed information about the Committee's review of " -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What stages of life are highlighted in the chapters?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the main goal of the Dietary Guidelines for Americans?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=85 produced=11 span='Special consideration is given to the importance of achieving and main'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="What should I aim for in terms of my weight if I'm planning to get pre" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What can I find out about the new nutrition facts label on food produc' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-012 [Dietary_Guidelines_for_Americans_2020-2025.pdf c159] What can I find out about the new nutrition facts label on food produc
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods are recommended for me to eat?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How do I ensure that my older adult has access to healthy food options' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=90 produced=12 span='The increased calorie and nutrient needs for these life stages should '
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of foods are recommended to meet the increased calorie and ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='At what ages are most babies still being breastfed?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What nutrients should I be paying extra attention to when my mom start' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the recommended age range for infants and toddlers according t' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=95 produced=12 span='As shown in Figure 1-10, the major sources of added sugars in typical '
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What are some common sources of added sugars in a typical US diet?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-013 [Dietary_Guidelines_for_Americans_2020-2025.pdf c147] What are some common sources of added sugars in a typical US diet?
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What happens if I eat foods that are nutrient-dense and meet the recom' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="How does my child's diet change as they get older?" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="How can I make healthy food choices if I'm trying to lose weight?" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=100 produced=13 span='Adequate intake of choline during these life stages helps to both repl'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What nutrients should I give my pregnant or breastfeeding friend to he' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="What type of seafood should I avoid eating if I'm a woman?" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I afford to eat healthily on a limited budget?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-014 [Dietary_Guidelines_for_Americans_2020-2025.pdf c105] How can I afford to eat healthily on a limited budget?
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods and beverages should I focus on eating as I age?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=105 produced=14 span='an important part of a complex, multifaceted approach to promote healt'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is an important part of preventing chronic diseases in older adul' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the typical household size for families receiving food assista' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of food are good sources of protein for healthy eating?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What resources can I use to help my family choose a healthy diet?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-015 [Dietary_Guidelines_for_Americans_2020-2025.pdf c33] What resources can I use to help my family choose a healthy diet?
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=110 produced=15 span='Start Simple with MyPlate. with MyPlate 2 Available at: MyPlate.gov/my'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the official website where I can find a simple plan to follow ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-016 [Dietary_Guidelines_for_Americans_2020-2025.pdf c70] What is the official website where I can find a simple plan to follow 
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What can I expect about caffeine as I age?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I ensure my pregnant friend is getting enough choline?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What are some common additives that people add to their coffee or tea?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of food should I focus on eating to help me stay healthy?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=115 produced=16 span='edition of the Dietary Guidelines and updated food availability and fo'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How often does the Dietary Guidelines get updated?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the best way for me to know how much food I should be eating w' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the recommended daily calorie intake for a toddler aged 12-23 ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=120 produced=16 span='Sugar- sweetened beverages, particularly fruit drinks, contribute more'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What percentage of my daily sugar intake comes from sugary drinks like' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How do the Dietary Guidelines influence federal policies related to fo' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-017 [Dietary_Guidelines_for_Americans_2020-2025.pdf c22] How do the Dietary Guidelines influence federal policies related to fo
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of foods does WIC provide for my baby who is starting solid' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What specific nutritional concerns should I be aware of when caring fo' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of foods should I feed my 1-year-old?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=125 produced=17 span='Based on the U.S. food supply and marketplace, the examples of healthy'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I make healthy dietary choices that will last?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What groups of people can help support women and their families?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I find out how many calories are in a specific dish at a resta' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the recommended intake range for children aged 9 through 18?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=130 produced=17 span='These considerations are especially important for the life stages disc'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What factors should I consider when caring for someone with health nee' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods and drinks should I focus on eating to help me get all the ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What health risks do children who are overweight face?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=135 produced=17 span='Average intakes compared to recommended intake ranges of the subgroups'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How often should I eat vegetables to meet the recommended intake?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I encourage my older adult to adopt healthy eating habits?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How hot do I need to reheat deli meats and hot dogs to make sure they ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What kinds of diets have been studied to see how they affect overall h' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-018 [Dietary_Guidelines_for_Americans_2020-2025.pdf c38] What kinds of diets have been studied to see how they affect overall h
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How much more do teenagers need to eat compared to adults when it come' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How does my daily food and drink choices affect my sodium intake?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=145 produced=18 span='Population Ages 1 and Older\x08���������43 Figure 1-11: Top Sources and A'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What are the top sources of saturated fat in the US population?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of grains should I focus on eating for a healthy diet?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I model healthy eating habits for my child to help prevent fut' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="How do the people living in my neighbor's house get food if they can't" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What kind of organizations can use the Dietary Guidelines to create pe' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-019 [Dietary_Guidelines_for_Americans_2020-2025.pdf c62] What kind of organizations can use the Dietary Guidelines to create pe
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What can I eat to get enough calcium and vitamin D?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods and beverages are recommended for seniors to eat?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=160 produced=19 span='These recommendations are based on levels observed to reduce risk of c'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of foods should I focus on eating to help lower my risk of ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How often should I do muscle-strengthening activities like lifting wei' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How do my eating habits affect my ability to make healthy lifestyle ch' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-020 [Dietary_Guidelines_for_Americans_2020-2025.pdf c278] How do my eating habits affect my ability to make healthy lifestyle ch
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=165 produced=20 span='They require a commitment to long-term lifestyle change and often need'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I get help changing my daily habits for the rest of my life?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What should I include when writing dietary guidelines to ensure they a' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=170 produced=20 span='Women with overweight or obesity frequently exceed gestational weight '
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I help my pregnant client avoid excessive weight gain and subs' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What types of milk are recommended for a healthy diet?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='Why are most adults in this age group not following the recommended di' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="What happens to the extra sugar in my child's diet when I feed them nu" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What are some key differences in my daily nutrient intake as I age?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What nutrients should I be paying extra attention to when it comes to ' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q="What are the specific nutrients that I'm not getting enough of from my" -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the recommended daily intake of folate for pregnant or breastf' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=185 produced=20 span='CAFFEINE Caffeine is a dietary component that functions in the body as'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What dietary recommendations should I follow if I am currently pregnan' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=190 produced=20 span='Menu Nutrition Labeling Americans eat and drink about one-third of the'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What percentage of my daily calories come from food I buy at restauran' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How can I encourage my elderly client to cut down on sugary drinks?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What kinds of support do government and non-profit organizations offer' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What foods should I drink with my meals to help me absorb the nutrient' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How many times does my child need to be offered a new food before they' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=195 produced=20 span='Adolescent Nutrition The difference between recommended food group amo'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='How much of the recommended daily intake do most teenagers actually ge' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is a healthy way to plan my meals for the day?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What nutrients do I need to pay extra attention to when taking supplem' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What health risks can I face if I drink too much alcohol?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-021 [Dietary_Guidelines_for_Americans_2020-2025.pdf c161] What health risks can I face if I drink too much alcohol?
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=200 produced=21 span='Improving dietary patterns in adulthood can play a beneficial role in '
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What dietary patterns are recommended for older adults?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='At what age can I start giving my infant solid foods?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=205 produced=21 span='Others, such as fruit drinks, can be replaced with nutrient-dense opti'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the source used to analyze average intakes of food?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What kind of advice can I expect from the chapter for caring for senio' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What type of data did the analysis of average intakes come from?' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] drawn=210 produced=21 span='The Dietary Guidelines for Americans, 2015-2020 puts this understandin'
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] gen_ok q='What is the main focus of the Dietary Guidelines for Americans 2015-20' -> llm_screen
+   [Dietary_Guidelines_for_Americans_2020-2025.pdf] screen_ok -> verify_anchor
+  GQX-022 [Dietary_Guidelines_for_Americans_2020-2025.pdf c25] What is the main focus of the Dietary Guidelines for Americans 2015-20
+== doc nia_caregivers_handbook.pdf budget=22
+   [nia_caregivers_handbook.pdf] gen_ok q='What resources can I find in the guide to help me make my elderly clie' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-023 [nia_caregivers_handbook.pdf c30] What resources can I find in the guide to help me make my elderly clie
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of organizations provide transportation services for older ' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-024 [nia_caregivers_handbook.pdf c53] What types of organizations provide transportation services for older 
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if I have concerns about my medical treatment or bill' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=5 produced=2 span='One reason that scammers target older adults is that they are less lik'
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I protect myself from being targeted by scammers if I'm worrie" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some examples of tasks that a caregiver might help an elderly' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I keep track of my loved one's medications?" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=10 produced=2 span='Call the doctor right away if the older adult has any problems with th'
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if my elderly family member is experiencing problems ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What information should I keep on hand to help me care for my loved on' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of medical help do participants get when they need it?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some common health issues that older adults with dementia are' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] drawn=15 produced=2 span='Medicare generally doesn’t cover long-term stays in a nursing home, bu'
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do if I'm having trouble affording my prescription medic" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of references should I ask for when hiring a home health car' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What resources can I turn to for emotional support if I'm having troub" -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] drawn=20 produced=2 span='Some long-term care insurance plans also pay a portion of the costs . '
+   [nia_caregivers_handbook.pdf] gen_ok q='What expenses do I still have to pay even if my long-term care insuran' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I bring with me to my doctor's office?" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I make healthcare decisions for my loved one?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I know when my elderly parent is ready to leave their home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=25 produced=2 span='1 in 6 adults who are not currently caregivers expect to provide care '
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of therapy can my loved one receive during rehabilitation?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What rights do I have when working with healthcare professionals?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=30 produced=2 span='Which option is best depends on many factors, including the person’s a'
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I consider when deciding which care option is right for my' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I pay for adult day care programs and other community-based ser' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I tell my healthcare provider about my wishes for end-of-l' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do before going to the doctor's office with my older adu" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I make sure my medications won't interfere with each other whe" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='Where can I typically find a notary to help me with important document' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of help can I get from my healthcare team to manage my healt' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I safely store my medications when they come with loose child ' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=40 produced=2 span='A trust can provide flexible control of assets for an older adult or a'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of medical information does my mom need me to know about?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How many conversations should I have with my elderly parent to discuss' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of training can I get as a caregiver?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=45 produced=2 span='Many hospice care services are covered by Medicare, Medicaid, and priv'
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of insurance cover hospice care services?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do we prioritize medications for my loved one when they are expens' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What government program can I contact through my state government to g' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can taking care of myself help me be a better caregiver?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do before my doctor's appointment so they know how I nee" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=50 produced=2 span='You can also look for resources online or in your community, such as l'
+   [nia_caregivers_handbook.pdf] gen_ok q='Where can I find local resources to help with my care?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of devices can help prevent falls and reduce the risk of in' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I tell my doctor when I start taking a new medication?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I balance my caregiving responsibilities with my own needs and' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How should I handle disagreements with an older adult who is resistant' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=55 produced=2 span='Her friend recommended smartphone apps that could help her keep her gr'
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of smartphone apps can help my grandfather remember to take' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I use this option to get money to pay for my future nursing hom' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What is recommended for an older adult who needs medical attention?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What is the best way for me to talk to my elderly parent about their h' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=60 produced=2 span='To find a home health care service, ask your doctor or other health ca'
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some ways to find a home health care service near me?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kinds of help can I get for my mental health as an older adult?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q="What documents are typically kept on file for an individual's personal" -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-025 [nia_caregivers_handbook.pdf c186] What documents are typically kept on file for an individual's personal
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of insurance are included in the Medicare program?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-026 [nia_caregivers_handbook.pdf c85] What types of insurance are included in the Medicare program?
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of resources can my doctor recommend for me as a caregiver?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-027 [nia_caregivers_handbook.pdf c158] What kind of resources can my doctor recommend for me as a caregiver?
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if my elderly family member asks me to leave the room' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I ensure that my loved one's healthcare provider knows about t" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=70 produced=5 span='The primary caregiver may need extra support while adjusting to the pe'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I cope with feeling overwhelmed when my elderly loved one move' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What are some options we can discuss with my dad if he's having troubl" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I tell if my elderly parent is in need of extra care at home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=75 produced=5 span='An older adult can get help with everyday activities, also called “act'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I get assistance with basic personal care tasks like bathing a' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-028 [nia_caregivers_handbook.pdf c32] How can I get assistance with basic personal care tasks like bathing a
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of insurance can help cover the cost of long-term care?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=80 produced=6 span='C H A P T E R 4 : C O V E R I N G T H E C O S T S O F C A R E G I V I '
+   [nia_caregivers_handbook.pdf] gen_ok q='What do you call someone who helps take care of me?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can my doctor and I make sure our decisions about my care are base' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=85 produced=6 span='These might include assisted living, a nursing home, or a continuing c'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of place would be a good option for my elderly parent if the' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of tasks are included in the daily schedule for an elderly ' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can I get from my local community for managing st' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I coordinate my older adult's medical care when I have so many" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=90 produced=6 span='With the older adult’s permission, it can be helpful to check in with '
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of service is best suited for someone who lives by themselve' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I talk about with my doctor when it comes to my end of lif' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What resources can I find for learning more about moving into a long-t' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=95 produced=6 span='Medicines from a fake online pharmacy can be ineffective, unsafe, or e'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I balance my job and taking care of my loved one?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I pay for home health services?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=100 produced=6 span='Worksheet: Coordinating Caregiving Responsibilities, on page 55 of thi'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I make sure my caregivers are working together effectively to ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of services can an adult day care center provide for older a' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='Where can I easily find my emergency contact information from a landli' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] drawn=105 produced=6 span='Gather important information beforehand and take it with you to the ap'
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I bring with me when taking my elderly care recipient to a' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-029 [nia_caregivers_handbook.pdf c105] What should I bring with me when taking my elderly care recipient to a
+   [nia_caregivers_handbook.pdf] gen_ok q='What services can my healthcare provider or local senior center recomm' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='Where can I find caregiver training for my loved one?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=110 produced=7 span='Insurance information such as Medicare, Medicaid, private health insur'
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of insurance do I need to apply for in order to get help wi' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I check my bank balance?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can I find through this organization?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I access my medical records online?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=115 produced=7 span='One way you can help an older adult is to collect, organize, and maint'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of papers should I be collecting from my elderly parent?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of information will my doctor be able to share with me about' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if my neighbor who helps me with daily tasks moves aw' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can I expect for my elderly loved one when they h' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=120 produced=7 span='What personal care are you willing and able to provide — for example, '
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of sacrifices do family caregivers typically have to make wh' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How often should I ask my regular visitors to check in on me?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=125 produced=7 span='Worksheet: Questions To Consider Before Moving an Older Adult Into You'
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some things I should consider before moving my older adult in' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I share caregiving responsibilities with others?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='What dietary options are available at the care facility?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some good resources to find a reliable geriatric care manager' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of professionals can I see for mental health counseling?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-030 [nia_caregivers_handbook.pdf c51] What types of professionals can I see for mental health counseling?
+   [nia_caregivers_handbook.pdf] drawn=130 produced=8 span='These services provide regular caregivers with a break to rest, travel'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I tell if my elderly parent is being neglected?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I balance respecting my elderly parent's independence while al" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=135 produced=8 span='Rarely, drugs can cause serious side effects, such as severe bleeding '
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some rare but serious side effects that certain medications c' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do if my caregiver can't fill all of my prescriptions at" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of facilities do these programs have to ensure the safety of' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of services can an adult day care center provide for older a' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-031 [nia_caregivers_handbook.pdf c48] What kind of services can an adult day care center provide for older a
+   [nia_caregivers_handbook.pdf] gen_ok q='What happens when someone has to take many different medications at th' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=140 produced=9 span='You may be able to get help paying for repairs and safety updates to a'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support will my loved one need to stay at home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I keep track of my older adult's various life situations to en" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if someone in my care is having suicidal thoughts?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=145 produced=9 span='Because medication regimens may change over time, consider making copi'
+   [nia_caregivers_handbook.pdf] gen_ok q='How often should I update my medication list?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I access my medical records from home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What kind of support can I get from this service for my loved one's he" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What is another name for a person who helps with my daily needs?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='How should I talk to my elderly client when asking them about their he' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=150 produced=9 span='As you may have discovered, not all health information on the internet'
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I look for when searching for reliable health information ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I save money on the medicines my elderly family member is taki' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I benefit personally from caring for others?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What is the most common regret of caregivers who feel they didn't rece" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=155 produced=9 span='Here are examples of doctor’s orders: Do not resuscitate (DNR) order t'
+   [nia_caregivers_handbook.pdf] gen_ok q="What happens if my heart stops beating and I have a 'Do Not Resuscitat" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What happens if my fall sensor detects that I've fallen or moved away " -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=160 produced=9 span='Pages should include dates when health information was written, review'
+   [nia_caregivers_handbook.pdf] gen_ok q='When is my personal health information updated?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I balance my caregiving responsibilities with the need to take' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What kinds of programs are available for seniors with Alzheimer's dise" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What organizations can help me find good care for my loved one?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=165 produced=9 span='If a walker or wheelchair is needed, can the entrances to the house be'
+   [nia_caregivers_handbook.pdf] gen_ok q='What is the best way to ensure my wishes are respected if I become una' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What can I do to help prevent abuse from happening to someone who live' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How do I find a trustworthy source for getting a doctor's referral?" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=170 produced=9 span='Buying long-term care insurance can be a good choice for younger, rela'
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of services can help me stay at home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q="What are some ways to make my elderly parent's home safer and more man" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=175 produced=9 span='If the older adult needs help with tasks such as paying bills and fill'
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I include in my care plan to make sure my family knows how' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=180 produced=9 span='If the person just left the hospital and still needs nursing care at h'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I politely decline an offer from someone who wants to help me ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What happens to my body and relationships when I'm under too much stre" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of help can I get with my healthcare costs?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=185 produced=9 span='If you don’t live nearby, you can still provide support and assistance'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I help my loved one who lives far away?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I build social connections while caring for my loved one?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kinds of help can my healthcare team recommend for managing stres' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='How often should I review my advance planning documents?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-032 [nia_caregivers_handbook.pdf c134] How often should I review my advance planning documents?
+   [nia_caregivers_handbook.pdf] gen_ok q='How much does it cost for a single session with a professional mental ' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=190 produced=10 span='Feelings about moving an older adult into a new place may range from l'
+   [nia_caregivers_handbook.pdf] gen_ok q='What emotions might I experience when helping my elderly parent move i' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What expenses do I need to pay myself if my health insurance doesn't c" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can counselors assist me and my family in managing our stress?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I arrange for someone to visit my elderly family member at the' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=195 produced=10 span='Caring for an older person often requires teamwork with family, friend'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of people can help me care for my elderly parent?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I help my elderly parent pay their bills online?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-033 [nia_caregivers_handbook.pdf c34] How can I help my elderly parent pay their bills online?
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I pay for adult day care programs?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kinds of tasks do caregivers typically help with when caring for ' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=200 produced=11 span='not pay for this service . • Most private health insurance plans don’t'
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of activities should I look for in a long-term care facilit' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What counseling services are covered under my health insurance plan?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=205 produced=11 span='and other caregivers, and share it with all of the person’s health car'
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I communicate my medical information to all of my healthcare pr' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I know if I'm feeling overwhelmed while caring for my loved on" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do before my doctor's appointment if I need help communi" -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-034 [nia_caregivers_handbook.pdf c107] What should I do before my doctor's appointment if I need help communi
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of meetings can be helpful for discussing care options with' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=210 produced=12 span='Some organizations have volunteers who regularly pay short visits (les'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can my loved one receive in their daily life?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I get more information about my loved one's current situation " -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='Who can assist with managing my finances if I need help?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] drawn=215 produced=12 span='Even with private health insurance or Medicare, people may have to pay'
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of medical care are covered under this program?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can I expect as a caregiver?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I tell my doctor what kind of care I want if I become unable t' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=220 produced=12 span='There are federal and state laws that protect a person’s “Working with'
+   [nia_caregivers_handbook.pdf] gen_ok q='What legal protections are in place for caregivers who work with my lo' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What is a good way for me to talk about my feelings with someone I tru' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I find someone to help me with caregiving if I live far from m' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What is the process for getting help with insurance claims if I need t' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=225 produced=12 span='Ensuring that the older adult can easily understand and talk with the '
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I make sure my older adult can communicate effectively with th' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some common health issues that older adults with dementia are' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What expenses related to home health services are I responsible for pa' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I know if my elderly family member is getting the care they nee' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=230 produced=12 span='If you are not the primary caregiver, you can still play an important '
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of financial assistance can help pay for long-term care exp' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q="What kind of care prioritizes a person's comfort and well-being, as we" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=235 produced=12 span='They have access to many services, including up to three meals a day; '
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can my loved one expect from the care facility?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How much care do teenagers need from their caregivers?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=240 produced=12 span='Even some health professionals seem to think depression is a normal re'
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I get my elderly family member's healthcare provider to talk t" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=245 produced=12 span='Telehealth may be particularly helpful for people who have limited mob'
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if I experience any unusual symptoms while taking thi' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kinds of financial assistance are available to older adults?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some options for buying prescription medication at a lower co' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I manage my time better with my family's busy schedule?" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=250 produced=12 span='Can you attend activities yourself to see what they’re like? • Is ther'
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some safe places where I can try out an activity before joini' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of information does a POLST or MOLST form tell my healthcare' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-035 [nia_caregivers_handbook.pdf c142] What kind of information does a POLST or MOLST form tell my healthcare
+   [nia_caregivers_handbook.pdf] gen_ok q='What type of information should I never share with someone on the phon' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if I need help making medical decisions in the future' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=255 produced=13 span='If you need help navigating this kind of talk, the person’s doctor, a '
+   [nia_caregivers_handbook.pdf] gen_ok q="What resources can I turn to for help if I'm having trouble understand" -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I use this device effectively?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=260 produced=13 span='Palliative care or hospice care may provide the support and treatment '
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of care can help an older person get the support they want f' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some common reasons why someone might choose to downsize thei' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=265 produced=13 span='Encourage the older person to state their wishes about organ donation '
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I tell my family what I want to happen with my body if I becom' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=270 produced=13 span='Worksheet: Questions To Consider Before Moving an Older Adult Into You'
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some things to consider before moving my elderly parent into ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I keep track of my elderly parent's ongoing health issues and " -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What tools did Jesse use to help manage her grandfather's care?" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of care does hospice provide to patients and their families?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=275 produced=13 span='W O R K S H E E T : H O M E S A F E T Y C H E C K L I S T Before signi'
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I look out for when a caregiver comes to my home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How often should I have someone assist me with my daily care routine?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I protect myself from being targeted by scammers if I'm worrie" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I consider when deciding on my loved one's medical treatme" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=280 produced=13 span='Making a decision that is best for the older person and their caregive'
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I make decisions that are best for my loved one and me?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What resources can I use to learn more about borrowing options for sen' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I keep track of all my medications and supplements?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-036 [nia_caregivers_handbook.pdf c115] How can I keep track of all my medications and supplements?
+   [nia_caregivers_handbook.pdf] gen_ok q='What assistive devices can help an elderly person who has difficulty w' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=285 produced=14 span='Plan to bring them a healthy meal a few times a week, ask a neighbor o'
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of tasks are included in the caregiver schedule?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-037 [nia_caregivers_handbook.pdf c172] What types of tasks are included in the caregiver schedule?
+   [nia_caregivers_handbook.pdf] gen_ok q='What is included in a home safety checklist?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I make sure my doctor and family know what's most important to" -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q="What signs should I look out for when checking on my loved one's menta" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=290 produced=15 span='SHIP can help navigate eligibility, coverage, appeals, and out-of-pock'
+   [nia_caregivers_handbook.pdf] gen_ok q="How does the SHIP program assist with my family's specific health care" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I find reliable health information online to help me with my c' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What groups of people are more likely to receive regular health check-' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=295 produced=15 span='Others decide to have a family member move back to the older person’s '
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I ask my caregiver provider before agreeing to their servi' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-038 [nia_caregivers_handbook.pdf c180] What should I ask my caregiver provider before agreeing to their servi
+   [nia_caregivers_handbook.pdf] drawn=300 produced=16 span='Because he was usually very neat and tidy, Alicia was concerned that h'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I show my elderly loved one that they still have the ability t' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of paperwork should I collect for my elderly care assistant?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of additional help and guidance can I find in the chapters o' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some signs that I should call for emergency help right away?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some good places to find local resources and support as a car' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] drawn=305 produced=16 span='Discuss the information you find with a health care provider before yo'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of conversations can help me understand what type of support' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=310 produced=16 span='Try to make time for activities unrelated to being a caregiver, such a'
+   [nia_caregivers_handbook.pdf] gen_ok q='What can I do in my free time that has nothing to do with taking care ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of scams are older adults most commonly targeted by scammer' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of people are eligible for this health insurance program?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do if my primary caregiver isn't available right now?" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some reliable websites I can use to find trustworthy informat' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I determine if my home health care is covered by Medicare?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How does caregiving affect people who do it?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What can I do if I want to donate my brain after I pass away?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='If I have a mortgage, should I use my government assistance funds to p' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=325 produced=16 span='Then ask your doctor, local family service agency, or community mental'
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I find a counselor who accepts my insurance?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can I expect from this organization for my loved ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do if my medication isn't working as expected?" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I manage my own schedule so that I can provide better care for' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=330 produced=16 span='Share the completed advance directive with family members, other careg'
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I make sure my healthcare team has access to my completed advan' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="How should I organize my patient's medication schedule?" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some warning signs that my elderly loved one needs more help ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some alternative ways to borrow money for home care expenses?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of end-of-life care options are available to help me if I ne' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=340 produced=16 span='Physical abuse by another resident or someone who doesn’t work at the '
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if another resident in my care is being physically ab' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some common signs that an older adult may need extra care?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do if the person I'm caring for gets lost while we're ou" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What challenges do caregivers face when caring for an elderly person?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=345 produced=16 span='Are any outdoor steps sturdy and textured to prevent falls in wet or i'
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some safe options for walking outside during winter months wh' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='Who should I choose as my main person to help take care of me?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] drawn=350 produced=16 span='Is there a small bench or table by the entry door to hold bags and pac'
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I balance my own work and family responsibilities with caring f' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What resources can I check to find financial assistance for my care ne' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] drawn=355 produced=16 span='And working with health care professionals can be an important part of'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I work with my healthcare team to get the best care for my lov' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What information should I keep handy for my caregiver so they know how' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What is common among grandparents who care for their grandchildren?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of advice can I expect from other caregivers when I talk to ' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=360 produced=16 span='There are many ways you can be helpful after the appointment . • If yo'
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I stay informed about my older adult's health if I live far aw" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some reliable options for finding nursing homes that offer qu' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of arrangements should I discuss with a lawyer before setti' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-039 [nia_caregivers_handbook.pdf c141] What types of arrangements should I discuss with a lawyer before setti
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can I get to help me stay at home as I age?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=365 produced=17 span='Some regular bills, such as utilities and rent or mortgage payments, c'
+   [nia_caregivers_handbook.pdf] gen_ok q='What can I do if my elderly parent lives alone and needs assistance wi' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I make sure my loved one gets the kind of care they really wan' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=370 produced=17 span='Tell the person to let the doctor and staff know if they have a hard t'
+   [nia_caregivers_handbook.pdf] gen_ok q="What should I do if I'm having trouble seeing or hearing during my app" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I get my elderly loved one to open up about their medical conc' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I manage the expenses of caring for my loved one?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some benefits of caregiving?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=375 produced=17 span='Physician orders for life-sustaining treatment (POLST) or medical orde'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of information does my POLST or MOLST form tell the doctor a' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-040 [nia_caregivers_handbook.pdf c131] What kind of information does my POLST or MOLST form tell the doctor a
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some common physical and emotional changes I might experience' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some things I should expect when moving my loved one into an ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='Where can I get this type of care?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=380 produced=18 span='Telehealth can also support family caregivers who are taking care of o'
+   [nia_caregivers_handbook.pdf] gen_ok q='What did the doctors ask my loved one about wanting more treatment?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some ways caregivers can encourage seniors who spend most of ' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=385 produced=18 span='If the site is from another source, is it written by a health care pro'
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I get paid as a caregiver?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How often do meal services visit my loved one at home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=390 produced=18 span='If you can find small ways to lower your stress and boost your mood, y'
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some simple things I can do to help manage my stress while ca' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What resources can I contact to get help from a counselor?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-041 [nia_caregivers_handbook.pdf c165] What resources can I contact to get help from a counselor?
+   [nia_caregivers_handbook.pdf] gen_ok q='How do I find out if my elderly family member or relative is eligible ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I prioritize my own self-care when I have a lot of responsibil' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What is the purpose of my daily dose of this medication?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=395 produced=19 span='The decision about whether and when an older adult should move from th'
+   [nia_caregivers_handbook.pdf] gen_ok q="What are some factors that caregivers consider when deciding if it's t" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I make sure my caregiver and I are both on the same page when ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How often should I replace my hearing aid batteries?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='Where can I find reliable health information for my loved one?' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=400 produced=19 span='addition to safety issues and the overall condition of the home, the p'
+   [nia_caregivers_handbook.pdf] gen_ok q="How can my loved one's mood and overall health tell me if they need ex" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of services can I expect to receive at a nursing home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of diets are available at home care services?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of in-home services can help me with my daily medication ne' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=405 produced=19 span='You can also call your local Area Agency on Aging or department of hum'
+   [nia_caregivers_handbook.pdf] gen_ok q='What is the phone number for my local Area Agency on Aging?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How often do meal services bring food to my home?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do before giving my elderly loved one any medication?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How often should we check in with each other when caring for a loved o' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=410 produced=19 span='Unwanted or unexpected symptoms or feelings that occur when a person t'
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if my medication is causing me to feel unwell?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What options are available for getting my loved one to appointments an' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if my elderly person is taking a prescription pain me' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What can I expect if I've never cared for anyone before?" -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=415 produced=19 span='In many cases, long-term care is provided at home by informal caregive'
+   [nia_caregivers_handbook.pdf] gen_ok q='What resources can I use to help pay for my new apartment?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of expenses does the program help cover for frail older adu' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+   [nia_caregivers_handbook.pdf] gen_ok q="How can I stay updated on my loved one's care plan?" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if I suspect someone in my care is being targeted by ' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=420 produced=19 span='Some people use the term care partner rather than caregiver to show th'
+   [nia_caregivers_handbook.pdf] gen_ok q='What do you call someone who helps take care of me?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-042 [nia_caregivers_handbook.pdf c2] What do you call someone who helps take care of me?
+   [nia_caregivers_handbook.pdf] gen_ok q='What is a good way to manage my medications to avoid any potential int' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What should I do if someone in my care is having suicidal thoughts?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I determine if my elderly parent needs assistance with daily t' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What are some common concerns that older adults and their families hav' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=425 produced=20 span='It can also make talking with the person’s doctors easier and reduce t'
+   [nia_caregivers_handbook.pdf] gen_ok q='How does taking medication help when I need to talk to my doctor?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q="What happens if my family is told to do CPR on me when I'm in the hosp" -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of debts should I include on my important documents?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What resources are available to help with the financial burden of care' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=430 produced=20 span='T H E C A R E G I V E R ’ S H A N D B O O K • Most private health insu'
+   [nia_caregivers_handbook.pdf] gen_ok q='What medical expenses are typically not covered by my private health i' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What types of people does this program specifically focus on helping?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I help my elderly parent remember to take their medications at' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=435 produced=20 span='form of a volunteer, an in-home aide, or an adult day care program . •'
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I convince my partner to take care of me when I need a break?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How common is elder abuse among people who need assistance with daily ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How do in-home health services help people with chronic conditions lik' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-043 [nia_caregivers_handbook.pdf c36] How do in-home health services help people with chronic conditions lik
+   [nia_caregivers_handbook.pdf] drawn=440 produced=21 span='Charges can be hourly or by the day . • Medicare will not pay for adul'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of support can I expect from the government to help pay for ' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='How can I make sure my home is safe for my loved one from tripping haz' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=445 produced=21 span='You can also get this type of service from home health agencies for a '
+   [nia_caregivers_handbook.pdf] gen_ok q='What are my out-of-pocket expenses for prescription medication?' -> llm_screen
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of care helps manage my symptoms when I have a serious illne' -> llm_screen
+   [nia_caregivers_handbook.pdf] drawn=450 produced=21 span='You can lighten the primary caregiver’s load by providing emotional su'
+   [nia_caregivers_handbook.pdf] gen_ok q='What kind of assistance does Long-Term Care Insurance typically cover?' -> llm_screen
+   [nia_caregivers_handbook.pdf] screen_ok -> verify_anchor
+  GQX-044 [nia_caregivers_handbook.pdf c90] What kind of assistance does Long-Term Care Insurance typically cover?
+== doc who_icope_handbook.pdf budget=22
+   [who_icope_handbook.pdf] gen_ok q='What are some common signs that cognitive decline might be affecting m' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-045 [who_icope_handbook.pdf c184] What are some common signs that cognitive decline might be affecting m
+   [who_icope_handbook.pdf] gen_ok q="What kind of approach should we use when my parent's abilities are dec" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I maintain a good relationship with my healthcare team?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How do I know if the caregivers I work with have any biases or prejudi' -> llm_screen
+   [who_icope_handbook.pdf] drawn=5 produced=1 span='advice to promote good nutrition and oral health Our diets and the way'
+   [who_icope_handbook.pdf] gen_ok q='How can I maintain good oral hygiene while still enjoying meals with f' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-046 [who_icope_handbook.pdf c243] How can I maintain good oral hygiene while still enjoying meals with f
+   [who_icope_handbook.pdf] gen_ok q='How can I find other seniors who have gone through something similar t' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='Who can help me with physical therapy after an injury?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What types of cognitive assessments are suitable for older adults with' -> llm_screen
+   [who_icope_handbook.pdf] drawn=10 produced=2 span='Antidepressant medicine alone for people with depression (moderate to '
+   [who_icope_handbook.pdf] gen_ok q='What is included in the long-term care package for older people under ' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of information should I be getting about my health and wellb' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=15 produced=2 span='The older person should be reassured that the discussion is confidenti'
+   [who_icope_handbook.pdf] gen_ok q='What can I do to help my elderly loved one stay mobile and active as t' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What common age-related eye problems can cause blurry vision?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=20 produced=2 span='It is essential to ensure that the medications are appropriate for the'
+   [who_icope_handbook.pdf] gen_ok q='What should I do to make sure my medication is safe and effective for ' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What types of jobs are considered to be directly involved in improving' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q="How do my loved one's health conditions and care needs affect me?" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What details should I check if my client has an injury?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=25 produced=2 span='Advice should also include the fact that activity that is too intense,'
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly loved one eat safely if they have trouble ch' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What can I do with my home lighting to help prevent falls?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What are the three different paths outlined for managing undernutritio' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can different healthcare services work together to provide the bes' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=35 produced=2 span="This should include prompted voiding to increase the person's toilet u"
+   [who_icope_handbook.pdf] gen_ok q='How can I encourage my elderly loved one to go to the bathroom more of' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I ensure my elderly loved one gets the medical care they need?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What type of blood test should I have to get a full assessment?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of information should I be getting from my doctor about how ' -> llm_screen
+   [who_icope_handbook.pdf] drawn=40 produced=2 span='It is also important to consider the potential care and support needs '
+   [who_icope_handbook.pdf] gen_ok q='What kind of help or support can my family members need while caring f' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What kinds of products can help make it easier for me to care for myse' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What is the minimum visual acuity required to pass a distance and near' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of physical activity causes my heart to beat faster and make' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of support can I expect from health and social care services' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="What additional factors affect an older person's overall health and da" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I make my home safer for my loved one as they get older?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What types of therapy can help with managing depressive symptoms?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I ensure my elderly loved one gets enough vitamin D?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="What should I do if the person can't repeat more than 3 out of 4 words" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="How can I tailor my questioning style to respect a person's cultural b" -> llm_screen
+   [who_icope_handbook.pdf] drawn=55 produced=2 span='By offering a basic assessment, community health workers and other com'
+   [who_icope_handbook.pdf] gen_ok q='How can I get help and support if I need it?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of services do community health workers typically offer?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How do I strengthen my pelvic floor muscles?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-047 [who_icope_handbook.pdf c409] How do I strengthen my pelvic floor muscles?
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly loved one manage their urinary incontinence?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=60 produced=3 span='An important step, before an in-depth assessment for UI is to identify'
+   [who_icope_handbook.pdf] gen_ok q='What should I look out for when starting the assessment process to mak' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What should I talk about with my doctor when we discuss end-of-life ca' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What kinds of activities can I organize to help my friend feel more co' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What types of healthcare professionals are typically part of a multidi' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-048 [who_icope_handbook.pdf c126] What types of healthcare professionals are typically part of a multidi
+   [who_icope_handbook.pdf] drawn=65 produced=4 span='It facilitates the provision of integrated person-centred care in prim'
+   [who_icope_handbook.pdf] gen_ok q='How can I ensure that my elderly client receives comprehensive care th' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q="What are some signs that it's time for me to consider moving to a new " -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of activities do caregivers typically do at the beginning of' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I create a personalized care plan for my elderly client?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="How often should I review my older adult's care plan with them?" -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What stress management techniques can I use with my elderly client who' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I use the SPDI to help my client access better healthcare serv' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I take care of myself while caring for my loved one?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=75 produced=4 span='It is therefore important to reach and engage a wider group across an '
+   [who_icope_handbook.pdf] gen_ok q='How can I encourage more of my elderly neighbors to participate in our' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What are the steps involved in setting person-centred goals for an old' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of professional should I see for personalized nutrition advi' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-049 [who_icope_handbook.pdf c258] What kind of professional should I see for personalized nutrition advi
+   [who_icope_handbook.pdf] gen_ok q='What kind of physical activity would be suitable for someone who is no' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=80 produced=5 span='loss of the ability to direct, shift, sustain and focus attention and '
+   [who_icope_handbook.pdf] gen_ok q='What are some common signs that an elderly person may have difficulty ' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What factors affect my health?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How do digital assistive products help older adults maintain their ind' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=85 produced=5 span='However, there may be situations in which questions should be directed'
+   [who_icope_handbook.pdf] gen_ok q='What kind of treatment should I look for if my loved one has moderate ' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What health issues are often linked to this condition?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='Who is usually in charge of coordinating the healthcare team for an ol' -> llm_screen
+   [who_icope_handbook.pdf] drawn=90 produced=5 span='Community engagement: a health promotion guide for universal health co'
+   [who_icope_handbook.pdf] gen_ok q='How can I get involved in my community to help improve my health?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I help my loved one manage their pain so they can live comfort' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What are some things that can affect how well I do an activity?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What type of exercise can help prevent loss of mobility in older adult' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What types of care are included in the healthcare system?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How does aging affect my digestive system?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-050 [who_icope_handbook.pdf c262] How does aging affect my digestive system?
+   [who_icope_handbook.pdf] gen_ok q='What are some common causes of cognitive decline in older adults?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=100 produced=6 span='MORE INFORMATION \x07Risk reduction of cognitive decline and dementia: WH'
+   [who_icope_handbook.pdf] gen_ok q="What can I do to help slow down my mom's memory loss?" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What are some common tips I can share with my elderly clients to help ' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What types of medications can cause confusion in older adults?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What is the prevalence of urinary incontinence among older adult women' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How are carer support and community engagement included in the first s' -> llm_screen
+   [who_icope_handbook.pdf] drawn=105 produced=6 span='pathway outlines two different paths based on the results of an in-dep'
+   [who_icope_handbook.pdf] gen_ok q='What type of assessment determines which pathway I should follow?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I determine if my elderly client is still able to communicate ' -> llm_screen
+   [who_icope_handbook.pdf] drawn=110 produced=6 span='friends and other colleagues or neighbours should be mobilized to moni'
+   [who_icope_handbook.pdf] gen_ok q='How can I get my elderly neighbor involved in local activities?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I safely perform a chair rise test with my caregiver?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-051 [who_icope_handbook.pdf c85] How can I safely perform a chair rise test with my caregiver?
+   [who_icope_handbook.pdf] gen_ok q='How do healthcare professionals typically identify a stool impaction i' -> llm_screen
+   [who_icope_handbook.pdf] drawn=115 produced=7 span='Given that both the in-depth assessment and the development of a perso'
+   [who_icope_handbook.pdf] gen_ok q='How often should I schedule meetings with my healthcare team to discus' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can we assess my daily living skills and ability to care for mysel' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What kind of dietary advice is best for someone with diabetes?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=120 produced=7 span='Declaration of Astana: Global Conference on Primary Health Care: Astan'
+   [who_icope_handbook.pdf] gen_ok q='What conference was held in Astana, Kazakhstan in October 2018?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I check if my client needs social support?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='Who led the preparation of this handbook on ageing and health?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I assess the social care and support needs of my elderly clien' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-052 [who_icope_handbook.pdf c122] How can I assess the social care and support needs of my elderly clien
+   [who_icope_handbook.pdf] drawn=125 produced=8 span='It is important to encourage and support sufficient intake of water ba'
+   [who_icope_handbook.pdf] gen_ok q='How can I ensure my elderly client is drinking enough water each day?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="How will my cognitive abilities be tested if I don't have much educati" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What causes osteoarthritis in joints?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=130 produced=8 span='A personalized care plan guides all aspects of health and social care '
+   [who_icope_handbook.pdf] gen_ok q="How can I make sure my loved one's healthcare team is working together" -> llm_screen
+   [who_icope_handbook.pdf] drawn=135 produced=8 span='intrinsic capacity and maintain functional ability, and to deliver car'
+   [who_icope_handbook.pdf] gen_ok q='How can I provide personalized care to meet the unique needs of my eld' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="How does measuring my arm size help me know if I'm getting enough to e" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of package can help me support my elderly client with losing' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How does taking a collaborative approach with older adults change the ' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What kind of health and lifestyle advice should my elderly parent rece' -> llm_screen
+   [who_icope_handbook.pdf] drawn=140 produced=8 span='Box 1.1 Ageism Ageism refers to the stereotypes (how we think), prejud'
+   [who_icope_handbook.pdf] gen_ok q='What is ageism in older adults?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-053 [who_icope_handbook.pdf c38] What is ageism in older adults?
+   [who_icope_handbook.pdf] gen_ok q="What kind of information should I include in my older adult's care pla" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What are the two questions I need to ask my patient to check for depre' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="What does 'be healthy' mean in the context of ageing?" -> llm_screen
+   [who_icope_handbook.pdf] drawn=145 produced=9 span='It is important that carers receive support for their well-being and i'
+   [who_icope_handbook.pdf] gen_ok q='What kind of support and training can I get as a caregiver to help me ' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly client access better oral health care?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How does community engagement fit into my healthcare plan?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-054 [who_icope_handbook.pdf c76] How does community engagement fit into my healthcare plan?
+   [who_icope_handbook.pdf] gen_ok q='What are some common signs that someone might be experiencing depressi' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=150 produced=10 span='Sharing meals with family or friends can help, as others will be avail'
+   [who_icope_handbook.pdf] gen_ok q='How can I make sure my healthcare worker is giving me the right medici' -> llm_screen
+   [who_icope_handbook.pdf] drawn=155 produced=10 span='iron, folic acid and calcium can cause diseases and health conditions '
+   [who_icope_handbook.pdf] gen_ok q="What should I do if my elderly client's hearing screening test comes b" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What percentage of the global population is expected to be 60 or older' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What are some examples of jobs that involve helping to improve someone' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I ensure that my elderly loved one receives all the medical ca' -> llm_screen
+   [who_icope_handbook.pdf] drawn=160 produced=10 span='14.2.2 Human and financial resources Additional investment is most lik'
+   [who_icope_handbook.pdf] gen_ok q='What kind of additional resources will be required to implement this c' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What activities can I do with my loved one to help slow down their mem' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What small adjustments can I make at home to help prevent falls if my ' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of training and advice do carers need to give good quality c' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly loved one recognize the signs of depression?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How should I approach conversations with my elderly client about end-o' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What steps can I take if I suspect my older adult partner is being abu' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I make my own healthcare decisions without being influenced by' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How common is feeling lonely among older adults?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="How can I get tested for diabetes if I'm experiencing symptoms or have" -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-055 [who_icope_handbook.pdf c204] How can I get tested for diabetes if I'm experiencing symptoms or have
+   [who_icope_handbook.pdf] gen_ok q='What additional steps do I need to take after the initial check for si' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="How can I tell if my older adult is grieving in a way that's healthy v" -> llm_screen
+   [who_icope_handbook.pdf] drawn=180 produced=11 span='Hearing 9.4 Manage hearing loss People with hearing loss may report fe'
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly friend feel more confident about talking on ' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I tell if my elderly client is losing muscle mass despite havi' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What exercises can I do with my elderly care recipient to help them re' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-056 [who_icope_handbook.pdf c321] What exercises can I do with my elderly care recipient to help them re
+   [who_icope_handbook.pdf] gen_ok q='How can I use my phone to help me stay healthy?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=185 produced=12 span='support, such as day centres, home-based care services, lunch clubs to'
+   [who_icope_handbook.pdf] gen_ok q='What types of support are available for older adults who need help wit' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I help my loved one feel more comfortable when they need help ' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What is the role of a case worker or care coordinator in helping an ol' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I tell if someone has just mild depression or something more s' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of interventions can we look for to help our elderly clients' -> llm_screen
+   [who_icope_handbook.pdf] drawn=195 produced=12 span='Allow them to express their needs and preferences. • Encourage the use'
+   [who_icope_handbook.pdf] gen_ok q='How can I encourage my elderly loved one to communicate their needs an' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What level of education is typically assumed when using standard cogni' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-057 [who_icope_handbook.pdf c195] What level of education is typically assumed when using standard cogni
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly client understand their test results?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What happens next if I have hearing loss?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of training and support do community health workers need to ' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=205 produced=13 span='It is characterized as the delivery of a full spectrum of integrated h'
+   [who_icope_handbook.pdf] gen_ok q="What kind of advice should I get from a healthcare professional if I'm" -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What kind of assistive products should I consider for my loved one?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=210 produced=13 span='8.6.2 Environment modification at home and in home surroundings In add'
+   [who_icope_handbook.pdf] gen_ok q='What kinds of changes can I make to my home to help prevent falls if I' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How do I assess if my client is getting enough to eat?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=215 produced=13 span='Older people identified as having potential loss(es) of intrinsic capa'
+   [who_icope_handbook.pdf] gen_ok q='What steps can I take if my elderly parent is struggling with daily ta' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How do I know if my loved one needs a walking stick?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of follow-up appointment should I schedule for my loved one ' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly client receive person-centered care that fit' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What factors should I consider when deciding whether to use a particul' -> llm_screen
+   [who_icope_handbook.pdf] drawn=220 produced=13 span='Health workers in primary care facilities could provide them if they a'
+   [who_icope_handbook.pdf] gen_ok q="What are some everyday things that I might find in a senior's home?" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How do I find out what resources are available in my healthcare settin' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I have a comfortable and private conversation with an older ad' -> llm_screen
+   [who_icope_handbook.pdf] drawn=225 produced=13 span='Interventions for diseases and risk factors Interventions for social a'
+   [who_icope_handbook.pdf] gen_ok q='What is the most common cause of vision impairment in older adults?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-058 [who_icope_handbook.pdf c272] What is the most common cause of vision impairment in older adults?
+   [who_icope_handbook.pdf] gen_ok q='How can I tell if my elderly client needs reading glasses?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I ensure my elderly loved one receives the right level of soci' -> llm_screen
+   [who_icope_handbook.pdf] drawn=230 produced=14 span='Where such ototoxic treatment is essential, it is important that heari'
+   [who_icope_handbook.pdf] gen_ok q="How often should I have my hearing checked if I'm taking medication fo" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of community services and activities can my loved one look i' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q="How do I ensure that my elderly client's long-term care services are c" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly parent stay engaged with activities they enj' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What additional options are available besides using communication stra' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-059 [who_icope_handbook.pdf c303] What additional options are available besides using communication stra
+   [who_icope_handbook.pdf] gen_ok q='What are some common consequences for older adults with sarcopenia?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-060 [who_icope_handbook.pdf c235] What are some common consequences for older adults with sarcopenia?
+   [who_icope_handbook.pdf] drawn=240 produced=16 span='These situations may well not be disclosed by the carer so it is impor'
+   [who_icope_handbook.pdf] gen_ok q='How can I tell if my caregiver is hiding something from me about my ca' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly loved one with limited mobility do exercises' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-061 [who_icope_handbook.pdf c227] How can I help my elderly loved one with limited mobility do exercises
+   [who_icope_handbook.pdf] gen_ok q="How can I assess my elderly client's cognitive function accurately?" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I know if my bladder problems are being managed?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="What activities can I do to stay healthy if I'm not very active?" -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=245 produced=17 span='Health literacy development for the prevention and control of noncommu'
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly client improve their ability to read and und' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I show respect when talking to an elderly person?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-062 [who_icope_handbook.pdf c141] How can I show respect when talking to an elderly person?
+   [who_icope_handbook.pdf] gen_ok q="How do digital tools help me assess my older adult's needs?" -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='How can I break this cycle where my pain makes me feel worse about mys' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What additional assessments should I do with my elderly client besides' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=255 produced=18 span='3.1.3 The WHO mobile health for ageing (mAgeing) initiative can comple'
+   [who_icope_handbook.pdf] gen_ok q='How does the mAgeing initiative help older adults take better care of ' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-063 [who_icope_handbook.pdf c149] How does the mAgeing initiative help older adults take better care of 
+   [who_icope_handbook.pdf] gen_ok q='What are the things that help me stay healthy and able to do the thing' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q="What kind of care plan should I have if I'm feeling depressed?" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I help my elderly loved one maintain their independence and fu' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I assess if my elderly client is experiencing depression?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I encourage my elderly loved one to eat with others regularly?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What is the main focus when it comes to support for caregivers?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] drawn=265 produced=19 span='If hypertension is diagnosed, the person should be referred to primary'
+   [who_icope_handbook.pdf] gen_ok q='What foods can help prevent constipation?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=270 produced=19 span='In 2024, there were an estimated 1.18 billion people aged 60 years or '
+   [who_icope_handbook.pdf] gen_ok q='How many people are expected to be 60 years old or older worldwide by ' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What are some common diseases or health issues that can cause cognitiv' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How do community organizations help me get fresh produce?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kind of organizations can help me get the support I need?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can community groups help older adults feel less lonely?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-064 [who_icope_handbook.pdf c357] How can community groups help older adults feel less lonely?
+   [who_icope_handbook.pdf] gen_ok q="What kind of support can I get from my caregiver if I'm having trouble" -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What kind of guidance can I get from community health workers to help ' -> llm_screen
+   [who_icope_handbook.pdf] drawn=280 produced=20 span='This will provide opportunities for social engagement and peer support'
+   [who_icope_handbook.pdf] gen_ok q="How can I encourage my elderly friend to keep exercising if they're fe" -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='How can I increase my physical activity in a way that is safe for me?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=285 produced=20 span='For example, if communication is a challenge, support might be needed '
+   [who_icope_handbook.pdf] gen_ok q='What kinds of help can I get to make phone calls and schedule appointm' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q="What kind of food should I eat if I'm having trouble swallowing?" -> llm_screen
+   [who_icope_handbook.pdf] drawn=290 produced=20 span="support the identification of the older population's needs and provisi"
+   [who_icope_handbook.pdf] gen_ok q='How can I identify the specific needs of my elderly clients to provide' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What are the 19 actions in the ICOPE implementation framework?' -> llm_screen
+   [who_icope_handbook.pdf] drawn=295 produced=20 span='Other factors to consider when providing health and lifestyle advice i'
+   [who_icope_handbook.pdf] gen_ok q='What kind of people should I talk to about my health?' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What kinds of activities or exercises can help reduce stress for older' -> llm_screen
+   [who_icope_handbook.pdf] gen_ok q='What should I tell my friend if I find out my neighbor with dementia i' -> llm_screen
+   [who_icope_handbook.pdf] drawn=300 produced=20 span='A person with dementia often complains of mood or behavioural problems'
+   [who_icope_handbook.pdf] gen_ok q='What are some common behavioral issues that people with dementia may e' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+   [who_icope_handbook.pdf] gen_ok q='What are some specific tips I can share with my elderly client about t' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-065 [who_icope_handbook.pdf c295] What are some specific tips I can share with my elderly client about t
+   [who_icope_handbook.pdf] gen_ok q='What variation is there in how well people generally do on certain hea' -> llm_screen
+   [who_icope_handbook.pdf] drawn=305 produced=21 span='The primary audience for this handbook is health workers in primary ca'
+   [who_icope_handbook.pdf] gen_ok q='What types of healthcare professionals can use this handbook?' -> llm_screen
+   [who_icope_handbook.pdf] screen_ok -> verify_anchor
+  GQX-066 [who_icope_handbook.pdf c59] What types of healthcare professionals can use this handbook?
+== doc exercise-and-older-adults-nia.pdf budget=21
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of exercise is good for my muscles?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-067 [exercise-and-older-adults-nia.pdf c9] What kind of exercise is good for my muscles?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some common barriers that can make it harder for me to stay a' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some low-cost ways to stay physically active while living at ' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] drawn=5 produced=1 span='Older adults who do not have an existing injury or chronic condition, '
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of exercise is good for my heart?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I improve my strength and endurance so I can do everyday tasks' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I get more social interaction while exercising?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-068 [exercise-and-older-adults-nia.pdf c25] How can I get more social interaction while exercising?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of exercises or activities can help me overcome my mobility ' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=15 produced=2 span='Examples of muscle-strengthening activities include: • Using resistanc'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some good ways to strengthen my arms and shoulders?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-069 [exercise-and-older-adults-nia.pdf c10] What are some good ways to strengthen my arms and shoulders?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I get more social support from my loved ones to help me stay a' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-070 [exercise-and-older-adults-nia.pdf c25] How can I get more social support from my loved ones to help me stay a
+   [exercise-and-older-adults-nia.pdf] drawn=20 produced=4 span='It may also improve or maintain some aspects of cognitive function, su'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of exercise is recommended for someone with osteoporosis?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-071 [exercise-and-older-adults-nia.pdf c18] What kind of exercise is recommended for someone with osteoporosis?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I improve my ability to do everyday tasks like tying my shoes?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-072 [exercise-and-older-adults-nia.pdf c13] How can I improve my ability to do everyday tasks like tying my shoes?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some simple exercises I can do with my caregiver to help me i' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-073 [exercise-and-older-adults-nia.pdf c12] What are some simple exercises I can do with my caregiver to help me i
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What types of group activities can help me stay active and connected w' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] drawn=25 produced=7 span='Older adults who exercise with others get the added benefit of social '
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can exercising with friends help me stay connected?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q="What is the intensity level of aerobic exercise where I'm breathing ha" -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I encourage my elderly client to stay physically active?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of programs can help me learn to exercise and manage my heal' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=30 produced=7 span='Obesity If you are overweight or have obesity, don’t let that stop you'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What types of exercises should I mix up to avoid getting bored or hurt' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What should I do if my body tells me I need to stop exercising?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of physical activity is best for older adults?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] drawn=35 produced=7 span='For older adults who are managing a diagnosis, exercising with chronic'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How much physical activity is enough to meet the weekly recommendation' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some low-cost ways to stay physically active?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-074 [exercise-and-older-adults-nia.pdf c24] What are some low-cost ways to stay physically active?
+   [exercise-and-older-adults-nia.pdf] drawn=40 produced=8 span='Chronic Obstructive Pulmonary Disease (COPD) If you have COPD, talk wi'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What should I do if I have Chronic Obstructive Pulmonary Disease (COPD' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I get support from someone if I want to stay active?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of exercise is good for my muscles?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] drawn=45 produced=8 span='He didn’t exercise much before his surgery, but knew he needed to be m'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some simple exercises I can do after surgery to help me recov' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some common things that might be stopping me from being more ' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What health conditions are most common among older adults?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=50 produced=8 span='Try doing muscle-strengthening activities at least two days per week t'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How often should I do muscle-strengthening activities to see results?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-075 [exercise-and-older-adults-nia.pdf c10] How often should I do muscle-strengthening activities to see results?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I make my home safer for myself if I have trouble with everyda' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can regular physical activity help older adults with arthritis?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-076 [exercise-and-older-adults-nia.pdf c15] How can regular physical activity help older adults with arthritis?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I make physical activity a regular part of my daily routine?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What makes exercise different from just going for a walk?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What exercises can I do to keep my muscles strong and healthy?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-077 [exercise-and-older-adults-nia.pdf c9] What exercises can I do to keep my muscles strong and healthy?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How long should I wait before increasing my exercise routine?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=60 produced=11 span='Too tired or low energy • Plan activity for parts of the day you feel '
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What time of day should I schedule my daily activities to help me have' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-078 [exercise-and-older-adults-nia.pdf c24] What time of day should I schedule my daily activities to help me have
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of activities can I do to stay healthy and active?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How long did he take to start walking regularly?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=70 produced=12 span='Stretch when your muscles are warmed up and after endurance or strengt'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What is the best time to stretch my body?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-079 [exercise-and-older-adults-nia.pdf c13] What is the best time to stretch my body?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How long should I wear stretchy elastic bands on my joints while doing' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=75 produced=13 span='Anything that gets you moving — even if it’s for only a few minutes a '
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some small ways I can get started with exercise to improve my' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-080 [exercise-and-older-adults-nia.pdf c18] What are some small ways I can get started with exercise to improve my
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How do I set realistic goals for my daily exercise routine?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-081 [exercise-and-older-adults-nia.pdf c21] How do I set realistic goals for my daily exercise routine?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What type of exercise is good for older adults who want to improve the' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-082 [exercise-and-older-adults-nia.pdf c6] What type of exercise is good for older adults who want to improve the
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How does physical activity affect my chronic pain?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I make my goal to be more active more specific and achievable?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-083 [exercise-and-older-adults-nia.pdf c22] How can I make my goal to be more active more specific and achievable?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What type of exercise is best for someone who can only say a few words' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=85 produced=17 span='Three Types of Exercise and Physical Activity Older adults need a mix '
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What types of exercise should I be doing for my overall health as an o' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What happens to my breathing and heartbeat when I exercise?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-084 [exercise-and-older-adults-nia.pdf c6] What happens to my breathing and heartbeat when I exercise?
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What are some ways I can stay active that also bring me joy?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What can I do to help my loved one prevent falls and stay safe at home' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q="What does 'exercise' mean in the context of a daily routine for older " -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-085 [exercise-and-older-adults-nia.pdf c26] What does 'exercise' mean in the context of a daily routine for older 
+   [exercise-and-older-adults-nia.pdf] drawn=95 produced=19 span='Activities such as brisk walking, riding a bike, swimming, weightlifti'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kinds of exercises can I do with my elderly loved one to stay act' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-086 [exercise-and-older-adults-nia.pdf c5] What kinds of exercises can I do with my elderly loved one to stay act
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What types of exercise are safe and recommended for seniors with chron' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q="What level of physical exertion feels like I'm having a normal convers" -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=100 produced=20 span='For her husband Carl, being able to do the things he enjoys when he re'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What motivates my husband to exercise?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How long should I wait before increasing my exercise routine?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I help my elderly parent prevent falls at home?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] drawn=105 produced=20 span='Exercise (EK-suhr-sighz) A form of physical activity that is planned, '
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kind of exercise is best for older adults to improve their overal' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] gen_ok q="What kind of exercises help me stay stable when I'm standing or moving" -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q="What kind of exercise should I do if my doctor says it's okay?" -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What kinds of things do people with good cognitive function like to be' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+   [exercise-and-older-adults-nia.pdf] drawn=120 produced=20 span='If you can only say a few words before you have to take a breath, it’s'
+   [exercise-and-older-adults-nia.pdf] gen_ok q='What is the intensity level of running or jogging?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] gen_ok q='How can I track my progress towards meeting my weekly exercise goal?' -> llm_screen
+   [exercise-and-older-adults-nia.pdf] screen_ok -> verify_anchor
+  GQX-087 [exercise-and-older-adults-nia.pdf c22] How can I track my progress towards meeting my weekly exercise goal?
+== doc understanding-memory-loss.pdf budget=17
+   [understanding-memory-loss.pdf] gen_ok q="What are the signs that my loved one's memory loss is more than just f" -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What conditions could be causing my memory problems?' -> llm_screen
+   [understanding-memory-loss.pdf] drawn=5 produced=0 span='Being physically active, staying connected with friends and loved ones'
+   [understanding-memory-loss.pdf] gen_ok q='What happens to the brain when someone has frontotemporal disorder?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='How often should I visit my doctor if I have mild cognitive impairment' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What activities can I do to improve my memory and mood?' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+  GQX-088 [understanding-memory-loss.pdf c15] What activities can I do to improve my memory and mood?
+   [understanding-memory-loss.pdf] gen_ok q='How can I help my elderly loved one stay mobile and engaged in daily a' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q="How often should I schedule a doctor's visit to check on my memory?" -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q='What can cause memory problems besides age-related issues and dementia' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] drawn=15 produced=1 span='If you think you might forget, ask a family member, friend, or the doc'
+   [understanding-memory-loss.pdf] gen_ok q="What should I do if I'm worried I'll forget my medication?" -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q='How can I show respect to an elderly person when we talk?' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q='What kind of support can help my family cope with a chronic illness?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What is the name of the medical condition that causes problems with th' -> llm_screen
+   [understanding-memory-loss.pdf] drawn=20 produced=1 span='Currently, there are no drugs or lifestyle approaches that can prevent'
+   [understanding-memory-loss.pdf] gen_ok q='What can I do to keep my mind sharp as I get older?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What are some common physical symptoms of Lewy body dementia?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What is a common cause of memory loss in older adults?' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] drawn=30 produced=1 span='Serious Memory Problems: Next Steps If you think you may have a seriou'
+   [understanding-memory-loss.pdf] gen_ok q="What should I do if I'm worried that my memory is getting worse?" -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='How can I encourage my elderly loved one to stay socially active and e' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q="What should I do if my loved one's memory problems don't improve after" -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What can cause confusion and forgetfulness in older adults after exper' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q="What happens to the brain when someone has Alzheimer's disease?" -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What should I be careful about when trying to improve my memory?' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+  GQX-089 [understanding-memory-loss.pdf c15] What should I be careful about when trying to improve my memory?
+   [understanding-memory-loss.pdf] gen_ok q='What are some common health issues that can be caused by damage to cer' -> llm_screen
+   [understanding-memory-loss.pdf] drawn=40 produced=2 span='These things are good for her physical health and may help her maintai'
+   [understanding-memory-loss.pdf] gen_ok q='What foods can I encourage my elderly parent to eat to support her ove' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What are the main differences between normal aging and dementia?' -> llm_screen
+   [understanding-memory-loss.pdf] drawn=45 produced=2 span='To find out if you have dementia, doctors can: • Give you a physical e'
+   [understanding-memory-loss.pdf] gen_ok q='How do doctors check for dementia?' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q='What are the times of day I should be taking my medication?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What are some ways to help manage my memory problems once I figure out' -> llm_screen
+   [understanding-memory-loss.pdf] drawn=50 produced=2 span='Be sure to make a follow-up appointment to check your memory in the ne'
+   [understanding-memory-loss.pdf] gen_ok q='How often should I schedule a follow-up appointment to check my memory' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What can I expect if my loved one has Lewy body dementia?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What treatments are available for Mild Cognitive Impairment (MCI)?' -> llm_screen
+   [understanding-memory-loss.pdf] drawn=55 produced=2 span='Clinical Trials and Studies Scientists are trying to better understand'
+   [understanding-memory-loss.pdf] gen_ok q='What is being researched by scientists to help with memory issues?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q="What are some common signs that someone's daily life is becoming too h" -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What kinds of methods can help me keep my mind sharp as I age?' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q='What are the signs of vascular dementia?' -> llm_screen
+   [understanding-memory-loss.pdf] drawn=60 produced=2 span='Check with your insurance provider and talk with your health care team'
+   [understanding-memory-loss.pdf] gen_ok q='What should I do first to find out if my insurance covers a particular' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q='How can I help my loved one with vascular dementia manage their health' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+  GQX-090 [understanding-memory-loss.pdf c10] How can I help my loved one with vascular dementia manage their health
+   [understanding-memory-loss.pdf] gen_ok q='What common symptoms can people with dementia experience?' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q='What are some ways to support someone with a serious memory problem?' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] drawn=65 produced=3 span='Changes like these are often signs of mild forgetfulness, not serious '
+   [understanding-memory-loss.pdf] gen_ok q='What should I look out for if my loved one is forgetting small things?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What type of dementia is characterized by worsening memory problems ov' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='What are some common behavioral changes I should look out for in my el' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+   [understanding-memory-loss.pdf] gen_ok q='What kind of test does a doctor use to check for changes in my brain?' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q='How can doctors help me manage my symptoms if I have a condition that ' -> llm_screen
+   [understanding-memory-loss.pdf] gen_ok q="What can cause my loved one to see or hear things that aren't really t" -> llm_screen
+   [understanding-memory-loss.pdf] drawn=75 produced=3 span='This is because, in vascular dementia, memory loss and confusion are c'
+   [understanding-memory-loss.pdf] gen_ok q='What causes memory loss and confusion in people with vascular dementia' -> llm_screen
+   [understanding-memory-loss.pdf] screen_ok -> verify_anchor
+  GQX-091 [understanding-memory-loss.pdf c10] What causes memory loss and confusion in people with vascular dementia
+   [understanding-memory-loss.pdf] gen_ok q="What should I do if I'm having trouble remembering things?" -> llm_screen
+== doc tips-take-medicines-safely.pdf budget=16
+   [tips-take-medicines-safely.pdf] gen_ok q='How can I keep my grandchildren from accidentally taking my medicine?' -> llm_screen
+   [tips-take-medicines-safely.pdf] drawn=5 produced=0 span='Make a list of all prescription medicines, over-the-counter drugs, vit'
+   [tips-take-medicines-safely.pdf] gen_ok q="What should I tell my doctor about every single thing I'm taking to st" -> llm_screen
+   [tips-take-medicines-safely.pdf] screen_ok -> verify_anchor
+  GQX-092 [tips-take-medicines-safely.pdf c2] What should I tell my doctor about every single thing I'm taking to st
+   [tips-take-medicines-safely.pdf] gen_ok q='How should I store my prescription pain medicine?' -> llm_screen
+   [tips-take-medicines-safely.pdf] screen_ok -> verify_anchor
+  GQX-093 [tips-take-medicines-safely.pdf c3] How should I store my prescription pain medicine?
+   [tips-take-medicines-safely.pdf] gen_ok q='How can I take my medications safely as I get older?' -> llm_screen
+   [tips-take-medicines-safely.pdf] screen_ok -> verify_anchor
+  GQX-094 [tips-take-medicines-safely.pdf c1] How can I take my medications safely as I get older?
+   [tips-take-medicines-safely.pdf] gen_ok q='How can I keep track of all my medications as I get older?' -> llm_screen
+   [tips-take-medicines-safely.pdf] drawn=10 produced=3 span='If you have uncomfortable side effects, write them down so you can rep'
+   [tips-take-medicines-safely.pdf] gen_ok q="What should I do if I'm experiencing unpleasant side effects from my m" -> llm_screen
+   [tips-take-medicines-safely.pdf] screen_ok -> verify_anchor
+  GQX-095 [tips-take-medicines-safely.pdf c5] What should I do if I'm experiencing unpleasant side effects from my m
+   [tips-take-medicines-safely.pdf] gen_ok q="How do I properly get rid of old medicine that's no longer needed?" -> llm_screen
+   [tips-take-medicines-safely.pdf] gen_ok q="How do I organize my medications to ensure I'm taking the right ones a" -> llm_screen
+   [tips-take-medicines-safely.pdf] gen_ok q="How do I properly get rid of old medicine that's no longer needed?" -> llm_screen
+   [tips-take-medicines-safely.pdf] drawn=15 produced=4 span='What should I do if I experience serious side effects? • Is it safe to'
+   [tips-take-medicines-safely.pdf] gen_ok q='What should I tell my doctor and pharmacist about all the medicines an' -> llm_screen
+   [tips-take-medicines-safely.pdf] screen_ok -> verify_anchor
+  GQX-096 [tips-take-medicines-safely.pdf c1] What should I tell my doctor and pharmacist about all the medicines an
+accepted=96 calls=1759 drawn=1190 term_reason=target_not_reached status=validation_partial elapsed_s=529.07

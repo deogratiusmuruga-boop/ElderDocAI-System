@@ -44,6 +44,8 @@ import json
 import time
 import hashlib
 import statistics
+import sys
+import argparse
 from collections import Counter, defaultdict
 
 import matplotlib
@@ -82,8 +84,9 @@ from scripts.evaluate_gold_qa import (
 # ---------------------------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROCESSED = os.path.join(BASE_DIR, "datasets", "synthea", "elderdocai", "processed")
-GOLD_QA_FILE = os.path.join(BASE_DIR, "data", "gold_qa_evaluation.json")
-ABLATION_DIR = os.path.join(BASE_DIR, "data", "evaluation_results", "ablation")
+DEFAULT_QA_FILE = os.path.join(BASE_DIR, "data", "gold_qa_evaluation.json")
+DEFAULT_ABLATION_DIR = os.path.join(BASE_DIR, "data", "evaluation_results", "ablation")
+ABLATION_DIR = DEFAULT_ABLATION_DIR
 FIG_DIR = os.path.join(ABLATION_DIR, "figures")
 
 RESULTS_JSON = os.path.join(ABLATION_DIR, "ablation_results.json")
@@ -1043,13 +1046,13 @@ def fmt_table(headers, rows):
 
 
 def write_report(summaries, records_by_cond, adaptive, stats, reliability_gate,
-                 figures, metadata, cond_log):
+                 figures, metadata, cond_log, n_questions):
     rows = []
     A = rows.append
 
     A("# ElderDocAI Ablation Study Report")
     A("")
-    A("> Synthetic longitudinal clinical records (Synthea-derived) and 16 gold "
+    A(f"> Synthetic longitudinal clinical records (Synthea-derived) and {n_questions} gold "
       "QA questions over the ElderDocAI knowledge base.")
     A("> **Scope:** architectural / internal-consistency evaluation. This is NOT "
       "a clinical validation study and implies no clinical benefit.")
@@ -1064,7 +1067,7 @@ def write_report(summaries, records_by_cond, adaptive, stats, reliability_gate,
     A("## 2. Experimental Design")
     A("")
     A("A0 (full system) is the reference. Each ablation removes exactly one "
-      "component while holding inputs constant: same 16 gold questions, same KB "
+      f"component while holding inputs constant: same {n_questions} gold questions, same KB "
       "index / embedding model, same generation model (llama3.2, temperature 0), "
       "same reliability config, same judge prompt/rubric, same patient profile "
       "for every condition attaching a patient, and the same 9,723 windows for "
@@ -1080,7 +1083,7 @@ def write_report(summaries, records_by_cond, adaptive, stats, reliability_gate,
     A("")
     A("## 4. Dataset and Number of Cases")
     A("")
-    A("- 16 gold QA questions per condition, 9,723 synthetic patient x year "
+    A(f"- {n_questions} gold QA questions per condition, 9,723 synthetic patient x year "
       "windows (178 synthetic patients) for the adaptive-assistance analysis.")
     A("")
     A("## 5. Metrics")
@@ -1113,13 +1116,14 @@ def write_report(summaries, records_by_cond, adaptive, stats, reliability_gate,
         ],
     ))
     A("")
-    A("*Adaptive coverage is a window-level property (Sec. 7), not a 16-question metric.*")
+    A(f"*Adaptive coverage is a window-level property (Sec. 7), not a {n_questions}-question metric.*")
     A("")
 
-    rows = _append_report_sections(rows, summaries, adaptive, stats, reliability_gate, figures, metadata, cond_log)
+    rows = _append_report_sections(rows, summaries, adaptive, stats, reliability_gate,
+                                   figures, metadata, cond_log, n_questions)
     return "\n".join(rows)
 def _append_report_sections(rows, summaries, adaptive, stats, reliability_gate,
-                            figures, metadata, cond_log):
+                            figures, metadata, cond_log, n_questions):
     A = rows.append
 
     A("### 6.2 Per-condition aggregates")
@@ -1209,8 +1213,10 @@ def _append_report_sections(rows, summaries, adaptive, stats, reliability_gate,
           f"decision dist {info['decision_distribution']}")
     A("- Reliability calculation and retrieved evidence are identical in A0/A5; "
       "only the prompt differs (A5 removes the reliability/decision block).")
-    A("- On these 16 high-quality in-scope gold questions every decision is ACCEPT; "
-      "the dataset does not expose gating behavior on low-reliability evidence.")
+    A(f"- On these {n_questions} in-scope gold questions the A0/A5 decision "
+      f"distributions are identical ({json.dumps(reliability_gate['A0']['decision_distribution'])}); "
+      "only the prompt differs (A5 removes the reliability/decision block), and "
+      "generation proceeded in all cases.")
     A("")
 
     # ---- Section 10 retrieval ----
@@ -1273,7 +1279,7 @@ def _append_report_sections(rows, summaries, adaptive, stats, reliability_gate,
     # ---- Section 14 limitations ----
     A("## 14. Limitations")
     A("")
-    A("- 16 gold questions is a small, curated, in-scope set; most are straightforward "
+    A(f"- {n_questions} gold questions is a curated, in-scope set; most are straightforward "
       "and high-reliability, creating ceiling effects that limit retrieval and "
       "reliability-gate differentiation.")
     A("- The records are SYNTHETIC (Synthea-derived). No clinical validity is claimed.")
@@ -1287,7 +1293,7 @@ def _append_report_sections(rows, summaries, adaptive, stats, reliability_gate,
     A("## 15. Interpretation")
     A("")
     A("Retrieval/reranking/reliability ablations produce high and internally "
-      "consistent retrieval and answer-quality scores on the 16 in-scope gold "
+      f"consistent retrieval and answer-quality scores on the {n_questions} in-scope gold "
       "questions, so retrieval/reliability differences are small (ceiling "
       "effects) and cannot be over-interpreted. The window-level analysis "
       "demonstrates that adaptive assistance is strongly state- and "
@@ -1340,7 +1346,41 @@ def build_metadata():
     return all_conds_specs, metadata
 
 
-def main():
+def main(argv=None):
+    parser = argparse.ArgumentParser(
+        description="ElderDocAI ablation study (Gold-QA).",
+    )
+    parser.add_argument(
+        "--qa-file",
+        default=DEFAULT_QA_FILE,
+        help="Path to the Gold-QA dataset JSON "
+             "(default: %(default)s).",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default=DEFAULT_ABLATION_DIR,
+        help="Directory for ablation outputs "
+             "(default: %(default)s).",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        help="Optional: evaluate only the first N gold questions "
+             "(0 = all; use a small N for a smoke test).",
+    )
+    args = parser.parse_args(argv)
+
+    # Thread selected paths through the module-level output globals so the
+    # downstream writers (RESULTS_JSON/REPORT_MD/CONSOLE_LOG/FIG_DIR) honour
+    # the choice without touching the analysis logic.
+    global ABLATION_DIR, FIG_DIR, RESULTS_JSON, REPORT_MD, CONSOLE_LOG
+    ABLATION_DIR = os.path.abspath(args.output_dir)
+    FIG_DIR = os.path.join(ABLATION_DIR, "figures")
+    RESULTS_JSON = os.path.join(ABLATION_DIR, "ablation_results.json")
+    REPORT_MD = os.path.join(ABLATION_DIR, "ablation_report.md")
+    CONSOLE_LOG = os.path.join(ABLATION_DIR, "ablation_console_output.txt")
+
     os.makedirs(ABLATION_DIR, exist_ok=True)
     cond_log = []
 
@@ -1358,10 +1398,16 @@ def main():
     cond_log.append(f"patient_ctx: {jsonable(patient_ctx)}")
 
     # ---- Load gold questions ---------------------------------------------
-    with open(GOLD_QA_FILE, "r", encoding="utf-8") as f:
+    with open(args.qa_file, "r", encoding="utf-8") as f:
         gold_data = json.load(f)
     gold_questions = gold_data.get("gold_questions", [])
+    if args.limit and args.limit > 0:
+        gold_questions = gold_questions[: args.limit]
     metadata["n_gold_questions_actual"] = len(gold_questions)
+    metadata["data_source"] = (
+        "Synthetic Synthea-derived longitudinal records + "
+        f"{len(gold_questions)} gold QA questions over the ElderDocAI knowledge base"
+    )
 
     # ---- Run conditions ---------------------------------------------------
     records_by_cond = {}
@@ -1432,7 +1478,7 @@ def main():
     )
     cond_log.append(
         "A6: generated/judged by reusing A1 outputs (identical prompt verified "
-        "via SHA-256 across all 16 gold questions); no duplicate LLM calls."
+        f"via SHA-256 across all {len(gold_questions)} gold questions); no duplicate LLM calls."
     )
 
     # ---- Window-level adaptive analysis (Part 7) --------------------------
@@ -1479,7 +1525,7 @@ def main():
     print(f"\n  wrote {RESULTS_JSON}")
 
     report = write_report(summaries, records_by_cond, adaptive, stats, reliability_gate,
-                          figures, metadata, cond_log)
+                          figures, metadata, cond_log, n_questions=len(gold_questions))
     with open(REPORT_MD, "w", encoding="utf-8") as f:
         f.write(report)
     print(f"  wrote {REPORT_MD}")

@@ -14,6 +14,8 @@ import os
 import json
 import time
 import re
+import sys
+import argparse
 
 import ollama
 
@@ -22,8 +24,8 @@ from scripts.reliability_evaluation import evaluate_reliability
 from scripts.adaptive_decision_controller import make_reliability_decision
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-GOLD_QA_FILE = os.path.join(BASE_DIR, "data", "gold_qa_evaluation.json")
-OUTPUT_FILE = os.path.join(BASE_DIR, "data", "evaluation_results", "gold_qa_results.json")
+DEFAULT_QA_FILE = os.path.join(BASE_DIR, "data", "gold_qa_evaluation.json")
+DEFAULT_OUTPUT_FILE = os.path.join(BASE_DIR, "data", "evaluation_results", "gold_qa_results.json")
 JUDGE_MODEL = "llama3.2:latest"
 FAITHFULNESS_PROMPT = """You are a strict RAG faithfulness evaluator.
 
@@ -374,8 +376,25 @@ def evaluate_question(q):
         record["timings"]["generation_seconds"] = round(time.perf_counter() - t_start, 3)
 
     return record
-def main():
-    with open(GOLD_QA_FILE, "r", encoding="utf-8") as f:
+def main(argv=None):
+    parser = argparse.ArgumentParser(
+        description="ElderDocAI RQ2 Gold-QA evaluation (16 or extended).",
+    )
+    parser.add_argument(
+        "--qa-file",
+        default=DEFAULT_QA_FILE,
+        help="Path to the Gold-QA dataset JSON "
+             "(default: %(default)s)",
+    )
+    parser.add_argument(
+        "--output-file",
+        default=DEFAULT_OUTPUT_FILE,
+        help="Path to write the evaluation results JSON "
+             "(default: %(default)s)",
+    )
+    args = parser.parse_args(argv)
+
+    with open(args.qa_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     gold_questions = data.get("gold_questions", [])
@@ -397,10 +416,10 @@ def main():
             print(f"  reliability={rec['reliability'].get('overall_reliability') if rec['reliability'] else None} decision={rec['adaptive_decision']}")
             print(f"  relevance={rec['answer_relevance'].get('score') if rec['answer_relevance'] else None} faithfulness={rec['faithfulness'].get('score') if rec['faithfulness'] else None}")
 
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    os.makedirs(os.path.dirname(args.output_file), exist_ok=True)
+    with open(args.output_file, "w", encoding="utf-8") as f:
         json.dump({"results": results}, f, indent=2)
-    print(f"\nWrote JSON results to {OUTPUT_FILE}")
+    print(f"\nWrote JSON results to {args.output_file}")
 
     # ---- Summary ----
     total = len(results)

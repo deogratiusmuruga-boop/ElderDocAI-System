@@ -75,6 +75,7 @@ class CareBuddyApiTests(unittest.TestCase):
                 "support": 1.0,
                 "coverage": 1.0,
                 "consistency": 1.0,
+                "overall_reliability": 1.0,
             },
             decision={"decision": "ACCEPT"},
             user_profile=SimpleNamespace(
@@ -98,15 +99,15 @@ class CareBuddyApiTests(unittest.TestCase):
 
     def test_korean_profile_adds_korean_answer_instruction(self):
         prompt = self._build_prompt(response_language="ko")
-        self.assertIn("Generate the answer body naturally in Korean.", prompt)
+        self.assertIn("Generate the answer naturally in Korean.", prompt)
         self.assertIn("Use polite Korean suitable for elderly users.", prompt)
-        self.assertIn("Sources:\n- document_name.pdf", prompt)
+        self.assertIn("Document: tips-take-medicines-safely.pdf", prompt)
 
     def test_english_profile_adds_english_answer_instruction(self):
         prompt = self._build_prompt(response_language="en")
-        self.assertIn("Generate the answer body naturally in English.", prompt)
+        self.assertIn("Generate the answer naturally in English.", prompt)
         self.assertIn("Use clear and simple language suitable for elderly users.", prompt)
-        self.assertIn("Sources:\n- document_name.pdf", prompt)
+        self.assertIn("Document: tips-take-medicines-safely.pdf", prompt)
 
     def test_invalid_or_missing_language_defaults_to_english(self):
         self.assertEqual(normalize_response_language("KO"), "ko")
@@ -129,6 +130,7 @@ class CareBuddyApiTests(unittest.TestCase):
                 "support": 1.0,
                 "coverage": 1.0,
                 "consistency": 1.0,
+                "overall_reliability": 1.0,
             },
             decision={"decision": "ACCEPT"},
             response_language=response_language,

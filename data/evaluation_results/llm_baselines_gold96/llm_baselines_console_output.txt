@@ -1,0 +1,1558 @@
+ELDERDOCAI EXTERNAL LLM BASELINES
+patient_ctx: strategy=ENHANCED_SUPPORT
+llama3.2:latest|FULL : 96 records REUSED from ablation condition A0 (no generation/judge calls).
+llama3.2:latest|PLAIN : 96 records REUSED from ablation condition A1 (no generation/judge calls).
+### CONDITION mistral:latest|FULL
+[1/96] mistral:latest|FULL :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True prompt_match=True rel=0.8063 dec=ACCEPT faith=1.0 relv=0.25 gen_s=25.976
+[2/96] mistral:latest|FULL :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True prompt_match=True rel=0.9372 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.874
+[3/96] mistral:latest|FULL :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True prompt_match=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.113
+[4/96] mistral:latest|FULL :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True prompt_match=True rel=0.8043 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.301
+[5/96] mistral:latest|FULL :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True prompt_match=True rel=0.9186 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.336
+[6/96] mistral:latest|FULL :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.313
+[7/96] mistral:latest|FULL :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True prompt_match=True rel=0.9208 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.825
+[8/96] mistral:latest|FULL :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.821
+[9/96] mistral:latest|FULL :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True prompt_match=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.735
+[10/96] mistral:latest|FULL :: GQX-010 :: What is the main composition of many juice products?
+  src=True prompt_match=True rel=0.7829 dec=REFINE faith=1.0 relv=1.0 gen_s=0.898
+[11/96] mistral:latest|FULL :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True prompt_match=True rel=0.9401 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.878
+[12/96] mistral:latest|FULL :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.602
+[13/96] mistral:latest|FULL :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True prompt_match=True rel=0.9196 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.22
+[14/96] mistral:latest|FULL :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True prompt_match=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.717
+[15/96] mistral:latest|FULL :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True prompt_match=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.372
+[16/96] mistral:latest|FULL :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True prompt_match=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.712
+[17/96] mistral:latest|FULL :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True prompt_match=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.506
+[18/96] mistral:latest|FULL :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True prompt_match=True rel=0.9027 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.698
+[19/96] mistral:latest|FULL :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True prompt_match=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.732
+[20/96] mistral:latest|FULL :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True prompt_match=True rel=0.9212 dec=ACCEPT faith=1.0 relv=0.25 gen_s=1.29
+[21/96] mistral:latest|FULL :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True prompt_match=True rel=0.8373 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.993
+[22/96] mistral:latest|FULL :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True prompt_match=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.82
+[23/96] mistral:latest|FULL :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True prompt_match=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.239
+[24/96] mistral:latest|FULL :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.525
+[25/96] mistral:latest|FULL :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True prompt_match=True rel=0.8351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.15
+[26/96] mistral:latest|FULL :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True prompt_match=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.001
+[27/96] mistral:latest|FULL :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.669
+[28/96] mistral:latest|FULL :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True prompt_match=True rel=0.9377 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.962
+[29/96] mistral:latest|FULL :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True prompt_match=True rel=0.9224 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.225
+[30/96] mistral:latest|FULL :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True prompt_match=True rel=0.9254 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.716
+[31/96] mistral:latest|FULL :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True prompt_match=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.774
+[32/96] mistral:latest|FULL :: GQX-032 :: How often should I review my advance planning documents?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.576
+[33/96] mistral:latest|FULL :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.407
+[34/96] mistral:latest|FULL :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True prompt_match=True rel=0.9244 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.303
+[35/96] mistral:latest|FULL :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True prompt_match=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.212
+[36/96] mistral:latest|FULL :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True prompt_match=True rel=0.958 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.728
+[37/96] mistral:latest|FULL :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True prompt_match=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0 gen_s=1.617
+[38/96] mistral:latest|FULL :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True prompt_match=True rel=0.927 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.562
+[39/96] mistral:latest|FULL :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True prompt_match=True rel=0.8179 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.547
+[40/96] mistral:latest|FULL :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True prompt_match=True rel=0.8904 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.879
+[41/96] mistral:latest|FULL :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True prompt_match=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.234
+[42/96] mistral:latest|FULL :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True prompt_match=True rel=0.9333 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.729
+[43/96] mistral:latest|FULL :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True prompt_match=True rel=0.9466 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.747
+[44/96] mistral:latest|FULL :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True prompt_match=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.337
+[45/96] mistral:latest|FULL :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True prompt_match=True rel=0.9239 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.331
+[46/96] mistral:latest|FULL :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True prompt_match=True rel=0.9182 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.289
+[47/96] mistral:latest|FULL :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.165
+[48/96] mistral:latest|FULL :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True prompt_match=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.336
+[49/96] mistral:latest|FULL :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True prompt_match=True rel=0.9204 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.584
+[50/96] mistral:latest|FULL :: GQX-050 :: How does aging affect my digestive system?
+  src=True prompt_match=True rel=0.7793 dec=REFINE faith=1.0 relv=1.0 gen_s=2.0
+[51/96] mistral:latest|FULL :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True prompt_match=True rel=0.9051 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.423
+[52/96] mistral:latest|FULL :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True prompt_match=True rel=0.9388 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.389
+[53/96] mistral:latest|FULL :: GQX-053 :: What is ageism in older adults?
+  src=True prompt_match=True rel=0.9283 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.969
+[54/96] mistral:latest|FULL :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True prompt_match=True rel=0.8956 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.514
+[55/96] mistral:latest|FULL :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True prompt_match=True rel=0.906 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.57
+[56/96] mistral:latest|FULL :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True prompt_match=True rel=0.9184 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.306
+[57/96] mistral:latest|FULL :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True prompt_match=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0 gen_s=0.657
+[58/96] mistral:latest|FULL :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True prompt_match=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.745
+[59/96] mistral:latest|FULL :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True prompt_match=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.179
+[60/96] mistral:latest|FULL :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True prompt_match=True rel=0.9245 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.919
+[61/96] mistral:latest|FULL :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True prompt_match=True rel=0.9137 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.078
+[62/96] mistral:latest|FULL :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True prompt_match=True rel=0.7317 dec=REFINE faith=1.0 relv=1.0 gen_s=3.086
+[63/96] mistral:latest|FULL :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True prompt_match=True rel=0.9304 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.962
+[64/96] mistral:latest|FULL :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.345
+[65/96] mistral:latest|FULL :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True prompt_match=True rel=0.9173 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.085
+[66/96] mistral:latest|FULL :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True prompt_match=True rel=0.9149 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.853
+[67/96] mistral:latest|FULL :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True prompt_match=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.126
+[68/96] mistral:latest|FULL :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True prompt_match=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.825
+[69/96] mistral:latest|FULL :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True prompt_match=True rel=0.77 dec=REFINE faith=1.0 relv=1.0 gen_s=1.404
+[70/96] mistral:latest|FULL :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True prompt_match=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.97
+[71/96] mistral:latest|FULL :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True prompt_match=True rel=0.7678 dec=REFINE faith=0.75 relv=1.0 gen_s=0.91
+[72/96] mistral:latest|FULL :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True prompt_match=True rel=0.8301 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.139
+[73/96] mistral:latest|FULL :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True prompt_match=True rel=0.9339 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.298
+[74/96] mistral:latest|FULL :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True prompt_match=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.165
+[75/96] mistral:latest|FULL :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True prompt_match=True rel=0.9292 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.693
+[76/96] mistral:latest|FULL :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True prompt_match=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.402
+[77/96] mistral:latest|FULL :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True prompt_match=True rel=0.9121 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.308
+[78/96] mistral:latest|FULL :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True prompt_match=True rel=0.9291 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.332
+[79/96] mistral:latest|FULL :: GQX-079 :: What is the best time to stretch my body?
+  src=True prompt_match=True rel=0.6984 dec=REFINE faith=1.0 relv=1.0 gen_s=0.88
+[80/96] mistral:latest|FULL :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True prompt_match=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.533
+[81/96] mistral:latest|FULL :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True prompt_match=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.609
+[82/96] mistral:latest|FULL :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True prompt_match=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.392
+[83/96] mistral:latest|FULL :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True prompt_match=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.303
+[84/96] mistral:latest|FULL :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.797
+[85/96] mistral:latest|FULL :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True prompt_match=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.075
+[86/96] mistral:latest|FULL :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True prompt_match=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.579
+[87/96] mistral:latest|FULL :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True prompt_match=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.203
+[88/96] mistral:latest|FULL :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True prompt_match=True rel=0.9632 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.592
+[89/96] mistral:latest|FULL :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True prompt_match=True rel=0.8583 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.37
+[90/96] mistral:latest|FULL :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True prompt_match=True rel=0.9344 dec=ACCEPT faith=0.5 relv=0.5 gen_s=1.27
+[91/96] mistral:latest|FULL :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True prompt_match=True rel=0.9622 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.803
+[92/96] mistral:latest|FULL :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True prompt_match=True rel=0.903 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.585
+[93/96] mistral:latest|FULL :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True prompt_match=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.857
+[94/96] mistral:latest|FULL :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True prompt_match=True rel=0.9689 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.985
+[95/96] mistral:latest|FULL :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True prompt_match=True rel=0.9438 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.8
+[96/96] mistral:latest|FULL :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True prompt_match=True rel=0.962 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.279
+
+### CONDITION mistral:latest|PLAIN
+[1/96] mistral:latest|PLAIN :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True prompt_match=True rel=0.8063 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.909
+[2/96] mistral:latest|PLAIN :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True prompt_match=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.067
+[3/96] mistral:latest|PLAIN :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True prompt_match=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.173
+[4/96] mistral:latest|PLAIN :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True prompt_match=True rel=0.8043 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.441
+[5/96] mistral:latest|PLAIN :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True prompt_match=True rel=0.9186 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.142
+[6/96] mistral:latest|PLAIN :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.256
+[7/96] mistral:latest|PLAIN :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True prompt_match=True rel=0.9208 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.444
+[8/96] mistral:latest|PLAIN :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.728
+[9/96] mistral:latest|PLAIN :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True prompt_match=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.585
+[10/96] mistral:latest|PLAIN :: GQX-010 :: What is the main composition of many juice products?
+  src=True prompt_match=True rel=0.7829 dec=REFINE faith=1.0 relv=1.0 gen_s=0.871
+[11/96] mistral:latest|PLAIN :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True prompt_match=True rel=0.9401 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.718
+[12/96] mistral:latest|PLAIN :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.196
+[13/96] mistral:latest|PLAIN :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True prompt_match=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.136
+[14/96] mistral:latest|PLAIN :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True prompt_match=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.053
+[15/96] mistral:latest|PLAIN :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True prompt_match=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.946
+[16/96] mistral:latest|PLAIN :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True prompt_match=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.7
+[17/96] mistral:latest|PLAIN :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True prompt_match=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.332
+[18/96] mistral:latest|PLAIN :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True prompt_match=True rel=0.9027 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.086
+[19/96] mistral:latest|PLAIN :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True prompt_match=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.652
+[20/96] mistral:latest|PLAIN :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True prompt_match=True rel=0.9212 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.172
+[21/96] mistral:latest|PLAIN :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True prompt_match=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.869
+[22/96] mistral:latest|PLAIN :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True prompt_match=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.74
+[23/96] mistral:latest|PLAIN :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True prompt_match=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.49
+[24/96] mistral:latest|PLAIN :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.776
+[25/96] mistral:latest|PLAIN :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True prompt_match=True rel=0.8351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.169
+[26/96] mistral:latest|PLAIN :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True prompt_match=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.895
+[27/96] mistral:latest|PLAIN :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.906
+[28/96] mistral:latest|PLAIN :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True prompt_match=True rel=0.9377 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.718
+[29/96] mistral:latest|PLAIN :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True prompt_match=True rel=0.9224 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.171
+[30/96] mistral:latest|PLAIN :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True prompt_match=True rel=0.9254 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.618
+[31/96] mistral:latest|PLAIN :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True prompt_match=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.706
+[32/96] mistral:latest|PLAIN :: GQX-032 :: How often should I review my advance planning documents?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.473
+[33/96] mistral:latest|PLAIN :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.011
+[34/96] mistral:latest|PLAIN :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True prompt_match=True rel=0.9244 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.792
+[35/96] mistral:latest|PLAIN :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True prompt_match=True rel=0.8966 dec=ACCEPT faith=0.25 relv=1.0 gen_s=0.791
+[36/96] mistral:latest|PLAIN :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True prompt_match=True rel=0.958 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.516
+[37/96] mistral:latest|PLAIN :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True prompt_match=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0 gen_s=0.785
+[38/96] mistral:latest|PLAIN :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True prompt_match=True rel=0.927 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.204
+[39/96] mistral:latest|PLAIN :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True prompt_match=True rel=0.8179 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.514
+[40/96] mistral:latest|PLAIN :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True prompt_match=True rel=0.8904 dec=ACCEPT faith=0.5 relv=1.0 gen_s=0.789
+[41/96] mistral:latest|PLAIN :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True prompt_match=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.199
+[42/96] mistral:latest|PLAIN :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True prompt_match=True rel=0.9333 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.632
+[43/96] mistral:latest|PLAIN :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True prompt_match=True rel=0.9466 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.691
+[44/96] mistral:latest|PLAIN :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True prompt_match=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.259
+[45/96] mistral:latest|PLAIN :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True prompt_match=True rel=0.9239 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.847
+[46/96] mistral:latest|PLAIN :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True prompt_match=True rel=0.9182 dec=ACCEPT faith=1.0 relv=0.25 gen_s=1.803
+[47/96] mistral:latest|PLAIN :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.811
+[48/96] mistral:latest|PLAIN :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True prompt_match=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.907
+[49/96] mistral:latest|PLAIN :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True prompt_match=True rel=0.9204 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.528
+[50/96] mistral:latest|PLAIN :: GQX-050 :: How does aging affect my digestive system?
+  src=True prompt_match=True rel=0.7793 dec=REFINE faith=0.75 relv=1.0 gen_s=1.653
+[51/96] mistral:latest|PLAIN :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True prompt_match=True rel=0.9051 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.348
+[52/96] mistral:latest|PLAIN :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True prompt_match=True rel=0.9388 dec=ACCEPT faith=1.0 relv=0.75 gen_s=2.325
+[53/96] mistral:latest|PLAIN :: GQX-053 :: What is ageism in older adults?
+  src=True prompt_match=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.999
+[54/96] mistral:latest|PLAIN :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True prompt_match=True rel=0.8956 dec=ACCEPT faith=1.0 relv=0.25 gen_s=1.777
+[55/96] mistral:latest|PLAIN :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True prompt_match=True rel=0.906 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.258
+[56/96] mistral:latest|PLAIN :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True prompt_match=True rel=0.9184 dec=ACCEPT faith=0.75 relv=0.75 gen_s=0.981
+[57/96] mistral:latest|PLAIN :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True prompt_match=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0 gen_s=0.617
+[58/96] mistral:latest|PLAIN :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True prompt_match=True rel=0.9477 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.661
+[59/96] mistral:latest|PLAIN :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True prompt_match=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.029
+[60/96] mistral:latest|PLAIN :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True prompt_match=True rel=0.9245 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.797
+[61/96] mistral:latest|PLAIN :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True prompt_match=True rel=0.9137 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.036
+[62/96] mistral:latest|PLAIN :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True prompt_match=True rel=0.7317 dec=REFINE faith=0.75 relv=1.0 gen_s=1.86
+[63/96] mistral:latest|PLAIN :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True prompt_match=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.834
+[64/96] mistral:latest|PLAIN :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.34
+[65/96] mistral:latest|PLAIN :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True prompt_match=True rel=0.9173 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.991
+[66/96] mistral:latest|PLAIN :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True prompt_match=True rel=0.9149 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.803
+[67/96] mistral:latest|PLAIN :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True prompt_match=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.073
+[68/96] mistral:latest|PLAIN :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True prompt_match=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.782
+[69/96] mistral:latest|PLAIN :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True prompt_match=True rel=0.77 dec=REFINE faith=0.75 relv=1.0 gen_s=1.117
+[70/96] mistral:latest|PLAIN :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True prompt_match=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.87
+[71/96] mistral:latest|PLAIN :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True prompt_match=True rel=0.7678 dec=REFINE faith=1.0 relv=1.0 gen_s=0.851
+[72/96] mistral:latest|PLAIN :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True prompt_match=True rel=0.8301 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.998
+[73/96] mistral:latest|PLAIN :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True prompt_match=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.803
+[74/96] mistral:latest|PLAIN :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True prompt_match=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.021
+[75/96] mistral:latest|PLAIN :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True prompt_match=True rel=0.9292 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.623
+[76/96] mistral:latest|PLAIN :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True prompt_match=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.055
+[77/96] mistral:latest|PLAIN :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True prompt_match=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.181
+[78/96] mistral:latest|PLAIN :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True prompt_match=True rel=0.9291 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.679
+[79/96] mistral:latest|PLAIN :: GQX-079 :: What is the best time to stretch my body?
+  src=True prompt_match=True rel=0.6984 dec=REFINE faith=1.0 relv=0.25 gen_s=0.594
+[80/96] mistral:latest|PLAIN :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True prompt_match=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.084
+[81/96] mistral:latest|PLAIN :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True prompt_match=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.233
+[82/96] mistral:latest|PLAIN :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True prompt_match=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.956
+[83/96] mistral:latest|PLAIN :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True prompt_match=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.021
+[84/96] mistral:latest|PLAIN :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.866
+[85/96] mistral:latest|PLAIN :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True prompt_match=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.473
+[86/96] mistral:latest|PLAIN :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True prompt_match=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.778
+[87/96] mistral:latest|PLAIN :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True prompt_match=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.06
+[88/96] mistral:latest|PLAIN :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True prompt_match=True rel=0.9632 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.234
+[89/96] mistral:latest|PLAIN :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True prompt_match=True rel=0.8583 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.136
+[90/96] mistral:latest|PLAIN :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True prompt_match=True rel=0.9344 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.716
+[91/96] mistral:latest|PLAIN :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True prompt_match=True rel=0.9622 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.721
+[92/96] mistral:latest|PLAIN :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True prompt_match=True rel=0.903 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.977
+[93/96] mistral:latest|PLAIN :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True prompt_match=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.588
+[94/96] mistral:latest|PLAIN :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True prompt_match=True rel=0.9689 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.948
+[95/96] mistral:latest|PLAIN :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True prompt_match=True rel=0.9438 dec=ACCEPT faith=0.75 relv=0.25 gen_s=0.74
+[96/96] mistral:latest|PLAIN :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True prompt_match=True rel=0.962 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.139
+
+### CONDITION qwen3:latest|FULL
+[1/96] qwen3:latest|FULL :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True prompt_match=True rel=0.8063 dec=ACCEPT faith=1.0 relv=1.0 gen_s=30.941
+[2/96] qwen3:latest|FULL :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True prompt_match=True rel=0.9372 dec=ACCEPT faith=0.75 relv=1.0 gen_s=4.092
+[3/96] qwen3:latest|FULL :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True prompt_match=True rel=0.9154 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.632
+[4/96] qwen3:latest|FULL :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True prompt_match=True rel=0.8043 dec=ACCEPT faith=1.0 relv=0.75 gen_s=5.008
+[5/96] qwen3:latest|FULL :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True prompt_match=True rel=0.9186 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.26
+[6/96] qwen3:latest|FULL :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=14.127
+[7/96] qwen3:latest|FULL :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True prompt_match=True rel=0.9208 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.739
+[8/96] qwen3:latest|FULL :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=0.75 gen_s=497.195
+[9/96] qwen3:latest|FULL :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True prompt_match=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0 gen_s=17.123
+[10/96] qwen3:latest|FULL :: GQX-010 :: What is the main composition of many juice products?
+  src=True prompt_match=True rel=0.7829 dec=REFINE faith=0.75 relv=1.0 gen_s=3.868
+[11/96] qwen3:latest|FULL :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True prompt_match=True rel=0.9401 dec=ACCEPT faith=0.5 relv=1.0 gen_s=4.064
+[12/96] qwen3:latest|FULL :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.056
+[13/96] qwen3:latest|FULL :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True prompt_match=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.842
+[14/96] qwen3:latest|FULL :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True prompt_match=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.136
+[15/96] qwen3:latest|FULL :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True prompt_match=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.783
+[16/96] qwen3:latest|FULL :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True prompt_match=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.296
+[17/96] qwen3:latest|FULL :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True prompt_match=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.35
+[18/96] qwen3:latest|FULL :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True prompt_match=True rel=0.9027 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.721
+[19/96] qwen3:latest|FULL :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True prompt_match=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.908
+[20/96] qwen3:latest|FULL :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True prompt_match=True rel=0.9212 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.25
+[21/96] qwen3:latest|FULL :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True prompt_match=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.306
+[22/96] qwen3:latest|FULL :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True prompt_match=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.288
+[23/96] qwen3:latest|FULL :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True prompt_match=True rel=0.9348 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.981
+[24/96] qwen3:latest|FULL :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.248
+[25/96] qwen3:latest|FULL :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True prompt_match=True rel=0.8351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.133
+[26/96] qwen3:latest|FULL :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True prompt_match=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.764
+[27/96] qwen3:latest|FULL :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.583
+[28/96] qwen3:latest|FULL :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True prompt_match=True rel=0.9377 dec=ACCEPT faith=0.75 relv=1.0 gen_s=5.147
+[29/96] qwen3:latest|FULL :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True prompt_match=True rel=0.9224 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.215
+[30/96] qwen3:latest|FULL :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True prompt_match=True rel=0.9254 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.315
+[31/96] qwen3:latest|FULL :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True prompt_match=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.321
+[32/96] qwen3:latest|FULL :: GQX-032 :: How often should I review my advance planning documents?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.338
+[33/96] qwen3:latest|FULL :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.496
+[34/96] qwen3:latest|FULL :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True prompt_match=True rel=0.9244 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.776
+[35/96] qwen3:latest|FULL :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True prompt_match=True rel=0.8966 dec=ACCEPT faith=0.75 relv=1.0 gen_s=6.017
+[36/96] qwen3:latest|FULL :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True prompt_match=True rel=0.958 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.615
+[37/96] qwen3:latest|FULL :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True prompt_match=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0 gen_s=5.963
+[38/96] qwen3:latest|FULL :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True prompt_match=True rel=0.927 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.268
+[39/96] qwen3:latest|FULL :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True prompt_match=True rel=0.8179 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.708
+[40/96] qwen3:latest|FULL :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True prompt_match=True rel=0.8904 dec=ACCEPT faith=0.75 relv=1.0 gen_s=4.796
+[41/96] qwen3:latest|FULL :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True prompt_match=True rel=0.9359 dec=ACCEPT faith=0.75 relv=0.75 gen_s=3.178
+[42/96] qwen3:latest|FULL :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True prompt_match=True rel=0.9333 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.635
+[43/96] qwen3:latest|FULL :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True prompt_match=True rel=0.9466 dec=ACCEPT faith=0.0 relv=1.0 gen_s=3.382
+[44/96] qwen3:latest|FULL :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True prompt_match=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.037
+[45/96] qwen3:latest|FULL :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True prompt_match=True rel=0.9239 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.675
+[46/96] qwen3:latest|FULL :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True prompt_match=True rel=0.9182 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.162
+[47/96] qwen3:latest|FULL :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=0.75 relv=0.75 gen_s=3.672
+[48/96] qwen3:latest|FULL :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True prompt_match=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0 gen_s=7.064
+[49/96] qwen3:latest|FULL :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True prompt_match=True rel=0.9204 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.257
+[50/96] qwen3:latest|FULL :: GQX-050 :: How does aging affect my digestive system?
+  src=True prompt_match=True rel=0.7793 dec=REFINE faith=1.0 relv=1.0 gen_s=3.793
+[51/96] qwen3:latest|FULL :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True prompt_match=True rel=0.9051 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.817
+[52/96] qwen3:latest|FULL :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True prompt_match=True rel=0.9388 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.964
+[53/96] qwen3:latest|FULL :: GQX-053 :: What is ageism in older adults?
+  src=True prompt_match=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.483
+[54/96] qwen3:latest|FULL :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True prompt_match=True rel=0.8956 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.926
+[55/96] qwen3:latest|FULL :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True prompt_match=True rel=0.906 dec=ACCEPT faith=1.0 relv=0.75 gen_s=3.178
+[56/96] qwen3:latest|FULL :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True prompt_match=True rel=0.9184 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.889
+[57/96] qwen3:latest|FULL :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True prompt_match=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0 gen_s=3.079
+[58/96] qwen3:latest|FULL :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True prompt_match=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.206
+[59/96] qwen3:latest|FULL :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True prompt_match=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.355
+[60/96] qwen3:latest|FULL :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True prompt_match=True rel=0.9245 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.055
+[61/96] qwen3:latest|FULL :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True prompt_match=True rel=0.9137 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.732
+[62/96] qwen3:latest|FULL :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True prompt_match=True rel=0.7317 dec=REFINE faith=1.0 relv=1.0 gen_s=5.888
+[63/96] qwen3:latest|FULL :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True prompt_match=True rel=0.9304 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.564
+[64/96] qwen3:latest|FULL :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.746
+[65/96] qwen3:latest|FULL :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True prompt_match=True rel=0.9173 dec=ACCEPT faith=1.0 relv=1.0 gen_s=6.356
+[66/96] qwen3:latest|FULL :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True prompt_match=True rel=0.9149 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.261
+[67/96] qwen3:latest|FULL :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True prompt_match=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.011
+[68/96] qwen3:latest|FULL :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True prompt_match=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.612
+[69/96] qwen3:latest|FULL :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True prompt_match=True rel=0.77 dec=REFINE faith=1.0 relv=1.0 gen_s=4.403
+[70/96] qwen3:latest|FULL :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True prompt_match=True rel=0.9406 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.51
+[71/96] qwen3:latest|FULL :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True prompt_match=True rel=0.7678 dec=REFINE faith=1.0 relv=1.0 gen_s=17.309
+[72/96] qwen3:latest|FULL :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True prompt_match=True rel=0.8301 dec=ACCEPT faith=1.0 relv=0.25 gen_s=2.814
+[73/96] qwen3:latest|FULL :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True prompt_match=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.94
+[74/96] qwen3:latest|FULL :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True prompt_match=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.185
+[75/96] qwen3:latest|FULL :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True prompt_match=True rel=0.9292 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.91
+[76/96] qwen3:latest|FULL :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True prompt_match=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.38
+[77/96] qwen3:latest|FULL :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True prompt_match=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.235
+[78/96] qwen3:latest|FULL :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True prompt_match=True rel=0.9291 dec=ACCEPT faith=1.0 relv=1.0 gen_s=492.147
+[79/96] qwen3:latest|FULL :: GQX-079 :: What is the best time to stretch my body?
+  src=True prompt_match=True rel=0.6984 dec=REFINE faith=1.0 relv=0.75 gen_s=3.178
+[80/96] qwen3:latest|FULL :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True prompt_match=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.76
+[81/96] qwen3:latest|FULL :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True prompt_match=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.852
+[82/96] qwen3:latest|FULL :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True prompt_match=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.77
+[83/96] qwen3:latest|FULL :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True prompt_match=True rel=0.9284 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.977
+[84/96] qwen3:latest|FULL :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.238
+[85/96] qwen3:latest|FULL :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True prompt_match=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.918
+[86/96] qwen3:latest|FULL :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True prompt_match=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.845
+[87/96] qwen3:latest|FULL :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True prompt_match=True rel=0.8626 dec=ACCEPT faith=1.0 relv=0.75 gen_s=3.152
+[88/96] qwen3:latest|FULL :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True prompt_match=True rel=0.9632 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.614
+[89/96] qwen3:latest|FULL :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True prompt_match=True rel=0.8583 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.858
+[90/96] qwen3:latest|FULL :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True prompt_match=True rel=0.9344 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.256
+[91/96] qwen3:latest|FULL :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True prompt_match=True rel=0.9622 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.968
+[92/96] qwen3:latest|FULL :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True prompt_match=True rel=0.903 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.44
+[93/96] qwen3:latest|FULL :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True prompt_match=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.489
+[94/96] qwen3:latest|FULL :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True prompt_match=True rel=0.9689 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.796
+[95/96] qwen3:latest|FULL :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True prompt_match=True rel=0.9438 dec=ACCEPT faith=1.0 relv=0.75 gen_s=3.546
+[96/96] qwen3:latest|FULL :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True prompt_match=True rel=0.962 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.467
+
+### CONDITION qwen3:latest|PLAIN
+[1/96] qwen3:latest|PLAIN :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True prompt_match=True rel=0.8063 dec=ACCEPT faith=1.0 relv=0.75 gen_s=3.552
+[2/96] qwen3:latest|PLAIN :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True prompt_match=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.413
+[3/96] qwen3:latest|PLAIN :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True prompt_match=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.304
+[4/96] qwen3:latest|PLAIN :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True prompt_match=True rel=0.8043 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.291
+[5/96] qwen3:latest|PLAIN :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True prompt_match=True rel=0.9186 dec=ACCEPT faith=0.75 relv=1.0 gen_s=5.42
+[6/96] qwen3:latest|PLAIN :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=6.644
+[7/96] qwen3:latest|PLAIN :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True prompt_match=True rel=0.9208 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.036
+[8/96] qwen3:latest|PLAIN :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=0.75 relv=None gen_s=494.324
+[9/96] qwen3:latest|PLAIN :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True prompt_match=True rel=0.9321 dec=ACCEPT faith=0.25 relv=1.0 gen_s=3.647
+[10/96] qwen3:latest|PLAIN :: GQX-010 :: What is the main composition of many juice products?
+  src=True prompt_match=True rel=0.7829 dec=REFINE faith=0.75 relv=1.0 gen_s=3.617
+[11/96] qwen3:latest|PLAIN :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True prompt_match=True rel=0.9401 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.748
+[12/96] qwen3:latest|PLAIN :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=0.75 relv=1.0 gen_s=4.84
+[13/96] qwen3:latest|PLAIN :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True prompt_match=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.765
+[14/96] qwen3:latest|PLAIN :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True prompt_match=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.858
+[15/96] qwen3:latest|PLAIN :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True prompt_match=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.582
+[16/96] qwen3:latest|PLAIN :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True prompt_match=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.11
+[17/96] qwen3:latest|PLAIN :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True prompt_match=True rel=0.9578 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.904
+[18/96] qwen3:latest|PLAIN :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True prompt_match=True rel=0.9027 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.052
+[19/96] qwen3:latest|PLAIN :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True prompt_match=True rel=0.9202 dec=ACCEPT faith=0.75 relv=1.0 gen_s=4.277
+[20/96] qwen3:latest|PLAIN :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True prompt_match=True rel=0.9212 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.716
+[21/96] qwen3:latest|PLAIN :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True prompt_match=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.964
+[22/96] qwen3:latest|PLAIN :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True prompt_match=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0 gen_s=7.26
+[23/96] qwen3:latest|PLAIN :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True prompt_match=True rel=0.9348 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.015
+[24/96] qwen3:latest|PLAIN :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.905
+[25/96] qwen3:latest|PLAIN :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True prompt_match=True rel=0.8351 dec=ACCEPT faith=0.75 relv=1.0 gen_s=4.352
+[26/96] qwen3:latest|PLAIN :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True prompt_match=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.574
+[27/96] qwen3:latest|PLAIN :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.39
+[28/96] qwen3:latest|PLAIN :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True prompt_match=True rel=0.9377 dec=ACCEPT faith=1.0 relv=1.0 gen_s=6.752
+[29/96] qwen3:latest|PLAIN :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True prompt_match=True rel=0.9224 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.902
+[30/96] qwen3:latest|PLAIN :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True prompt_match=True rel=0.9254 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.455
+[31/96] qwen3:latest|PLAIN :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True prompt_match=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.567
+[32/96] qwen3:latest|PLAIN :: GQX-032 :: How often should I review my advance planning documents?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.262
+[33/96] qwen3:latest|PLAIN :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.5 relv=1.0 gen_s=2.716
+[34/96] qwen3:latest|PLAIN :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True prompt_match=True rel=0.9244 dec=ACCEPT faith=0.75 relv=0.75 gen_s=4.35
+[35/96] qwen3:latest|PLAIN :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True prompt_match=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.868
+[36/96] qwen3:latest|PLAIN :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True prompt_match=True rel=0.958 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.597
+[37/96] qwen3:latest|PLAIN :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True prompt_match=True rel=0.7735 dec=REFINE faith=0.75 relv=1.0 gen_s=5.077
+[38/96] qwen3:latest|PLAIN :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True prompt_match=True rel=0.927 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.984
+[39/96] qwen3:latest|PLAIN :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True prompt_match=True rel=0.8179 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.62
+[40/96] qwen3:latest|PLAIN :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True prompt_match=True rel=0.8904 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.355
+[41/96] qwen3:latest|PLAIN :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True prompt_match=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.357
+[42/96] qwen3:latest|PLAIN :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True prompt_match=True rel=0.9333 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.181
+[43/96] qwen3:latest|PLAIN :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True prompt_match=True rel=0.9466 dec=ACCEPT faith=1.0 relv=0.75 gen_s=3.261
+[44/96] qwen3:latest|PLAIN :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True prompt_match=True rel=0.9534 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.727
+[45/96] qwen3:latest|PLAIN :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True prompt_match=True rel=0.9239 dec=ACCEPT faith=1.0 relv=1.0 gen_s=6.025
+[46/96] qwen3:latest|PLAIN :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True prompt_match=True rel=0.9182 dec=ACCEPT faith=1.0 relv=0.75 gen_s=3.026
+[47/96] qwen3:latest|PLAIN :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.583
+[48/96] qwen3:latest|PLAIN :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True prompt_match=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.655
+[49/96] qwen3:latest|PLAIN :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True prompt_match=True rel=0.9204 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.645
+[50/96] qwen3:latest|PLAIN :: GQX-050 :: How does aging affect my digestive system?
+  src=True prompt_match=True rel=0.7793 dec=REFINE faith=0.75 relv=1.0 gen_s=5.298
+[51/96] qwen3:latest|PLAIN :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True prompt_match=True rel=0.9051 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.812
+[52/96] qwen3:latest|PLAIN :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True prompt_match=True rel=0.9388 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.222
+[53/96] qwen3:latest|PLAIN :: GQX-053 :: What is ageism in older adults?
+  src=True prompt_match=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.997
+[54/96] qwen3:latest|PLAIN :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True prompt_match=True rel=0.8956 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.293
+[55/96] qwen3:latest|PLAIN :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True prompt_match=True rel=0.906 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.147
+[56/96] qwen3:latest|PLAIN :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True prompt_match=True rel=0.9184 dec=ACCEPT faith=1.0 relv=0.75 gen_s=8.411
+[57/96] qwen3:latest|PLAIN :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True prompt_match=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0 gen_s=2.998
+[58/96] qwen3:latest|PLAIN :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True prompt_match=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.057
+[59/96] qwen3:latest|PLAIN :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True prompt_match=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.202
+[60/96] qwen3:latest|PLAIN :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True prompt_match=True rel=0.9245 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.516
+[61/96] qwen3:latest|PLAIN :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True prompt_match=True rel=0.9137 dec=ACCEPT faith=1.0 relv=1.0 gen_s=6.773
+[62/96] qwen3:latest|PLAIN :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True prompt_match=True rel=0.7317 dec=REFINE faith=1.0 relv=1.0 gen_s=3.046
+[63/96] qwen3:latest|PLAIN :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True prompt_match=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.85
+[64/96] qwen3:latest|PLAIN :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.315
+[65/96] qwen3:latest|PLAIN :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True prompt_match=True rel=0.9173 dec=ACCEPT faith=0.75 relv=0.75 gen_s=4.649
+[66/96] qwen3:latest|PLAIN :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True prompt_match=True rel=0.9149 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.274
+[67/96] qwen3:latest|PLAIN :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True prompt_match=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.673
+[68/96] qwen3:latest|PLAIN :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True prompt_match=True rel=0.9345 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.114
+[69/96] qwen3:latest|PLAIN :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True prompt_match=True rel=0.77 dec=REFINE faith=1.0 relv=1.0 gen_s=3.311
+[70/96] qwen3:latest|PLAIN :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True prompt_match=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.847
+[71/96] qwen3:latest|PLAIN :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True prompt_match=True rel=0.7678 dec=REFINE faith=0.75 relv=1.0 gen_s=3.733
+[72/96] qwen3:latest|PLAIN :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True prompt_match=True rel=0.8301 dec=ACCEPT faith=1.0 relv=0.75 gen_s=3.257
+[73/96] qwen3:latest|PLAIN :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True prompt_match=True rel=0.9339 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.116
+[74/96] qwen3:latest|PLAIN :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True prompt_match=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.206
+[75/96] qwen3:latest|PLAIN :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True prompt_match=True rel=0.9292 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.994
+[76/96] qwen3:latest|PLAIN :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True prompt_match=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.997
+[77/96] qwen3:latest|PLAIN :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True prompt_match=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.793
+[78/96] qwen3:latest|PLAIN :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True prompt_match=True rel=0.9291 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.173
+[79/96] qwen3:latest|PLAIN :: GQX-079 :: What is the best time to stretch my body?
+  src=True prompt_match=True rel=0.6984 dec=REFINE faith=1.0 relv=1.0 gen_s=2.446
+[80/96] qwen3:latest|PLAIN :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True prompt_match=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.191
+[81/96] qwen3:latest|PLAIN :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True prompt_match=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.673
+[82/96] qwen3:latest|PLAIN :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True prompt_match=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.105
+[83/96] qwen3:latest|PLAIN :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True prompt_match=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.786
+[84/96] qwen3:latest|PLAIN :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.238
+[85/96] qwen3:latest|PLAIN :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True prompt_match=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.087
+[86/96] qwen3:latest|PLAIN :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True prompt_match=True rel=0.9295 dec=ACCEPT faith=0.75 relv=1.0 gen_s=5.077
+[87/96] qwen3:latest|PLAIN :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True prompt_match=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.147
+[88/96] qwen3:latest|PLAIN :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True prompt_match=True rel=0.9632 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.8
+[89/96] qwen3:latest|PLAIN :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True prompt_match=True rel=0.8583 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.137
+[90/96] qwen3:latest|PLAIN :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True prompt_match=True rel=0.9344 dec=ACCEPT faith=1.0 relv=0.75 gen_s=2.972
+[91/96] qwen3:latest|PLAIN :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True prompt_match=True rel=0.9622 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.781
+[92/96] qwen3:latest|PLAIN :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True prompt_match=True rel=0.903 dec=ACCEPT faith=1.0 relv=1.0 gen_s=4.731
+[93/96] qwen3:latest|PLAIN :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True prompt_match=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.857
+[94/96] qwen3:latest|PLAIN :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True prompt_match=True rel=0.9689 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.245
+[95/96] qwen3:latest|PLAIN :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True prompt_match=True rel=0.9438 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.126
+[96/96] qwen3:latest|PLAIN :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True prompt_match=True rel=0.962 dec=ACCEPT faith=0.75 relv=1.0 gen_s=3.845
+
+### CONDITION gemma2:9b|FULL
+[1/96] gemma2:9b|FULL :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True prompt_match=True rel=0.8063 dec=ACCEPT faith=0.75 relv=0.75 gen_s=18.887
+[2/96] gemma2:9b|FULL :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True prompt_match=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0 gen_s=32.831
+[3/96] gemma2:9b|FULL :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True prompt_match=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.183
+[4/96] gemma2:9b|FULL :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True prompt_match=True rel=0.8043 dec=ACCEPT faith=0.75 relv=0.25 gen_s=1.091
+[5/96] gemma2:9b|FULL :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True prompt_match=True rel=0.9186 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.052
+[6/96] gemma2:9b|FULL :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.989
+[7/96] gemma2:9b|FULL :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True prompt_match=True rel=0.9208 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.816
+[8/96] gemma2:9b|FULL :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.278
+[9/96] gemma2:9b|FULL :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True prompt_match=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.935
+[10/96] gemma2:9b|FULL :: GQX-010 :: What is the main composition of many juice products?
+  ERROR: ResponseError: llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error
+CUDA error: unknown error (status code: 500)
+[11/96] gemma2:9b|FULL :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True prompt_match=True rel=0.9401 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.606
+[12/96] gemma2:9b|FULL :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=0.75 relv=1.0 gen_s=6.801
+[13/96] gemma2:9b|FULL :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True prompt_match=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.517
+[14/96] gemma2:9b|FULL :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True prompt_match=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0 gen_s=3.46
+[15/96] gemma2:9b|FULL :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True prompt_match=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0 gen_s=18.033
+[16/96] gemma2:9b|FULL :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True prompt_match=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.145
+[17/96] gemma2:9b|FULL :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True prompt_match=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.578
+[18/96] gemma2:9b|FULL :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True prompt_match=True rel=0.9027 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.561
+[19/96] gemma2:9b|FULL :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True prompt_match=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.932
+[20/96] gemma2:9b|FULL :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True prompt_match=True rel=0.9212 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.851
+[21/96] gemma2:9b|FULL :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True prompt_match=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.338
+[22/96] gemma2:9b|FULL :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True prompt_match=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.098
+[23/96] gemma2:9b|FULL :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True prompt_match=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.595
+[24/96] gemma2:9b|FULL :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.539
+[25/96] gemma2:9b|FULL :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True prompt_match=True rel=0.8351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.888
+[26/96] gemma2:9b|FULL :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True prompt_match=True rel=0.9364 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.929
+[27/96] gemma2:9b|FULL :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=0.75 relv=0.75 gen_s=0.846
+[28/96] gemma2:9b|FULL :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True prompt_match=True rel=0.9377 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.31
+[29/96] gemma2:9b|FULL :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True prompt_match=True rel=0.9224 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.942
+[30/96] gemma2:9b|FULL :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True prompt_match=True rel=0.9254 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.902
+[31/96] gemma2:9b|FULL :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True prompt_match=True rel=0.9519 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.029
+[32/96] gemma2:9b|FULL :: GQX-032 :: How often should I review my advance planning documents?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.743
+[33/96] gemma2:9b|FULL :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.377
+[34/96] gemma2:9b|FULL :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True prompt_match=True rel=0.9244 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.309
+[35/96] gemma2:9b|FULL :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True prompt_match=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.168
+[36/96] gemma2:9b|FULL :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True prompt_match=True rel=0.958 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.028
+[37/96] gemma2:9b|FULL :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True prompt_match=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0 gen_s=0.976
+[38/96] gemma2:9b|FULL :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True prompt_match=True rel=0.927 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.551
+[39/96] gemma2:9b|FULL :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True prompt_match=True rel=0.8179 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.236
+[40/96] gemma2:9b|FULL :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True prompt_match=True rel=0.8904 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.069
+[41/96] gemma2:9b|FULL :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True prompt_match=True rel=0.9359 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.199
+[42/96] gemma2:9b|FULL :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True prompt_match=True rel=0.9333 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.657
+[43/96] gemma2:9b|FULL :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True prompt_match=True rel=0.9466 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.042
+[44/96] gemma2:9b|FULL :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True prompt_match=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.397
+[45/96] gemma2:9b|FULL :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True prompt_match=True rel=0.9239 dec=ACCEPT faith=0.5 relv=0.5 gen_s=1.108
+[46/96] gemma2:9b|FULL :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True prompt_match=True rel=0.9182 dec=ACCEPT faith=1.0 relv=0.0 gen_s=1.413
+[47/96] gemma2:9b|FULL :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.224
+[48/96] gemma2:9b|FULL :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True prompt_match=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.001
+[49/96] gemma2:9b|FULL :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True prompt_match=True rel=0.9204 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.184
+[50/96] gemma2:9b|FULL :: GQX-050 :: How does aging affect my digestive system?
+  src=True prompt_match=True rel=0.7793 dec=REFINE faith=0.75 relv=1.0 gen_s=1.286
+[51/96] gemma2:9b|FULL :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True prompt_match=True rel=0.9051 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.768
+[52/96] gemma2:9b|FULL :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True prompt_match=True rel=0.9388 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.064
+[53/96] gemma2:9b|FULL :: GQX-053 :: What is ageism in older adults?
+  src=True prompt_match=True rel=0.9283 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.884
+[54/96] gemma2:9b|FULL :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True prompt_match=True rel=0.8956 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.32
+[55/96] gemma2:9b|FULL :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True prompt_match=True rel=0.906 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.085
+[56/96] gemma2:9b|FULL :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True prompt_match=True rel=0.9184 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.728
+[57/96] gemma2:9b|FULL :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True prompt_match=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0 gen_s=0.846
+[58/96] gemma2:9b|FULL :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True prompt_match=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.866
+[59/96] gemma2:9b|FULL :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True prompt_match=True rel=0.9318 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.962
+[60/96] gemma2:9b|FULL :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True prompt_match=True rel=0.9245 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.062
+[61/96] gemma2:9b|FULL :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True prompt_match=True rel=0.9137 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.423
+[62/96] gemma2:9b|FULL :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True prompt_match=True rel=0.7317 dec=REFINE faith=1.0 relv=1.0 gen_s=1.113
+[63/96] gemma2:9b|FULL :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True prompt_match=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.065
+[64/96] gemma2:9b|FULL :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.254
+[65/96] gemma2:9b|FULL :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True prompt_match=True rel=0.9173 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.402
+[66/96] gemma2:9b|FULL :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True prompt_match=True rel=0.9149 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.974
+[67/96] gemma2:9b|FULL :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True prompt_match=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.428
+[68/96] gemma2:9b|FULL :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True prompt_match=True rel=0.9345 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.87
+[69/96] gemma2:9b|FULL :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True prompt_match=True rel=0.77 dec=REFINE faith=1.0 relv=1.0 gen_s=1.568
+[70/96] gemma2:9b|FULL :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True prompt_match=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.579
+[71/96] gemma2:9b|FULL :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True prompt_match=True rel=0.7678 dec=REFINE faith=1.0 relv=1.0 gen_s=1.699
+[72/96] gemma2:9b|FULL :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True prompt_match=True rel=0.8301 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.218
+[73/96] gemma2:9b|FULL :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True prompt_match=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.038
+[74/96] gemma2:9b|FULL :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True prompt_match=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.393
+[75/96] gemma2:9b|FULL :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True prompt_match=True rel=0.9292 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.881
+[76/96] gemma2:9b|FULL :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True prompt_match=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.162
+[77/96] gemma2:9b|FULL :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True prompt_match=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.696
+[78/96] gemma2:9b|FULL :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True prompt_match=True rel=0.9291 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.864
+[79/96] gemma2:9b|FULL :: GQX-079 :: What is the best time to stretch my body?
+  src=True prompt_match=True rel=0.6984 dec=REFINE faith=1.0 relv=0.75 gen_s=0.842
+[80/96] gemma2:9b|FULL :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True prompt_match=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.031
+[81/96] gemma2:9b|FULL :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True prompt_match=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.49
+[82/96] gemma2:9b|FULL :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True prompt_match=True rel=0.9238 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.905
+[83/96] gemma2:9b|FULL :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True prompt_match=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.076
+[84/96] gemma2:9b|FULL :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.857
+[85/96] gemma2:9b|FULL :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True prompt_match=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.944
+[86/96] gemma2:9b|FULL :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True prompt_match=True rel=0.9295 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.615
+[87/96] gemma2:9b|FULL :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True prompt_match=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.29
+[88/96] gemma2:9b|FULL :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True prompt_match=True rel=0.9632 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.45
+[89/96] gemma2:9b|FULL :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True prompt_match=True rel=0.8583 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.181
+[90/96] gemma2:9b|FULL :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True prompt_match=True rel=0.9344 dec=ACCEPT faith=0.75 relv=0.75 gen_s=0.965
+[91/96] gemma2:9b|FULL :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True prompt_match=True rel=0.9622 dec=ACCEPT faith=0.0 relv=0.75 gen_s=0.948
+[92/96] gemma2:9b|FULL :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True prompt_match=True rel=0.903 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.274
+[93/96] gemma2:9b|FULL :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True prompt_match=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.761
+[94/96] gemma2:9b|FULL :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True prompt_match=True rel=0.9689 dec=ACCEPT faith=1.0 relv=1.0 gen_s=2.369
+[95/96] gemma2:9b|FULL :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True prompt_match=True rel=0.9438 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.068
+[96/96] gemma2:9b|FULL :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True prompt_match=True rel=0.962 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.078
+
+### CONDITION gemma2:9b|PLAIN
+[1/96] gemma2:9b|PLAIN :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True prompt_match=True rel=0.8063 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.936
+[2/96] gemma2:9b|PLAIN :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True prompt_match=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.875
+[3/96] gemma2:9b|PLAIN :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True prompt_match=True rel=0.9154 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.76
+[4/96] gemma2:9b|PLAIN :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True prompt_match=True rel=0.8043 dec=ACCEPT faith=1.0 relv=0.5 gen_s=1.066
+[5/96] gemma2:9b|PLAIN :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True prompt_match=True rel=0.9186 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.855
+[6/96] gemma2:9b|PLAIN :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.072
+[7/96] gemma2:9b|PLAIN :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True prompt_match=True rel=0.9208 dec=ACCEPT faith=1.0 relv=1.0 gen_s=5.294
+[8/96] gemma2:9b|PLAIN :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.036
+[9/96] gemma2:9b|PLAIN :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True prompt_match=True rel=0.9321 dec=ACCEPT faith=0.25 relv=1.0 gen_s=0.694
+[10/96] gemma2:9b|PLAIN :: GQX-010 :: What is the main composition of many juice products?
+  src=True prompt_match=True rel=0.7829 dec=REFINE faith=0.75 relv=1.0 gen_s=0.847
+[11/96] gemma2:9b|PLAIN :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True prompt_match=True rel=0.9401 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.843
+[12/96] gemma2:9b|PLAIN :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.369
+[13/96] gemma2:9b|PLAIN :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True prompt_match=True rel=0.9196 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.896
+[14/96] gemma2:9b|PLAIN :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True prompt_match=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.833
+[15/96] gemma2:9b|PLAIN :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True prompt_match=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.45
+[16/96] gemma2:9b|PLAIN :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True prompt_match=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.672
+[17/96] gemma2:9b|PLAIN :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True prompt_match=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.281
+[18/96] gemma2:9b|PLAIN :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True prompt_match=True rel=0.9027 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.238
+[19/96] gemma2:9b|PLAIN :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True prompt_match=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.892
+[20/96] gemma2:9b|PLAIN :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True prompt_match=True rel=0.9212 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.788
+[21/96] gemma2:9b|PLAIN :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True prompt_match=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.771
+[22/96] gemma2:9b|PLAIN :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True prompt_match=True rel=0.9521 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.061
+[23/96] gemma2:9b|PLAIN :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True prompt_match=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.533
+[24/96] gemma2:9b|PLAIN :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.386
+[25/96] gemma2:9b|PLAIN :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True prompt_match=True rel=0.8351 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.757
+[26/96] gemma2:9b|PLAIN :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True prompt_match=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.803
+[27/96] gemma2:9b|PLAIN :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.704
+[28/96] gemma2:9b|PLAIN :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True prompt_match=True rel=0.9377 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.2
+[29/96] gemma2:9b|PLAIN :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True prompt_match=True rel=0.9224 dec=ACCEPT faith=0.5 relv=1.0 gen_s=1.809
+[30/96] gemma2:9b|PLAIN :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True prompt_match=True rel=0.9254 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.757
+[31/96] gemma2:9b|PLAIN :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True prompt_match=True rel=0.9519 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.872
+[32/96] gemma2:9b|PLAIN :: GQX-032 :: How often should I review my advance planning documents?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.588
+[33/96] gemma2:9b|PLAIN :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.272
+[34/96] gemma2:9b|PLAIN :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True prompt_match=True rel=0.9244 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.146
+[35/96] gemma2:9b|PLAIN :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True prompt_match=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.948
+[36/96] gemma2:9b|PLAIN :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True prompt_match=True rel=0.958 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.891
+[37/96] gemma2:9b|PLAIN :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True prompt_match=True rel=0.7735 dec=REFINE faith=0.75 relv=1.0 gen_s=0.86
+[38/96] gemma2:9b|PLAIN :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True prompt_match=True rel=0.927 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.468
+[39/96] gemma2:9b|PLAIN :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True prompt_match=True rel=0.8179 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.789
+[40/96] gemma2:9b|PLAIN :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True prompt_match=True rel=0.8904 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.885
+[41/96] gemma2:9b|PLAIN :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True prompt_match=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.169
+[42/96] gemma2:9b|PLAIN :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True prompt_match=True rel=0.9333 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.603
+[43/96] gemma2:9b|PLAIN :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True prompt_match=True rel=0.9466 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.044
+[44/96] gemma2:9b|PLAIN :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True prompt_match=True rel=0.9534 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.307
+[45/96] gemma2:9b|PLAIN :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True prompt_match=True rel=0.9239 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.922
+[46/96] gemma2:9b|PLAIN :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True prompt_match=True rel=0.9182 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.152
+[47/96] gemma2:9b|PLAIN :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.324
+[48/96] gemma2:9b|PLAIN :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True prompt_match=True rel=0.9166 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.902
+[49/96] gemma2:9b|PLAIN :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True prompt_match=True rel=0.9204 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.111
+[50/96] gemma2:9b|PLAIN :: GQX-050 :: How does aging affect my digestive system?
+  src=True prompt_match=True rel=0.7793 dec=REFINE faith=1.0 relv=1.0 gen_s=1.183
+[51/96] gemma2:9b|PLAIN :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True prompt_match=True rel=0.9051 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.69
+[52/96] gemma2:9b|PLAIN :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True prompt_match=True rel=0.9388 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.939
+[53/96] gemma2:9b|PLAIN :: GQX-053 :: What is ageism in older adults?
+  src=True prompt_match=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.773
+[54/96] gemma2:9b|PLAIN :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True prompt_match=True rel=0.8956 dec=ACCEPT faith=0.75 relv=0.75 gen_s=0.694
+[55/96] gemma2:9b|PLAIN :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True prompt_match=True rel=0.906 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.96
+[56/96] gemma2:9b|PLAIN :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True prompt_match=True rel=0.9184 dec=ACCEPT faith=0.75 relv=0.25 gen_s=1.607
+[57/96] gemma2:9b|PLAIN :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True prompt_match=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0 gen_s=0.701
+[58/96] gemma2:9b|PLAIN :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True prompt_match=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.771
+[59/96] gemma2:9b|PLAIN :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True prompt_match=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.721
+[60/96] gemma2:9b|PLAIN :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True prompt_match=True rel=0.9245 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.897
+[61/96] gemma2:9b|PLAIN :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True prompt_match=True rel=0.9137 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.3
+[62/96] gemma2:9b|PLAIN :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True prompt_match=True rel=0.7317 dec=REFINE faith=0.75 relv=1.0 gen_s=1.034
+[63/96] gemma2:9b|PLAIN :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True prompt_match=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.936
+[64/96] gemma2:9b|PLAIN :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.135
+[65/96] gemma2:9b|PLAIN :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True prompt_match=True rel=0.9173 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.718
+[66/96] gemma2:9b|PLAIN :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True prompt_match=True rel=0.9149 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.894
+[67/96] gemma2:9b|PLAIN :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True prompt_match=True rel=0.908 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.258
+[68/96] gemma2:9b|PLAIN :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True prompt_match=True rel=0.9345 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.838
+[69/96] gemma2:9b|PLAIN :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True prompt_match=True rel=0.77 dec=REFINE faith=1.0 relv=1.0 gen_s=1.096
+[70/96] gemma2:9b|PLAIN :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True prompt_match=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.528
+[71/96] gemma2:9b|PLAIN :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True prompt_match=True rel=0.7678 dec=REFINE faith=1.0 relv=1.0 gen_s=1.62
+[72/96] gemma2:9b|PLAIN :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True prompt_match=True rel=0.8301 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.171
+[73/96] gemma2:9b|PLAIN :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True prompt_match=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.931
+[74/96] gemma2:9b|PLAIN :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True prompt_match=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.174
+[75/96] gemma2:9b|PLAIN :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True prompt_match=True rel=0.9292 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.736
+[76/96] gemma2:9b|PLAIN :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True prompt_match=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.836
+[77/96] gemma2:9b|PLAIN :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True prompt_match=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.594
+[78/96] gemma2:9b|PLAIN :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True prompt_match=True rel=0.9291 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.709
+[79/96] gemma2:9b|PLAIN :: GQX-079 :: What is the best time to stretch my body?
+  src=True prompt_match=True rel=0.6984 dec=REFINE faith=1.0 relv=0.75 gen_s=0.742
+[80/96] gemma2:9b|PLAIN :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True prompt_match=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.309
+[81/96] gemma2:9b|PLAIN :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True prompt_match=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.405
+[82/96] gemma2:9b|PLAIN :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True prompt_match=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.749
+[83/96] gemma2:9b|PLAIN :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True prompt_match=True rel=0.9284 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.963
+[84/96] gemma2:9b|PLAIN :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.736
+[85/96] gemma2:9b|PLAIN :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True prompt_match=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.747
+[86/96] gemma2:9b|PLAIN :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True prompt_match=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.142
+[87/96] gemma2:9b|PLAIN :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True prompt_match=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.118
+[88/96] gemma2:9b|PLAIN :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True prompt_match=True rel=0.9632 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.712
+[89/96] gemma2:9b|PLAIN :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True prompt_match=True rel=0.8583 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.035
+[90/96] gemma2:9b|PLAIN :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True prompt_match=True rel=0.9344 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.818
+[91/96] gemma2:9b|PLAIN :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True prompt_match=True rel=0.9622 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.75
+[92/96] gemma2:9b|PLAIN :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True prompt_match=True rel=0.903 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.975
+[93/96] gemma2:9b|PLAIN :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True prompt_match=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.631
+[94/96] gemma2:9b|PLAIN :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True prompt_match=True rel=0.9689 dec=ACCEPT faith=0.75 relv=1.0 gen_s=2.227
+[95/96] gemma2:9b|PLAIN :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True prompt_match=True rel=0.9438 dec=ACCEPT faith=0.75 relv=0.75 gen_s=0.828
+[96/96] gemma2:9b|PLAIN :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True prompt_match=True rel=0.962 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.982
+
+### CONDITION phi3:mini|FULL
+[1/96] phi3:mini|FULL :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True prompt_match=True rel=0.8063 dec=ACCEPT faith=1.0 relv=1.0 gen_s=11.322
+[2/96] phi3:mini|FULL :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True prompt_match=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0 gen_s=6.318
+[3/96] phi3:mini|FULL :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True prompt_match=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.698
+[4/96] phi3:mini|FULL :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True prompt_match=True rel=0.8043 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.749
+[5/96] phi3:mini|FULL :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True prompt_match=True rel=0.9186 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.089
+[6/96] phi3:mini|FULL :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.578
+[7/96] phi3:mini|FULL :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True prompt_match=True rel=0.9208 dec=ACCEPT faith=0.75 relv=0.25 gen_s=1.465
+[8/96] phi3:mini|FULL :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.754
+[9/96] phi3:mini|FULL :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True prompt_match=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.704
+[10/96] phi3:mini|FULL :: GQX-010 :: What is the main composition of many juice products?
+  src=True prompt_match=True rel=0.7829 dec=REFINE faith=1.0 relv=1.0 gen_s=0.89
+[11/96] phi3:mini|FULL :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True prompt_match=True rel=0.9401 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.882
+[12/96] phi3:mini|FULL :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.062
+[13/96] phi3:mini|FULL :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True prompt_match=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.86
+[14/96] phi3:mini|FULL :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True prompt_match=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.964
+[15/96] phi3:mini|FULL :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True prompt_match=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.902
+[16/96] phi3:mini|FULL :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True prompt_match=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.638
+[17/96] phi3:mini|FULL :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True prompt_match=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.182
+[18/96] phi3:mini|FULL :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True prompt_match=True rel=0.9027 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.146
+[19/96] phi3:mini|FULL :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True prompt_match=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.908
+[20/96] phi3:mini|FULL :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True prompt_match=True rel=0.9212 dec=ACCEPT faith=0.75 relv=1.0 gen_s=4.91
+[21/96] phi3:mini|FULL :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True prompt_match=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.213
+[22/96] phi3:mini|FULL :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True prompt_match=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.727
+[23/96] phi3:mini|FULL :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True prompt_match=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.919
+[24/96] phi3:mini|FULL :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.083
+[25/96] phi3:mini|FULL :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True prompt_match=True rel=0.8351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.849
+[26/96] phi3:mini|FULL :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True prompt_match=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.196
+[27/96] phi3:mini|FULL :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.133
+[28/96] phi3:mini|FULL :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True prompt_match=True rel=0.9377 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.056
+[29/96] phi3:mini|FULL :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True prompt_match=True rel=0.9224 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.169
+[30/96] phi3:mini|FULL :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True prompt_match=True rel=0.9254 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.685
+[31/96] phi3:mini|FULL :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True prompt_match=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.139
+[32/96] phi3:mini|FULL :: GQX-032 :: How often should I review my advance planning documents?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.384
+[33/96] phi3:mini|FULL :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.017
+[34/96] phi3:mini|FULL :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True prompt_match=True rel=0.9244 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.8
+[35/96] phi3:mini|FULL :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True prompt_match=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.009
+[36/96] phi3:mini|FULL :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True prompt_match=True rel=0.958 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.986
+[37/96] phi3:mini|FULL :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True prompt_match=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0 gen_s=1.61
+[38/96] phi3:mini|FULL :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True prompt_match=True rel=0.927 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.95
+[39/96] phi3:mini|FULL :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True prompt_match=True rel=0.8179 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.683
+[40/96] phi3:mini|FULL :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True prompt_match=True rel=0.8904 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.026
+[41/96] phi3:mini|FULL :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True prompt_match=True rel=0.9359 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.816
+[42/96] phi3:mini|FULL :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True prompt_match=True rel=0.9333 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.908
+[43/96] phi3:mini|FULL :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True prompt_match=True rel=0.9466 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.793
+[44/96] phi3:mini|FULL :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True prompt_match=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.007
+[45/96] phi3:mini|FULL :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True prompt_match=True rel=0.9239 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.072
+[46/96] phi3:mini|FULL :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True prompt_match=True rel=0.9182 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.823
+[47/96] phi3:mini|FULL :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.256
+[48/96] phi3:mini|FULL :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True prompt_match=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.939
+[49/96] phi3:mini|FULL :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True prompt_match=True rel=0.9204 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.733
+[50/96] phi3:mini|FULL :: GQX-050 :: How does aging affect my digestive system?
+  src=True prompt_match=True rel=0.7793 dec=REFINE faith=1.0 relv=1.0 gen_s=0.984
+[51/96] phi3:mini|FULL :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True prompt_match=True rel=0.9051 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.335
+[52/96] phi3:mini|FULL :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True prompt_match=True rel=0.9388 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.939
+[53/96] phi3:mini|FULL :: GQX-053 :: What is ageism in older adults?
+  src=True prompt_match=True rel=0.9283 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.976
+[54/96] phi3:mini|FULL :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True prompt_match=True rel=0.8956 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.379
+[55/96] phi3:mini|FULL :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True prompt_match=True rel=0.906 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.075
+[56/96] phi3:mini|FULL :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True prompt_match=True rel=0.9184 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.898
+[57/96] phi3:mini|FULL :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True prompt_match=True rel=0.7721 dec=REFINE faith=0.75 relv=1.0 gen_s=0.739
+[58/96] phi3:mini|FULL :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True prompt_match=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.706
+[59/96] phi3:mini|FULL :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True prompt_match=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.696
+[60/96] phi3:mini|FULL :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True prompt_match=True rel=0.9245 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.887
+[61/96] phi3:mini|FULL :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True prompt_match=True rel=0.9137 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.939
+[62/96] phi3:mini|FULL :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True prompt_match=True rel=0.7317 dec=REFINE faith=1.0 relv=1.0 gen_s=0.936
+[63/96] phi3:mini|FULL :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True prompt_match=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.848
+[64/96] phi3:mini|FULL :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.027
+[65/96] phi3:mini|FULL :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True prompt_match=True rel=0.9173 dec=ACCEPT faith=0.75 relv=0.75 gen_s=0.79
+[66/96] phi3:mini|FULL :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True prompt_match=True rel=0.9149 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.843
+[67/96] phi3:mini|FULL :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True prompt_match=True rel=0.908 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.967
+[68/96] phi3:mini|FULL :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True prompt_match=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.69
+[69/96] phi3:mini|FULL :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True prompt_match=True rel=0.77 dec=REFINE faith=1.0 relv=1.0 gen_s=1.096
+[70/96] phi3:mini|FULL :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True prompt_match=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.846
+[71/96] phi3:mini|FULL :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True prompt_match=True rel=0.7678 dec=REFINE faith=0.75 relv=1.0 gen_s=0.967
+[72/96] phi3:mini|FULL :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True prompt_match=True rel=0.8301 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.267
+[73/96] phi3:mini|FULL :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True prompt_match=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.967
+[74/96] phi3:mini|FULL :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True prompt_match=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.938
+[75/96] phi3:mini|FULL :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True prompt_match=True rel=0.9292 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.869
+[76/96] phi3:mini|FULL :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True prompt_match=True rel=0.9719 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.023
+[77/96] phi3:mini|FULL :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True prompt_match=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.261
+[78/96] phi3:mini|FULL :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True prompt_match=True rel=0.9291 dec=ACCEPT faith=1.0 relv=0.5 gen_s=0.822
+[79/96] phi3:mini|FULL :: GQX-079 :: What is the best time to stretch my body?
+  src=True prompt_match=True rel=0.6984 dec=REFINE faith=1.0 relv=0.25 gen_s=0.984
+[80/96] phi3:mini|FULL :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True prompt_match=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.772
+[81/96] phi3:mini|FULL :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True prompt_match=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.755
+[82/96] phi3:mini|FULL :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True prompt_match=True rel=0.9238 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.294
+[83/96] phi3:mini|FULL :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True prompt_match=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.722
+[84/96] phi3:mini|FULL :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.684
+[85/96] phi3:mini|FULL :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True prompt_match=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.237
+[86/96] phi3:mini|FULL :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True prompt_match=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.054
+[87/96] phi3:mini|FULL :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True prompt_match=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.933
+[88/96] phi3:mini|FULL :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True prompt_match=True rel=0.9632 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.966
+[89/96] phi3:mini|FULL :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True prompt_match=True rel=0.8583 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.886
+[90/96] phi3:mini|FULL :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True prompt_match=True rel=0.9344 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.67
+[91/96] phi3:mini|FULL :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True prompt_match=True rel=0.9622 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.644
+[92/96] phi3:mini|FULL :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True prompt_match=True rel=0.903 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.104
+[93/96] phi3:mini|FULL :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True prompt_match=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.676
+[94/96] phi3:mini|FULL :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True prompt_match=True rel=0.9689 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.002
+[95/96] phi3:mini|FULL :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True prompt_match=True rel=0.9438 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.081
+[96/96] phi3:mini|FULL :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True prompt_match=True rel=0.962 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.995
+
+### CONDITION phi3:mini|PLAIN
+[1/96] phi3:mini|PLAIN :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True prompt_match=True rel=0.8063 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.114
+[2/96] phi3:mini|PLAIN :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True prompt_match=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.969
+[3/96] phi3:mini|PLAIN :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True prompt_match=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.632
+[4/96] phi3:mini|PLAIN :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True prompt_match=True rel=0.8043 dec=ACCEPT faith=1.0 relv=0.5 gen_s=0.738
+[5/96] phi3:mini|PLAIN :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True prompt_match=True rel=0.9186 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.145
+[6/96] phi3:mini|PLAIN :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.883
+[7/96] phi3:mini|PLAIN :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True prompt_match=True rel=0.9208 dec=ACCEPT faith=0.75 relv=0.75 gen_s=1.01
+[8/96] phi3:mini|PLAIN :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.801
+[9/96] phi3:mini|PLAIN :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True prompt_match=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.647
+[10/96] phi3:mini|PLAIN :: GQX-010 :: What is the main composition of many juice products?
+  src=True prompt_match=True rel=0.7829 dec=REFINE faith=0.75 relv=1.0 gen_s=0.721
+[11/96] phi3:mini|PLAIN :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True prompt_match=True rel=0.9401 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.799
+[12/96] phi3:mini|PLAIN :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True prompt_match=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.839
+[13/96] phi3:mini|PLAIN :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True prompt_match=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.936
+[14/96] phi3:mini|PLAIN :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True prompt_match=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.86
+[15/96] phi3:mini|PLAIN :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True prompt_match=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.796
+[16/96] phi3:mini|PLAIN :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True prompt_match=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.574
+[17/96] phi3:mini|PLAIN :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True prompt_match=True rel=0.9578 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.998
+[18/96] phi3:mini|PLAIN :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True prompt_match=True rel=0.9027 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.191
+[19/96] phi3:mini|PLAIN :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True prompt_match=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.751
+[20/96] phi3:mini|PLAIN :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True prompt_match=True rel=0.9212 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.005
+[21/96] phi3:mini|PLAIN :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True prompt_match=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.053
+[22/96] phi3:mini|PLAIN :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True prompt_match=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.716
+[23/96] phi3:mini|PLAIN :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True prompt_match=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.026
+[24/96] phi3:mini|PLAIN :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.871
+[25/96] phi3:mini|PLAIN :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True prompt_match=True rel=0.8351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.928
+[26/96] phi3:mini|PLAIN :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True prompt_match=True rel=0.9364 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.69
+[27/96] phi3:mini|PLAIN :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.905
+[28/96] phi3:mini|PLAIN :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True prompt_match=True rel=0.9377 dec=ACCEPT faith=0.0 relv=1.0 gen_s=0.771
+[29/96] phi3:mini|PLAIN :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True prompt_match=True rel=0.9224 dec=ACCEPT faith=1.0 relv=0.75 gen_s=1.099
+[30/96] phi3:mini|PLAIN :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True prompt_match=True rel=0.9254 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.607
+[31/96] phi3:mini|PLAIN :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True prompt_match=True rel=0.9519 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.798
+[32/96] phi3:mini|PLAIN :: GQX-032 :: How often should I review my advance planning documents?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.0 relv=0.75 gen_s=1.132
+[33/96] phi3:mini|PLAIN :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True prompt_match=True rel=0.9353 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.982
+[34/96] phi3:mini|PLAIN :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True prompt_match=True rel=0.9244 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.778
+[35/96] phi3:mini|PLAIN :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True prompt_match=True rel=0.8966 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.892
+[36/96] phi3:mini|PLAIN :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True prompt_match=True rel=0.958 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.859
+[37/96] phi3:mini|PLAIN :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True prompt_match=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0 gen_s=0.833
+[38/96] phi3:mini|PLAIN :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True prompt_match=True rel=0.927 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.92
+[39/96] phi3:mini|PLAIN :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True prompt_match=True rel=0.8179 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.683
+[40/96] phi3:mini|PLAIN :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True prompt_match=True rel=0.8904 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.712
+[41/96] phi3:mini|PLAIN :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True prompt_match=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.734
+[42/96] phi3:mini|PLAIN :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True prompt_match=True rel=0.9333 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.73
+[43/96] phi3:mini|PLAIN :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True prompt_match=True rel=0.9466 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.783
+[44/96] phi3:mini|PLAIN :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True prompt_match=True rel=0.9534 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.868
+[45/96] phi3:mini|PLAIN :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True prompt_match=True rel=0.9239 dec=ACCEPT faith=0.0 relv=1.0 gen_s=0.939
+[46/96] phi3:mini|PLAIN :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True prompt_match=True rel=0.9182 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.682
+[47/96] phi3:mini|PLAIN :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True prompt_match=True rel=0.9649 dec=ACCEPT faith=0.75 relv=0.5 gen_s=0.871
+[48/96] phi3:mini|PLAIN :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True prompt_match=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.851
+[49/96] phi3:mini|PLAIN :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True prompt_match=True rel=0.9204 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.784
+[50/96] phi3:mini|PLAIN :: GQX-050 :: How does aging affect my digestive system?
+  src=True prompt_match=True rel=0.7793 dec=REFINE faith=0.75 relv=0.75 gen_s=0.995
+[51/96] phi3:mini|PLAIN :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True prompt_match=True rel=0.9051 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.952
+[52/96] phi3:mini|PLAIN :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True prompt_match=True rel=0.9388 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.856
+[53/96] phi3:mini|PLAIN :: GQX-053 :: What is ageism in older adults?
+  src=True prompt_match=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.9
+[54/96] phi3:mini|PLAIN :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True prompt_match=True rel=0.8956 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.232
+[55/96] phi3:mini|PLAIN :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True prompt_match=True rel=0.906 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.021
+[56/96] phi3:mini|PLAIN :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True prompt_match=True rel=0.9184 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.703
+[57/96] phi3:mini|PLAIN :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True prompt_match=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0 gen_s=0.646
+[58/96] phi3:mini|PLAIN :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True prompt_match=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.653
+[59/96] phi3:mini|PLAIN :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True prompt_match=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.647
+[60/96] phi3:mini|PLAIN :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True prompt_match=True rel=0.9245 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.637
+[61/96] phi3:mini|PLAIN :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True prompt_match=True rel=0.9137 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.978
+[62/96] phi3:mini|PLAIN :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True prompt_match=True rel=0.7317 dec=REFINE faith=0.75 relv=1.0 gen_s=0.68
+[63/96] phi3:mini|PLAIN :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True prompt_match=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.792
+[64/96] phi3:mini|PLAIN :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True prompt_match=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.948
+[65/96] phi3:mini|PLAIN :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True prompt_match=True rel=0.9173 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.834
+[66/96] phi3:mini|PLAIN :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True prompt_match=True rel=0.9149 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.685
+[67/96] phi3:mini|PLAIN :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True prompt_match=True rel=0.908 dec=ACCEPT faith=0.75 relv=0.25 gen_s=1.609
+[68/96] phi3:mini|PLAIN :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True prompt_match=True rel=0.9345 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.682
+[69/96] phi3:mini|PLAIN :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True prompt_match=True rel=0.77 dec=REFINE faith=1.0 relv=1.0 gen_s=0.722
+[70/96] phi3:mini|PLAIN :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True prompt_match=True rel=0.9406 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.747
+[71/96] phi3:mini|PLAIN :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True prompt_match=True rel=0.7678 dec=REFINE faith=1.0 relv=1.0 gen_s=0.826
+[72/96] phi3:mini|PLAIN :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True prompt_match=True rel=0.8301 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.74
+[73/96] phi3:mini|PLAIN :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True prompt_match=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.845
+[74/96] phi3:mini|PLAIN :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True prompt_match=True rel=0.9433 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.785
+[75/96] phi3:mini|PLAIN :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True prompt_match=True rel=0.9292 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.752
+[76/96] phi3:mini|PLAIN :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True prompt_match=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.804
+[77/96] phi3:mini|PLAIN :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True prompt_match=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.147
+[78/96] phi3:mini|PLAIN :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True prompt_match=True rel=0.9291 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.648
+[79/96] phi3:mini|PLAIN :: GQX-079 :: What is the best time to stretch my body?
+  src=True prompt_match=True rel=0.6984 dec=REFINE faith=0.75 relv=0.75 gen_s=0.585
+[80/96] phi3:mini|PLAIN :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True prompt_match=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0 gen_s=1.088
+[81/96] phi3:mini|PLAIN :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True prompt_match=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.908
+[82/96] phi3:mini|PLAIN :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True prompt_match=True rel=0.9238 dec=ACCEPT faith=0.75 relv=0.25 gen_s=0.84
+[83/96] phi3:mini|PLAIN :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True prompt_match=True rel=0.9284 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.911
+[84/96] phi3:mini|PLAIN :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True prompt_match=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.589
+[85/96] phi3:mini|PLAIN :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True prompt_match=True rel=0.9286 dec=ACCEPT faith=0.75 relv=1.0 gen_s=1.001
+[86/96] phi3:mini|PLAIN :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True prompt_match=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.875
+[87/96] phi3:mini|PLAIN :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True prompt_match=True rel=0.8626 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.707
+[88/96] phi3:mini|PLAIN :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True prompt_match=True rel=0.9632 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.614
+[89/96] phi3:mini|PLAIN :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True prompt_match=True rel=0.8583 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.807
+[90/96] phi3:mini|PLAIN :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True prompt_match=True rel=0.9344 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.588
+[91/96] phi3:mini|PLAIN :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True prompt_match=True rel=0.9622 dec=ACCEPT faith=1.0 relv=0.75 gen_s=0.54
+[92/96] phi3:mini|PLAIN :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True prompt_match=True rel=0.903 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.878
+[93/96] phi3:mini|PLAIN :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True prompt_match=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.625
+[94/96] phi3:mini|PLAIN :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True prompt_match=True rel=0.9689 dec=ACCEPT faith=0.75 relv=1.0 gen_s=0.838
+[95/96] phi3:mini|PLAIN :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True prompt_match=True rel=0.9438 dec=ACCEPT faith=0.5 relv=0.75 gen_s=0.828
+[96/96] phi3:mini|PLAIN :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True prompt_match=True rel=0.962 dec=ACCEPT faith=1.0 relv=1.0 gen_s=0.995
+
+Baseline prompt-equivalence: 96/96 match the reference.

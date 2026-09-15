@@ -1,0 +1,1173 @@
+ELDERDOCAI ABLATION STUDY
+patient_ctx: {'patient_id': '8855fb38-21b3-1cab-1e78-84154dad9252', 'static_profile': {'chronic_conditions': ['History of appendectomy (situation)', 'Received higher education (finding)', 'Body mass index 30+ - obesity (finding)', 'Prediabetes (finding)', 'Anemia (disorder)', 'History of tubal ligation (situation)'], 'medications': [], 'preferred_language': 'en', 'speech_speed': 'normal'}, 'patient_profile': {'chronic_conditions': ['History of appendectomy (situation)', 'Received higher education (finding)', 'Body mass index 30+ - obesity (finding)', 'Prediabetes (finding)', 'Anemia (disorder)', 'History of tubal ligation (situation)'], 'medications': [], 'preferred_language': 'en', 'speech_speed': 'normal', 'patient_id': '8855fb38-21b3-1cab-1e78-84154dad9252'}, 'adaptive_context_window': {'window_start': '2015-01-01', 'window_end': '2015-12-31', 'context_status': 'ACTIVE', 'care_state': 'HIGH_ACTIVITY', 'transition_type': 'NO_CHANGE'}, 'assistance_plan': {'assistance_strategy': 'ENHANCED_SUPPORT', 'priority': 'HIGH', 'actions': [{'action': 'PROVIDE_TARGETED_INFORMATION', 'reason': 'Documented care activity remained high; provide targeted information.'}, {'action': 'REVIEW_RECENT_CARE_CONTEXT', 'reason': 'High documented activity state; review recent care context.'}, {'action': 'ENCOURAGE_FUTURE_CHECK_IN', 'reason': 'High documented activity state; encourage a future check-in.'}], 'safety_constraints': ['NO_DIAGNOSIS', 'NO_MEDICAL_RISK_PREDICTION', 'NO_DISEASE_PROGRESSION_INFERENCE', 'DOCUMENTED_ACTIVITY_ONLY']}, 'assistance_plan_strategy': 'ENHANCED_SUPPORT'}
+### CONDITION A0 - Full ElderDocAI
+[1/96] A0 :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True chunk_recall=True span=True rel=0.8063 dec=ACCEPT faith=1.0 relv=0.75
+[2/96] A0 :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True chunk_recall=True span=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0
+[3/96] A0 :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True chunk_recall=True span=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0
+[4/96] A0 :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True chunk_recall=True span=True rel=0.8043 dec=ACCEPT faith=1.0 relv=0.75
+[5/96] A0 :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True chunk_recall=True span=True rel=0.9186 dec=ACCEPT faith=1.0 relv=1.0
+[6/96] A0 :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[7/96] A0 :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True chunk_recall=True span=True rel=0.9208 dec=ACCEPT faith=0.75 relv=0.0
+[8/96] A0 :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True chunk_recall=True span=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0
+[9/96] A0 :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True chunk_recall=True span=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0
+[10/96] A0 :: GQX-010 :: What is the main composition of many juice products?
+  src=True chunk_recall=True span=True rel=0.7829 dec=REFINE faith=1.0 relv=1.0
+[11/96] A0 :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True chunk_recall=True span=True rel=0.9401 dec=ACCEPT faith=0.75 relv=1.0
+[12/96] A0 :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[13/96] A0 :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True chunk_recall=True span=True rel=0.9196 dec=ACCEPT faith=1.0 relv=0.75
+[14/96] A0 :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True chunk_recall=True span=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0
+[15/96] A0 :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True chunk_recall=True span=True rel=0.9317 dec=ACCEPT faith=1.0 relv=0.25
+[16/96] A0 :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True chunk_recall=True span=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0
+[17/96] A0 :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True chunk_recall=True span=True rel=0.9578 dec=ACCEPT faith=0.75 relv=1.0
+[18/96] A0 :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True chunk_recall=True span=True rel=0.9027 dec=ACCEPT faith=1.0 relv=0.75
+[19/96] A0 :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0
+[20/96] A0 :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True chunk_recall=True span=True rel=0.9212 dec=ACCEPT faith=0.75 relv=0.75
+[21/96] A0 :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True chunk_recall=True span=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0
+[22/96] A0 :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True chunk_recall=True span=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0
+[23/96] A0 :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True chunk_recall=True span=True rel=0.9348 dec=ACCEPT faith=0.75 relv=1.0
+[24/96] A0 :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=0.75 relv=1.0
+[25/96] A0 :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True chunk_recall=True span=True rel=0.8351 dec=ACCEPT faith=0.75 relv=1.0
+[26/96] A0 :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True chunk_recall=True span=True rel=0.9364 dec=ACCEPT faith=0.75 relv=1.0
+[27/96] A0 :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=1.0 relv=0.5
+[28/96] A0 :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True chunk_recall=True span=True rel=0.9377 dec=ACCEPT faith=0.75 relv=0.25
+[29/96] A0 :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True chunk_recall=True span=True rel=0.9224 dec=ACCEPT faith=0.75 relv=1.0
+[30/96] A0 :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True chunk_recall=True span=True rel=0.9254 dec=ACCEPT faith=1.0 relv=0.5
+[31/96] A0 :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True chunk_recall=True span=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0
+[32/96] A0 :: GQX-032 :: How often should I review my advance planning documents?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0
+[33/96] A0 :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=0.75 relv=0.75
+[34/96] A0 :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True chunk_recall=True span=True rel=0.9244 dec=ACCEPT faith=0.75 relv=1.0
+[35/96] A0 :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True chunk_recall=True span=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0
+[36/96] A0 :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True chunk_recall=True span=True rel=0.958 dec=ACCEPT faith=1.0 relv=1.0
+[37/96] A0 :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True chunk_recall=True span=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0
+[38/96] A0 :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True chunk_recall=True span=True rel=0.927 dec=ACCEPT faith=0.75 relv=0.75
+[39/96] A0 :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True chunk_recall=True span=True rel=0.8179 dec=ACCEPT faith=0.75 relv=1.0
+[40/96] A0 :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True chunk_recall=True span=True rel=0.8904 dec=ACCEPT faith=1.0 relv=1.0
+[41/96] A0 :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True chunk_recall=True span=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0
+[42/96] A0 :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True chunk_recall=True span=True rel=0.9333 dec=ACCEPT faith=1.0 relv=1.0
+[43/96] A0 :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True chunk_recall=True span=True rel=0.9466 dec=ACCEPT faith=1.0 relv=1.0
+[44/96] A0 :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True chunk_recall=True span=True rel=0.9534 dec=ACCEPT faith=0.75 relv=1.0
+[45/96] A0 :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True chunk_recall=True span=True rel=0.9239 dec=ACCEPT faith=0.75 relv=1.0
+[46/96] A0 :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True chunk_recall=True span=True rel=0.9182 dec=ACCEPT faith=1.0 relv=0.75
+[47/96] A0 :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[48/96] A0 :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True chunk_recall=True span=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0
+[49/96] A0 :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9204 dec=ACCEPT faith=1.0 relv=1.0
+[50/96] A0 :: GQX-050 :: How does aging affect my digestive system?
+  src=True chunk_recall=True span=True rel=0.7793 dec=REFINE faith=0.75 relv=1.0
+[51/96] A0 :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True chunk_recall=True span=True rel=0.9051 dec=ACCEPT faith=1.0 relv=0.75
+[52/96] A0 :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True chunk_recall=True span=True rel=0.9388 dec=ACCEPT faith=0.75 relv=1.0
+[53/96] A0 :: GQX-053 :: What is ageism in older adults?
+  src=True chunk_recall=True span=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0
+[54/96] A0 :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True chunk_recall=True span=True rel=0.8956 dec=ACCEPT faith=0.75 relv=0.75
+[55/96] A0 :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True chunk_recall=True span=True rel=0.906 dec=ACCEPT faith=0.75 relv=0.75
+[56/96] A0 :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True chunk_recall=True span=True rel=0.9184 dec=ACCEPT faith=0.75 relv=1.0
+[57/96] A0 :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True chunk_recall=True span=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0
+[58/96] A0 :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True chunk_recall=True span=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0
+[59/96] A0 :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True chunk_recall=True span=True rel=0.9318 dec=ACCEPT faith=1.0 relv=1.0
+[60/96] A0 :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True chunk_recall=True span=True rel=0.9245 dec=ACCEPT faith=0.75 relv=1.0
+[61/96] A0 :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True chunk_recall=True span=True rel=0.9137 dec=ACCEPT faith=1.0 relv=1.0
+[62/96] A0 :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True chunk_recall=True span=True rel=0.7317 dec=REFINE faith=0.75 relv=1.0
+[63/96] A0 :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0
+[64/96] A0 :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0
+[65/96] A0 :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True chunk_recall=True span=True rel=0.9173 dec=ACCEPT faith=0.75 relv=1.0
+[66/96] A0 :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True chunk_recall=True span=True rel=0.9149 dec=ACCEPT faith=1.0 relv=1.0
+[67/96] A0 :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True chunk_recall=True span=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0
+[68/96] A0 :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True chunk_recall=True span=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0
+[69/96] A0 :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True chunk_recall=True span=True rel=0.77 dec=REFINE faith=1.0 relv=1.0
+[70/96] A0 :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True chunk_recall=True span=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0
+[71/96] A0 :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True chunk_recall=True span=True rel=0.7678 dec=REFINE faith=1.0 relv=1.0
+[72/96] A0 :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True chunk_recall=True span=True rel=0.8301 dec=ACCEPT faith=0.75 relv=0.75
+[73/96] A0 :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True chunk_recall=True span=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0
+[74/96] A0 :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True chunk_recall=True span=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0
+[75/96] A0 :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True chunk_recall=True span=True rel=0.9292 dec=ACCEPT faith=0.75 relv=0.75
+[76/96] A0 :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True chunk_recall=True span=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0
+[77/96] A0 :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True chunk_recall=True span=True rel=0.9121 dec=ACCEPT faith=0.75 relv=0.75
+[78/96] A0 :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True chunk_recall=True span=True rel=0.9291 dec=ACCEPT faith=0.75 relv=0.75
+[79/96] A0 :: GQX-079 :: What is the best time to stretch my body?
+  src=True chunk_recall=True span=True rel=0.6984 dec=REFINE faith=1.0 relv=0.75
+[80/96] A0 :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True chunk_recall=True span=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0
+[81/96] A0 :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True chunk_recall=True span=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0
+[82/96] A0 :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True chunk_recall=True span=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0
+[83/96] A0 :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True chunk_recall=True span=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0
+[84/96] A0 :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True chunk_recall=True span=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0
+[85/96] A0 :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True chunk_recall=True span=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0
+[86/96] A0 :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True chunk_recall=True span=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0
+[87/96] A0 :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True chunk_recall=True span=True rel=0.8626 dec=ACCEPT faith=1.0 relv=0.75
+[88/96] A0 :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True chunk_recall=True span=True rel=0.9632 dec=ACCEPT faith=0.75 relv=1.0
+[89/96] A0 :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True chunk_recall=True span=True rel=0.8583 dec=ACCEPT faith=1.0 relv=0.5
+[90/96] A0 :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True chunk_recall=True span=True rel=0.9344 dec=ACCEPT faith=0.75 relv=0.75
+[91/96] A0 :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True chunk_recall=True span=True rel=0.9622 dec=ACCEPT faith=0.75 relv=1.0
+[92/96] A0 :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True chunk_recall=True span=True rel=0.903 dec=ACCEPT faith=0.75 relv=1.0
+[93/96] A0 :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True chunk_recall=True span=True rel=0.9351 dec=ACCEPT faith=1.0 relv=0.25
+[94/96] A0 :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True chunk_recall=True span=True rel=0.9689 dec=ACCEPT faith=0.75 relv=None
+[95/96] A0 :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True chunk_recall=True span=True rel=0.9438 dec=ACCEPT faith=0.75 relv=0.75
+[96/96] A0 :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True chunk_recall=True span=True rel=0.962 dec=ACCEPT faith=0.75 relv=0.75
+
+### CONDITION A1 - No Dynamic Care State
+[1/96] A1 :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True chunk_recall=True span=True rel=0.8063 dec=ACCEPT faith=0.5 relv=0.25
+[2/96] A1 :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True chunk_recall=True span=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0
+[3/96] A1 :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True chunk_recall=True span=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0
+[4/96] A1 :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True chunk_recall=True span=True rel=0.8043 dec=ACCEPT faith=0.75 relv=0.75
+[5/96] A1 :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True chunk_recall=True span=True rel=0.9186 dec=ACCEPT faith=1.0 relv=1.0
+[6/96] A1 :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[7/96] A1 :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True chunk_recall=True span=True rel=0.9208 dec=ACCEPT faith=1.0 relv=1.0
+[8/96] A1 :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True chunk_recall=True span=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0
+[9/96] A1 :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True chunk_recall=True span=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0
+[10/96] A1 :: GQX-010 :: What is the main composition of many juice products?
+  src=True chunk_recall=True span=True rel=0.7829 dec=REFINE faith=1.0 relv=1.0
+[11/96] A1 :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True chunk_recall=True span=True rel=0.9401 dec=ACCEPT faith=1.0 relv=1.0
+[12/96] A1 :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[13/96] A1 :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True chunk_recall=True span=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0
+[14/96] A1 :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True chunk_recall=True span=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0
+[15/96] A1 :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True chunk_recall=True span=True rel=0.9317 dec=ACCEPT faith=0.75 relv=0.25
+[16/96] A1 :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True chunk_recall=True span=True rel=0.8251 dec=ACCEPT faith=0.75 relv=1.0
+[17/96] A1 :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True chunk_recall=True span=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0
+[18/96] A1 :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True chunk_recall=True span=True rel=0.9027 dec=ACCEPT faith=1.0 relv=0.75
+[19/96] A1 :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0
+[20/96] A1 :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True chunk_recall=True span=True rel=0.9212 dec=ACCEPT faith=1.0 relv=0.75
+[21/96] A1 :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True chunk_recall=True span=True rel=0.8373 dec=ACCEPT faith=0.75 relv=1.0
+[22/96] A1 :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True chunk_recall=True span=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0
+[23/96] A1 :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True chunk_recall=True span=True rel=0.9348 dec=ACCEPT faith=0.75 relv=1.0
+[24/96] A1 :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[25/96] A1 :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True chunk_recall=True span=True rel=0.8351 dec=ACCEPT faith=0.75 relv=1.0
+[26/96] A1 :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True chunk_recall=True span=True rel=0.9364 dec=ACCEPT faith=0.75 relv=1.0
+[27/96] A1 :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0
+[28/96] A1 :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True chunk_recall=True span=True rel=0.9377 dec=ACCEPT faith=0.75 relv=0.25
+[29/96] A1 :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True chunk_recall=True span=True rel=0.9224 dec=ACCEPT faith=0.75 relv=0.75
+[30/96] A1 :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True chunk_recall=True span=True rel=0.9254 dec=ACCEPT faith=1.0 relv=1.0
+[31/96] A1 :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True chunk_recall=True span=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0
+[32/96] A1 :: GQX-032 :: How often should I review my advance planning documents?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0
+[33/96] A1 :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0
+[34/96] A1 :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True chunk_recall=True span=True rel=0.9244 dec=ACCEPT faith=1.0 relv=1.0
+[35/96] A1 :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True chunk_recall=True span=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0
+[36/96] A1 :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True chunk_recall=True span=True rel=0.958 dec=ACCEPT faith=0.75 relv=1.0
+[37/96] A1 :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True chunk_recall=True span=True rel=0.7735 dec=REFINE faith=1.0 relv=0.75
+[38/96] A1 :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True chunk_recall=True span=True rel=0.927 dec=ACCEPT faith=0.75 relv=1.0
+[39/96] A1 :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True chunk_recall=True span=True rel=0.8179 dec=ACCEPT faith=1.0 relv=1.0
+[40/96] A1 :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True chunk_recall=True span=True rel=0.8904 dec=ACCEPT faith=1.0 relv=1.0
+[41/96] A1 :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True chunk_recall=True span=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0
+[42/96] A1 :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True chunk_recall=True span=True rel=0.9333 dec=ACCEPT faith=1.0 relv=1.0
+[43/96] A1 :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True chunk_recall=True span=True rel=0.9466 dec=ACCEPT faith=0.75 relv=1.0
+[44/96] A1 :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True chunk_recall=True span=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0
+[45/96] A1 :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True chunk_recall=True span=True rel=0.9239 dec=ACCEPT faith=0.75 relv=0.75
+[46/96] A1 :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True chunk_recall=True span=True rel=0.9182 dec=ACCEPT faith=0.75 relv=0.25
+[47/96] A1 :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[48/96] A1 :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True chunk_recall=True span=True rel=0.9166 dec=ACCEPT faith=1.0 relv=1.0
+[49/96] A1 :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9204 dec=ACCEPT faith=1.0 relv=1.0
+[50/96] A1 :: GQX-050 :: How does aging affect my digestive system?
+  src=True chunk_recall=True span=True rel=0.7793 dec=REFINE faith=1.0 relv=1.0
+[51/96] A1 :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True chunk_recall=True span=True rel=0.9051 dec=ACCEPT faith=0.25 relv=1.0
+[52/96] A1 :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True chunk_recall=True span=True rel=0.9388 dec=ACCEPT faith=0.75 relv=0.75
+[53/96] A1 :: GQX-053 :: What is ageism in older adults?
+  src=True chunk_recall=True span=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0
+[54/96] A1 :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True chunk_recall=True span=True rel=0.8956 dec=ACCEPT faith=1.0 relv=0.25
+[55/96] A1 :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True chunk_recall=True span=True rel=0.906 dec=ACCEPT faith=1.0 relv=1.0
+[56/96] A1 :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True chunk_recall=True span=True rel=0.9184 dec=ACCEPT faith=1.0 relv=1.0
+[57/96] A1 :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True chunk_recall=True span=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0
+[58/96] A1 :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True chunk_recall=True span=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0
+[59/96] A1 :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True chunk_recall=True span=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0
+[60/96] A1 :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True chunk_recall=True span=True rel=0.9245 dec=ACCEPT faith=1.0 relv=1.0
+[61/96] A1 :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True chunk_recall=True span=True rel=0.9137 dec=ACCEPT faith=1.0 relv=0.75
+[62/96] A1 :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True chunk_recall=True span=True rel=0.7317 dec=REFINE faith=0.75 relv=1.0
+[63/96] A1 :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0
+[64/96] A1 :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=1.0 relv=0.75
+[65/96] A1 :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True chunk_recall=True span=True rel=0.9173 dec=ACCEPT faith=1.0 relv=0.25
+[66/96] A1 :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True chunk_recall=True span=True rel=0.9149 dec=ACCEPT faith=1.0 relv=1.0
+[67/96] A1 :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True chunk_recall=True span=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0
+[68/96] A1 :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True chunk_recall=True span=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0
+[69/96] A1 :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True chunk_recall=True span=True rel=0.77 dec=REFINE faith=1.0 relv=1.0
+[70/96] A1 :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True chunk_recall=True span=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0
+[71/96] A1 :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True chunk_recall=True span=True rel=0.7678 dec=REFINE faith=1.0 relv=1.0
+[72/96] A1 :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True chunk_recall=True span=True rel=0.8301 dec=ACCEPT faith=1.0 relv=0.25
+[73/96] A1 :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True chunk_recall=True span=True rel=0.9339 dec=ACCEPT faith=1.0 relv=0.75
+[74/96] A1 :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True chunk_recall=True span=True rel=0.9433 dec=ACCEPT faith=0.75 relv=1.0
+[75/96] A1 :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True chunk_recall=True span=True rel=0.9292 dec=ACCEPT faith=1.0 relv=0.75
+[76/96] A1 :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True chunk_recall=True span=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0
+[77/96] A1 :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True chunk_recall=True span=True rel=0.9121 dec=ACCEPT faith=1.0 relv=0.75
+[78/96] A1 :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True chunk_recall=True span=True rel=0.9291 dec=ACCEPT faith=1.0 relv=1.0
+[79/96] A1 :: GQX-079 :: What is the best time to stretch my body?
+  src=True chunk_recall=True span=True rel=0.6984 dec=REFINE faith=1.0 relv=0.75
+[80/96] A1 :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True chunk_recall=True span=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0
+[81/96] A1 :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True chunk_recall=True span=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0
+[82/96] A1 :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True chunk_recall=True span=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0
+[83/96] A1 :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True chunk_recall=True span=True rel=0.9284 dec=ACCEPT faith=0.75 relv=1.0
+[84/96] A1 :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True chunk_recall=True span=True rel=0.9055 dec=ACCEPT faith=0.75 relv=1.0
+[85/96] A1 :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True chunk_recall=True span=True rel=0.9286 dec=ACCEPT faith=0.75 relv=1.0
+[86/96] A1 :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True chunk_recall=True span=True rel=0.9295 dec=ACCEPT faith=1.0 relv=0.75
+[87/96] A1 :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True chunk_recall=True span=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0
+[88/96] A1 :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True chunk_recall=True span=True rel=0.9632 dec=ACCEPT faith=0.75 relv=1.0
+[89/96] A1 :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True chunk_recall=True span=True rel=0.8583 dec=ACCEPT faith=0.75 relv=0.75
+[90/96] A1 :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True chunk_recall=True span=True rel=0.9344 dec=ACCEPT faith=1.0 relv=1.0
+[91/96] A1 :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True chunk_recall=True span=True rel=0.9622 dec=ACCEPT faith=0.75 relv=1.0
+[92/96] A1 :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True chunk_recall=True span=True rel=0.903 dec=ACCEPT faith=0.75 relv=1.0
+[93/96] A1 :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True chunk_recall=True span=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0
+[94/96] A1 :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True chunk_recall=True span=True rel=0.9689 dec=ACCEPT faith=0.75 relv=0.25
+[95/96] A1 :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True chunk_recall=True span=True rel=0.9438 dec=ACCEPT faith=0.75 relv=1.0
+[96/96] A1 :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True chunk_recall=True span=True rel=0.962 dec=ACCEPT faith=0.75 relv=0.75
+
+### CONDITION A2 - No Adaptive Assistance
+[1/96] A2 :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True chunk_recall=True span=True rel=0.8063 dec=ACCEPT faith=0.75 relv=0.75
+[2/96] A2 :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True chunk_recall=True span=True rel=0.9372 dec=ACCEPT faith=1.0 relv=1.0
+[3/96] A2 :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True chunk_recall=True span=True rel=0.9154 dec=ACCEPT faith=0.75 relv=1.0
+[4/96] A2 :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True chunk_recall=True span=True rel=0.8043 dec=ACCEPT faith=1.0 relv=1.0
+[5/96] A2 :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True chunk_recall=True span=True rel=0.9186 dec=ACCEPT faith=1.0 relv=0.75
+[6/96] A2 :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[7/96] A2 :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True chunk_recall=True span=True rel=0.9208 dec=ACCEPT faith=0.75 relv=1.0
+[8/96] A2 :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True chunk_recall=True span=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0
+[9/96] A2 :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True chunk_recall=True span=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0
+[10/96] A2 :: GQX-010 :: What is the main composition of many juice products?
+  src=True chunk_recall=True span=True rel=0.7829 dec=REFINE faith=0.75 relv=1.0
+[11/96] A2 :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True chunk_recall=True span=True rel=0.9401 dec=ACCEPT faith=1.0 relv=1.0
+[12/96] A2 :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[13/96] A2 :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True chunk_recall=True span=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0
+[14/96] A2 :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True chunk_recall=True span=True rel=0.8988 dec=ACCEPT faith=1.0 relv=0.75
+[15/96] A2 :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True chunk_recall=True span=True rel=0.9317 dec=ACCEPT faith=1.0 relv=1.0
+[16/96] A2 :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True chunk_recall=True span=True rel=0.8251 dec=ACCEPT faith=1.0 relv=0.75
+[17/96] A2 :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True chunk_recall=True span=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0
+[18/96] A2 :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True chunk_recall=True span=True rel=0.9027 dec=ACCEPT faith=1.0 relv=0.25
+[19/96] A2 :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0
+[20/96] A2 :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True chunk_recall=True span=True rel=0.9212 dec=ACCEPT faith=1.0 relv=0.25
+[21/96] A2 :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True chunk_recall=True span=True rel=0.8373 dec=ACCEPT faith=0.75 relv=1.0
+[22/96] A2 :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True chunk_recall=True span=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0
+[23/96] A2 :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True chunk_recall=True span=True rel=0.9348 dec=ACCEPT faith=0.75 relv=1.0
+[24/96] A2 :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[25/96] A2 :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True chunk_recall=True span=True rel=0.8351 dec=ACCEPT faith=0.75 relv=1.0
+[26/96] A2 :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True chunk_recall=True span=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0
+[27/96] A2 :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0
+[28/96] A2 :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True chunk_recall=True span=True rel=0.9377 dec=ACCEPT faith=1.0 relv=1.0
+[29/96] A2 :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True chunk_recall=True span=True rel=0.9224 dec=ACCEPT faith=0.75 relv=1.0
+[30/96] A2 :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True chunk_recall=True span=True rel=0.9254 dec=ACCEPT faith=1.0 relv=1.0
+[31/96] A2 :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True chunk_recall=True span=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0
+[32/96] A2 :: GQX-032 :: How often should I review my advance planning documents?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=1.0 relv=1.0
+[33/96] A2 :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=1.0 relv=0.75
+[34/96] A2 :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True chunk_recall=True span=True rel=0.9244 dec=ACCEPT faith=1.0 relv=1.0
+[35/96] A2 :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True chunk_recall=True span=True rel=0.8966 dec=ACCEPT faith=0.75 relv=1.0
+[36/96] A2 :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True chunk_recall=True span=True rel=0.958 dec=ACCEPT faith=0.75 relv=1.0
+[37/96] A2 :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True chunk_recall=True span=True rel=0.7735 dec=REFINE faith=0.75 relv=1.0
+[38/96] A2 :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True chunk_recall=True span=True rel=0.927 dec=ACCEPT faith=0.75 relv=1.0
+[39/96] A2 :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True chunk_recall=True span=True rel=0.8179 dec=ACCEPT faith=0.5 relv=1.0
+[40/96] A2 :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True chunk_recall=True span=True rel=0.8904 dec=ACCEPT faith=0.75 relv=1.0
+[41/96] A2 :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True chunk_recall=True span=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0
+[42/96] A2 :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True chunk_recall=True span=True rel=0.9333 dec=ACCEPT faith=1.0 relv=1.0
+[43/96] A2 :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True chunk_recall=True span=True rel=0.9466 dec=ACCEPT faith=0.75 relv=1.0
+[44/96] A2 :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True chunk_recall=True span=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0
+[45/96] A2 :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True chunk_recall=True span=True rel=0.9239 dec=ACCEPT faith=1.0 relv=0.75
+[46/96] A2 :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True chunk_recall=True span=True rel=0.9182 dec=ACCEPT faith=0.75 relv=1.0
+[47/96] A2 :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[48/96] A2 :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True chunk_recall=True span=True rel=0.9166 dec=ACCEPT faith=0.75 relv=1.0
+[49/96] A2 :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9204 dec=ACCEPT faith=1.0 relv=1.0
+[50/96] A2 :: GQX-050 :: How does aging affect my digestive system?
+  src=True chunk_recall=True span=True rel=0.7793 dec=REFINE faith=1.0 relv=1.0
+[51/96] A2 :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True chunk_recall=True span=True rel=0.9051 dec=ACCEPT faith=0.75 relv=0.25
+[52/96] A2 :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True chunk_recall=True span=True rel=0.9388 dec=ACCEPT faith=0.75 relv=0.75
+[53/96] A2 :: GQX-053 :: What is ageism in older adults?
+  src=True chunk_recall=True span=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0
+[54/96] A2 :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True chunk_recall=True span=True rel=0.8956 dec=ACCEPT faith=1.0 relv=0.75
+[55/96] A2 :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True chunk_recall=True span=True rel=0.906 dec=ACCEPT faith=0.75 relv=0.25
+[56/96] A2 :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True chunk_recall=True span=True rel=0.9184 dec=ACCEPT faith=1.0 relv=1.0
+[57/96] A2 :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True chunk_recall=True span=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0
+[58/96] A2 :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True chunk_recall=True span=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0
+[59/96] A2 :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True chunk_recall=True span=True rel=0.9318 dec=ACCEPT faith=0.5 relv=1.0
+[60/96] A2 :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True chunk_recall=True span=True rel=0.9245 dec=ACCEPT faith=1.0 relv=1.0
+[61/96] A2 :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True chunk_recall=True span=True rel=0.9137 dec=ACCEPT faith=1.0 relv=1.0
+[62/96] A2 :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True chunk_recall=True span=True rel=0.7317 dec=REFINE faith=0.75 relv=1.0
+[63/96] A2 :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=0.75 relv=1.0
+[64/96] A2 :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0
+[65/96] A2 :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True chunk_recall=True span=True rel=0.9173 dec=ACCEPT faith=0.75 relv=0.75
+[66/96] A2 :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True chunk_recall=True span=True rel=0.9149 dec=ACCEPT faith=1.0 relv=1.0
+[67/96] A2 :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True chunk_recall=True span=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0
+[68/96] A2 :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True chunk_recall=True span=True rel=0.9345 dec=ACCEPT faith=0.75 relv=0.75
+[69/96] A2 :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True chunk_recall=True span=True rel=0.77 dec=REFINE faith=1.0 relv=0.75
+[70/96] A2 :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True chunk_recall=True span=True rel=0.9406 dec=ACCEPT faith=1.0 relv=0.75
+[71/96] A2 :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True chunk_recall=True span=True rel=0.7678 dec=REFINE faith=0.75 relv=1.0
+[72/96] A2 :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True chunk_recall=True span=True rel=0.8301 dec=ACCEPT faith=1.0 relv=0.25
+[73/96] A2 :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True chunk_recall=True span=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0
+[74/96] A2 :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True chunk_recall=True span=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0
+[75/96] A2 :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True chunk_recall=True span=True rel=0.9292 dec=ACCEPT faith=1.0 relv=1.0
+[76/96] A2 :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True chunk_recall=True span=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0
+[77/96] A2 :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True chunk_recall=True span=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0
+[78/96] A2 :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True chunk_recall=True span=True rel=0.9291 dec=ACCEPT faith=1.0 relv=0.75
+[79/96] A2 :: GQX-079 :: What is the best time to stretch my body?
+  src=True chunk_recall=True span=True rel=0.6984 dec=REFINE faith=1.0 relv=0.75
+[80/96] A2 :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True chunk_recall=True span=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0
+[81/96] A2 :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True chunk_recall=True span=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0
+[82/96] A2 :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True chunk_recall=True span=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0
+[83/96] A2 :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True chunk_recall=True span=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0
+[84/96] A2 :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True chunk_recall=True span=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0
+[85/96] A2 :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True chunk_recall=True span=True rel=0.9286 dec=ACCEPT faith=0.75 relv=1.0
+[86/96] A2 :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True chunk_recall=True span=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0
+[87/96] A2 :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True chunk_recall=True span=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0
+[88/96] A2 :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True chunk_recall=True span=True rel=0.9632 dec=ACCEPT faith=1.0 relv=1.0
+[89/96] A2 :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True chunk_recall=True span=True rel=0.8583 dec=ACCEPT faith=1.0 relv=1.0
+[90/96] A2 :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True chunk_recall=True span=True rel=0.9344 dec=ACCEPT faith=0.75 relv=1.0
+[91/96] A2 :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True chunk_recall=True span=True rel=0.9622 dec=ACCEPT faith=1.0 relv=1.0
+[92/96] A2 :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True chunk_recall=True span=True rel=0.903 dec=ACCEPT faith=1.0 relv=1.0
+[93/96] A2 :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True chunk_recall=True span=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0
+[94/96] A2 :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True chunk_recall=True span=True rel=0.9689 dec=ACCEPT faith=0.75 relv=0.25
+[95/96] A2 :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True chunk_recall=True span=True rel=0.9438 dec=ACCEPT faith=1.0 relv=0.75
+[96/96] A2 :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True chunk_recall=True span=True rel=0.962 dec=ACCEPT faith=1.0 relv=0.75
+
+### CONDITION A3 - Dense Retrieval Only
+[1/96] A3 :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True chunk_recall=True span=True rel=0.8063 dec=ACCEPT faith=1.0 relv=1.0
+[2/96] A3 :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True chunk_recall=False span=False rel=0.9093 dec=ACCEPT faith=1.0 relv=1.0
+[3/96] A3 :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True chunk_recall=True span=True rel=0.9158 dec=ACCEPT faith=1.0 relv=0.75
+[4/96] A3 :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True chunk_recall=True span=True rel=0.8043 dec=ACCEPT faith=1.0 relv=0.75
+[5/96] A3 :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True chunk_recall=False span=True rel=0.9198 dec=ACCEPT faith=1.0 relv=1.0
+[6/96] A3 :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True chunk_recall=True span=True rel=0.9307 dec=ACCEPT faith=1.0 relv=1.0
+[7/96] A3 :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True chunk_recall=True span=True rel=0.9208 dec=ACCEPT faith=0.75 relv=1.0
+[8/96] A3 :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True chunk_recall=True span=True rel=0.9062 dec=ACCEPT faith=1.0 relv=1.0
+[9/96] A3 :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True chunk_recall=False span=True rel=0.9322 dec=ACCEPT faith=1.0 relv=1.0
+[10/96] A3 :: GQX-010 :: What is the main composition of many juice products?
+  src=True chunk_recall=True span=True rel=0.7829 dec=REFINE faith=1.0 relv=1.0
+[11/96] A3 :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True chunk_recall=True span=True rel=0.9413 dec=ACCEPT faith=1.0 relv=1.0
+[12/96] A3 :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[13/96] A3 :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True chunk_recall=True span=True rel=0.9198 dec=ACCEPT faith=1.0 relv=0.75
+[14/96] A3 :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True chunk_recall=True span=True rel=0.8326 dec=ACCEPT faith=0.75 relv=1.0
+[15/96] A3 :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True chunk_recall=False span=False rel=0.9194 dec=ACCEPT faith=1.0 relv=1.0
+[16/96] A3 :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True chunk_recall=True span=True rel=0.8353 dec=ACCEPT faith=0.75 relv=1.0
+[17/96] A3 :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True chunk_recall=True span=True rel=0.9464 dec=ACCEPT faith=1.0 relv=1.0
+[18/96] A3 :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True chunk_recall=True span=True rel=0.8931 dec=ACCEPT faith=1.0 relv=1.0
+[19/96] A3 :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9208 dec=ACCEPT faith=1.0 relv=1.0
+[20/96] A3 :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True chunk_recall=True span=True rel=0.9219 dec=ACCEPT faith=1.0 relv=0.75
+[21/96] A3 :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True chunk_recall=True span=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0
+[22/96] A3 :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True chunk_recall=True span=True rel=0.9535 dec=ACCEPT faith=1.0 relv=1.0
+[23/96] A3 :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True chunk_recall=True span=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0
+[24/96] A3 :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[25/96] A3 :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True chunk_recall=True span=True rel=0.9032 dec=ACCEPT faith=1.0 relv=1.0
+[26/96] A3 :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True chunk_recall=True span=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0
+[27/96] A3 :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=0.75 relv=1.0
+[28/96] A3 :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True chunk_recall=True span=True rel=0.9392 dec=ACCEPT faith=0.75 relv=1.0
+[29/96] A3 :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True chunk_recall=True span=True rel=0.9224 dec=ACCEPT faith=0.75 relv=1.0
+[30/96] A3 :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True chunk_recall=True span=True rel=0.9267 dec=ACCEPT faith=1.0 relv=1.0
+[31/96] A3 :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True chunk_recall=True span=True rel=0.9526 dec=ACCEPT faith=0.75 relv=1.0
+[32/96] A3 :: GQX-032 :: How often should I review my advance planning documents?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=0.5 relv=1.0
+[33/96] A3 :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True chunk_recall=True span=True rel=0.936 dec=ACCEPT faith=1.0 relv=0.75
+[34/96] A3 :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True chunk_recall=True span=True rel=0.9244 dec=ACCEPT faith=1.0 relv=1.0
+[35/96] A3 :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True chunk_recall=True span=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0
+[36/96] A3 :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True chunk_recall=True span=True rel=0.9588 dec=ACCEPT faith=0.75 relv=0.25
+[37/96] A3 :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True chunk_recall=True span=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0
+[38/96] A3 :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True chunk_recall=True span=True rel=0.9279 dec=ACCEPT faith=0.75 relv=1.0
+[39/96] A3 :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True chunk_recall=True span=True rel=0.7523 dec=REFINE faith=0.75 relv=1.0
+[40/96] A3 :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True chunk_recall=True span=True rel=0.8904 dec=ACCEPT faith=1.0 relv=1.0
+[41/96] A3 :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True chunk_recall=True span=True rel=0.9382 dec=ACCEPT faith=1.0 relv=1.0
+[42/96] A3 :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True chunk_recall=True span=True rel=0.8674 dec=ACCEPT faith=0.75 relv=1.0
+[43/96] A3 :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True chunk_recall=True span=True rel=0.9467 dec=ACCEPT faith=1.0 relv=1.0
+[44/96] A3 :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True chunk_recall=True span=True rel=0.9536 dec=ACCEPT faith=1.0 relv=1.0
+[45/96] A3 :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True chunk_recall=True span=True rel=0.9079 dec=ACCEPT faith=1.0 relv=1.0
+[46/96] A3 :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True chunk_recall=True span=True rel=0.9094 dec=ACCEPT faith=0.75 relv=1.0
+[47/96] A3 :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[48/96] A3 :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True chunk_recall=True span=True rel=0.9072 dec=ACCEPT faith=1.0 relv=1.0
+[49/96] A3 :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True chunk_recall=False span=False rel=0.7736 dec=REFINE faith=1.0 relv=0.25
+[50/96] A3 :: GQX-050 :: How does aging affect my digestive system?
+  src=True chunk_recall=True span=True rel=0.7793 dec=REFINE faith=1.0 relv=1.0
+[51/96] A3 :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True chunk_recall=True span=True rel=0.8388 dec=ACCEPT faith=0.0 relv=1.0
+[52/96] A3 :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True chunk_recall=True span=True rel=0.9277 dec=ACCEPT faith=0.75 relv=1.0
+[53/96] A3 :: GQX-053 :: What is ageism in older adults?
+  src=True chunk_recall=True span=True rel=0.9283 dec=ACCEPT faith=0.75 relv=1.0
+[54/96] A3 :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True chunk_recall=True span=True rel=0.9105 dec=ACCEPT faith=1.0 relv=1.0
+[55/96] A3 :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True chunk_recall=True span=True rel=0.9061 dec=ACCEPT faith=0.75 relv=1.0
+[56/96] A3 :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True chunk_recall=True span=True rel=0.9184 dec=ACCEPT faith=1.0 relv=0.75
+[57/96] A3 :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True chunk_recall=True span=True rel=0.7726 dec=REFINE faith=1.0 relv=1.0
+[58/96] A3 :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True chunk_recall=True span=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0
+[59/96] A3 :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True chunk_recall=True span=True rel=0.9219 dec=ACCEPT faith=1.0 relv=1.0
+[60/96] A3 :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True chunk_recall=True span=True rel=0.925 dec=ACCEPT faith=1.0 relv=1.0
+[61/96] A3 :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True chunk_recall=False span=False rel=0.922 dec=ACCEPT faith=0.75 relv=1.0
+[62/96] A3 :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True chunk_recall=True span=True rel=0.7317 dec=REFINE faith=1.0 relv=1.0
+[63/96] A3 :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0
+[64/96] A3 :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0
+[65/96] A3 :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True chunk_recall=True span=True rel=0.9348 dec=ACCEPT faith=1.0 relv=0.5
+[66/96] A3 :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True chunk_recall=True span=True rel=0.9149 dec=ACCEPT faith=0.75 relv=1.0
+[67/96] A3 :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True chunk_recall=True span=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0
+[68/96] A3 :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True chunk_recall=True span=True rel=0.9345 dec=ACCEPT faith=0.75 relv=1.0
+[69/96] A3 :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True chunk_recall=True span=True rel=0.7547 dec=REFINE faith=1.0 relv=0.25
+[70/96] A3 :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True chunk_recall=True span=True rel=0.9107 dec=ACCEPT faith=0.75 relv=1.0
+[71/96] A3 :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True chunk_recall=True span=True rel=0.7678 dec=REFINE faith=0.75 relv=1.0
+[72/96] A3 :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True chunk_recall=True span=True rel=0.7643 dec=REFINE faith=1.0 relv=0.25
+[73/96] A3 :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True chunk_recall=True span=True rel=0.9218 dec=ACCEPT faith=1.0 relv=1.0
+[74/96] A3 :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True chunk_recall=True span=True rel=0.9434 dec=ACCEPT faith=1.0 relv=1.0
+[75/96] A3 :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0
+[76/96] A3 :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True chunk_recall=True span=True rel=0.9719 dec=ACCEPT faith=0.75 relv=1.0
+[77/96] A3 :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True chunk_recall=True span=True rel=0.9128 dec=ACCEPT faith=0.75 relv=1.0
+[78/96] A3 :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=False chunk_recall=False span=False rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0
+[79/96] A3 :: GQX-079 :: What is the best time to stretch my body?
+  src=True chunk_recall=True span=True rel=0.7237 dec=REFINE faith=0.75 relv=1.0
+[80/96] A3 :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True chunk_recall=True span=True rel=0.9182 dec=ACCEPT faith=0.75 relv=1.0
+[81/96] A3 :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True chunk_recall=False span=True rel=0.8069 dec=ACCEPT faith=1.0 relv=1.0
+[82/96] A3 :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True chunk_recall=True span=True rel=0.9453 dec=ACCEPT faith=1.0 relv=1.0
+[83/96] A3 :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True chunk_recall=True span=True rel=0.9284 dec=ACCEPT faith=0.75 relv=1.0
+[84/96] A3 :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True chunk_recall=True span=True rel=0.8074 dec=ACCEPT faith=1.0 relv=1.0
+[85/96] A3 :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True chunk_recall=True span=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0
+[86/96] A3 :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=0.75 relv=1.0
+[87/96] A3 :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True chunk_recall=True span=True rel=0.9309 dec=ACCEPT faith=1.0 relv=1.0
+[88/96] A3 :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True chunk_recall=True span=True rel=0.9632 dec=ACCEPT faith=1.0 relv=1.0
+[89/96] A3 :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True chunk_recall=True span=True rel=0.8583 dec=ACCEPT faith=0.0 relv=0.75
+[90/96] A3 :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True chunk_recall=True span=True rel=0.9344 dec=ACCEPT faith=1.0 relv=1.0
+[91/96] A3 :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True chunk_recall=True span=True rel=0.9656 dec=ACCEPT faith=0.75 relv=1.0
+[92/96] A3 :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True chunk_recall=True span=True rel=0.8467 dec=ACCEPT faith=1.0 relv=1.0
+[93/96] A3 :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True chunk_recall=True span=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0
+[94/96] A3 :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True chunk_recall=True span=True rel=0.9523 dec=ACCEPT faith=0.25 relv=1.0
+[95/96] A3 :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True chunk_recall=True span=True rel=0.9121 dec=ACCEPT faith=1.0 relv=1.0
+[96/96] A3 :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True chunk_recall=True span=True rel=0.962 dec=ACCEPT faith=0.5 relv=1.0
+
+### CONDITION A4 - Hybrid Without Reranking
+[1/96] A4 :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True chunk_recall=True span=True rel=0.8063 dec=ACCEPT faith=1.0 relv=0.75
+[2/96] A4 :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True chunk_recall=False span=False rel=0.9093 dec=ACCEPT faith=1.0 relv=1.0
+[3/96] A4 :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True chunk_recall=True span=True rel=0.9158 dec=ACCEPT faith=1.0 relv=1.0
+[4/96] A4 :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True chunk_recall=True span=True rel=0.8043 dec=ACCEPT faith=1.0 relv=0.25
+[5/96] A4 :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True chunk_recall=False span=True rel=0.9198 dec=ACCEPT faith=1.0 relv=1.0
+[6/96] A4 :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=0.75
+[7/96] A4 :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True chunk_recall=True span=True rel=0.9208 dec=ACCEPT faith=0.5 relv=1.0
+[8/96] A4 :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True chunk_recall=True span=True rel=0.9062 dec=ACCEPT faith=1.0 relv=1.0
+[9/96] A4 :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True chunk_recall=False span=True rel=0.9322 dec=ACCEPT faith=1.0 relv=1.0
+[10/96] A4 :: GQX-010 :: What is the main composition of many juice products?
+  src=True chunk_recall=True span=True rel=0.7829 dec=REFINE faith=1.0 relv=1.0
+[11/96] A4 :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True chunk_recall=True span=True rel=0.9413 dec=ACCEPT faith=1.0 relv=1.0
+[12/96] A4 :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[13/96] A4 :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True chunk_recall=True span=True rel=0.9197 dec=ACCEPT faith=1.0 relv=0.75
+[14/96] A4 :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True chunk_recall=True span=True rel=0.8326 dec=ACCEPT faith=0.75 relv=1.0
+[15/96] A4 :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True chunk_recall=False span=False rel=0.9194 dec=ACCEPT faith=0.75 relv=0.25
+[16/96] A4 :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True chunk_recall=True span=True rel=0.8353 dec=ACCEPT faith=1.0 relv=0.75
+[17/96] A4 :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True chunk_recall=True span=True rel=0.9578 dec=ACCEPT faith=0.75 relv=1.0
+[18/96] A4 :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True chunk_recall=True span=True rel=0.8931 dec=ACCEPT faith=1.0 relv=1.0
+[19/96] A4 :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9208 dec=ACCEPT faith=1.0 relv=0.25
+[20/96] A4 :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True chunk_recall=True span=True rel=0.9219 dec=ACCEPT faith=1.0 relv=0.75
+[21/96] A4 :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True chunk_recall=True span=True rel=0.8373 dec=ACCEPT faith=0.75 relv=1.0
+[22/96] A4 :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True chunk_recall=True span=True rel=0.9535 dec=ACCEPT faith=1.0 relv=1.0
+[23/96] A4 :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True chunk_recall=True span=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0
+[24/96] A4 :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[25/96] A4 :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True chunk_recall=True span=True rel=0.9032 dec=ACCEPT faith=0.75 relv=1.0
+[26/96] A4 :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True chunk_recall=True span=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0
+[27/96] A4 :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=1.0 relv=1.0
+[28/96] A4 :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True chunk_recall=True span=True rel=0.9392 dec=ACCEPT faith=1.0 relv=1.0
+[29/96] A4 :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True chunk_recall=True span=True rel=0.9224 dec=ACCEPT faith=1.0 relv=1.0
+[30/96] A4 :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True chunk_recall=True span=True rel=0.9267 dec=ACCEPT faith=1.0 relv=0.75
+[31/96] A4 :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True chunk_recall=True span=True rel=0.9526 dec=ACCEPT faith=1.0 relv=1.0
+[32/96] A4 :: GQX-032 :: How often should I review my advance planning documents?
+  src=True chunk_recall=True span=True rel=0.9339 dec=ACCEPT faith=0.75 relv=0.75
+[33/96] A4 :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True chunk_recall=True span=True rel=0.936 dec=ACCEPT faith=1.0 relv=0.75
+[34/96] A4 :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True chunk_recall=True span=True rel=0.9244 dec=ACCEPT faith=0.75 relv=1.0
+[35/96] A4 :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True chunk_recall=True span=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0
+[36/96] A4 :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True chunk_recall=True span=True rel=0.9588 dec=ACCEPT faith=1.0 relv=1.0
+[37/96] A4 :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True chunk_recall=True span=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0
+[38/96] A4 :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True chunk_recall=True span=True rel=0.9279 dec=ACCEPT faith=0.75 relv=0.75
+[39/96] A4 :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True chunk_recall=True span=True rel=0.8189 dec=ACCEPT faith=1.0 relv=1.0
+[40/96] A4 :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True chunk_recall=True span=True rel=0.8904 dec=ACCEPT faith=1.0 relv=1.0
+[41/96] A4 :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True chunk_recall=True span=True rel=0.9382 dec=ACCEPT faith=0.75 relv=1.0
+[42/96] A4 :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True chunk_recall=True span=True rel=0.8674 dec=ACCEPT faith=0.75 relv=1.0
+[43/96] A4 :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True chunk_recall=True span=True rel=0.9466 dec=ACCEPT faith=1.0 relv=1.0
+[44/96] A4 :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True chunk_recall=True span=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0
+[45/96] A4 :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True chunk_recall=True span=True rel=0.9079 dec=ACCEPT faith=0.75 relv=0.5
+[46/96] A4 :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True chunk_recall=True span=True rel=0.9094 dec=ACCEPT faith=0.75 relv=0.75
+[47/96] A4 :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=0.75 relv=0.75
+[48/96] A4 :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True chunk_recall=True span=True rel=0.9294 dec=ACCEPT faith=1.0 relv=1.0
+[49/96] A4 :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True chunk_recall=False span=False rel=0.7736 dec=REFINE faith=0.25 relv=0.25
+[50/96] A4 :: GQX-050 :: How does aging affect my digestive system?
+  src=True chunk_recall=True span=True rel=0.7793 dec=REFINE faith=0.75 relv=1.0
+[51/96] A4 :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True chunk_recall=True span=True rel=0.9049 dec=ACCEPT faith=1.0 relv=1.0
+[52/96] A4 :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True chunk_recall=True span=True rel=0.9277 dec=ACCEPT faith=0.75 relv=1.0
+[53/96] A4 :: GQX-053 :: What is ageism in older adults?
+  src=True chunk_recall=True span=True rel=0.9283 dec=ACCEPT faith=0.75 relv=1.0
+[54/96] A4 :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True chunk_recall=True span=True rel=0.9105 dec=ACCEPT faith=0.75 relv=1.0
+[55/96] A4 :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True chunk_recall=True span=True rel=0.9061 dec=ACCEPT faith=1.0 relv=1.0
+[56/96] A4 :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True chunk_recall=True span=True rel=0.9184 dec=ACCEPT faith=1.0 relv=1.0
+[57/96] A4 :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True chunk_recall=True span=True rel=0.7726 dec=REFINE faith=1.0 relv=1.0
+[58/96] A4 :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True chunk_recall=True span=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0
+[59/96] A4 :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True chunk_recall=True span=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0
+[60/96] A4 :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True chunk_recall=True span=True rel=0.925 dec=ACCEPT faith=0.75 relv=1.0
+[61/96] A4 :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True chunk_recall=False span=False rel=0.922 dec=ACCEPT faith=0.75 relv=1.0
+[62/96] A4 :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True chunk_recall=True span=True rel=0.8636 dec=ACCEPT faith=0.75 relv=1.0
+[63/96] A4 :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0
+[64/96] A4 :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True chunk_recall=True span=True rel=0.9592 dec=ACCEPT faith=1.0 relv=1.0
+[65/96] A4 :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True chunk_recall=True span=True rel=0.9348 dec=ACCEPT faith=1.0 relv=1.0
+[66/96] A4 :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True chunk_recall=True span=True rel=0.9149 dec=ACCEPT faith=0.75 relv=1.0
+[67/96] A4 :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True chunk_recall=True span=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0
+[68/96] A4 :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True chunk_recall=True span=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0
+[69/96] A4 :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True chunk_recall=True span=True rel=0.7703 dec=REFINE faith=1.0 relv=1.0
+[70/96] A4 :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True chunk_recall=True span=True rel=0.9107 dec=ACCEPT faith=1.0 relv=1.0
+[71/96] A4 :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True chunk_recall=True span=True rel=0.7678 dec=REFINE faith=1.0 relv=0.75
+[72/96] A4 :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True chunk_recall=True span=True rel=0.7643 dec=REFINE faith=1.0 relv=0.25
+[73/96] A4 :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True chunk_recall=True span=True rel=0.9218 dec=ACCEPT faith=1.0 relv=1.0
+[74/96] A4 :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True chunk_recall=True span=True rel=0.9434 dec=ACCEPT faith=1.0 relv=1.0
+[75/96] A4 :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0
+[76/96] A4 :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True chunk_recall=False span=False rel=0.955 dec=ACCEPT faith=1.0 relv=1.0
+[77/96] A4 :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True chunk_recall=True span=True rel=0.9287 dec=ACCEPT faith=1.0 relv=1.0
+[78/96] A4 :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=False chunk_recall=False span=False rel=0.9202 dec=ACCEPT faith=0.75 relv=0.75
+[79/96] A4 :: GQX-079 :: What is the best time to stretch my body?
+  src=True chunk_recall=True span=True rel=0.7235 dec=REFINE faith=1.0 relv=1.0
+[80/96] A4 :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True chunk_recall=True span=True rel=0.9182 dec=ACCEPT faith=1.0 relv=1.0
+[81/96] A4 :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True chunk_recall=False span=True rel=0.8069 dec=ACCEPT faith=0.75 relv=1.0
+[82/96] A4 :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True chunk_recall=True span=True rel=0.9453 dec=ACCEPT faith=0.75 relv=1.0
+[83/96] A4 :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True chunk_recall=True span=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0
+[84/96] A4 :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True chunk_recall=True span=True rel=0.8074 dec=ACCEPT faith=1.0 relv=1.0
+[85/96] A4 :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True chunk_recall=True span=True rel=0.9159 dec=ACCEPT faith=0.75 relv=1.0
+[86/96] A4 :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0
+[87/96] A4 :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True chunk_recall=True span=True rel=0.9309 dec=ACCEPT faith=1.0 relv=1.0
+[88/96] A4 :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True chunk_recall=True span=True rel=0.9606 dec=ACCEPT faith=0.75 relv=0.75
+[89/96] A4 :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True chunk_recall=True span=True rel=0.8578 dec=ACCEPT faith=1.0 relv=0.75
+[90/96] A4 :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True chunk_recall=True span=True rel=0.9344 dec=ACCEPT faith=0.75 relv=0.75
+[91/96] A4 :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True chunk_recall=True span=True rel=0.9635 dec=ACCEPT faith=1.0 relv=1.0
+[92/96] A4 :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True chunk_recall=True span=True rel=0.8467 dec=ACCEPT faith=1.0 relv=1.0
+[93/96] A4 :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True chunk_recall=True span=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0
+[94/96] A4 :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True chunk_recall=True span=True rel=0.9523 dec=ACCEPT faith=0.25 relv=0.25
+[95/96] A4 :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True chunk_recall=True span=True rel=0.9121 dec=ACCEPT faith=0.75 relv=0.5
+[96/96] A4 :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True chunk_recall=True span=True rel=0.962 dec=ACCEPT faith=1.0 relv=0.75
+
+### CONDITION A5 - No Reliability Gate
+[1/96] A5 :: GQX-001 :: How can I help my toddler develop a taste preference for less salty foods?
+  src=True chunk_recall=True span=True rel=0.8063 dec=ACCEPT faith=0.75 relv=0.25
+[2/96] A5 :: GQX-002 :: What populations will the new Dietary Guidelines provide dietary guidance for?
+  src=True chunk_recall=True span=True rel=0.9372 dec=ACCEPT faith=0.75 relv=1.0
+[3/96] A5 :: GQX-003 :: What nutrients should I focus on eating for good bone health as I get older?
+  src=True chunk_recall=True span=True rel=0.9154 dec=ACCEPT faith=1.0 relv=1.0
+[4/96] A5 :: GQX-004 :: What are the top sources of sodium in my diet?
+  src=True chunk_recall=True span=True rel=0.8043 dec=ACCEPT faith=0.75 relv=0.75
+[5/96] A5 :: GQX-005 :: What foods should I focus on eating more of to follow a healthy vegetarian diet?
+  src=True chunk_recall=True span=True rel=0.9186 dec=ACCEPT faith=1.0 relv=1.0
+[6/96] A5 :: GQX-006 :: What foods should I eat to get enough vitamin D?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=0.75 relv=1.0
+[7/96] A5 :: GQX-007 :: How can I ensure my elderly client is drinking enough fluids?
+  src=True chunk_recall=True span=True rel=0.9208 dec=ACCEPT faith=1.0 relv=1.0
+[8/96] A5 :: GQX-008 :: What source provides detailed scientific information about the relationship between diet and health?
+  src=True chunk_recall=True span=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0
+[9/96] A5 :: GQX-009 :: What document sets the standard for federal food and nutrition policies?
+  src=True chunk_recall=True span=True rel=0.9321 dec=ACCEPT faith=1.0 relv=1.0
+[10/96] A5 :: GQX-010 :: What is the main composition of many juice products?
+  src=True chunk_recall=True span=True rel=0.7829 dec=REFINE faith=1.0 relv=1.0
+[11/96] A5 :: GQX-011 :: What types of diseases can I have that are related to my eating habits?
+  src=True chunk_recall=True span=True rel=0.9401 dec=ACCEPT faith=1.0 relv=1.0
+[12/96] A5 :: GQX-012 :: What can I find out about the new nutrition facts label on food products?
+  src=True chunk_recall=True span=True rel=0.9299 dec=ACCEPT faith=1.0 relv=1.0
+[13/96] A5 :: GQX-013 :: What are some common sources of added sugars in a typical US diet?
+  src=True chunk_recall=True span=True rel=0.9196 dec=ACCEPT faith=1.0 relv=1.0
+[14/96] A5 :: GQX-014 :: How can I afford to eat healthily on a limited budget?
+  src=True chunk_recall=True span=True rel=0.8988 dec=ACCEPT faith=1.0 relv=1.0
+[15/96] A5 :: GQX-015 :: What resources can I use to help my family choose a healthy diet?
+  src=True chunk_recall=True span=True rel=0.9317 dec=ACCEPT faith=1.0 relv=0.25
+[16/96] A5 :: GQX-016 :: What is the official website where I can find a simple plan to follow my daily food intake?
+  src=True chunk_recall=True span=True rel=0.8251 dec=ACCEPT faith=1.0 relv=1.0
+[17/96] A5 :: GQX-017 :: How do the Dietary Guidelines influence federal policies related to food and nutrition?
+  src=True chunk_recall=True span=True rel=0.9578 dec=ACCEPT faith=1.0 relv=1.0
+[18/96] A5 :: GQX-018 :: What kinds of diets have been studied to see how they affect overall health?
+  src=True chunk_recall=True span=True rel=0.9027 dec=ACCEPT faith=1.0 relv=0.75
+[19/96] A5 :: GQX-019 :: What kind of organizations can use the Dietary Guidelines to create personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9202 dec=ACCEPT faith=1.0 relv=1.0
+[20/96] A5 :: GQX-020 :: How do my eating habits affect my ability to make healthy lifestyle changes?
+  src=True chunk_recall=True span=True rel=0.9212 dec=ACCEPT faith=1.0 relv=0.5
+[21/96] A5 :: GQX-021 :: What health risks can I face if I drink too much alcohol?
+  src=True chunk_recall=True span=True rel=0.8373 dec=ACCEPT faith=1.0 relv=1.0
+[22/96] A5 :: GQX-022 :: What is the main focus of the Dietary Guidelines for Americans 2015-2020?
+  src=True chunk_recall=True span=True rel=0.9521 dec=ACCEPT faith=1.0 relv=1.0
+[23/96] A5 :: GQX-023 :: What resources can I find in the guide to help me make my elderly client's home safer?
+  src=True chunk_recall=True span=True rel=0.9348 dec=ACCEPT faith=1.0 relv=0.75
+[24/96] A5 :: GQX-024 :: What types of organizations provide transportation services for older adults?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[25/96] A5 :: GQX-025 :: What documents are typically kept on file for an individual's personal history?
+  src=True chunk_recall=True span=True rel=0.8351 dec=ACCEPT faith=1.0 relv=0.75
+[26/96] A5 :: GQX-026 :: What types of insurance are included in the Medicare program?
+  src=True chunk_recall=True span=True rel=0.9364 dec=ACCEPT faith=1.0 relv=1.0
+[27/96] A5 :: GQX-027 :: What kind of resources can my doctor recommend for me as a caregiver?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=0.75 relv=1.0
+[28/96] A5 :: GQX-028 :: How can I get assistance with basic personal care tasks like bathing and dressing?
+  src=True chunk_recall=True span=True rel=0.9377 dec=ACCEPT faith=1.0 relv=0.25
+[29/96] A5 :: GQX-029 :: What should I bring with me when taking my elderly care recipient to a doctor's appointment?
+  src=True chunk_recall=True span=True rel=0.9224 dec=ACCEPT faith=0.75 relv=1.0
+[30/96] A5 :: GQX-030 :: What types of professionals can I see for mental health counseling?
+  src=True chunk_recall=True span=True rel=0.9254 dec=ACCEPT faith=1.0 relv=0.75
+[31/96] A5 :: GQX-031 :: What kind of services can an adult day care center provide for older adults?
+  src=True chunk_recall=True span=True rel=0.9519 dec=ACCEPT faith=1.0 relv=1.0
+[32/96] A5 :: GQX-032 :: How often should I review my advance planning documents?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=0.75 relv=1.0
+[33/96] A5 :: GQX-033 :: How can I help my elderly parent pay their bills online?
+  src=True chunk_recall=True span=True rel=0.9353 dec=ACCEPT faith=1.0 relv=0.75
+[34/96] A5 :: GQX-034 :: What should I do before my doctor's appointment if I need help communicating in my native language?
+  src=True chunk_recall=True span=True rel=0.9244 dec=ACCEPT faith=1.0 relv=1.0
+[35/96] A5 :: GQX-035 :: What kind of information does a POLST or MOLST form tell my healthcare team about how I want to be treated if I become seriously ill or injured?
+  src=True chunk_recall=True span=True rel=0.8966 dec=ACCEPT faith=1.0 relv=1.0
+[36/96] A5 :: GQX-036 :: How can I keep track of all my medications and supplements?
+  src=True chunk_recall=True span=True rel=0.958 dec=ACCEPT faith=0.75 relv=1.0
+[37/96] A5 :: GQX-037 :: What types of tasks are included in the caregiver schedule?
+  src=True chunk_recall=True span=True rel=0.7735 dec=REFINE faith=1.0 relv=1.0
+[38/96] A5 :: GQX-038 :: What should I ask my caregiver provider before agreeing to their services?
+  src=True chunk_recall=True span=True rel=0.927 dec=ACCEPT faith=1.0 relv=1.0
+[39/96] A5 :: GQX-039 :: What types of arrangements should I discuss with a lawyer before setting them up?
+  src=True chunk_recall=True span=True rel=0.8179 dec=ACCEPT faith=0.75 relv=1.0
+[40/96] A5 :: GQX-040 :: What kind of information does my POLST or MOLST form tell the doctor and nurses about how I want to be treated if I have an accident?
+  src=True chunk_recall=True span=True rel=0.8904 dec=ACCEPT faith=0.75 relv=1.0
+[41/96] A5 :: GQX-041 :: What resources can I contact to get help from a counselor?
+  src=True chunk_recall=True span=True rel=0.9359 dec=ACCEPT faith=1.0 relv=1.0
+[42/96] A5 :: GQX-042 :: What do you call someone who helps take care of me?
+  src=True chunk_recall=True span=True rel=0.9333 dec=ACCEPT faith=0.75 relv=0.75
+[43/96] A5 :: GQX-043 :: How do in-home health services help people with chronic conditions like diabetes?
+  src=True chunk_recall=True span=True rel=0.9466 dec=ACCEPT faith=1.0 relv=1.0
+[44/96] A5 :: GQX-044 :: What kind of assistance does Long-Term Care Insurance typically cover?
+  src=True chunk_recall=True span=True rel=0.9534 dec=ACCEPT faith=1.0 relv=1.0
+[45/96] A5 :: GQX-045 :: What are some common signs that cognitive decline might be affecting my loved one's daily life?
+  src=True chunk_recall=True span=True rel=0.9239 dec=ACCEPT faith=1.0 relv=1.0
+[46/96] A5 :: GQX-046 :: How can I maintain good oral hygiene while still enjoying meals with family and friends?
+  src=True chunk_recall=True span=True rel=0.9182 dec=ACCEPT faith=1.0 relv=1.0
+[47/96] A5 :: GQX-047 :: How do I strengthen my pelvic floor muscles?
+  src=True chunk_recall=True span=True rel=0.9649 dec=ACCEPT faith=1.0 relv=1.0
+[48/96] A5 :: GQX-048 :: What types of healthcare professionals are typically part of a multidisciplinary team in primary care?
+  src=True chunk_recall=True span=True rel=0.9166 dec=ACCEPT faith=0.75 relv=1.0
+[49/96] A5 :: GQX-049 :: What kind of professional should I see for personalized nutrition advice?
+  src=True chunk_recall=True span=True rel=0.9204 dec=ACCEPT faith=0.75 relv=1.0
+[50/96] A5 :: GQX-050 :: How does aging affect my digestive system?
+  src=True chunk_recall=True span=True rel=0.7793 dec=REFINE faith=0.75 relv=1.0
+[51/96] A5 :: GQX-051 :: How can I safely perform a chair rise test with my caregiver?
+  src=True chunk_recall=True span=True rel=0.9051 dec=ACCEPT faith=1.0 relv=1.0
+[52/96] A5 :: GQX-052 :: How can I assess the social care and support needs of my elderly client?
+  src=True chunk_recall=True span=True rel=0.9388 dec=ACCEPT faith=1.0 relv=0.75
+[53/96] A5 :: GQX-053 :: What is ageism in older adults?
+  src=True chunk_recall=True span=True rel=0.9283 dec=ACCEPT faith=1.0 relv=1.0
+[54/96] A5 :: GQX-054 :: How does community engagement fit into my healthcare plan?
+  src=True chunk_recall=True span=True rel=0.8956 dec=ACCEPT faith=1.0 relv=0.75
+[55/96] A5 :: GQX-055 :: How can I get tested for diabetes if I'm experiencing symptoms or have gained weight?
+  src=True chunk_recall=True span=True rel=0.906 dec=ACCEPT faith=0.75 relv=1.0
+[56/96] A5 :: GQX-056 :: What exercises can I do with my elderly care recipient to help them relax and manage stress?
+  src=True chunk_recall=True span=True rel=0.9184 dec=ACCEPT faith=1.0 relv=1.0
+[57/96] A5 :: GQX-057 :: What level of education is typically assumed when using standard cognitive assessments?
+  src=True chunk_recall=True span=True rel=0.7721 dec=REFINE faith=1.0 relv=1.0
+[58/96] A5 :: GQX-058 :: What is the most common cause of vision impairment in older adults?
+  src=True chunk_recall=True span=True rel=0.9477 dec=ACCEPT faith=1.0 relv=1.0
+[59/96] A5 :: GQX-059 :: What additional options are available besides using communication strategies for managing hearing loss?
+  src=True chunk_recall=True span=True rel=0.9318 dec=ACCEPT faith=0.75 relv=1.0
+[60/96] A5 :: GQX-060 :: What are some common consequences for older adults with sarcopenia?
+  src=True chunk_recall=True span=True rel=0.9245 dec=ACCEPT faith=1.0 relv=1.0
+[61/96] A5 :: GQX-061 :: How can I help my elderly loved one with limited mobility do exercises that will make them stronger and less painful?
+  src=True chunk_recall=True span=True rel=0.9137 dec=ACCEPT faith=1.0 relv=1.0
+[62/96] A5 :: GQX-062 :: How can I show respect when talking to an elderly person?
+  src=True chunk_recall=True span=True rel=0.7317 dec=REFINE faith=0.75 relv=1.0
+[63/96] A5 :: GQX-063 :: How does the mAgeing initiative help older adults take better care of themselves?
+  src=True chunk_recall=True span=True rel=0.9304 dec=ACCEPT faith=1.0 relv=1.0
+[64/96] A5 :: GQX-064 :: How can community groups help older adults feel less lonely?
+  src=True chunk_recall=True span=True rel=0.9266 dec=ACCEPT faith=0.75 relv=1.0
+[65/96] A5 :: GQX-065 :: What are some specific tips I can share with my elderly client about taking care of their hearing?
+  src=True chunk_recall=True span=True rel=0.9173 dec=ACCEPT faith=1.0 relv=0.75
+[66/96] A5 :: GQX-066 :: What types of healthcare professionals can use this handbook?
+  src=True chunk_recall=True span=True rel=0.9149 dec=ACCEPT faith=1.0 relv=1.0
+[67/96] A5 :: GQX-067 :: What kind of exercise is good for my muscles?
+  src=True chunk_recall=True span=True rel=0.908 dec=ACCEPT faith=1.0 relv=1.0
+[68/96] A5 :: GQX-068 :: How can I get more social interaction while exercising?
+  src=True chunk_recall=True span=True rel=0.9345 dec=ACCEPT faith=1.0 relv=1.0
+[69/96] A5 :: GQX-069 :: What are some good ways to strengthen my arms and shoulders?
+  src=True chunk_recall=True span=True rel=0.77 dec=REFINE faith=1.0 relv=1.0
+[70/96] A5 :: GQX-070 :: How can I get more social support from my loved ones to help me stay active?
+  src=True chunk_recall=True span=True rel=0.9406 dec=ACCEPT faith=1.0 relv=1.0
+[71/96] A5 :: GQX-071 :: What kind of exercise is recommended for someone with osteoporosis?
+  src=True chunk_recall=True span=True rel=0.7678 dec=REFINE faith=1.0 relv=0.75
+[72/96] A5 :: GQX-072 :: How can I improve my ability to do everyday tasks like tying my shoes?
+  src=True chunk_recall=True span=True rel=0.8301 dec=ACCEPT faith=1.0 relv=0.0
+[73/96] A5 :: GQX-073 :: What are some simple exercises I can do with my caregiver to help me improve my balance?
+  src=True chunk_recall=True span=True rel=0.9339 dec=ACCEPT faith=1.0 relv=1.0
+[74/96] A5 :: GQX-074 :: What are some low-cost ways to stay physically active?
+  src=True chunk_recall=True span=True rel=0.9433 dec=ACCEPT faith=1.0 relv=1.0
+[75/96] A5 :: GQX-075 :: How often should I do muscle-strengthening activities to see results?
+  src=True chunk_recall=True span=True rel=0.9292 dec=ACCEPT faith=0.75 relv=1.0
+[76/96] A5 :: GQX-076 :: How can regular physical activity help older adults with arthritis?
+  src=True chunk_recall=True span=True rel=0.9719 dec=ACCEPT faith=1.0 relv=1.0
+[77/96] A5 :: GQX-077 :: What exercises can I do to keep my muscles strong and healthy?
+  src=True chunk_recall=True span=True rel=0.9121 dec=ACCEPT faith=0.75 relv=1.0
+[78/96] A5 :: GQX-078 :: What time of day should I schedule my daily activities to help me have more energy?
+  src=True chunk_recall=True span=True rel=0.9291 dec=ACCEPT faith=0.75 relv=1.0
+[79/96] A5 :: GQX-079 :: What is the best time to stretch my body?
+  src=True chunk_recall=True span=True rel=0.6984 dec=REFINE faith=1.0 relv=1.0
+[80/96] A5 :: GQX-080 :: What are some small ways I can get started with exercise to improve my health?
+  src=True chunk_recall=True span=True rel=0.9175 dec=ACCEPT faith=1.0 relv=1.0
+[81/96] A5 :: GQX-081 :: How do I set realistic goals for my daily exercise routine?
+  src=True chunk_recall=True span=True rel=0.8894 dec=ACCEPT faith=1.0 relv=1.0
+[82/96] A5 :: GQX-082 :: What type of exercise is good for older adults who want to improve their heart health?
+  src=True chunk_recall=True span=True rel=0.9238 dec=ACCEPT faith=1.0 relv=1.0
+[83/96] A5 :: GQX-083 :: How can I make my goal to be more active more specific and achievable?
+  src=True chunk_recall=True span=True rel=0.9284 dec=ACCEPT faith=1.0 relv=1.0
+[84/96] A5 :: GQX-084 :: What happens to my breathing and heartbeat when I exercise?
+  src=True chunk_recall=True span=True rel=0.9055 dec=ACCEPT faith=1.0 relv=1.0
+[85/96] A5 :: GQX-085 :: What does 'exercise' mean in the context of a daily routine for older adults?
+  src=True chunk_recall=True span=True rel=0.9286 dec=ACCEPT faith=1.0 relv=1.0
+[86/96] A5 :: GQX-086 :: What kinds of exercises can I do with my elderly loved one to stay active and healthy?
+  src=True chunk_recall=True span=True rel=0.9295 dec=ACCEPT faith=1.0 relv=1.0
+[87/96] A5 :: GQX-087 :: How can I track my progress towards meeting my weekly exercise goal?
+  src=True chunk_recall=True span=True rel=0.8626 dec=ACCEPT faith=1.0 relv=1.0
+[88/96] A5 :: GQX-088 :: What activities can I do to improve my memory and mood?
+  src=True chunk_recall=True span=True rel=0.9632 dec=ACCEPT faith=0.75 relv=1.0
+[89/96] A5 :: GQX-089 :: What should I be careful about when trying to improve my memory?
+  src=True chunk_recall=True span=True rel=0.8583 dec=ACCEPT faith=1.0 relv=0.75
+[90/96] A5 :: GQX-090 :: How can I help my loved one with vascular dementia manage their health to prevent more strokes?
+  src=True chunk_recall=True span=True rel=0.9344 dec=ACCEPT faith=1.0 relv=1.0
+[91/96] A5 :: GQX-091 :: What causes memory loss and confusion in people with vascular dementia?
+  src=True chunk_recall=True span=True rel=0.9622 dec=ACCEPT faith=1.0 relv=1.0
+[92/96] A5 :: GQX-092 :: What should I tell my doctor about every single thing I'm taking to stay healthy?
+  src=True chunk_recall=True span=True rel=0.903 dec=ACCEPT faith=0.75 relv=0.75
+[93/96] A5 :: GQX-093 :: How should I store my prescription pain medicine?
+  src=True chunk_recall=True span=True rel=0.9351 dec=ACCEPT faith=1.0 relv=1.0
+[94/96] A5 :: GQX-094 :: How can I take my medications safely as I get older?
+  src=True chunk_recall=True span=True rel=0.9689 dec=ACCEPT faith=0.75 relv=0.75
+[95/96] A5 :: GQX-095 :: What should I do if I'm experiencing unpleasant side effects from my medication?
+  src=True chunk_recall=True span=True rel=0.9438 dec=ACCEPT faith=0.75 relv=0.75
+[96/96] A5 :: GQX-096 :: What should I tell my doctor and pharmacist about all the medicines and supplements I'm taking?
+  src=True chunk_recall=True span=True rel=0.962 dec=ACCEPT faith=1.0 relv=1.0
+
+### A6 prompt-equivalence check (deterministic; no LLM calls)
+A6 prompt-equivalence check (deterministic; no LLM calls): 96/96 A1/A6 grounded prompts byte-identical (SHA-256 equal per gold question.).
+A6: generated/judged by reusing A1 outputs (identical prompt verified via SHA-256 across all 96 gold questions); no duplicate LLM calls.
+### PART 7 - Window-level adaptive assistance analysis
+adaptive: {'n_windows': 9723, 'policies': {'full': {'n_distinct_modes': 9, 'mode_distribution': {'WAIT_FOR_DATA': 7445, 'CONTEXTUAL_SUPPORT': 476, 'ENHANCED_SUPPORT': 452, 'ADAPTIVE_ESCALATION': 446, 'ADAPTIVE_DEESCALATION': 302, 'LIGHT_SUPPORT': 202, 'INITIAL_CONTEXT': 178, 'MONITORING_SUPPORT': 121, 'FOLLOW_UP_SUPPORT': 101}, 'priority_distribution': {'LOW': 7807, 'HIGH': 969, 'MODERATE': 947}}, 'state_only_A2_proxy': {'n_distinct_modes': 5, 'mode_distribution': {'WAIT_FOR_DATA': 6356, 'LIGHT_SUPPORT': 1271, 'CONTEXTUAL_SUPPORT': 1257, 'ENHANCED_SUPPORT': 838, 'MAINTENANCE_SUPPORT': 1}, 'priority_distribution': {'LOW': 7628, 'MODERATE': 1257, 'HIGH': 838}}, 'static_patient_A6_proxy': {'n_distinct_modes': 3, 'mode_distribution': {'CONTEXTUAL_SUPPORT': 4313, 'ENHANCED_SUPPORT': 4093, 'MAINTENANCE_SUPPORT': 1317}, 'priority_distribution': {'MODERATE': 4313, 'HIGH': 4093, 'LOW': 1317}}, 'fixed_default_A1_proxy': {'n_distinct_modes': 1, 'mode_distribution': {'GENERAL_SUPPORT': 9723}, 'priority_distribution': {'LOW': 9723}}}, 'adaptive_metrics': {'state_sensitive_adaptation_rate_pct': 100.0, 'transition_sensitive_adaptation_rate_pct': 23.01, 'priority_shift_rate_vs_state_only_pct': 5.17, 'priority_shift_rate_vs_fixed_pct': 19.71, 'n_windows_mode_changed_by_care_state': 9723, 'n_windows_mode_changed_by_transition': 2237, 'exact_agreement_full_vs_state_only_pct': 76.99, 'exact_agreement_full_vs_static_patient_pct': 6.14, 'exact_agreement_full_vs_fixed_default_pct': 0.0}, 'transition_sensitivity_breakdown': {'INITIAL_STATE': {'n_windows': 178, 'mode_differs_from_state_only': 178, 'pct_mode_differs': 100.0}, 'NO_CHANGE': {'n_windows': 1130, 'mode_differs_from_state_only': 0, 'pct_mode_differs': 0.0}, 'STATE_ESCALATION': {'n_windows': 446, 'mode_differs_from_state_only': 446, 'pct_mode_differs': 100.0}, 'STATE_DEESCALATION': {'n_windows': 302, 'mode_differs_from_state_only': 302, 'pct_mode_differs': 100.0}, 'INCREASING_ACTIVITY': {'n_windows': 121, 'mode_differs_from_state_only': 121, 'pct_mode_differs': 100.0}, 'DECREASING_ACTIVITY': {'n_windows': 101, 'mode_differs_from_state_only': 101, 'pct_mode_differs': 100.0}, 'GAP': {'n_windows': 7445, 'mode_differs_from_state_only': 1089, 'pct_mode_differs': 14.63}}, 'transition_distribution': {'GAP': 7445, 'NO_CHANGE': 1130, 'STATE_ESCALATION': 446, 'STATE_DEESCALATION': 302, 'INITIAL_STATE': 178, 'INCREASING_ACTIVITY': 121, 'DECREASING_ACTIVITY': 101}}
+### PART 8 - Reliability gate comparison
+### PART 11 - Paired statistics
