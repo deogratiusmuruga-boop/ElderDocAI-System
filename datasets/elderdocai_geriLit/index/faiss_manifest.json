@@ -1,0 +1,13 @@
+{
+  "corpus_version": "ElderDocAI-GeriLit-dev-v0.1",
+  "task": "phase3_task5_faiss",
+  "index_type": "IndexFlatIP",
+  "metric": "INNER_PRODUCT (cosine because embeddings are L2-normalized)",
+  "dimension": 768,
+  "vector_count": 17930,
+  "dtype": "float32",
+  "source_embeddings_npy": "embeddings.npy",
+  "embeddings_npy_sha256": "b0905d2f96903dadc3cf5b4a737f330853656f846955de706f21bd714ce2dacf",
+  "faiss_index_bin_sha256": "b7016b9dabbab08ee68f875007b6db2b013af4472b1a3c0958af8a566b59f2b3",
+  "elapsed_sec": 0.185
+}

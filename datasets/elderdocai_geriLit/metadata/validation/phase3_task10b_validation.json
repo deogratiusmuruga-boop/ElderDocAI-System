@@ -1,0 +1,29 @@
+{
+  "validation_ts": "2026-09-21T02:14:38.495228+00:00",
+  "validated_by": "metadata/task10b_validate.py",
+  "all_checks_pass": true,
+  "checks": {
+    "new_files_exist": true,
+    "rag_chat_changed_lines_exact": true,
+    "rag_chat_import_replaced": true,
+    "rag_chat_call_replaced": true,
+    "rag_chat_no_other_change": true,
+    "rag_chat_removed_exact_2": true,
+    "default_backend_legacy": true,
+    "explicit_legacy_backend": true,
+    "explicit_geri_backend": true,
+    "both_backend_allowed": true,
+    "invalid_backend_safe": true,
+    "adapter_maps_similarity": true,
+    "adapter_authority_explicit": true,
+    "adapter_category_pmc": true,
+    "adapter_no_input_mutation": true,
+    "adapter_preserves_chunk_id": true,
+    "frozen_artifacts_unchanged": true,
+    "gold16_unchanged": true,
+    "gold96_unchanged": true,
+    "accepted_manifest_unchanged": true,
+    "nothing_staged": true,
+    "only_expected_modified": true
+  }
+}

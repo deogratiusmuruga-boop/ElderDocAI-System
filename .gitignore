@@ -26,3 +26,7 @@ venv/
 # Frontend dependencies
 frontend/node_modules/
 frontend/build/
+# MIMIC credentialed/demo clinical data - never commit
+datasets/mimic_demo/raw/
+# ElderDocAI-GeriLit - PMC OA raw full-text files (local only, never committed)
+datasets/elderdocai_geriLit/raw/

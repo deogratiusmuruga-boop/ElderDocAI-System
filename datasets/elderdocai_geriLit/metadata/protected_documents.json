@@ -1,0 +1,46 @@
+{
+  "corpus": "ElderDocAI-GeriLit",
+  "development_version": "ElderDocAI-GeriLit-dev-v0.1",
+  "policy": "Any article directly associated with an evaluation benchmark is protected from inclusion in the primary ElderDocAI-GeriLit corpus used for that benchmark.",
+  "note": "Benchmark datasets are NOT downloaded in this task. No PMID/PMCID identifiers are invented. Entries below with status PENDING_BENCHMARK_ACQUISITION carry empty id lists and document the planned source.",
+  "benchmarks": [
+    {
+      "benchmark": "PubMedQA",
+      "status": "PENDING_BENCHMARK_ACQUISITION",
+      "planned_source": "qiaojin/PubMedQA (pqa_labeled/test) on Hugging Face; official PubMedQA project",
+      "protected_ids": [],
+      "acquisition_note": "Populate protected_ids with the pqa_labeled test PMIDs after acquisition; exclude those articles from GeriLit and evaluate against the benchmark's own abstracts."
+    },
+    {
+      "benchmark": "TREC-CDS",
+      "status": "PENDING_BENCHMARK_ACQUISITION",
+      "planned_source": "TREC 2014-2016 Clinical Decision Support track (NIST) - judged PMCIDs/PMC OA subset documents",
+      "protected_ids": [],
+      "acquisition_note": "Populate protected_ids with judged PMCIDs after NIST material is obtained."
+    },
+    {
+      "benchmark": "BioASQ",
+      "status": "PENDING_BENCHMARK_ACQUISITION",
+      "planned_source": "BioASQ Task 11b golden sets (bioasq.org registration) - golden document PMIDs/PMCIDs",
+      "protected_ids": [],
+      "acquisition_note": "Populate protected_ids with golden-document PMIDs/PMCIDs when officially available and documented."
+    }
+  ],
+  "gold96_sources": {
+    "description": "Gold96 (data/gold_qa_extended.json) source documents are the original ElderDocAI six-PDF knowledge base (NIA/NIH/WHO/USDA materials). These are NOT PMC articles; a provenance + future overlap-check mechanism is defined here.",
+    "source_documents": [
+      "nia_caregivers_handbook.pdf",
+      "understanding-memory-loss.pdf",
+      "Dietary_Guidelines_for_Americans_2020-2025.pdf",
+      "exercise-and-older-adults-nia.pdf",
+      "tips-take-medicines-safely.pdf",
+      "who_icope_handbook.pdf"
+    ],
+    "overlap_check_mechanism": "Before final-corpus freeze, 13-gram containment + MinHash/Jaccard scans of Gold96 question/answer text and supporting spans against all GeriLit chunks; document results.",
+    "status": "PROVENANCE_RECORDED"
+  },
+  "gold96_v2": {
+    "status": "PENDING_GOLD96_V2_AUTHORING",
+    "note": "Future Gold96-v2 (GeriLit-grounded) must attach a protected-source mechanism: its anchor PMCID/PMID/section/chunk list will be written here before it is evaluated."
+  }
+}

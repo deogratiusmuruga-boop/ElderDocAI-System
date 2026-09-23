@@ -1,0 +1,3002 @@
+{
+ "PMC10001925": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC10002240": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 663 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10008549": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 93 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10009923": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10017574": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10022263": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10043750": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomized' at offset 293 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10056148": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 336 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10063931": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10089050": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 86 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10095830": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10147734": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'scoping review protocol' at offset 487 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10174559": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10201685": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'grounded theory' at offset 56 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10206279": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10219583": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC10234124": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 104 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10242997": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized trial' at offset 666 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10276510": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 106 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10296731": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10311750": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative study' at offset 116 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10332011": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10353211": {
+  "evidence_type": "EDITORIAL_OR_COMMENTARY",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='editorial'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC10385316": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10390524": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 88 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10401751": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 1234 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10409988": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional survey' at offset 490 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10421189": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 108 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10445339": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 200 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10447592": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10449331": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10470185": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10515075": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10519081": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'literature review' at offset 827 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10534347": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10548671": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 2464 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10574358": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'narrative review' at offset 169 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10578450": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 111 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10588094": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'literature review' at offset 649 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10601250": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 146 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10608555": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10633991": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10644581": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10645724": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 537 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10666309": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 405 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10670184": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10670366": {
+  "evidence_type": "EDITORIAL_OR_COMMENTARY",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='discussion'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC10675908": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'semi-structured interview' at offset 1217 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10685713": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 138 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10691300": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 86 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10697542": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 161 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10706958": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10709861": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10710345": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 136 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10712059": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 167 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10717497": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 71 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10726053": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'nationwide study' at offset 112 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10736480": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10742503": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 151 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10761328": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective study' at offset 397 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10787659": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC10798021": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 134 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10804461": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional survey' at offset 384 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10804633": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 131 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10806786": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomised' at offset 100 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10828358": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 427 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10836006": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10859247": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC10898038": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized trial' at offset 80 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10921627": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10925607": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 111 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10934742": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10953286": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10965080": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 188 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10988905": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 734 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC10993447": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 101 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11019279": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 2858 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11020407": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative study' at offset 91 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11020442": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 567 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11041409": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11049769": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 101 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11060549": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11063880": {
+  "evidence_type": "DIAGNOSTIC_OR_VALIDATION_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'validation study' at offset 166 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11069272": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'mixed methods' at offset 103 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11076353": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 651 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11076373": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11095428": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11134668": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11136843": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 581 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11153298": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC11165805": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomized' at offset 179 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11165901": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 676 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11183121": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 720 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11184752": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'population-based study' at offset 118 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11188407": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11190369": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 166 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11222768": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative study' at offset 133 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11227113": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analyses' at offset 679 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11251379": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11251623": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 605 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11281094": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11282592": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 802 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11293705": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11294767": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 211 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11313967": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11314023": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 362 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11353079": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional survey' at offset 550 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11363529": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11427853": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'focus group' at offset 125 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11444203": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11452757": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 131 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11468099": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11470725": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 997 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11480482": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11487518": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 15 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11499836": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 140 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11513087": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11513313": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 415 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11514396": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC11518331": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11547385": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11556697": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11571775": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11578716": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 183 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11583418": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized clinical trial' at offset 138 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11613993": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11614966": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 120 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11634513": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized clinical trial' at offset 639 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11644605": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11648958": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 414 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11655216": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11658714": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11693459": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC11696466": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11747994": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 367 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11750315": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11752826": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11772525": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 394 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11774628": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 76 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11786471": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 588 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11794556": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11801605": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'mixed methods' at offset 166 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11801771": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 97 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11806603": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 699 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11837800": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC11858404": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 548 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11870876": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11897843": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 329 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11899645": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11906913": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11922993": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC11931344": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 106 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11943876": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective study' at offset 31 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11946936": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11961421": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 94 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11975296": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 530 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11982132": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective study' at offset 193 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC11999727": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective cohort' at offset 88 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12003614": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12018603": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12028177": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'population-based study' at offset 156 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12030256": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective cohort' at offset 697 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12069046": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12073175": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12074817": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 415 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12121461": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 207 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12125148": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomized' at offset 181 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12125643": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomized' at offset 337 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12156965": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 826 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12158650": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12172969": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 337 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12174202": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12179336": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12180302": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12183984": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 123 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12188283": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12193762": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12235200": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12239230": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative study' at offset 98 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12251942": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12275366": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 1557 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12286672": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 483 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12294248": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC12316151": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 664 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12336026": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 1537 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12348642": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'population-based study' at offset 148 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12351875": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 816 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12364638": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'literature review' at offset 900 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12369211": {
+  "evidence_type": "GUIDELINE_OR_CONSENSUS",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "matched explicit design phrase 'consensus statement' at offset 2656 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12372344": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12374418": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12378287": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12381604": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'mixed methods' at offset 94 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12393927": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 440 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12399441": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12399801": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 74 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12411905": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 503 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12412414": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 66 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12417292": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 112 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12430405": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'secondary analysis of' at offset 534 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12452380": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analyses' at offset 1652 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12468265": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12469517": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12471782": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'narrative review' at offset 113 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12472808": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 144 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12491218": {
+  "evidence_type": "METHODS_OR_TECHNICAL",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='methods-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC12521438": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12570243": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'focus group' at offset 833 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12591516": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12595891": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 98 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12596410": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized trial' at offset 276 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12608366": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 461 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12615209": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 424 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12645786": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 621 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12655047": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 130 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12655801": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 116 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12656570": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC12670050": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12673781": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12695133": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 73 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12736160": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 126 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12737628": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional survey' at offset 691 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12816158": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 379 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12845196": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC12848607": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12848795": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 290 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12878318": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 136 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12880044": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 118 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12880452": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 569 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12880692": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 851 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12882572": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12895929": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 97 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12899587": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analyses' at offset 921 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12959700": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 141 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12995671": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 692 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC12996086": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective study' at offset 419 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13005813": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 416 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13022038": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'thematic analysis' at offset 90 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13029368": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13029402": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'narrative review' at offset 85 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13029748": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 870 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13035194": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 371 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13043012": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 180 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13059362": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13062472": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 70 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13067492": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 823 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13086324": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 78 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13094964": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13100462": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 118 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13105444": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 133 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13116703": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective study' at offset 106 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13119847": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13120912": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 514 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13122286": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13136182": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13175229": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC13202407": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC13214217": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 137 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13239292": {
+  "evidence_type": "DIAGNOSTIC_OR_VALIDATION_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'reliability and validity' at offset 916 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13251652": {
+  "evidence_type": "EDITORIAL_OR_COMMENTARY",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='editorial'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC13257896": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13266437": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative analysis' at offset 102 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13278776": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 488 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13286102": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'narrative review' at offset 85 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13290007": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 354 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13308959": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 191 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13309420": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13366924": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 111 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13397939": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 650 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13427250": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13449356": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 686 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13456569": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13467964": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13481201": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 77 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13488087": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 834 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13512022": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'narrative review' at offset 32 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13513416": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'narrative review' at offset 72 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13519598": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC13537444": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'secondary analysis of' at offset 626 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC13553406": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 485 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC1933430": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 82 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC2579913": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 1189 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC2642819": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 272 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC2831795": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3089776": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 545 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3091558": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3141531": {
+  "evidence_type": "PROTOCOL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'study protocol' at offset 141 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3176217": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised trial' at offset 41 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3305533": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized clinical trial' at offset 700 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3557720": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 107 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3566955": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3603256": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3668232": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3717135": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 105 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3797825": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 646 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC3905102": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective study' at offset 416 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4020750": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective study' at offset 322 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4022434": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4216374": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4265401": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 636 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4374293": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4377948": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 446 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4385593": {
+  "evidence_type": "CASE_REPORT_OR_CASE_SERIES",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'case study' at offset 105 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4405814": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 74 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4414432": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 100 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4496054": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 302 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4514748": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 451 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4527125": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4532160": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 125 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4562105": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 168 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4584858": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4625452": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4625969": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative study' at offset 580 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4700610": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4714480": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative study' at offset 30 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4723633": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4776357": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 153 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4796457": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4898385": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 449 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4936088": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4962411": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC4994732": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5024357": {
+  "evidence_type": "CASE_REPORT_OR_CASE_SERIES",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'case study' at offset 931 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5048476": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5121430": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5324301": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 897 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5333806": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5340351": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5390447": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5398226": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5445186": {
+  "evidence_type": "PROTOCOL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'study protocol' at offset 67 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5549351": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 102 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5550537": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC5556411": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5558949": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective cohort' at offset 111 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5606957": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC5663403": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analyses' at offset 500 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5688189": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC5710210": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized trial' at offset 422 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5745627": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5778069": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5829683": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5839532": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 468 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5902955": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5904986": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 142 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5952512": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 1807 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5968500": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 73 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC5986435": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC6011007": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6019522": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6068491": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 104 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6092850": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 164 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6123986": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6150521": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6163965": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6240290": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 138 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6265853": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'in-depth interviews' at offset 719 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6267905": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6302747": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 633 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6313802": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6327554": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 2 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6339421": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 125 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6343283": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 771 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6435622": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6539798": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6551894": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomized' at offset 87 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6580555": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized clinical trial' at offset 1219 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6593514": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 88 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6627386": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6629671": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 311 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6685956": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'register-based' at offset 125 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6701623": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "matched explicit design phrase 'in-depth interviews' at offset 1513 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6794890": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6797244": {
+  "evidence_type": "PROTOCOL",
+  "evidence_type_confidence": "MEDIUM",
+  "evidence_type_reason": "fallback from JATS article-type='protocol'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC6805457": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6818660": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 299 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6822458": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6843900": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 552 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6849229": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6888600": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6905555": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6907055": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6929376": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 167 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6934625": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6934653": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC6937656": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7003363": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 260 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7006935": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 113 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7017507": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised clinical trial' at offset 153 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7020372": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 147 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7023764": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7047389": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 97 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7082941": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomised' at offset 123 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7277733": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 139 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7282252": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC7301527": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomized' at offset 213 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7310331": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 106 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7312873": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 338 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7366491": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7366897": {
+  "evidence_type": "EDITORIAL_OR_COMMENTARY",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='letter'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC7400355": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7409695": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7414840": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7432067": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7432769": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7444071": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 121 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7458690": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 73 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7488146": {
+  "evidence_type": "CASE_REPORT_OR_CASE_SERIES",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'case study' at offset 170 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7503601": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7519571": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 140 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7528157": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective study' at offset 137 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7531089": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective cohort' at offset 815 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7550143": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7551288": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective cohort' at offset 386 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7551621": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7551991": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 97 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7559318": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative study' at offset 86 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7561425": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7576541": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7576843": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7579437": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7588126": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 525 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7641811": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'case-control study' at offset 141 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7690174": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7690694": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 222 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7693664": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC7693785": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7709414": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 827 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7711500": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 91 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7724833": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'nationwide study' at offset 353 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7763468": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7788870": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7791733": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective cohort' at offset 60 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7798327": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7804267": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'population-based study' at offset 1019 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7816438": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional survey' at offset 476 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7915146": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7915488": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC7916410": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7916547": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7916975": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'focus group' at offset 750 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7927074": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 565 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7953798": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 122 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC7995592": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8022217": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8028783": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'secondary analysis of' at offset 343 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8049579": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8059033": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 94 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8064206": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 117 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8065464": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC8126931": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8143399": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8145290": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8148331": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8162796": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8181136": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8219164": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 161 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8220761": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8238960": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 111 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8245739": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'narrative review' at offset 2 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8252173": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8266320": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8268243": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8289479": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8312849": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 362 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8315843": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8396743": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8415104": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8469089": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'narrative review' at offset 739 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8524794": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8529728": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomised controlled trial' at offset 89 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8537784": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8543922": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'prospective cohort' at offset 592 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8545586": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'retrospective study' at offset 471 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8547559": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 109 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8561896": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 470 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8603539": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8619684": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8672158": {
+  "evidence_type": "DIAGNOSTIC_OR_VALIDATION_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'reliability and validity' at offset 0 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8705993": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 938 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8706789": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC8709040": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 386 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8746908": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC8767487": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cluster randomized' at offset 340 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8775367": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'observational study' at offset 538 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8792851": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 92 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8805235": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cohort study' at offset 95 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8834749": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'longitudinal study' at offset 837 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8838979": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8866367": {
+  "evidence_type": "SYSTEMATIC_REVIEW",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'systematic review' at offset 112 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8867785": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'qualitative study' at offset 80 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8880569": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 106 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8889844": {
+  "evidence_type": "META_ANALYSIS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'meta-analysis' at offset 803 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8938794": {
+  "evidence_type": "NARRATIVE_REVIEW",
+  "evidence_type_confidence": "LOW",
+  "evidence_type_reason": "fallback from JATS article-type='review-article'",
+  "evidence_type_source": "JATS article-type fallback"
+ },
+ "PMC8960033": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 205 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8981797": {
+  "evidence_type": "UNKNOWN",
+  "evidence_type_confidence": null,
+  "evidence_type_reason": "no explicit design indicator found in title/abstract and no JATS article-type fallback",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8988539": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 137 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC8998887": {
+  "evidence_type": "QUALITATIVE_OR_MIXED_METHODS",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'focus group' at offset 677 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC9009491": {
+  "evidence_type": "RANDOMIZED_CONTROLLED_TRIAL",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'randomized controlled trial' at offset 183 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ },
+ "PMC9014621": {
+  "evidence_type": "OBSERVATIONAL_STUDY",
+  "evidence_type_confidence": "HIGH",
+  "evidence_type_reason": "matched explicit design phrase 'cross-sectional study' at offset 450 in title/abstract",
+  "evidence_type_source": "JATS metadata + title/abstract heuristic"
+ }
+}

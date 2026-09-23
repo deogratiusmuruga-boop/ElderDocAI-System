@@ -1,0 +1,10 @@
+{
+  "bm25_pkl_sha256": "17f503240f2f9a13abf58c94359884b03b06bec1a5a59f63f921328e2a2c70c9",
+  "corpus_version": "ElderDocAI-GeriLit-dev-v0.1",
+  "document_count": 17930,
+  "elapsed_sec": 1.695,
+  "implementation": "rank_bm25.BM25Okapi",
+  "task": "phase3_task5_bm25",
+  "tokenizer": "text.lower().split() (legacy convention)",
+  "unique_chunk_ids": 17930
+}

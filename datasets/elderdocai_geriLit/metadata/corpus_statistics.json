@@ -1,0 +1,92 @@
+{
+  "corpus_version": "ElderDocAI-GeriLit-dev-v0.1",
+  "created_utc": "2026-09-16T08:32:25.202888+00:00",
+  "candidates": 1735,
+  "selected_pending": 575,
+  "accepted": 500,
+  "excluded": 77,
+  "reserve_overflow": 71,
+  "exclusion_reasons": {
+    "E4_license_restricted": 1,
+    "E5_license_unknown": 1,
+    "E1_no_full_text": 3,
+    "E14_reserve_priority_for_primary_corpus": 71,
+    "E3_non_english": 1
+  },
+  "duplicates": 0,
+  "protected_documents_count": 0,
+  "download_status": {
+    "ok": 574,
+    "attempted": 575
+  },
+  "license_categories": {
+    "PERMISSIVE": 500
+  },
+  "languages": {
+    "en": 500
+  },
+  "n_english": 500,
+  "pct_english": 100.0,
+  "pct_permissive": 100.0,
+  "publication_years": {
+    "2007": 1,
+    "2008": 2,
+    "2010": 2,
+    "2011": 4,
+    "2012": 1,
+    "2013": 5,
+    "2014": 6,
+    "2015": 15,
+    "2016": 11,
+    "2017": 15,
+    "2018": 18,
+    "2019": 26,
+    "2020": 45,
+    "2021": 55,
+    "2022": 17,
+    "2023": 61,
+    "2024": 76,
+    "2025": 86,
+    "2026": 54
+  },
+  "n_2015_plus": 479,
+  "sentinel_count": 21,
+  "pct_2015_plus": 95.8,
+  "article_types": {
+    "review-article": 50,
+    "research-article": 430,
+    "editorial": 3,
+    "discussion": 1,
+    "abstract": 1,
+    "methods-article": 3,
+    "systematic-review": 3,
+    "other": 3,
+    "brief-report": 3,
+    "protocol": 2,
+    "letter": 1
+  },
+  "topic_counts": {
+    "T08": 64,
+    "T05": 54,
+    "T01": 58,
+    "T06": 61,
+    "T07": 54,
+    "T02": 64,
+    "T09": 54,
+    "T03": 59,
+    "T04": 57
+  },
+  "multi_topic_accepted": 23,
+  "missing_metadata": {
+    "title": 0,
+    "journal": 0,
+    "year": 0,
+    "license": 0,
+    "pmid": 1,
+    "doi": 2
+  },
+  "unique_journals": 156,
+  "unique_pmcid": 500,
+  "unique_pmid": 499,
+  "unique_doi": 498
+}

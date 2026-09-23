@@ -1,0 +1,73 @@
+{
+  "corpus": "ElderDocAI-GeriLit",
+  "version": "ElderDocAI-GeriLit-dev-v0.1",
+  "retrieved_at_utc": "2026-09-16T06:18:38.194488+00:00",
+  "mechanism": "NCBI eutils esearch(db=pmc), open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter]) per PMC Cloud Service README",
+  "license_note": "PERMISSIVE group = cc0/cc_by/cc_by-sa; nc/*-nd excluded under license_policy.md; initial over-broad run ('open access[filter]') discarded as it included non-OA-Subset items.",
+  "queries": [
+    {
+      "topic_id": "T01",
+      "query": "(dementia OR \"Alzheimer disease\" OR \"mild cognitive impairment\" OR \"cognitive decline\" OR \"memory loss\") AND (\"older adults\" OR aged OR elderly OR geriatric) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "221586",
+      "retmax": 200,
+      "ids": 200
+    },
+    {
+      "topic_id": "T02",
+      "query": "(polypharmacy OR deprescribing OR \"adverse drug\" OR \"drug interaction\" OR \"medication safety\") AND (\"older adults\" OR aged OR elderly OR geriatric) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "49622",
+      "retmax": 200,
+      "ids": 200
+    },
+    {
+      "topic_id": "T03",
+      "query": "(exercise OR \"physical activity\" OR balance OR walking OR frailty OR sarcopenia OR \"physical function\") AND (\"older adults\" OR aged OR elderly OR geriatric) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "822309",
+      "retmax": 200,
+      "ids": 200
+    },
+    {
+      "topic_id": "T04",
+      "query": "(nutrition OR diet OR malnutrition OR \"dietary protein\" OR \"healthy aging\") AND (\"older adults\" OR aged OR elderly OR geriatric) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "565252",
+      "retmax": 200,
+      "ids": 200
+    },
+    {
+      "topic_id": "T05",
+      "query": "(caregiver OR caregiving OR \"caregiver burden\" OR \"caregiver support\") AND (dementia OR \"older adults\" OR aged OR elderly) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "157908",
+      "retmax": 200,
+      "ids": 200
+    },
+    {
+      "topic_id": "T06",
+      "query": "(falls OR frailty OR delirium OR incontinence OR \"pressure ulcer\" OR immobility) AND (\"older adults\" OR aged OR elderly OR geriatric) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "265214",
+      "retmax": 200,
+      "ids": 200
+    },
+    {
+      "topic_id": "T07",
+      "query": "(multimorbidity OR comorbidity OR \"heart failure\" OR hypertension OR diabetes OR COPD OR osteoporosis) AND (\"older adults\" OR aged OR elderly OR geriatric) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "863654",
+      "retmax": 200,
+      "ids": 200
+    },
+    {
+      "topic_id": "T08",
+      "query": "(\"activities of daily living\" OR \"independent living\" OR \"healthy aging\" OR \"functional decline\") AND (\"older adults\" OR aged OR elderly OR geriatric) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "123899",
+      "retmax": 200,
+      "ids": 200
+    },
+    {
+      "topic_id": "T09",
+      "query": "(\"geriatric assessment\" OR \"advance care planning\" OR \"home care\" OR \"long-term care\" OR \"falls prevention\" OR vaccination) AND (\"older adults\" OR aged OR elderly OR geriatric) AND open_access[Filter] AND (cc0_license[Filter] OR cc_by_license[Filter] OR cc_by-sa_license[Filter])",
+      "count": "241865",
+      "retmax": 200,
+      "ids": 200
+    }
+  ],
+  "candidate_count": 1735
+}

@@ -1,0 +1,15 @@
+{
+  "validation_ts": "2026-09-18T02:50:13.129291+00:00",
+  "validated_by": "metadata/task8_benchmark_mapping_audit.py",
+  "all_checks_pass": true,
+  "checks": {
+    "frozen_artifacts_unchanged": true,
+    "pubmedqa_total_fetched": true,
+    "pubmedqa_unique_pubid": true,
+    "gerilit_inventory_500": true,
+    "gerilit_pmcid_unique": true,
+    "benchmark_content_not_persisted": true
+  },
+  "coverage_pct_items": 0.0,
+  "mapped_items": 0
+}

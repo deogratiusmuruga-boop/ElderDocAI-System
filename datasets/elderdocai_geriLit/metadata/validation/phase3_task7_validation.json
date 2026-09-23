@@ -1,0 +1,23 @@
+{
+  "validation_ts": "2026-09-18T02:20:01.369622+00:00",
+  "validated_by": "metadata/evaluate_task7.py",
+  "all_checks_pass": true,
+  "checks": {
+    "dense_scores_finite": true,
+    "sparse_scores_finite": true,
+    "hybrid_scores_finite": true,
+    "rerank_scores_finite": true,
+    "final_provenance_complete": true,
+    "final_no_duplicates": true,
+    "final_rows_valid": true,
+    "dense_k": true,
+    "sparse_k": true,
+    "final_k": true,
+    "n_queries": true,
+    "legacy_scripts_hash_unchanged": true,
+    "frozen_artifacts_unchanged": true,
+    "deterministic_two_passes": true,
+    "offline_models_loaded": true
+  },
+  "metrics_not_computable": true
+}

@@ -38,7 +38,7 @@ from pathlib import Path
 
 import ollama
 
-from scripts.hybrid_retriever import hybrid_search
+from scripts.retrieval_router import retrieve as retrieve_evidence
 from scripts.build_grounded_prompt import build_grounded_prompt
 from scripts.reliability_evaluation import evaluate_reliability
 from scripts.adaptive_decision_controller import make_reliability_decision
@@ -596,10 +596,49 @@ def prepare_adaptive_context(context):
 # Evidence Preparation
 # ============================================================
 
+def _semantic_similarity_of(chunk):
+    """Dense-cosine semantic relevance for the reliability evaluator.
+
+    Returns a cosine-similarity value in [-1, 1] (the reliability 'relevance'
+    factor normalizes this with (score + 1) / 2).
+
+    Score-semantics distinction (Task 2):
+      - CrossEncoder rerank logits are UNBOUNDED ranking signals and are
+        NEVER interpreted as cosine similarity here.
+      - Dense BGE cosine similarity (FAISS inner product on L2-normalized
+        embeddings) is the semantic relevance value.
+      - If no dense cosine is available, an already-computed similarity field
+        (native cosine) is used as a fallback.
+      - Tiny floating-point drift outside [-1, 1] is clamped explicitly.
+    """
+    raw = None
+    if "dense_score" in chunk and chunk.get("dense_score") is not None:
+        raw = float(chunk["dense_score"])
+    elif ("similarity_score" in chunk
+          and chunk.get("similarity_score") is not None):
+        raw = float(chunk["similarity_score"])
+    if raw is None:
+        return 0.0
+    if raw > 1.0:
+        return 1.0
+    if raw < -1.0:
+        return -1.0
+    return raw
+
+
 def prepare_evidence(chunks):
     """
-    Convert hybrid-retrieval results into the evidence format
-    required by the reliability evaluator and prompt builder.
+    Convert hybrid-retrieval results into the evidence format required by
+    the reliability evaluator and prompt builder.
+
+    Score semantics (Task 2 - reliability relevance normalization):
+      - ``similarity_score`` = DENSE cosine semantic similarity ([-1, 1]);
+        consumed by the reliability 'relevance' factor. It is NEVER a
+        CrossEncoder logit.
+      - ``retrieval_score``  = CrossEncoder rerank logit (or the strongest
+        available ranking signal); RANKING ONLY and NOT consumed by
+        reliability.
+      The retrieval/reranking ORDER of ``chunks`` is preserved verbatim.
     """
 
     evidence_items = []
@@ -636,14 +675,15 @@ def prepare_evidence(chunks):
                     ),
 
                 "similarity_score":
+                    _semantic_similarity_of(
+                        chunk
+                    ),
+
+                "retrieval_score":
                     chunk.get(
                         "rerank_score",
                         chunk.get(
-                            "dense_score",
-                            chunk.get(
-                                "similarity_score",
-                                0.0
-                            )
+                            "hybrid_score"
                         )
                     ),
 
@@ -719,238 +759,28 @@ def print_reliability_report(
 # Generate Answer
 # ============================================================
 
-def generate_answer(
-    query,
-    user_profile=None,
-    conversation_context="",
-    response_language="en",
-    return_evidence=False
-):
+MAX_REFINE_ATTEMPTS = 1
+MAX_RETRIEVE_ATTEMPTS = 1
+MIN_SUPPORT_TERMS = 2          # mirrors the reliability support factor
 
-    print("\n" + "=" * 70)
-    print("ELDERDOCAI / CAREBUDDY RAG")
-    print("=" * 70)
+REJECTION_RESPONSE = (
+    "I couldn't find information reliable enough to answer that "
+    "question. Please ask again with a little more detail, or ask "
+    "a doctor or a trusted caregiver."
+)
 
-    # ========================================================
-    # Patient / Adaptive Context
-    # ========================================================
+EMPTY_EVIDENCE_RESPONSE = (
+    "I couldn't find that information "
+    "in the knowledge base."
+)
 
-    patient_id = extract_patient_id(
-        user_profile
-    )
 
-    adaptive_context = get_adaptive_context(
-        patient_id=patient_id
-    )
 
-    adaptive_context_for_prompt = (
-        prepare_adaptive_context(
-            adaptive_context
-        )
-    )
+# ============================================================
+# Generation System Prompt (hoisted unchanged)
+# ============================================================
 
-    # --------------------------------------------------------
-    # Assistance plan + decision lookup for the same window
-    # --------------------------------------------------------
-    assistance_plan = None
-    assistance_plan_for_prompt = None
-
-    if adaptive_context:
-
-        assistance_plan = get_assistance_plan(
-            patient_id=patient_id,
-            window_start=adaptive_context.get("window_start"),
-            window_end=adaptive_context.get("window_end")
-        )
-
-        assistance_plan_for_prompt = (
-            prepare_assistance_plan(
-                assistance_plan
-            )
-        )
-
-    print("\nAdaptive Context:")
-
-    if adaptive_context:
-
-        print(
-            f"  patient_id: "
-            f"{patient_id}"
-        )
-
-        print(
-            f"  window: "
-            f"{adaptive_context.get('window_start')} "
-            f"to "
-            f"{adaptive_context.get('window_end')}"
-        )
-
-        print(
-            f"  context_status: "
-            f"{adaptive_context.get('context_status')}"
-        )
-
-        care_state = (
-            adaptive_context.get(
-                "care_state"
-            )
-            or {}
-        )
-
-        print(
-            f"  care_state: "
-            f"{care_state.get('state')}"
-        )
-
-        print(
-            f"  score: "
-            f"{care_state.get('overall_score')}"
-        )
-
-        assistance = (
-            adaptive_context.get(
-                "adaptive_assistance"
-            )
-            or {}
-        )
-
-        print(
-            f"  assistance: "
-            f"{assistance.get('mode')}"
-        )
-
-        print(
-            f"  priority: "
-            f"{assistance.get('priority')}"
-        )
-
-        print(
-            f"  assistance_strategy: "
-            f"{assistance_plan_for_prompt.get('assistance_strategy')}"
-        )
-
-        print(
-            f"  assistance actions: "
-            f"{[a.get('action') for a in assistance_plan_for_prompt.get('actions', [])]}"
-        )
-
-    else:
-
-        print(
-            "  No adaptive context available."
-        )
-
-    # ========================================================
-    # Hybrid Retrieval
-    # ========================================================
-
-    print("\nRetrieving evidence...\n")
-
-    retrieved_chunks = hybrid_search(
-        query
-    )
-
-    # ========================================================
-    # No Evidence
-    # ========================================================
-
-    if not retrieved_chunks:
-
-        answer = (
-            "I couldn't find that information "
-            "in the knowledge base."
-        )
-
-        if return_evidence:
-
-            return (
-                answer,
-                []
-            )
-
-        return answer
-
-    # ========================================================
-    # Evidence Preparation
-    # ========================================================
-
-    evidence_items = prepare_evidence(
-        retrieved_chunks
-    )
-
-    # ========================================================
-    # Reliability Evaluation
-    # ========================================================
-
-    reliability = evaluate_reliability(
-        query=query,
-        evidence_items=evidence_items
-    )
-
-    # ========================================================
-    # Adaptive Decision
-    # ========================================================
-
-    decision = make_reliability_decision(
-        reliability
-    )
-
-    # ========================================================
-    # Reliability Report
-    # ========================================================
-
-    print_reliability_report(
-        reliability,
-        decision
-    )
-
-    # ========================================================
-    # Build Grounded Prompt
-    # ========================================================
-
-    prompt = build_grounded_prompt(
-
-        query=query,
-
-        evidence_items=evidence_items,
-
-        reliability=reliability,
-
-        decision=decision,
-
-        user_profile=user_profile,
-
-        conversation_context=conversation_context,
-
-        response_language=response_language,
-
-        assistance_plan=assistance_plan_for_prompt
-    )
-
-    # ========================================================
-    # LLM Generation
-    # ========================================================
-
-    response = ollama.chat(
-
-        model=LLM_MODEL,
-
-        options={
-
-            "temperature": 0,
-
-            "top_p": 0.1,
-
-            "top_k": 10
-
-        },
-
-        messages=[
-
-            {
-                "role": "system",
-
-                "content": """
+GENERATION_SYSTEM_PROMPT = """
 You are CareBuddy,
 an evidence-grounded elderly-care assistant.
 
@@ -1007,33 +837,300 @@ STRICT RULES:
 
 Return only the answer itself.
 """
-            },
+def _refine_evidence(evidence_items, query):
+    """Controlled evidence-preparation refinement: keep only items sharing
+    at least MIN_SUPPORT_TERMS content terms with the query (the same
+    threshold used by the reliability support factor). Ordering and identity
+    of kept items are preserved. Retrieval and scoring are unchanged."""
+    from scripts.reliability_evaluation import _content_terms
 
-            {
-                "role": "user",
+    query_terms = _content_terms(query or "")
+    if not query_terms:
+        return list(evidence_items)
 
-                "content": prompt
-            }
+    kept = [
+        item
+        for item in evidence_items
+        if len(query_terms & _content_terms((item.get("text") or "")))
+        >= MIN_SUPPORT_TERMS
+    ]
+    return kept
+# ============================================================
+# Gated Answer Flow
+# ============================================================
 
-        ]
+def _run_gated_generation(
+    query,
+    user_profile=None,
+    conversation_context="",
+    response_language="en",
+    assistance_plan=None,
+    system_message="",
+):
+    """Reliability-gated answer flow.
 
+    ACCEPT -> grounded generation on the accepted evidence.
+    REFINE -> one controlled evidence refinement, re-evaluate, then generate
+              from the once-refined evidence (LLM called only if evidence left).
+    RE-RETRIEVE -> one controlled additional retrieval, then re-evaluate.
+    REJECT -> no LLM call; controlled refusal.
+
+    Returns dict: answer, evidence_items, reliability, decision,
+    retrieval_attempts, refinement_attempts, refused, message.
+    """
+    retrieval_attempts = 0
+    refinement_attempts = 0
+    refused = False
+    why_refused = ""
+
+    retrieved_chunks = retrieve_evidence(query)
+    retrieval_attempts += 1
+
+    if not retrieved_chunks:
+        reliability = evaluate_reliability(query=query, evidence_items=[])
+        decision = make_reliability_decision(reliability)
+        return {
+            "answer": EMPTY_EVIDENCE_RESPONSE,
+            "evidence_items": [],
+            "reliability": reliability,
+            "decision": decision,
+            "retrieval_attempts": retrieval_attempts,
+            "refinement_attempts": refinement_attempts,
+            "refused": True,
+            "message": "EMPTY_EVIDENCE",
+        }
+
+    evidence_items = prepare_evidence(retrieved_chunks)
+    reliability = evaluate_reliability(
+        query=query,
+        evidence_items=evidence_items,
+    )
+    decision = make_reliability_decision(reliability)
+
+    guard = 0
+    max_guard = 8
+    while guard < max_guard:
+        guard += 1
+        label = decision["decision"]
+
+        if label == "ACCEPT":
+            break
+
+        if label == "REJECT":
+            refused = True
+            why_refused = "REJECT"
+            break
+
+        if label == "REFINE" and refinement_attempts < MAX_REFINE_ATTEMPTS:
+            refinement_attempts += 1
+            refined = _refine_evidence(evidence_items, query)
+            if not refined:
+                refused = True
+                why_refused = "REFINE_EMPTY"
+                evidence_items = []
+            else:
+                evidence_items = refined
+            reliability = evaluate_reliability(
+                query=query,
+                evidence_items=evidence_items,
+            )
+            decision = make_reliability_decision(reliability)
+            continue
+
+        if (
+            label == "RE-RETRIEVE"
+            and retrieval_attempts <= MAX_RETRIEVE_ATTEMPTS
+        ):
+            retrieval_attempts += 1
+            re_chunks = retrieve_evidence(query)
+            if not re_chunks:
+                refused = True
+                why_refused = "RERETRIEVE_EMPTY"
+                break
+            evidence_items = prepare_evidence(re_chunks)
+            reliability = evaluate_reliability(
+                query=query,
+                evidence_items=evidence_items,
+            )
+            decision = make_reliability_decision(reliability)
+            continue
+
+        # REFINE with refinement budget exhausted: generate from the
+        # once-refined evidence, provided evidence remains.
+        if label == "REFINE" and evidence_items:
+            break
+
+        # RE-RETRIEVE budget exhausted (or unrecognized label): never
+        # silently generate from unacceptable evidence.
+        refused = True
+        why_refused = label or "UNKNOWN"
+        break
+# ------------------------------------------------ refusal boundary
+    if refused:
+        if not evidence_items:
+            answer_text = EMPTY_EVIDENCE_RESPONSE
+        else:
+            answer_text = REJECTION_RESPONSE
+        return {
+            "answer": answer_text,
+            "evidence_items": evidence_items,
+            "reliability": reliability,
+            "decision": decision,
+            "retrieval_attempts": retrieval_attempts,
+            "refinement_attempts": refinement_attempts,
+            "refused": True,
+            "message": why_refused,
+        }
+
+    # ------------------------------------------------ grounded generation
+    prompt = build_grounded_prompt(
+        query=query,
+        evidence_items=evidence_items,
+        reliability=reliability,
+        decision=decision,
+        user_profile=user_profile,
+        conversation_context=conversation_context,
+        response_language=response_language,
+        assistance_plan=assistance_plan or {},
     )
 
-    # ========================================================
-    # Extract Answer
-    # ========================================================
+    response = ollama.chat(
+        model=LLM_MODEL,
+        options={
+            "temperature": 0,
+            "top_p": 0.1,
+            "top_k": 10,
+        },
+        messages=[
+            {
+                "role": "system",
+                "content": system_message,
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ],
+    )
 
-    answer = (
-        response[
-            "message"
-        ][
-            "content"
-        ]
+    answer_text = (
+        response["message"]["content"]
         .strip()
     )
 
+    return {
+        "answer": answer_text,
+        "evidence_items": evidence_items,
+        "reliability": reliability,
+        "decision": decision,
+        "retrieval_attempts": retrieval_attempts,
+        "refinement_attempts": refinement_attempts,
+        "refused": False,
+        "message": "generated",
+    }
+def generate_answer(
+    query,
+    user_profile=None,
+    conversation_context="",
+    response_language="en",
+    return_evidence=False,
+    return_evaluation=False
+):
+
+    print("\n" + "=" * 70)
+    print("ELDERDOCAI / CAREBUDDY RAG")
+    print("=" * 70)
+
     # ========================================================
-    # Remove Accidental Sources Section
+    # Patient / Adaptive Context
+    # ========================================================
+
+    patient_id = extract_patient_id(
+        user_profile
+    )
+
+    adaptive_context = get_adaptive_context(
+        patient_id=patient_id
+    )
+
+    adaptive_context_for_prompt = (
+        prepare_adaptive_context(
+            adaptive_context
+        )
+    )
+
+    assistance_plan = None
+    assistance_plan_for_prompt = None
+
+    if adaptive_context:
+
+        assistance_plan = get_assistance_plan(
+            patient_id=patient_id,
+            window_start=adaptive_context.get("window_start"),
+            window_end=adaptive_context.get("window_end")
+        )
+
+        assistance_plan_for_prompt = (
+            prepare_assistance_plan(
+                assistance_plan
+            )
+        )
+
+    print("\nAdaptive Context:")
+
+    if adaptive_context:
+        print("  patient_id:", patient_id)
+        print("  window:", adaptive_context.get("window_start"),
+              "to", adaptive_context.get("window_end"))
+        care_state = adaptive_context.get("care_state") or {}
+        print("  care_state:", care_state.get("state"))
+        print("  score:", care_state.get("overall_score"))
+        assistance = adaptive_context.get("adaptive_assistance") or {}
+        print("  assistance:", assistance.get("mode"))
+        print("  priority:", assistance.get("priority"))
+        if assistance_plan_for_prompt:
+            print("  assistance_strategy:",
+                  assistance_plan_for_prompt.get("assistance_strategy"))
+            print("  assistance actions:",
+                  [a.get("action")
+                   for a in assistance_plan_for_prompt.get("actions", [])])
+    else:
+        print("  No adaptive context available.")
+
+    # ========================================================
+    # Reliability-Gated Execution
+    # ========================================================
+
+    print("\nRetrieving evidence...\n")
+
+    result = _run_gated_generation(
+        query,
+        user_profile=user_profile,
+        conversation_context=conversation_context,
+        response_language=response_language,
+        assistance_plan=assistance_plan_for_prompt,
+        system_message=GENERATION_SYSTEM_PROMPT,
+    )
+
+    answer = result["answer"]
+    evidence_items = result["evidence_items"]
+    reliability = result["reliability"]
+    decision = result["decision"]
+    gate_retrieval_attempts = result["retrieval_attempts"]
+    gate_refinement_attempts = result["refinement_attempts"]
+    gate_refused = result["refused"]
+
+    # ========================================================
+    # Reliability Report
+    # ========================================================
+
+    print_reliability_report(
+        reliability,
+        decision
+    )
+
+    # ========================================================
+    # Extract Answer (post-processing, unchanged)
     # ========================================================
 
     if "\nSources:" in answer:
@@ -1047,10 +1144,6 @@ Return only the answer itself.
 
         answer = ""
 
-    # ========================================================
-    # Remove Accidental Answer Heading
-    # ========================================================
-
     if answer.startswith("Answer:"):
 
         answer = answer[
@@ -1058,16 +1151,20 @@ Return only the answer itself.
         ].strip()
 
     # ========================================================
-    # Debug
-    # ========================================================
-
-    print("\nLLM RESPONSE OBJECT:")
-
-    print(response)
-
-    # ========================================================
     # Return
     # ========================================================
+
+    if return_evaluation:
+
+        return {
+            "answer": answer,
+            "evidence_items": evidence_items,
+            "reliability": reliability,
+            "decision": decision,
+            "retrieval_attempts": gate_retrieval_attempts,
+            "refinement_attempts": gate_refinement_attempts,
+            "refused": gate_refused,
+        }
 
     if return_evidence:
 

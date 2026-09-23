@@ -1,0 +1,46 @@
+{
+  "validation_ts": "2026-09-21T06:02:50.751616+00:00",
+  "validated_by": "metadata/task10d_validate.py",
+  "all_checks_pass": true,
+  "n_checks": 20,
+  "checks": {
+    "gold_loads": true,
+    "exactly_134_questions": true,
+    "no_dup_benchmark_ids": true,
+    "every_q_has_gold": true,
+    "all_4_configs_executed": true,
+    "all_134_have_all_configs": true,
+    "no_nan_invalid_metrics": true,
+    "per_query_results_preserved": true,
+    "topic_labels_preserved": true,
+    "topic_level_covers_all": true,
+    "deterministic_run1_vs_run2": true,
+    "frozen_chunks": true,
+    "frozen_embeddings": true,
+    "frozen_faiss": true,
+    "frozen_bm25": true,
+    "frozen_rowmapping": true,
+    "gold_benchmark_unchanged": true,
+    "router_adapter_not_tracked_modified": true,
+    "production_files_unchanged": true,
+    "result_file_reproducible": true
+  },
+  "results_sha256": "503b199ef8917d33df2eb30fadd4dbd47cfa3ae4c7549dc932710f92a0ddff86",
+  "counts": {
+    "n_questions": 134,
+    "n_pmcid": 46,
+    "n_gold_chunks": 131,
+    "topics": {
+      "C01": 14,
+      "C02": 17,
+      "C03": 13,
+      "C04": 13,
+      "C05": 15,
+      "C06": 20,
+      "C07": 16,
+      "C08": 9,
+      "C09": 11,
+      "C10": 6
+    }
+  }
+}

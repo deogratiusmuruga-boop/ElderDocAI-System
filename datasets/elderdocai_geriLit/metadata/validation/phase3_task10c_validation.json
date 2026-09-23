@@ -1,0 +1,170 @@
+{
+  "validation_ts": "2026-09-21T04:54:19.299474+00:00",
+  "validated_by": "metadata/task10c_validate.py",
+  "all_checks_pass": true,
+  "n_checks": 22,
+  "checks": [
+    {
+      "check_id": "C01",
+      "description": "default backend legacy (env absent)",
+      "expected": "legacy",
+      "actual": "legacy",
+      "pass": true
+    },
+    {
+      "check_id": "C02",
+      "description": "explicit legacy",
+      "expected": "legacy",
+      "actual": "legacy",
+      "pass": true
+    },
+    {
+      "check_id": "C03",
+      "description": "explicit geri_lit",
+      "expected": "geri_lit",
+      "actual": "geri_lit",
+      "pass": true
+    },
+    {
+      "check_id": "C04",
+      "description": "both backend allowed",
+      "expected": "both",
+      "actual": "both",
+      "pass": true
+    },
+    {
+      "check_id": "C05",
+      "description": "invalid backend -> legacy",
+      "expected": "legacy",
+      "actual": "legacy",
+      "pass": true
+    },
+    {
+      "check_id": "C06",
+      "description": "both -> legacy-only (no fusion)",
+      "expected": [
+        "legacy-1"
+      ],
+      "actual": [
+        "legacy-1"
+      ],
+      "pass": true
+    },
+    {
+      "check_id": "C07",
+      "description": "both never invokes geri_lit path",
+      "expected": false,
+      "actual": false,
+      "pass": true
+    },
+    {
+      "check_id": "C08",
+      "description": "geri_lit failure -> legacy fallback",
+      "expected": [
+        "legacy-fb"
+      ],
+      "actual": [
+        "legacy-fb"
+      ],
+      "pass": true
+    },
+    {
+      "check_id": "C09",
+      "description": "no-fallback -> empty evidence",
+      "expected": [],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "check_id": "C10",
+      "description": "adapter deterministic",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "check_id": "C11",
+      "description": "rerank->similarity",
+      "expected": 0.9,
+      "actual": 0.9,
+      "pass": true
+    },
+    {
+      "check_id": "C12",
+      "description": "authority explicit",
+      "expected": 0.85,
+      "actual": 0.85,
+      "pass": true
+    },
+    {
+      "check_id": "C13",
+      "description": "category PMC",
+      "expected": "PMC",
+      "actual": "PMC",
+      "pass": true
+    },
+    {
+      "check_id": "C14",
+      "description": "provenance preserved",
+      "expected": "PMC1:BODY:s:0..1",
+      "actual": "PMC1:BODY:s:0..1",
+      "pass": true
+    },
+    {
+      "check_id": "C15",
+      "description": "input not mutated",
+      "expected": 0.9,
+      "actual": 0.9,
+      "pass": true
+    },
+    {
+      "check_id": "C16",
+      "description": "frozen GeriLit unchanged",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "check_id": "C17",
+      "description": "Gold16 unchanged",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "check_id": "C18",
+      "description": "Gold96 unchanged",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "check_id": "C19",
+      "description": "accepted_manifest unchanged",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "check_id": "C20",
+      "description": "rag_chat diff = 4 changed lines",
+      "expected": 4,
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "check_id": "C21",
+      "description": "new router/adapter exist",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "check_id": "C22",
+      "description": "nothing staged",
+      "expected": "",
+      "actual": "",
+      "pass": true
+    }
+  ]
+}

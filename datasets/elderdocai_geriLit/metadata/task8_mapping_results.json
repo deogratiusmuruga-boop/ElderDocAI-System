@@ -1,0 +1,6066 @@
+{
+  "task": "phase3_task8",
+  "generated_at_utc": "2026-09-18T02:50:13.016545+00:00",
+  "generated_by": "metadata/task8_benchmark_mapping_audit.py",
+  "corpus": {
+    "name": "ElderDocAI-GeriLit-dev-v0.1",
+    "accepted_articles": 500,
+    "pmcids": 500,
+    "pmid_present": 499
+  },
+  "benchmarks": {
+    "PubMedQA": {
+      "status": "ACQUIRED_IDENTIFIERS (public/MIT)",
+      "detail": {
+        "benchmark": "PubMedQA",
+        "split": "pqa_labeled",
+        "acquisition_source": "HF datasets-server rows API (huggingface.co/datasets/qiaojin/PubMedQA)",
+        "license": "MIT (public, ungated)",
+        "fetched_at_utc": "2026-09-18T02:50:13.016545+00:00",
+        "total_items_fetched": 1000,
+        "unique_pubid": 1000,
+        "queries_with_question": 1000,
+        "pubid_format": "PubMed PMID (source int; normalized without leading zeros)",
+        "relevance_model": "Each PubMedQA item has exactly one relevant document = the PubMed abstract identified by pubid; no graded qrels.",
+        "mapping_method": "pubid(PMID) -> accepted_manifest.pmid -> pmcid -> chunk_id",
+        "gerilit_total_pmcid": 500,
+        "gerilit_pmid_present": 499,
+        "mapped_in_gerilit_items": 0,
+        "mapped_in_gerilit_unique_pubid": 0,
+        "coverage_pct_items": 0.0,
+        "coverage_pct_unique_pubid": 0.0,
+        "mapped_pmcid_sample": [],
+        "unmapped_pubid_sample": [
+          "21645374",
+          "16418930",
+          "9488747",
+          "17208539",
+          "10808977"
+        ]
+      }
+    },
+    "TREC_CDS": {
+      "status": "PENDING_BENCHMARK_ACQUISITION",
+      "detail": "NIST/TREC registration required; qrels not acquired locally; not mapped."
+    },
+    "BioASQ": {
+      "status": "PENDING_BENCHMARK_ACQUISITION",
+      "detail": "bioasq.org registration required; golden PMIDs/PMCIDs not acquired locally; not mapped."
+    }
+  },
+  "frozen_hashes": {
+    "chunks.jsonl": "62bfdde3c7e77cf56112e79a71bc79bdea70767f6b2625701e392bbb6581c6b3",
+    "embeddings.npy": "b0905d2f96903dadc3cf5b4a737f330853656f846955de706f21bd714ce2dacf",
+    "faiss_index.bin": "b7016b9dabbab08ee68f875007b6db2b013af4472b1a3c0958af8a566b59f2b3",
+    "bm25.pkl": "17f503240f2f9a13abf58c94359884b03b06bec1a5a59f63f921328e2a2c70c9",
+    "row_mapping.json": "4d649f81d554c41ec7b63c65dce887466dfa6245745c568315735f1b93a1872b"
+  },
+  "frozen_artifacts_unchanged": true,
+  "summary": {
+    "valid_quantitative_benchmark_established": false,
+    "conclusion": "NO VALID QUANTITATIVE BENCHMARK ESTABLISHED",
+    "reason": "PubMedQA pqa_labeled: 1000 items, 0 with PMID in GeriLit (0.0%)."
+  },
+  "pubmedqa_mapping": [
+    {
+      "pubid": "21645374",
+      "pmid_norm": "21645374",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16418930",
+      "pmid_norm": "16418930",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9488747",
+      "pmid_norm": "9488747",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17208539",
+      "pmid_norm": "17208539",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10808977",
+      "pmid_norm": "10808977",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23831910",
+      "pmid_norm": "23831910",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26037986",
+      "pmid_norm": "26037986",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26852225",
+      "pmid_norm": "26852225",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17113061",
+      "pmid_norm": "17113061",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10966337",
+      "pmid_norm": "10966337",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25432938",
+      "pmid_norm": "25432938",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18847643",
+      "pmid_norm": "18847643",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18239988",
+      "pmid_norm": "18239988",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25957366",
+      "pmid_norm": "25957366",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24866606",
+      "pmid_norm": "24866606",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26578404",
+      "pmid_norm": "26578404",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11729377",
+      "pmid_norm": "11729377",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17096624",
+      "pmid_norm": "17096624",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22694248",
+      "pmid_norm": "22694248",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22990761",
+      "pmid_norm": "22990761",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19394934",
+      "pmid_norm": "19394934",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11481599",
+      "pmid_norm": "11481599",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21669959",
+      "pmid_norm": "21669959",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23806388",
+      "pmid_norm": "23806388",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17919952",
+      "pmid_norm": "17919952",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10966943",
+      "pmid_norm": "10966943",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23690198",
+      "pmid_norm": "23690198",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17940352",
+      "pmid_norm": "17940352",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20537205",
+      "pmid_norm": "20537205",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28707539",
+      "pmid_norm": "28707539",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "7482275",
+      "pmid_norm": "7482275",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24183388",
+      "pmid_norm": "24183388",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9645785",
+      "pmid_norm": "9645785",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26298839",
+      "pmid_norm": "26298839",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24153338",
+      "pmid_norm": "24153338",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18534072",
+      "pmid_norm": "18534072",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8847047",
+      "pmid_norm": "8847047",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10575390",
+      "pmid_norm": "10575390",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20084845",
+      "pmid_norm": "20084845",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15703931",
+      "pmid_norm": "15703931",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18269157",
+      "pmid_norm": "18269157",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25489696",
+      "pmid_norm": "25489696",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14599616",
+      "pmid_norm": "14599616",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22537902",
+      "pmid_norm": "22537902",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19054501",
+      "pmid_norm": "19054501",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16432652",
+      "pmid_norm": "16432652",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19504993",
+      "pmid_norm": "19504993",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20571467",
+      "pmid_norm": "20571467",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24237112",
+      "pmid_norm": "24237112",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21402341",
+      "pmid_norm": "21402341",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20082356",
+      "pmid_norm": "20082356",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26606599",
+      "pmid_norm": "26606599",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11340218",
+      "pmid_norm": "11340218",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25481573",
+      "pmid_norm": "25481573",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25277731",
+      "pmid_norm": "25277731",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25475395",
+      "pmid_norm": "25475395",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23177368",
+      "pmid_norm": "23177368",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17179167",
+      "pmid_norm": "17179167",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14612308",
+      "pmid_norm": "14612308",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27491658",
+      "pmid_norm": "27491658",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19822586",
+      "pmid_norm": "19822586",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27643961",
+      "pmid_norm": "27643961",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23539689",
+      "pmid_norm": "23539689",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22453060",
+      "pmid_norm": "22453060",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22227642",
+      "pmid_norm": "22227642",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12380309",
+      "pmid_norm": "12380309",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22186742",
+      "pmid_norm": "22186742",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22188074",
+      "pmid_norm": "22188074",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27989969",
+      "pmid_norm": "27989969",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18607272",
+      "pmid_norm": "18607272",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18235194",
+      "pmid_norm": "18235194",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18049437",
+      "pmid_norm": "18049437",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15597845",
+      "pmid_norm": "15597845",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24996865",
+      "pmid_norm": "24996865",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23361217",
+      "pmid_norm": "23361217",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17489316",
+      "pmid_norm": "17489316",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14518645",
+      "pmid_norm": "14518645",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20337202",
+      "pmid_norm": "20337202",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26449554",
+      "pmid_norm": "26449554",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26215326",
+      "pmid_norm": "26215326",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "29112560",
+      "pmid_norm": "29112560",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24315783",
+      "pmid_norm": "24315783",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9381529",
+      "pmid_norm": "9381529",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8985020",
+      "pmid_norm": "8985020",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26708803",
+      "pmid_norm": "26708803",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22427593",
+      "pmid_norm": "22427593",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11570976",
+      "pmid_norm": "11570976",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19757704",
+      "pmid_norm": "19757704",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27592038",
+      "pmid_norm": "27592038",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27044366",
+      "pmid_norm": "27044366",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9792366",
+      "pmid_norm": "9792366",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17562682",
+      "pmid_norm": "17562682",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15800018",
+      "pmid_norm": "15800018",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14978612",
+      "pmid_norm": "14978612",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18843057",
+      "pmid_norm": "18843057",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23076787",
+      "pmid_norm": "23076787",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9199905",
+      "pmid_norm": "9199905",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23999452",
+      "pmid_norm": "23999452",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22534881",
+      "pmid_norm": "22534881",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24785562",
+      "pmid_norm": "24785562",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22564465",
+      "pmid_norm": "22564465",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27456836",
+      "pmid_norm": "27456836",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27287237",
+      "pmid_norm": "27287237",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14697414",
+      "pmid_norm": "14697414",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26686513",
+      "pmid_norm": "26686513",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15530261",
+      "pmid_norm": "15530261",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24160268",
+      "pmid_norm": "24160268",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21823940",
+      "pmid_norm": "21823940",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27217036",
+      "pmid_norm": "27217036",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18565233",
+      "pmid_norm": "18565233",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19694846",
+      "pmid_norm": "19694846",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27184293",
+      "pmid_norm": "27184293",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19459018",
+      "pmid_norm": "19459018",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22042121",
+      "pmid_norm": "22042121",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16100194",
+      "pmid_norm": "16100194",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25480629",
+      "pmid_norm": "25480629",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17453263",
+      "pmid_norm": "17453263",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18322741",
+      "pmid_norm": "18322741",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19106867",
+      "pmid_norm": "19106867",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25691513",
+      "pmid_norm": "25691513",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11035130",
+      "pmid_norm": "11035130",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19409117",
+      "pmid_norm": "19409117",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21900017",
+      "pmid_norm": "21900017",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16968876",
+      "pmid_norm": "16968876",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18540901",
+      "pmid_norm": "18540901",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27448572",
+      "pmid_norm": "27448572",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17621202",
+      "pmid_norm": "17621202",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25987398",
+      "pmid_norm": "25987398",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16816043",
+      "pmid_norm": "16816043",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12920330",
+      "pmid_norm": "12920330",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23497210",
+      "pmid_norm": "23497210",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21952349",
+      "pmid_norm": "21952349",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21712147",
+      "pmid_norm": "21712147",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25311479",
+      "pmid_norm": "25311479",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20602784",
+      "pmid_norm": "20602784",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12836106",
+      "pmid_norm": "12836106",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25588461",
+      "pmid_norm": "25588461",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19299238",
+      "pmid_norm": "19299238",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22706226",
+      "pmid_norm": "22706226",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12913878",
+      "pmid_norm": "12913878",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16769333",
+      "pmid_norm": "16769333",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22497340",
+      "pmid_norm": "22497340",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10223070",
+      "pmid_norm": "10223070",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8566975",
+      "pmid_norm": "8566975",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25186850",
+      "pmid_norm": "25186850",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9427037",
+      "pmid_norm": "9427037",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28359277",
+      "pmid_norm": "28359277",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11411430",
+      "pmid_norm": "11411430",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16956164",
+      "pmid_norm": "16956164",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15687156",
+      "pmid_norm": "15687156",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28127977",
+      "pmid_norm": "28127977",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16809243",
+      "pmid_norm": "16809243",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17276182",
+      "pmid_norm": "17276182",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21123461",
+      "pmid_norm": "21123461",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22428608",
+      "pmid_norm": "22428608",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27858166",
+      "pmid_norm": "27858166",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23791827",
+      "pmid_norm": "23791827",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18243752",
+      "pmid_norm": "18243752",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17279467",
+      "pmid_norm": "17279467",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22758782",
+      "pmid_norm": "22758782",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15223725",
+      "pmid_norm": "15223725",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19482903",
+      "pmid_norm": "19482903",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25752912",
+      "pmid_norm": "25752912",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21946341",
+      "pmid_norm": "21946341",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16428354",
+      "pmid_norm": "16428354",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19302863",
+      "pmid_norm": "19302863",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24245816",
+      "pmid_norm": "24245816",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24666444",
+      "pmid_norm": "24666444",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19913785",
+      "pmid_norm": "19913785",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "1571683",
+      "pmid_norm": "1571683",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15631914",
+      "pmid_norm": "15631914",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11970923",
+      "pmid_norm": "11970923",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20121683",
+      "pmid_norm": "20121683",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27281318",
+      "pmid_norm": "27281318",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12846929",
+      "pmid_norm": "12846929",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26505821",
+      "pmid_norm": "26505821",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25156467",
+      "pmid_norm": "25156467",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22023714",
+      "pmid_norm": "22023714",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16046584",
+      "pmid_norm": "16046584",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16155169",
+      "pmid_norm": "16155169",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19398929",
+      "pmid_norm": "19398929",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28143468",
+      "pmid_norm": "28143468",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9483814",
+      "pmid_norm": "9483814",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22720085",
+      "pmid_norm": "22720085",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24748473",
+      "pmid_norm": "24748473",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15588538",
+      "pmid_norm": "15588538",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22211919",
+      "pmid_norm": "22211919",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24433626",
+      "pmid_norm": "24433626",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9542484",
+      "pmid_norm": "9542484",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17008699",
+      "pmid_norm": "17008699",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23228527",
+      "pmid_norm": "23228527",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15489384",
+      "pmid_norm": "15489384",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17444776",
+      "pmid_norm": "17444776",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8422202",
+      "pmid_norm": "8422202",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23794696",
+      "pmid_norm": "23794696",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20549895",
+      "pmid_norm": "20549895",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18714572",
+      "pmid_norm": "18714572",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "2224269",
+      "pmid_norm": "2224269",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8910148",
+      "pmid_norm": "8910148",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23899611",
+      "pmid_norm": "23899611",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10548670",
+      "pmid_norm": "10548670",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26907557",
+      "pmid_norm": "26907557",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20871246",
+      "pmid_norm": "20871246",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22876568",
+      "pmid_norm": "22876568",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15280782",
+      "pmid_norm": "15280782",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17502203",
+      "pmid_norm": "17502203",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26370095",
+      "pmid_norm": "26370095",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10354335",
+      "pmid_norm": "10354335",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26452334",
+      "pmid_norm": "26452334",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15065192",
+      "pmid_norm": "15065192",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25488308",
+      "pmid_norm": "25488308",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22449464",
+      "pmid_norm": "22449464",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26222664",
+      "pmid_norm": "26222664",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22617083",
+      "pmid_norm": "22617083",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9767546",
+      "pmid_norm": "9767546",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21214884",
+      "pmid_norm": "21214884",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23321509",
+      "pmid_norm": "23321509",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16827975",
+      "pmid_norm": "16827975",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18179827",
+      "pmid_norm": "18179827",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14872327",
+      "pmid_norm": "14872327",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24809662",
+      "pmid_norm": "24809662",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26485091",
+      "pmid_norm": "26485091",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12805495",
+      "pmid_norm": "12805495",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19925761",
+      "pmid_norm": "19925761",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11458136",
+      "pmid_norm": "11458136",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20382292",
+      "pmid_norm": "20382292",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22236315",
+      "pmid_norm": "22236315",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17051586",
+      "pmid_norm": "17051586",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25007420",
+      "pmid_norm": "25007420",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26556589",
+      "pmid_norm": "26556589",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12612531",
+      "pmid_norm": "12612531",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26194560",
+      "pmid_norm": "26194560",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11079675",
+      "pmid_norm": "11079675",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21459725",
+      "pmid_norm": "21459725",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21172844",
+      "pmid_norm": "21172844",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24946973",
+      "pmid_norm": "24946973",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17335331",
+      "pmid_norm": "17335331",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27581329",
+      "pmid_norm": "27581329",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11867487",
+      "pmid_norm": "11867487",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12765819",
+      "pmid_norm": "12765819",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24507422",
+      "pmid_norm": "24507422",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9854965",
+      "pmid_norm": "9854965",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21756515",
+      "pmid_norm": "21756515",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19131405",
+      "pmid_norm": "19131405",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18568290",
+      "pmid_norm": "18568290",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18667100",
+      "pmid_norm": "18667100",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9191526",
+      "pmid_norm": "9191526",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10605400",
+      "pmid_norm": "10605400",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17601244",
+      "pmid_norm": "17601244",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20608141",
+      "pmid_norm": "20608141",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25986020",
+      "pmid_norm": "25986020",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15670262",
+      "pmid_norm": "15670262",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22900881",
+      "pmid_norm": "22900881",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11413427",
+      "pmid_norm": "11413427",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9602458",
+      "pmid_norm": "9602458",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24434052",
+      "pmid_norm": "24434052",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17598882",
+      "pmid_norm": "17598882",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21190419",
+      "pmid_norm": "21190419",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16403186",
+      "pmid_norm": "16403186",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11888773",
+      "pmid_norm": "11888773",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25940336",
+      "pmid_norm": "25940336",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24014276",
+      "pmid_norm": "24014276",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18359123",
+      "pmid_norm": "18359123",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26113007",
+      "pmid_norm": "26113007",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11838307",
+      "pmid_norm": "11838307",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18222909",
+      "pmid_norm": "18222909",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24747511",
+      "pmid_norm": "24747511",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12407608",
+      "pmid_norm": "12407608",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19836806",
+      "pmid_norm": "19836806",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17076091",
+      "pmid_norm": "17076091",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21801416",
+      "pmid_norm": "21801416",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25819796",
+      "pmid_norm": "25819796",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18496363",
+      "pmid_norm": "18496363",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14551704",
+      "pmid_norm": "14551704",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23234860",
+      "pmid_norm": "23234860",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22532370",
+      "pmid_norm": "22532370",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22656647",
+      "pmid_norm": "22656647",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22683044",
+      "pmid_norm": "22683044",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11566686",
+      "pmid_norm": "11566686",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15502995",
+      "pmid_norm": "15502995",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24019262",
+      "pmid_norm": "24019262",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22867778",
+      "pmid_norm": "22867778",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23348330",
+      "pmid_norm": "23348330",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21658267",
+      "pmid_norm": "21658267",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28177278",
+      "pmid_norm": "28177278",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18403944",
+      "pmid_norm": "18403944",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20363841",
+      "pmid_norm": "20363841",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19664156",
+      "pmid_norm": "19664156",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23356465",
+      "pmid_norm": "23356465",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22972546",
+      "pmid_norm": "22972546",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21850494",
+      "pmid_norm": "21850494",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26778755",
+      "pmid_norm": "26778755",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20187289",
+      "pmid_norm": "20187289",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27615402",
+      "pmid_norm": "27615402",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20297950",
+      "pmid_norm": "20297950",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23735520",
+      "pmid_norm": "23735520",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10759659",
+      "pmid_norm": "10759659",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25592625",
+      "pmid_norm": "25592625",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12595848",
+      "pmid_norm": "12595848",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20064872",
+      "pmid_norm": "20064872",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23588461",
+      "pmid_norm": "23588461",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18019905",
+      "pmid_norm": "18019905",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25859857",
+      "pmid_norm": "25859857",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26418796",
+      "pmid_norm": "26418796",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22825590",
+      "pmid_norm": "22825590",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18832500",
+      "pmid_norm": "18832500",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18955431",
+      "pmid_norm": "18955431",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9550200",
+      "pmid_norm": "9550200",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10135926",
+      "pmid_norm": "10135926",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11296674",
+      "pmid_norm": "11296674",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24139705",
+      "pmid_norm": "24139705",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16253970",
+      "pmid_norm": "16253970",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14745753",
+      "pmid_norm": "14745753",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27078715",
+      "pmid_norm": "27078715",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15939071",
+      "pmid_norm": "15939071",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11926574",
+      "pmid_norm": "11926574",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18594195",
+      "pmid_norm": "18594195",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25614468",
+      "pmid_norm": "25614468",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19653482",
+      "pmid_norm": "19653482",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11380492",
+      "pmid_norm": "11380492",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16296668",
+      "pmid_norm": "16296668",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19520213",
+      "pmid_norm": "19520213",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14992556",
+      "pmid_norm": "14992556",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19931500",
+      "pmid_norm": "19931500",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18378554",
+      "pmid_norm": "18378554",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17306983",
+      "pmid_norm": "17306983",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26879871",
+      "pmid_norm": "26879871",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24336869",
+      "pmid_norm": "24336869",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16962519",
+      "pmid_norm": "16962519",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17704864",
+      "pmid_norm": "17704864",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18307476",
+      "pmid_norm": "18307476",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15151701",
+      "pmid_norm": "15151701",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26399179",
+      "pmid_norm": "26399179",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21889895",
+      "pmid_norm": "21889895",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21569408",
+      "pmid_norm": "21569408",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23025584",
+      "pmid_norm": "23025584",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23587089",
+      "pmid_norm": "23587089",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15539888",
+      "pmid_norm": "15539888",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23096188",
+      "pmid_norm": "23096188",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21881325",
+      "pmid_norm": "21881325",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19542542",
+      "pmid_norm": "19542542",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16872243",
+      "pmid_norm": "16872243",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15141797",
+      "pmid_norm": "15141797",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25394614",
+      "pmid_norm": "25394614",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10381996",
+      "pmid_norm": "10381996",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26134053",
+      "pmid_norm": "26134053",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25274085",
+      "pmid_norm": "25274085",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12098035",
+      "pmid_norm": "12098035",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12963175",
+      "pmid_norm": "12963175",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21865668",
+      "pmid_norm": "21865668",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16510651",
+      "pmid_norm": "16510651",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24901580",
+      "pmid_norm": "24901580",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19468282",
+      "pmid_norm": "19468282",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21481154",
+      "pmid_norm": "21481154",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21398266",
+      "pmid_norm": "21398266",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25371231",
+      "pmid_norm": "25371231",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23252468",
+      "pmid_norm": "23252468",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22440363",
+      "pmid_norm": "22440363",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12068831",
+      "pmid_norm": "12068831",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20530150",
+      "pmid_norm": "20530150",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21618245",
+      "pmid_norm": "21618245",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26085176",
+      "pmid_norm": "26085176",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18158048",
+      "pmid_norm": "18158048",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21256734",
+      "pmid_norm": "21256734",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28027677",
+      "pmid_norm": "28027677",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17595200",
+      "pmid_norm": "17595200",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26548832",
+      "pmid_norm": "26548832",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15879722",
+      "pmid_norm": "15879722",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27554179",
+      "pmid_norm": "27554179",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15381614",
+      "pmid_norm": "15381614",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22012962",
+      "pmid_norm": "22012962",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18948835",
+      "pmid_norm": "18948835",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18435678",
+      "pmid_norm": "18435678",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19268855",
+      "pmid_norm": "19268855",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12238307",
+      "pmid_norm": "12238307",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20684175",
+      "pmid_norm": "20684175",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27216167",
+      "pmid_norm": "27216167",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19852337",
+      "pmid_norm": "19852337",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22680064",
+      "pmid_norm": "22680064",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25417760",
+      "pmid_norm": "25417760",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22365295",
+      "pmid_norm": "22365295",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15125825",
+      "pmid_norm": "15125825",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24652474",
+      "pmid_norm": "24652474",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24947183",
+      "pmid_norm": "24947183",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25779009",
+      "pmid_norm": "25779009",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17105833",
+      "pmid_norm": "17105833",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27338535",
+      "pmid_norm": "27338535",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27690714",
+      "pmid_norm": "27690714",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21346501",
+      "pmid_norm": "21346501",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24964725",
+      "pmid_norm": "24964725",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18708308",
+      "pmid_norm": "18708308",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11759976",
+      "pmid_norm": "11759976",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16319544",
+      "pmid_norm": "16319544",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20674150",
+      "pmid_norm": "20674150",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25336163",
+      "pmid_norm": "25336163",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25887165",
+      "pmid_norm": "25887165",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12947068",
+      "pmid_norm": "12947068",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16776337",
+      "pmid_norm": "16776337",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22668852",
+      "pmid_norm": "22668852",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25251991",
+      "pmid_norm": "25251991",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "7497757",
+      "pmid_norm": "7497757",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8262881",
+      "pmid_norm": "8262881",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11943048",
+      "pmid_norm": "11943048",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20306735",
+      "pmid_norm": "20306735",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23414523",
+      "pmid_norm": "23414523",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11882828",
+      "pmid_norm": "11882828",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24939676",
+      "pmid_norm": "24939676",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17076590",
+      "pmid_norm": "17076590",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21745056",
+      "pmid_norm": "21745056",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22979954",
+      "pmid_norm": "22979954",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22955530",
+      "pmid_norm": "22955530",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18507507",
+      "pmid_norm": "18507507",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17323047",
+      "pmid_norm": "17323047",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24851767",
+      "pmid_norm": "24851767",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12006913",
+      "pmid_norm": "12006913",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8245806",
+      "pmid_norm": "8245806",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17691856",
+      "pmid_norm": "17691856",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15222284",
+      "pmid_norm": "15222284",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25501465",
+      "pmid_norm": "25501465",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16414216",
+      "pmid_norm": "16414216",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19155657",
+      "pmid_norm": "19155657",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27050489",
+      "pmid_norm": "27050489",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24977765",
+      "pmid_norm": "24977765",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19130332",
+      "pmid_norm": "19130332",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23949294",
+      "pmid_norm": "23949294",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18926458",
+      "pmid_norm": "18926458",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10749257",
+      "pmid_norm": "10749257",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17610439",
+      "pmid_norm": "17610439",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26859535",
+      "pmid_norm": "26859535",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25446909",
+      "pmid_norm": "25446909",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17220021",
+      "pmid_norm": "17220021",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10158597",
+      "pmid_norm": "10158597",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21198823",
+      "pmid_norm": "21198823",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17259061",
+      "pmid_norm": "17259061",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18375490",
+      "pmid_norm": "18375490",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24142776",
+      "pmid_norm": "24142776",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18388848",
+      "pmid_norm": "18388848",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22251324",
+      "pmid_norm": "22251324",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27896825",
+      "pmid_norm": "27896825",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22117569",
+      "pmid_norm": "22117569",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25787073",
+      "pmid_norm": "25787073",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14631523",
+      "pmid_norm": "14631523",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26717802",
+      "pmid_norm": "26717802",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23810330",
+      "pmid_norm": "23810330",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19027440",
+      "pmid_norm": "19027440",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24446763",
+      "pmid_norm": "24446763",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9444542",
+      "pmid_norm": "9444542",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23389866",
+      "pmid_norm": "23389866",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19142546",
+      "pmid_norm": "19142546",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9107172",
+      "pmid_norm": "9107172",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9363244",
+      "pmid_norm": "9363244",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10411439",
+      "pmid_norm": "10411439",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21166749",
+      "pmid_norm": "21166749",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27818079",
+      "pmid_norm": "27818079",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25982163",
+      "pmid_norm": "25982163",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20353735",
+      "pmid_norm": "20353735",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24630333",
+      "pmid_norm": "24630333",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27096199",
+      "pmid_norm": "27096199",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22519710",
+      "pmid_norm": "22519710",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12040336",
+      "pmid_norm": "12040336",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15918864",
+      "pmid_norm": "15918864",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23601294",
+      "pmid_norm": "23601294",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21361755",
+      "pmid_norm": "21361755",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9003088",
+      "pmid_norm": "9003088",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23337545",
+      "pmid_norm": "23337545",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10490564",
+      "pmid_norm": "10490564",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23375036",
+      "pmid_norm": "23375036",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11555508",
+      "pmid_norm": "11555508",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16778275",
+      "pmid_norm": "16778275",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27136599",
+      "pmid_norm": "27136599",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27050505",
+      "pmid_norm": "27050505",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18403945",
+      "pmid_norm": "18403945",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11149643",
+      "pmid_norm": "11149643",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26200172",
+      "pmid_norm": "26200172",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18783922",
+      "pmid_norm": "18783922",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12684740",
+      "pmid_norm": "12684740",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25155638",
+      "pmid_norm": "25155638",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26820719",
+      "pmid_norm": "26820719",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21080127",
+      "pmid_norm": "21080127",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18086459",
+      "pmid_norm": "18086459",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11978239",
+      "pmid_norm": "11978239",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10798511",
+      "pmid_norm": "10798511",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15477551",
+      "pmid_norm": "15477551",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19327500",
+      "pmid_norm": "19327500",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24614789",
+      "pmid_norm": "24614789",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23283159",
+      "pmid_norm": "23283159",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16465002",
+      "pmid_norm": "16465002",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24191126",
+      "pmid_norm": "24191126",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25218577",
+      "pmid_norm": "25218577",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20488985",
+      "pmid_norm": "20488985",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11567820",
+      "pmid_norm": "11567820",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19100463",
+      "pmid_norm": "19100463",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12769830",
+      "pmid_norm": "12769830",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10331115",
+      "pmid_norm": "10331115",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17483607",
+      "pmid_norm": "17483607",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28056802",
+      "pmid_norm": "28056802",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11776681",
+      "pmid_norm": "11776681",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24922528",
+      "pmid_norm": "24922528",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8200238",
+      "pmid_norm": "8200238",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10593212",
+      "pmid_norm": "10593212",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12630042",
+      "pmid_norm": "12630042",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24519615",
+      "pmid_norm": "24519615",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24267613",
+      "pmid_norm": "24267613",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21074975",
+      "pmid_norm": "21074975",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19712912",
+      "pmid_norm": "19712912",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12690589",
+      "pmid_norm": "12690589",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10757151",
+      "pmid_norm": "10757151",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15388567",
+      "pmid_norm": "15388567",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10877371",
+      "pmid_norm": "10877371",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22324545",
+      "pmid_norm": "22324545",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19419587",
+      "pmid_norm": "19419587",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16909975",
+      "pmid_norm": "16909975",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18799291",
+      "pmid_norm": "18799291",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12163782",
+      "pmid_norm": "12163782",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16392897",
+      "pmid_norm": "16392897",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19615731",
+      "pmid_norm": "19615731",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18537964",
+      "pmid_norm": "18537964",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25747932",
+      "pmid_norm": "25747932",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17445978",
+      "pmid_norm": "17445978",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19309468",
+      "pmid_norm": "19309468",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25885219",
+      "pmid_norm": "25885219",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26348845",
+      "pmid_norm": "26348845",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12221908",
+      "pmid_norm": "12221908",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21904069",
+      "pmid_norm": "21904069",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14976655",
+      "pmid_norm": "14976655",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22644412",
+      "pmid_norm": "22644412",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26419377",
+      "pmid_norm": "26419377",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23052500",
+      "pmid_norm": "23052500",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26104852",
+      "pmid_norm": "26104852",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9142039",
+      "pmid_norm": "9142039",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18399830",
+      "pmid_norm": "18399830",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18575014",
+      "pmid_norm": "18575014",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15223779",
+      "pmid_norm": "15223779",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24487044",
+      "pmid_norm": "24487044",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12377809",
+      "pmid_norm": "12377809",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16195477",
+      "pmid_norm": "16195477",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16678696",
+      "pmid_norm": "16678696",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18801797",
+      "pmid_norm": "18801797",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12153648",
+      "pmid_norm": "12153648",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12632437",
+      "pmid_norm": "12632437",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10201555",
+      "pmid_norm": "10201555",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21342862",
+      "pmid_norm": "21342862",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26818046",
+      "pmid_norm": "26818046",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18005142",
+      "pmid_norm": "18005142",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11481172",
+      "pmid_norm": "11481172",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19230985",
+      "pmid_norm": "19230985",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17295865",
+      "pmid_norm": "17295865",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17565137",
+      "pmid_norm": "17565137",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18041059",
+      "pmid_norm": "18041059",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17274051",
+      "pmid_norm": "17274051",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26460153",
+      "pmid_norm": "26460153",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24061619",
+      "pmid_norm": "24061619",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26867834",
+      "pmid_norm": "26867834",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22349635",
+      "pmid_norm": "22349635",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15112004",
+      "pmid_norm": "15112004",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15954832",
+      "pmid_norm": "15954832",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19640728",
+      "pmid_norm": "19640728",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22154448",
+      "pmid_norm": "22154448",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11146778",
+      "pmid_norm": "11146778",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8199520",
+      "pmid_norm": "8199520",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9100537",
+      "pmid_norm": "9100537",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26518378",
+      "pmid_norm": "26518378",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23774337",
+      "pmid_norm": "23774337",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16151770",
+      "pmid_norm": "16151770",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26418441",
+      "pmid_norm": "26418441",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20130378",
+      "pmid_norm": "20130378",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11799314",
+      "pmid_norm": "11799314",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20828836",
+      "pmid_norm": "20828836",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19608436",
+      "pmid_norm": "19608436",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15995461",
+      "pmid_norm": "15995461",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23224030",
+      "pmid_norm": "23224030",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17910536",
+      "pmid_norm": "17910536",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12070552",
+      "pmid_norm": "12070552",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18182265",
+      "pmid_norm": "18182265",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15841770",
+      "pmid_norm": "15841770",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8017535",
+      "pmid_norm": "8017535",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24172579",
+      "pmid_norm": "24172579",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10781708",
+      "pmid_norm": "10781708",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26561905",
+      "pmid_norm": "26561905",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17089900",
+      "pmid_norm": "17089900",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26536001",
+      "pmid_norm": "26536001",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19643525",
+      "pmid_norm": "19643525",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26285789",
+      "pmid_norm": "26285789",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22266735",
+      "pmid_norm": "22266735",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15052394",
+      "pmid_norm": "15052394",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23264436",
+      "pmid_norm": "23264436",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22302658",
+      "pmid_norm": "22302658",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17894828",
+      "pmid_norm": "17894828",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18096128",
+      "pmid_norm": "18096128",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12913347",
+      "pmid_norm": "12913347",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24684514",
+      "pmid_norm": "24684514",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24793469",
+      "pmid_norm": "24793469",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23360491",
+      "pmid_norm": "23360491",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10340286",
+      "pmid_norm": "10340286",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22954812",
+      "pmid_norm": "22954812",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18274917",
+      "pmid_norm": "18274917",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22350859",
+      "pmid_norm": "22350859",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26237424",
+      "pmid_norm": "26237424",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15041506",
+      "pmid_norm": "15041506",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25280365",
+      "pmid_norm": "25280365",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20813740",
+      "pmid_norm": "20813740",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20401819",
+      "pmid_norm": "20401819",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "7860319",
+      "pmid_norm": "7860319",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25255719",
+      "pmid_norm": "25255719",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24352924",
+      "pmid_norm": "24352924",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24973051",
+      "pmid_norm": "24973051",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20497146",
+      "pmid_norm": "20497146",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19401574",
+      "pmid_norm": "19401574",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23571528",
+      "pmid_norm": "23571528",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25228241",
+      "pmid_norm": "25228241",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22348433",
+      "pmid_norm": "22348433",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20538207",
+      "pmid_norm": "20538207",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10927144",
+      "pmid_norm": "10927144",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20197761",
+      "pmid_norm": "20197761",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21394762",
+      "pmid_norm": "21394762",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12442934",
+      "pmid_norm": "12442934",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9347843",
+      "pmid_norm": "9347843",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23072266",
+      "pmid_norm": "23072266",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12607666",
+      "pmid_norm": "12607666",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24074624",
+      "pmid_norm": "24074624",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17224424",
+      "pmid_norm": "17224424",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16097998",
+      "pmid_norm": "16097998",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25487603",
+      "pmid_norm": "25487603",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20594006",
+      "pmid_norm": "20594006",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26363639",
+      "pmid_norm": "26363639",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27405146",
+      "pmid_norm": "27405146",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17192736",
+      "pmid_norm": "17192736",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14652839",
+      "pmid_norm": "14652839",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12145243",
+      "pmid_norm": "12145243",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25571931",
+      "pmid_norm": "25571931",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19108857",
+      "pmid_norm": "19108857",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25443385",
+      "pmid_norm": "25443385",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18719011",
+      "pmid_norm": "18719011",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9044116",
+      "pmid_norm": "9044116",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23621776",
+      "pmid_norm": "23621776",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12970636",
+      "pmid_norm": "12970636",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21084567",
+      "pmid_norm": "21084567",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19546588",
+      "pmid_norm": "19546588",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19923859",
+      "pmid_norm": "19923859",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18616781",
+      "pmid_norm": "18616781",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27991408",
+      "pmid_norm": "27991408",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14655021",
+      "pmid_norm": "14655021",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26175531",
+      "pmid_norm": "26175531",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25168472",
+      "pmid_norm": "25168472",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9446993",
+      "pmid_norm": "9446993",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10473855",
+      "pmid_norm": "10473855",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28006766",
+      "pmid_norm": "28006766",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11833948",
+      "pmid_norm": "11833948",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27757987",
+      "pmid_norm": "27757987",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16772913",
+      "pmid_norm": "16772913",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19575104",
+      "pmid_norm": "19575104",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24449622",
+      "pmid_norm": "24449622",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12095973",
+      "pmid_norm": "12095973",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23761381",
+      "pmid_norm": "23761381",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16971978",
+      "pmid_norm": "16971978",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10375486",
+      "pmid_norm": "10375486",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21558951",
+      "pmid_norm": "21558951",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15528969",
+      "pmid_norm": "15528969",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17062225",
+      "pmid_norm": "17062225",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14713788",
+      "pmid_norm": "14713788",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24374414",
+      "pmid_norm": "24374414",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20736887",
+      "pmid_norm": "20736887",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22504515",
+      "pmid_norm": "22504515",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10577397",
+      "pmid_norm": "10577397",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15369037",
+      "pmid_norm": "15369037",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24073931",
+      "pmid_norm": "24073931",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18472368",
+      "pmid_norm": "18472368",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23992109",
+      "pmid_norm": "23992109",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21164063",
+      "pmid_norm": "21164063",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21951591",
+      "pmid_norm": "21951591",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18619710",
+      "pmid_norm": "18619710",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18784527",
+      "pmid_norm": "18784527",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15919266",
+      "pmid_norm": "15919266",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "2503176",
+      "pmid_norm": "2503176",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22108230",
+      "pmid_norm": "22108230",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20338971",
+      "pmid_norm": "20338971",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17276801",
+      "pmid_norm": "17276801",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20497880",
+      "pmid_norm": "20497880",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23495128",
+      "pmid_norm": "23495128",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26701174",
+      "pmid_norm": "26701174",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24695920",
+      "pmid_norm": "24695920",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15488260",
+      "pmid_norm": "15488260",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15466981",
+      "pmid_norm": "15466981",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18603989",
+      "pmid_norm": "18603989",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21789019",
+      "pmid_norm": "21789019",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14692023",
+      "pmid_norm": "14692023",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25150098",
+      "pmid_norm": "25150098",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20337874",
+      "pmid_norm": "20337874",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19198736",
+      "pmid_norm": "19198736",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22411435",
+      "pmid_norm": "22411435",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16266387",
+      "pmid_norm": "16266387",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23792130",
+      "pmid_norm": "23792130",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17462393",
+      "pmid_norm": "17462393",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21457946",
+      "pmid_norm": "21457946",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26383908",
+      "pmid_norm": "26383908",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19481382",
+      "pmid_norm": "19481382",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25699562",
+      "pmid_norm": "25699562",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17682349",
+      "pmid_norm": "17682349",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18251357",
+      "pmid_norm": "18251357",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20971618",
+      "pmid_norm": "20971618",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19648304",
+      "pmid_norm": "19648304",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23222920",
+      "pmid_norm": "23222920",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21864397",
+      "pmid_norm": "21864397",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26601554",
+      "pmid_norm": "26601554",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19322056",
+      "pmid_norm": "19322056",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22522271",
+      "pmid_norm": "22522271",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9363529",
+      "pmid_norm": "9363529",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15962678",
+      "pmid_norm": "15962678",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "7547656",
+      "pmid_norm": "7547656",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24235894",
+      "pmid_norm": "24235894",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17429333",
+      "pmid_norm": "17429333",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19156007",
+      "pmid_norm": "19156007",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9603166",
+      "pmid_norm": "9603166",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24298614",
+      "pmid_norm": "24298614",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21849531",
+      "pmid_norm": "21849531",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19854401",
+      "pmid_norm": "19854401",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22237146",
+      "pmid_norm": "22237146",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25793749",
+      "pmid_norm": "25793749",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15095519",
+      "pmid_norm": "15095519",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25981682",
+      "pmid_norm": "25981682",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18284441",
+      "pmid_norm": "18284441",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10173769",
+      "pmid_norm": "10173769",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20354380",
+      "pmid_norm": "20354380",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9616411",
+      "pmid_norm": "9616411",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22205377",
+      "pmid_norm": "22205377",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16241924",
+      "pmid_norm": "16241924",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12484580",
+      "pmid_norm": "12484580",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24599411",
+      "pmid_norm": "24599411",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23860049",
+      "pmid_norm": "23860049",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "7664228",
+      "pmid_norm": "7664228",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22233470",
+      "pmid_norm": "22233470",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17971187",
+      "pmid_norm": "17971187",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27394685",
+      "pmid_norm": "27394685",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25079920",
+      "pmid_norm": "25079920",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17355582",
+      "pmid_norm": "17355582",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20736672",
+      "pmid_norm": "20736672",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12419743",
+      "pmid_norm": "12419743",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10973547",
+      "pmid_norm": "10973547",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25499207",
+      "pmid_norm": "25499207",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26133538",
+      "pmid_norm": "26133538",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26163474",
+      "pmid_norm": "26163474",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14968373",
+      "pmid_norm": "14968373",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24698298",
+      "pmid_norm": "24698298",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23088164",
+      "pmid_norm": "23088164",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24481006",
+      "pmid_norm": "24481006",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17032327",
+      "pmid_norm": "17032327",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22658587",
+      "pmid_norm": "22658587",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8916748",
+      "pmid_norm": "8916748",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16361634",
+      "pmid_norm": "16361634",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25756710",
+      "pmid_norm": "25756710",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23916653",
+      "pmid_norm": "23916653",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12790890",
+      "pmid_norm": "12790890",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23449952",
+      "pmid_norm": "23449952",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10430303",
+      "pmid_norm": "10430303",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20605051",
+      "pmid_norm": "20605051",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23048048",
+      "pmid_norm": "23048048",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16991071",
+      "pmid_norm": "16991071",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12090319",
+      "pmid_norm": "12090319",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24614851",
+      "pmid_norm": "24614851",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17578985",
+      "pmid_norm": "17578985",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26965932",
+      "pmid_norm": "26965932",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15137012",
+      "pmid_norm": "15137012",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21194998",
+      "pmid_norm": "21194998",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15787677",
+      "pmid_norm": "15787677",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24625433",
+      "pmid_norm": "24625433",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25304452",
+      "pmid_norm": "25304452",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19711462",
+      "pmid_norm": "19711462",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28196511",
+      "pmid_norm": "28196511",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24591144",
+      "pmid_norm": "24591144",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21431987",
+      "pmid_norm": "21431987",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18928979",
+      "pmid_norm": "18928979",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25752725",
+      "pmid_norm": "25752725",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12855939",
+      "pmid_norm": "12855939",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24476003",
+      "pmid_norm": "24476003",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24606627",
+      "pmid_norm": "24606627",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23386371",
+      "pmid_norm": "23386371",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10922093",
+      "pmid_norm": "10922093",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20602101",
+      "pmid_norm": "20602101",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18065862",
+      "pmid_norm": "18065862",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9569972",
+      "pmid_norm": "9569972",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25406780",
+      "pmid_norm": "25406780",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20629769",
+      "pmid_norm": "20629769",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23149821",
+      "pmid_norm": "23149821",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11483547",
+      "pmid_norm": "11483547",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27884344",
+      "pmid_norm": "27884344",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18800356",
+      "pmid_norm": "18800356",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22301406",
+      "pmid_norm": "22301406",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26079501",
+      "pmid_norm": "26079501",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15774570",
+      "pmid_norm": "15774570",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18319270",
+      "pmid_norm": "18319270",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26209118",
+      "pmid_norm": "26209118",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11713724",
+      "pmid_norm": "11713724",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25070942",
+      "pmid_norm": "25070942",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19683101",
+      "pmid_norm": "19683101",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10783841",
+      "pmid_norm": "10783841",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11862129",
+      "pmid_norm": "11862129",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23455575",
+      "pmid_norm": "23455575",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21848798",
+      "pmid_norm": "21848798",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25103647",
+      "pmid_norm": "25103647",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19406119",
+      "pmid_norm": "19406119",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24359102",
+      "pmid_norm": "24359102",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18802997",
+      "pmid_norm": "18802997",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26304701",
+      "pmid_norm": "26304701",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19058191",
+      "pmid_norm": "19058191",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27549226",
+      "pmid_norm": "27549226",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24799031",
+      "pmid_norm": "24799031",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25043083",
+      "pmid_norm": "25043083",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26516021",
+      "pmid_norm": "26516021",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23736032",
+      "pmid_norm": "23736032",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17312514",
+      "pmid_norm": "17312514",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23002947",
+      "pmid_norm": "23002947",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23453079",
+      "pmid_norm": "23453079",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15053041",
+      "pmid_norm": "15053041",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9465206",
+      "pmid_norm": "9465206",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19593710",
+      "pmid_norm": "19593710",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8521557",
+      "pmid_norm": "8521557",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24340838",
+      "pmid_norm": "24340838",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24751724",
+      "pmid_norm": "24751724",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21368683",
+      "pmid_norm": "21368683",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27832831",
+      "pmid_norm": "27832831",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15208005",
+      "pmid_norm": "15208005",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24958650",
+      "pmid_norm": "24958650",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16713745",
+      "pmid_norm": "16713745",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24669960",
+      "pmid_norm": "24669960",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9278754",
+      "pmid_norm": "9278754",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8738894",
+      "pmid_norm": "8738894",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24671913",
+      "pmid_norm": "24671913",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22540518",
+      "pmid_norm": "22540518",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16538201",
+      "pmid_norm": "16538201",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17054994",
+      "pmid_norm": "17054994",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26999038",
+      "pmid_norm": "26999038",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23598835",
+      "pmid_norm": "23598835",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17890090",
+      "pmid_norm": "17890090",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22813804",
+      "pmid_norm": "22813804",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26923375",
+      "pmid_norm": "26923375",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20304513",
+      "pmid_norm": "20304513",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21689015",
+      "pmid_norm": "21689015",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10811329",
+      "pmid_norm": "10811329",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10834864",
+      "pmid_norm": "10834864",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27909738",
+      "pmid_norm": "27909738",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26063028",
+      "pmid_norm": "26063028",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25034219",
+      "pmid_norm": "25034219",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25521278",
+      "pmid_norm": "25521278",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27908583",
+      "pmid_norm": "27908583",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23422012",
+      "pmid_norm": "23422012",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11500608",
+      "pmid_norm": "11500608",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8111516",
+      "pmid_norm": "8111516",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25604390",
+      "pmid_norm": "25604390",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25985014",
+      "pmid_norm": "25985014",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "14627582",
+      "pmid_norm": "14627582",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18570208",
+      "pmid_norm": "18570208",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23448747",
+      "pmid_norm": "23448747",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20156655",
+      "pmid_norm": "20156655",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16147837",
+      "pmid_norm": "16147837",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16249670",
+      "pmid_norm": "16249670",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24495711",
+      "pmid_norm": "24495711",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20101129",
+      "pmid_norm": "20101129",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17593459",
+      "pmid_norm": "17593459",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24577079",
+      "pmid_norm": "24577079",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9582182",
+      "pmid_norm": "9582182",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17715311",
+      "pmid_norm": "17715311",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12094116",
+      "pmid_norm": "12094116",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19430778",
+      "pmid_norm": "19430778",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12848629",
+      "pmid_norm": "12848629",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10732884",
+      "pmid_norm": "10732884",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23568387",
+      "pmid_norm": "23568387",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25675614",
+      "pmid_norm": "25675614",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26864326",
+      "pmid_norm": "26864326",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26784147",
+      "pmid_norm": "26784147",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20850631",
+      "pmid_norm": "20850631",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22849512",
+      "pmid_norm": "22849512",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27642458",
+      "pmid_norm": "27642458",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17403428",
+      "pmid_norm": "17403428",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21252642",
+      "pmid_norm": "21252642",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25503376",
+      "pmid_norm": "25503376",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12172698",
+      "pmid_norm": "12172698",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19351635",
+      "pmid_norm": "19351635",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17551944",
+      "pmid_norm": "17551944",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17606778",
+      "pmid_norm": "17606778",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24318956",
+      "pmid_norm": "24318956",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26044262",
+      "pmid_norm": "26044262",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20011163",
+      "pmid_norm": "20011163",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16735905",
+      "pmid_norm": "16735905",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18670651",
+      "pmid_norm": "18670651",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11034241",
+      "pmid_norm": "11034241",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24013712",
+      "pmid_norm": "24013712",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23240452",
+      "pmid_norm": "23240452",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21420186",
+      "pmid_norm": "21420186",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22302761",
+      "pmid_norm": "22302761",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21979183",
+      "pmid_norm": "21979183",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12607120",
+      "pmid_norm": "12607120",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21914194",
+      "pmid_norm": "21914194",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25725704",
+      "pmid_norm": "25725704",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24516646",
+      "pmid_norm": "24516646",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28247485",
+      "pmid_norm": "28247485",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11334578",
+      "pmid_norm": "11334578",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21593045",
+      "pmid_norm": "21593045",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22902073",
+      "pmid_norm": "22902073",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26471488",
+      "pmid_norm": "26471488",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16647887",
+      "pmid_norm": "16647887",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22668712",
+      "pmid_norm": "22668712",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18439500",
+      "pmid_norm": "18439500",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23347337",
+      "pmid_norm": "23347337",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22970993",
+      "pmid_norm": "22970993",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16498158",
+      "pmid_norm": "16498158",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24622801",
+      "pmid_norm": "24622801",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15000338",
+      "pmid_norm": "15000338",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22491528",
+      "pmid_norm": "22491528",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11247896",
+      "pmid_norm": "11247896",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19145527",
+      "pmid_norm": "19145527",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18568239",
+      "pmid_norm": "18568239",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22075911",
+      "pmid_norm": "22075911",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10401824",
+      "pmid_norm": "10401824",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21880023",
+      "pmid_norm": "21880023",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21726930",
+      "pmid_norm": "21726930",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22768311",
+      "pmid_norm": "22768311",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25636371",
+      "pmid_norm": "25636371",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15050326",
+      "pmid_norm": "15050326",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23412195",
+      "pmid_norm": "23412195",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16968183",
+      "pmid_norm": "16968183",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23359100",
+      "pmid_norm": "23359100",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15943725",
+      "pmid_norm": "15943725",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25735444",
+      "pmid_norm": "25735444",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9722752",
+      "pmid_norm": "9722752",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23870157",
+      "pmid_norm": "23870157",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22303473",
+      "pmid_norm": "22303473",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24995509",
+      "pmid_norm": "24995509",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24270957",
+      "pmid_norm": "24270957",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23848044",
+      "pmid_norm": "23848044",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9920954",
+      "pmid_norm": "9920954",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21276532",
+      "pmid_norm": "21276532",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23379759",
+      "pmid_norm": "23379759",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25891436",
+      "pmid_norm": "25891436",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24450673",
+      "pmid_norm": "24450673",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17914515",
+      "pmid_norm": "17914515",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24739448",
+      "pmid_norm": "24739448",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19444061",
+      "pmid_norm": "19444061",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25669733",
+      "pmid_norm": "25669733",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20577124",
+      "pmid_norm": "20577124",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21592383",
+      "pmid_norm": "21592383",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11053064",
+      "pmid_norm": "11053064",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9745063",
+      "pmid_norm": "9745063",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11138995",
+      "pmid_norm": "11138995",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15475728",
+      "pmid_norm": "15475728",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12121321",
+      "pmid_norm": "12121321",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17342562",
+      "pmid_norm": "17342562",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28011794",
+      "pmid_norm": "28011794",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24098953",
+      "pmid_norm": "24098953",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24827404",
+      "pmid_norm": "24827404",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "28407529",
+      "pmid_norm": "28407529",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27928673",
+      "pmid_norm": "27928673",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22011946",
+      "pmid_norm": "22011946",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23517744",
+      "pmid_norm": "23517744",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20842006",
+      "pmid_norm": "20842006",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "9140335",
+      "pmid_norm": "9140335",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12142826",
+      "pmid_norm": "12142826",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22382608",
+      "pmid_norm": "22382608",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17329379",
+      "pmid_norm": "17329379",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27288618",
+      "pmid_norm": "27288618",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21873082",
+      "pmid_norm": "21873082",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "25810292",
+      "pmid_norm": "25810292",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21739621",
+      "pmid_norm": "21739621",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "20073599",
+      "pmid_norm": "20073599",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21845457",
+      "pmid_norm": "21845457",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16216859",
+      "pmid_norm": "16216859",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19103915",
+      "pmid_norm": "19103915",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22521460",
+      "pmid_norm": "22521460",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17062234",
+      "pmid_norm": "17062234",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "26126304",
+      "pmid_norm": "26126304",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19578820",
+      "pmid_norm": "19578820",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21228436",
+      "pmid_norm": "21228436",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23972333",
+      "pmid_norm": "23972333",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23719685",
+      "pmid_norm": "23719685",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11601252",
+      "pmid_norm": "11601252",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23506394",
+      "pmid_norm": "23506394",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19575307",
+      "pmid_norm": "19575307",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11977907",
+      "pmid_norm": "11977907",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "12626177",
+      "pmid_norm": "12626177",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15483019",
+      "pmid_norm": "15483019",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "18693227",
+      "pmid_norm": "18693227",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27131771",
+      "pmid_norm": "27131771",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "24783217",
+      "pmid_norm": "24783217",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17916877",
+      "pmid_norm": "17916877",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8375607",
+      "pmid_norm": "8375607",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11955750",
+      "pmid_norm": "11955750",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27040842",
+      "pmid_norm": "27040842",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17244100",
+      "pmid_norm": "17244100",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "15708048",
+      "pmid_norm": "15708048",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "11438275",
+      "pmid_norm": "11438275",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "22513023",
+      "pmid_norm": "22513023",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "27146470",
+      "pmid_norm": "27146470",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8165771",
+      "pmid_norm": "8165771",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23677366",
+      "pmid_norm": "23677366",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "19237087",
+      "pmid_norm": "19237087",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "10456814",
+      "pmid_norm": "10456814",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "8921484",
+      "pmid_norm": "8921484",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "16564683",
+      "pmid_norm": "16564683",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "23147106",
+      "pmid_norm": "23147106",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "21550158",
+      "pmid_norm": "21550158",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    },
+    {
+      "pubid": "17559449",
+      "pmid_norm": "17559449",
+      "in_gerilit": false,
+      "mapped_pmcid": null
+    }
+  ]
+}

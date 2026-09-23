@@ -1,0 +1,106 @@
+{
+  "corpus_version": "ElderDocAI-GeriLit-dev-v0.1",
+  "parameters": {
+    "TARGET_WORDS": 220,
+    "MAX_WORDS": 300,
+    "MIN_CHUNK_WORDS": 50,
+    "MIN_MERGE_WORDS": 100,
+    "OVERLAP_SENTENCES": 1
+  },
+  "articles": 500,
+  "chunks_total": 17930,
+  "chunks_per_article": {
+    "min": 1,
+    "p25": 27.0,
+    "p50": 32.0,
+    "mean": 35.86,
+    "p75": 41.0,
+    "p95": 61.95,
+    "max": 131
+  },
+  "word_count": {
+    "min": 1,
+    "p25": 95.0,
+    "p50": 150.0,
+    "mean": 158.39,
+    "p75": 200.0,
+    "p90": 260.0,
+    "p95": 290.0,
+    "max": 4548
+  },
+  "character_count": {
+    "min": 4,
+    "p25": 620.0,
+    "p50": 972.0,
+    "mean": 1020.29,
+    "p75": 1307.0,
+    "p90": 1644.0,
+    "p95": 1867.45,
+    "max": 28186
+  },
+  "overlap_sentences_applied": 1129,
+  "by_region": {
+    "ABSTRACT": 875,
+    "BODY": 16924,
+    "BACK": 131
+  },
+  "by_content_type": {
+    "PROSE": 16690,
+    "TABLE": 591,
+    "FIGURE_CAPTION": 351,
+    "FORMULA": 23,
+    "LIST": 126,
+    "BOXED_TEXT": 23,
+    "DISP_QUOTE": 126
+  },
+  "by_evidence_type": {
+    "NARRATIVE_REVIEW": 1681,
+    "OBSERVATIONAL_STUDY": 4688,
+    "META_ANALYSIS": 882,
+    "UNKNOWN": 6410,
+    "RANDOMIZED_CONTROLLED_TRIAL": 2188,
+    "SYSTEMATIC_REVIEW": 574,
+    "QUALITATIVE_OR_MIXED_METHODS": 950,
+    "EDITORIAL_OR_COMMENTARY": 73,
+    "DIAGNOSTIC_OR_VALIDATION_STUDY": 120,
+    "GUIDELINE_OR_CONSENSUS": 117,
+    "METHODS_OR_TECHNICAL": 34,
+    "PROTOCOL": 101,
+    "CASE_REPORT_OR_CASE_SERIES": 112
+  },
+  "by_article_type": {
+    "review-article": 2111,
+    "research-article": 15054,
+    "editorial": 58,
+    "discussion": 15,
+    "abstract": 1,
+    "methods-article": 111,
+    "systematic-review": 208,
+    "other": 198,
+    "brief-report": 67,
+    "protocol": 81,
+    "letter": 26
+  },
+  "by_topic": {
+    "T08": 2468,
+    "T05": 1980,
+    "T01": 2085,
+    "T06": 1944,
+    "T07": 1676,
+    "T02": 2371,
+    "T09": 2072,
+    "T03": 2413,
+    "T04": 1878
+  },
+  "flag_counts": {
+    "provenance_complete": 17930,
+    "is_too_short": 1242,
+    "is_too_long": 470,
+    "contains_table": 591,
+    "contains_special_content": 1240,
+    "paragraph_split": 2001,
+    "sentence_split": 2001,
+    "contains_figure_caption": 351,
+    "unsplit_long_sentence": 12
+  }
+}

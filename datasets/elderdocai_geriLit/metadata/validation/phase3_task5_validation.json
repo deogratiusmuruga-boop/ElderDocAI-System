@@ -1,0 +1,54 @@
+{
+  "validation_ts": "2026-09-18T01:24:02.504800+00:00",
+  "validated_by": "validate_task5.py",
+  "all_checks_pass": true,
+  "checks": {
+    "corpus_chunk_count": true,
+    "corpus_pmcid_count": true,
+    "chunk_ids_unique": true,
+    "emb_shape": true,
+    "emb_dtype": true,
+    "emb_finite": true,
+    "emb_l2_normalized": true,
+    "emb_norm_min_max": true,
+    "faiss_readable": true,
+    "faiss_indexflatip": true,
+    "faiss_ntotal": true,
+    "faiss_dim": true,
+    "faiss_ip_matches_cosine": true,
+    "bm25_docs": true,
+    "bm25_ids_size": true,
+    "bm25_ids_unique": true,
+    "rowmapping_size": true,
+    "rowmapping_equals_chunk_order": true,
+    "rowmapping_equals_bm25_order": true,
+    "provenance_recovery_present": true,
+    "offline_model_available_local": true,
+    "offline_dim": true,
+    "smoke_faiss_rows_valid": true,
+    "smoke_faiss_sorted": true,
+    "smoke_bm25_rows": true,
+    "smoke_scores_finite": true,
+    "reference_manifests_present": true,
+    "task2_manifest_unchanged": true,
+    "task3_artifacts_unchanged": true,
+    "task4_chunks_unchanged": true,
+    "statistics_reproducible": true
+  },
+  "diag": {
+    "emb_shape": [
+      17930,
+      768
+    ],
+    "first_row_mismatch": null,
+    "untitled_unsectioned_chunks": 1946,
+    "prov_sample_fail": []
+  },
+  "counts": {
+    "chunks": 17930,
+    "pmcids": 500,
+    "embeddings": 17930,
+    "faiss_ntotal": 17930,
+    "bm25_docs": 17930
+  }
+}

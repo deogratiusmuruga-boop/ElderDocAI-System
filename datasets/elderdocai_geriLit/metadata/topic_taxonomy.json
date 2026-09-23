@@ -1,0 +1,79 @@
+{
+  "corpus": "ElderDocAI-GeriLit",
+  "development_version": "ElderDocAI-GeriLit-dev-v0.1",
+  "scope": "Real PMC OA full-text biomedical evidence relevant to older-adult care and aging-related assistance. NOT a generic biomedical corpus.",
+  "topics": [
+    {
+      "topic_id": "T01",
+      "topic_name": "Memory and cognition",
+      "inclusion_concepts": ["dementia", "Alzheimer's disease", "mild cognitive impairment", "memory loss", "cognitive decline", "neurocognitive disorders", "cognitive assessment"],
+      "exclusion_concepts": ["pediatric cognition", "non-human cognition"],
+      "search_terms": "(dementia OR \"Alzheimer disease\" OR \"mild cognitive impairment\" OR \"cognitive decline\" OR \"memory loss\") AND (\"older adults\" OR aged OR elderly OR geriatric)",
+      "rationale": "Core older-adult cognition domain; high caregiver-relevance."
+    },
+    {
+      "topic_id": "T02",
+      "topic_name": "Medication / medication safety / polypharmacy",
+      "inclusion_concepts": ["polypharmacy", "deprescribing", "adverse drug events", "drug interactions", "medication adherence", "medication management", "inappropriate prescribing"],
+      "exclusion_concepts": ["animal pharmacology without aging context"],
+      "search_terms": "(polypharmacy OR deprescribing OR \"adverse drug\" OR \"drug interaction\" OR \"medication safety\") AND (\"older adults\" OR aged OR elderly OR geriatric)",
+      "rationale": "High burden and avoidable harm in older adults; central to ElderDocAI assistance."
+    },
+    {
+      "topic_id": "T03",
+      "topic_name": "Exercise / physical activity / mobility / function",
+      "inclusion_concepts": ["exercise", "physical activity", "balance", "walking", "sarcopenia", "frailty", "physical function", "falls prevention", "strength training"],
+      "exclusion_concepts": ["elite sports performance", "pediatric exercise"],
+      "search_terms": "(exercise OR \"physical activity\" OR balance OR walking OR frailty OR sarcopenia OR \"physical function\") AND (\"older adults\" OR aged OR elderly OR geriatric)",
+      "rationale": "Function and mobility are core geriatric outcomes and caregiver-relevant."
+    },
+    {
+      "topic_id": "T04",
+      "topic_name": "Nutrition / diet / healthy aging",
+      "inclusion_concepts": ["nutrition", "diet", "malnutrition", "dietary protein", "micronutrients", "weight loss", "nutritional assessment", "healthy aging diet"],
+      "exclusion_concepts": ["agricultural feed trials"],
+      "search_terms": "(nutrition OR diet OR malnutrition OR \"dietary protein\" OR \"healthy aging\") AND (\"older adults\" OR aged OR elderly OR geriatric)",
+      "rationale": "Nutrition underlies function, immunity, and chronic disease in older adults."
+    },
+    {
+      "topic_id": "T05",
+      "topic_name": "Caregiving / caregiver support",
+      "inclusion_concepts": ["informal caregiver", "family caregiver", "caregiver burden", "caregiver support", "respite care", "caregiver interventions"],
+      "exclusion_concepts": ["professional staffing ratios only"],
+      "search_terms": "(caregiver OR caregiving OR \"caregiver burden\" OR \"caregiver support\") AND (dementia OR \"older adults\" OR aged OR elderly)",
+      "rationale": "Directly aligned with ElderDocAI's caregiver-facing purpose."
+    },
+    {
+      "topic_id": "T06",
+      "topic_name": "Geriatric syndromes",
+      "inclusion_concepts": ["falls", "frailty", "urinary incontinence", "delirium", "pressure ulcers", "polypharmacy-associated syndromes", "immobility", "dysphagia"],
+      "exclusion_concepts": ["single-organ acute protocols without geriatric framing"],
+      "search_terms": "(falls OR frailty OR delirium OR incontinence OR \"pressure ulcer\" OR immobility) AND (\"older adults\" OR aged OR elderly OR geriatric)",
+      "rationale": "Geriatric syndromes are markers of vulnerability and care complexity."
+    },
+    {
+      "topic_id": "T07",
+      "topic_name": "Chronic conditions relevant to older-adult care",
+      "inclusion_concepts": ["heart failure", "hypertension", "diabetes", "COPD", "chronic kidney disease", "osteoarthritis", "osteoporosis", "stroke", "multimorbidity", "geriatric comorbidity management"],
+      "exclusion_concepts": ["pediatric chronic conditions", "bench-only disease models"],
+      "search_terms": "(multimorbidity OR comorbidity OR \"heart failure\" OR hypertension OR diabetes OR COPD OR osteoporosis) AND (\"older adults\" OR aged OR elderly OR geriatric)",
+      "rationale": "Chronic disease management dominates older-adult care activity."
+    },
+    {
+      "topic_id": "T08",
+      "topic_name": "Functional health / healthy aging",
+      "inclusion_concepts": ["activities of daily living", "ADL", "independent living", "healthy aging", "quality of life", "functional decline", "disability prevention"],
+      "exclusion_concepts": ["generic quality-of-life in younger populations"],
+      "search_terms": "(\"activities of daily living\" OR \"independent living\" OR \"healthy aging\" OR \"functional decline\") AND (\"older adults\" OR aged OR elderly OR geriatric)",
+      "rationale": "Function and independence are the central outcomes of supportive care."
+    },
+    {
+      "topic_id": "T09",
+      "topic_name": "Preventive and supportive care relevant to older adults",
+      "inclusion_concepts": ["vaccination in older adults", "falls prevention programs", "geriatric assessment", "advance care planning", "home care", "long-term care", "rehabilitation", "palliative care", "care coordination"],
+      "exclusion_concepts": ["benign administrative quality metrics only"],
+      "search_terms": "(\"geriatric assessment\" OR \"advance care planning\" OR \"home care\" OR \"long-term care\" OR \"falls prevention\" OR vaccination) AND (\"older adults\" OR aged OR elderly OR geriatric)",
+      "rationale": "Preventive/supportive care scope complements curative domains."
+    }
+  ]
+}

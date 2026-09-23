@@ -1,0 +1,40 @@
+{
+  "validation_ts": "2026-09-18T04:46:34.606697+00:00",
+  "validated_by": "metadata/task9c_prepare_review.py",
+  "all_checks_pass": true,
+  "checks": {
+    "all_134_present": true,
+    "candidate_id_unique": true,
+    "pmcid_nonempty": true,
+    "chunk_text_embedded": true,
+    "chunk_text_present_in_corpus": true,
+    "gold_chunks_are_review_field": true,
+    "human_fields_pending": true,
+    "no_llm_reviewer": true,
+    "questions_unique": true,
+    "no_id_leak": true,
+    "frozen_artifacts_unchanged": true,
+    "gold16_unchanged": true,
+    "gold96_unchanged": true,
+    "accepted_manifest_unchanged": true,
+    "final_benchmark_not_produced": true
+  },
+  "counts": {
+    "candidates": 134,
+    "by_topic": {
+      "C01": 14,
+      "C02": 17,
+      "C03": 13,
+      "C04": 13,
+      "C05": 15,
+      "C06": 20,
+      "C07": 16,
+      "C08": 9,
+      "C09": 11,
+      "C10": 6
+    },
+    "automated_dup_group_aids": 31,
+    "human_review_state": "PENDING_HUMAN_REVIEW",
+    "final_benchmark_created": false
+  }
+}

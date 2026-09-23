@@ -1,0 +1,5201 @@
+{
+  "PMC10001925": {
+    "n_elements": 34,
+    "n_chunks": 27,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10002240": {
+    "n_elements": 63,
+    "n_chunks": 63,
+    "n_elements_covered": 63,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "33": 2,
+      "54": 2,
+      "57": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10008549": {
+    "n_elements": 22,
+    "n_chunks": 26,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "2": 2,
+      "8": 2,
+      "10": 2,
+      "14": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10009923": {
+    "n_elements": 27,
+    "n_chunks": 21,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "17": 2,
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10017574": {
+    "n_elements": 24,
+    "n_chunks": 27,
+    "n_elements_covered": 24,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 3,
+      "16": 4,
+      "17": 2,
+      "21": 2,
+      "22": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10022263": {
+    "n_elements": 37,
+    "n_chunks": 30,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10043750": {
+    "n_elements": 47,
+    "n_chunks": 33,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10056148": {
+    "n_elements": 28,
+    "n_chunks": 23,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "2": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10063931": {
+    "n_elements": 31,
+    "n_chunks": 36,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "5": 2,
+      "8": 2,
+      "9": 2,
+      "15": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10089050": {
+    "n_elements": 24,
+    "n_chunks": 16,
+    "n_elements_covered": 24,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10095830": {
+    "n_elements": 58,
+    "n_chunks": 56,
+    "n_elements_covered": 58,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10147734": {
+    "n_elements": 46,
+    "n_chunks": 41,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "24": 10
+    },
+    "reordered_sequence": false
+  },
+  "PMC10174559": {
+    "n_elements": 29,
+    "n_chunks": 24,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10201685": {
+    "n_elements": 57,
+    "n_chunks": 24,
+    "n_elements_covered": 57,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10206279": {
+    "n_elements": 46,
+    "n_chunks": 38,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10219583": {
+    "n_elements": 102,
+    "n_chunks": 84,
+    "n_elements_covered": 102,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "19": 2,
+      "53": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10234124": {
+    "n_elements": 39,
+    "n_chunks": 33,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10242997": {
+    "n_elements": 42,
+    "n_chunks": 38,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "38": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10276510": {
+    "n_elements": 39,
+    "n_chunks": 31,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10296731": {
+    "n_elements": 46,
+    "n_chunks": 41,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "38": 2,
+      "43": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10311750": {
+    "n_elements": 86,
+    "n_chunks": 44,
+    "n_elements_covered": 86,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10332011": {
+    "n_elements": 35,
+    "n_chunks": 34,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2,
+      "14": 2,
+      "15": 2,
+      "16": 2,
+      "17": 2,
+      "21": 2,
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10353211": {
+    "n_elements": 19,
+    "n_chunks": 18,
+    "n_elements_covered": 19,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10385316": {
+    "n_elements": 41,
+    "n_chunks": 37,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "9": 2,
+      "33": 2,
+      "34": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10390524": {
+    "n_elements": 47,
+    "n_chunks": 37,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "14": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10401751": {
+    "n_elements": 39,
+    "n_chunks": 40,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "16": 3,
+      "21": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10409988": {
+    "n_elements": 39,
+    "n_chunks": 33,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10421189": {
+    "n_elements": 23,
+    "n_chunks": 24,
+    "n_elements_covered": 23,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "17": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10445339": {
+    "n_elements": 37,
+    "n_chunks": 29,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10447592": {
+    "n_elements": 43,
+    "n_chunks": 36,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10449331": {
+    "n_elements": 35,
+    "n_chunks": 34,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "4": 2,
+      "24": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10470185": {
+    "n_elements": 37,
+    "n_chunks": 29,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2,
+      "18": 3,
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10515075": {
+    "n_elements": 27,
+    "n_chunks": 25,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 2,
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10519081": {
+    "n_elements": 54,
+    "n_chunks": 75,
+    "n_elements_covered": 54,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 2,
+      "15": 15,
+      "19": 11,
+      "40": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10534347": {
+    "n_elements": 26,
+    "n_chunks": 23,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10548671": {
+    "n_elements": 80,
+    "n_chunks": 54,
+    "n_elements_covered": 80,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "51": 3,
+      "55": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10574358": {
+    "n_elements": 87,
+    "n_chunks": 80,
+    "n_elements_covered": 87,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 2,
+      "45": 2,
+      "46": 2,
+      "48": 2,
+      "62": 2,
+      "63": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10578450": {
+    "n_elements": 51,
+    "n_chunks": 39,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10588094": {
+    "n_elements": 51,
+    "n_chunks": 29,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10601250": {
+    "n_elements": 49,
+    "n_chunks": 41,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10608555": {
+    "n_elements": 59,
+    "n_chunks": 37,
+    "n_elements_covered": 59,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10633991": {
+    "n_elements": 36,
+    "n_chunks": 38,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "14": 2,
+      "29": 2,
+      "30": 2,
+      "31": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10644581": {
+    "n_elements": 57,
+    "n_chunks": 33,
+    "n_elements_covered": 57,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "25": 2,
+      "36": 2,
+      "42": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10645724": {
+    "n_elements": 27,
+    "n_chunks": 29,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 3,
+      "8": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10666309": {
+    "n_elements": 37,
+    "n_chunks": 27,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10670184": {
+    "n_elements": 29,
+    "n_chunks": 28,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "23": 2,
+      "25": 2,
+      "26": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC10670366": {
+    "n_elements": 15,
+    "n_chunks": 15,
+    "n_elements_covered": 15,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10675908": {
+    "n_elements": 68,
+    "n_chunks": 35,
+    "n_elements_covered": 68,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10685713": {
+    "n_elements": 68,
+    "n_chunks": 47,
+    "n_elements_covered": 68,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10691300": {
+    "n_elements": 36,
+    "n_chunks": 33,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2,
+      "19": 2,
+      "22": 2,
+      "23": 2,
+      "28": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10697542": {
+    "n_elements": 65,
+    "n_chunks": 52,
+    "n_elements_covered": 65,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10706958": {
+    "n_elements": 33,
+    "n_chunks": 31,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "2": 2,
+      "7": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10709861": {
+    "n_elements": 34,
+    "n_chunks": 28,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 3,
+      "12": 2,
+      "15": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10710345": {
+    "n_elements": 29,
+    "n_chunks": 20,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "23": 2,
+      "24": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10712059": {
+    "n_elements": 50,
+    "n_chunks": 48,
+    "n_elements_covered": 50,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "26": 2,
+      "27": 2,
+      "34": 2,
+      "43": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10717497": {
+    "n_elements": 48,
+    "n_chunks": 45,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "31": 3,
+      "39": 2,
+      "40": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10726053": {
+    "n_elements": 56,
+    "n_chunks": 55,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "19": 2,
+      "24": 2,
+      "35": 2,
+      "49": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10736480": {
+    "n_elements": 1,
+    "n_chunks": 1,
+    "n_elements_covered": 1,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10742503": {
+    "n_elements": 51,
+    "n_chunks": 38,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10761328": {
+    "n_elements": 35,
+    "n_chunks": 32,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10787659": {
+    "n_elements": 36,
+    "n_chunks": 34,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "11": 2,
+      "29": 2,
+      "32": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC10798021": {
+    "n_elements": 38,
+    "n_chunks": 32,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10804461": {
+    "n_elements": 35,
+    "n_chunks": 32,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "22": 2,
+      "23": 2,
+      "27": 2,
+      "29": 3,
+      "31": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10804633": {
+    "n_elements": 39,
+    "n_chunks": 41,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "15": 6,
+      "16": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10806786": {
+    "n_elements": 44,
+    "n_chunks": 32,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10828358": {
+    "n_elements": 29,
+    "n_chunks": 26,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10836006": {
+    "n_elements": 50,
+    "n_chunks": 37,
+    "n_elements_covered": 50,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "29": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10859247": {
+    "n_elements": 36,
+    "n_chunks": 32,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10898038": {
+    "n_elements": 45,
+    "n_chunks": 42,
+    "n_elements_covered": 45,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "17": 3,
+      "30": 4,
+      "34": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC10921627": {
+    "n_elements": 18,
+    "n_chunks": 40,
+    "n_elements_covered": 18,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 3,
+      "9": 3,
+      "11": 8,
+      "12": 5,
+      "13": 8,
+      "14": 4
+    },
+    "reordered_sequence": false
+  },
+  "PMC10925607": {
+    "n_elements": 27,
+    "n_chunks": 27,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10934742": {
+    "n_elements": 42,
+    "n_chunks": 30,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10953286": {
+    "n_elements": 36,
+    "n_chunks": 30,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10965080": {
+    "n_elements": 76,
+    "n_chunks": 47,
+    "n_elements_covered": 76,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC10988905": {
+    "n_elements": 26,
+    "n_chunks": 27,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 2,
+      "21": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC10993447": {
+    "n_elements": 45,
+    "n_chunks": 39,
+    "n_elements_covered": 45,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2,
+      "22": 3,
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11019279": {
+    "n_elements": 37,
+    "n_chunks": 30,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "11": 3,
+      "27": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11020407": {
+    "n_elements": 56,
+    "n_chunks": 31,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11020442": {
+    "n_elements": 22,
+    "n_chunks": 24,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2,
+      "16": 2,
+      "19": 2,
+      "20": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11041409": {
+    "n_elements": 62,
+    "n_chunks": 50,
+    "n_elements_covered": 62,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11049769": {
+    "n_elements": 49,
+    "n_chunks": 44,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "6": 2,
+      "32": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11060549": {
+    "n_elements": 67,
+    "n_chunks": 50,
+    "n_elements_covered": 67,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11063880": {
+    "n_elements": 46,
+    "n_chunks": 48,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "35": 2,
+      "39": 2,
+      "40": 2,
+      "41": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11069272": {
+    "n_elements": 48,
+    "n_chunks": 39,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "34": 5
+    },
+    "reordered_sequence": false
+  },
+  "PMC11076353": {
+    "n_elements": 42,
+    "n_chunks": 34,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "24": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11076373": {
+    "n_elements": 35,
+    "n_chunks": 30,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "21": 3,
+      "28": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11095428": {
+    "n_elements": 47,
+    "n_chunks": 39,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11134668": {
+    "n_elements": 23,
+    "n_chunks": 21,
+    "n_elements_covered": 23,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11136843": {
+    "n_elements": 43,
+    "n_chunks": 27,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "32": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11153298": {
+    "n_elements": 37,
+    "n_chunks": 33,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC11165805": {
+    "n_elements": 77,
+    "n_chunks": 46,
+    "n_elements_covered": 77,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "27": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC11165901": {
+    "n_elements": 40,
+    "n_chunks": 36,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "26": 2,
+      "34": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11183121": {
+    "n_elements": 39,
+    "n_chunks": 30,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2,
+      "20": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11184752": {
+    "n_elements": 25,
+    "n_chunks": 27,
+    "n_elements_covered": 25,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 2,
+      "15": 2,
+      "16": 2,
+      "17": 2,
+      "22": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11188407": {
+    "n_elements": 47,
+    "n_chunks": 39,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11190369": {
+    "n_elements": 44,
+    "n_chunks": 41,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11222768": {
+    "n_elements": 79,
+    "n_chunks": 64,
+    "n_elements_covered": 79,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11227113": {
+    "n_elements": 40,
+    "n_chunks": 32,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11251379": {
+    "n_elements": 56,
+    "n_chunks": 32,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "43": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11251623": {
+    "n_elements": 39,
+    "n_chunks": 36,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 2,
+      "7": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11281094": {
+    "n_elements": 63,
+    "n_chunks": 50,
+    "n_elements_covered": 63,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11282592": {
+    "n_elements": 34,
+    "n_chunks": 42,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2,
+      "12": 2,
+      "16": 2,
+      "17": 3,
+      "19": 2,
+      "20": 3,
+      "21": 4
+    },
+    "reordered_sequence": false
+  },
+  "PMC11293705": {
+    "n_elements": 49,
+    "n_chunks": 57,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "5": 2,
+      "23": 2,
+      "28": 2,
+      "30": 5
+    },
+    "reordered_sequence": false
+  },
+  "PMC11294767": {
+    "n_elements": 45,
+    "n_chunks": 37,
+    "n_elements_covered": 45,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "31": 2,
+      "37": 2,
+      "43": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11313967": {
+    "n_elements": 46,
+    "n_chunks": 34,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11314023": {
+    "n_elements": 116,
+    "n_chunks": 57,
+    "n_elements_covered": 116,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "41": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11353079": {
+    "n_elements": 35,
+    "n_chunks": 27,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11363529": {
+    "n_elements": 66,
+    "n_chunks": 54,
+    "n_elements_covered": 66,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2,
+      "51": 2,
+      "58": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11427853": {
+    "n_elements": 73,
+    "n_chunks": 54,
+    "n_elements_covered": 73,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "9": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11444203": {
+    "n_elements": 27,
+    "n_chunks": 18,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11452757": {
+    "n_elements": 39,
+    "n_chunks": 31,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11468099": {
+    "n_elements": 62,
+    "n_chunks": 44,
+    "n_elements_covered": 62,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11470725": {
+    "n_elements": 39,
+    "n_chunks": 30,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 2,
+      "31": 2,
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11480482": {
+    "n_elements": 61,
+    "n_chunks": 54,
+    "n_elements_covered": 61,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "37": 4,
+      "52": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC11487518": {
+    "n_elements": 76,
+    "n_chunks": 49,
+    "n_elements_covered": 76,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11499836": {
+    "n_elements": 48,
+    "n_chunks": 38,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "9": 2,
+      "46": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11513087": {
+    "n_elements": 52,
+    "n_chunks": 71,
+    "n_elements_covered": 52,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "1": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "13": 3,
+      "18": 2,
+      "20": 2,
+      "23": 2,
+      "26": 2,
+      "30": 2,
+      "33": 2,
+      "37": 2,
+      "40": 2,
+      "49": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11513313": {
+    "n_elements": 68,
+    "n_chunks": 44,
+    "n_elements_covered": 68,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11514396": {
+    "n_elements": 35,
+    "n_chunks": 34,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 2,
+      "11": 2,
+      "23": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11518331": {
+    "n_elements": 23,
+    "n_chunks": 20,
+    "n_elements_covered": 23,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11547385": {
+    "n_elements": 52,
+    "n_chunks": 32,
+    "n_elements_covered": 52,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11556697": {
+    "n_elements": 40,
+    "n_chunks": 36,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11571775": {
+    "n_elements": 28,
+    "n_chunks": 27,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "22": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11578716": {
+    "n_elements": 46,
+    "n_chunks": 44,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 2,
+      "6": 2,
+      "39": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11583418": {
+    "n_elements": 50,
+    "n_chunks": 39,
+    "n_elements_covered": 50,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11613993": {
+    "n_elements": 46,
+    "n_chunks": 29,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11614966": {
+    "n_elements": 45,
+    "n_chunks": 45,
+    "n_elements_covered": 45,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "21": 2,
+      "24": 5,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11634513": {
+    "n_elements": 37,
+    "n_chunks": 33,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "29": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11644605": {
+    "n_elements": 29,
+    "n_chunks": 31,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "3": 2,
+      "5": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11648958": {
+    "n_elements": 35,
+    "n_chunks": 32,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11655216": {
+    "n_elements": 58,
+    "n_chunks": 59,
+    "n_elements_covered": 58,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 3,
+      "15": 2,
+      "16": 2,
+      "18": 2,
+      "44": 2,
+      "47": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11658714": {
+    "n_elements": 41,
+    "n_chunks": 34,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "34": 2,
+      "38": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11693459": {
+    "n_elements": 71,
+    "n_chunks": 45,
+    "n_elements_covered": 71,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11696466": {
+    "n_elements": 27,
+    "n_chunks": 29,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 4,
+      "9": 2,
+      "20": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11747994": {
+    "n_elements": 46,
+    "n_chunks": 34,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "42": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11750315": {
+    "n_elements": 49,
+    "n_chunks": 52,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "8": 2,
+      "46": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11752826": {
+    "n_elements": 46,
+    "n_chunks": 29,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11772525": {
+    "n_elements": 30,
+    "n_chunks": 22,
+    "n_elements_covered": 30,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11774628": {
+    "n_elements": 44,
+    "n_chunks": 22,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11786471": {
+    "n_elements": 53,
+    "n_chunks": 38,
+    "n_elements_covered": 53,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "27": 3,
+      "38": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11794556": {
+    "n_elements": 104,
+    "n_chunks": 58,
+    "n_elements_covered": 104,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "48": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC11801605": {
+    "n_elements": 47,
+    "n_chunks": 36,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "36": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11801771": {
+    "n_elements": 38,
+    "n_chunks": 37,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 2,
+      "24": 2,
+      "36": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11806603": {
+    "n_elements": 44,
+    "n_chunks": 33,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2,
+      "40": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11837800": {
+    "n_elements": 51,
+    "n_chunks": 27,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11858404": {
+    "n_elements": 62,
+    "n_chunks": 30,
+    "n_elements_covered": 62,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11870876": {
+    "n_elements": 31,
+    "n_chunks": 34,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2,
+      "16": 3,
+      "21": 3,
+      "23": 2,
+      "28": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11897843": {
+    "n_elements": 51,
+    "n_chunks": 44,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11899645": {
+    "n_elements": 72,
+    "n_chunks": 72,
+    "n_elements_covered": 72,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "24": 2,
+      "41": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11906913": {
+    "n_elements": 53,
+    "n_chunks": 45,
+    "n_elements_covered": 53,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11922993": {
+    "n_elements": 38,
+    "n_chunks": 38,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2,
+      "28": 2,
+      "31": 3,
+      "34": 2,
+      "37": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11931344": {
+    "n_elements": 32,
+    "n_chunks": 22,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11943876": {
+    "n_elements": 34,
+    "n_chunks": 44,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "5": 2,
+      "9": 3,
+      "11": 3,
+      "12": 2,
+      "15": 2,
+      "16": 2,
+      "18": 2,
+      "20": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11946936": {
+    "n_elements": 42,
+    "n_chunks": 32,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "23": 2,
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11961421": {
+    "n_elements": 60,
+    "n_chunks": 51,
+    "n_elements_covered": 60,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "49": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC11975296": {
+    "n_elements": 55,
+    "n_chunks": 33,
+    "n_elements_covered": 55,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11982132": {
+    "n_elements": 48,
+    "n_chunks": 32,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC11999727": {
+    "n_elements": 36,
+    "n_chunks": 25,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12003614": {
+    "n_elements": 91,
+    "n_chunks": 81,
+    "n_elements_covered": 91,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2,
+      "20": 2,
+      "30": 2,
+      "32": 4,
+      "33": 2,
+      "37": 2,
+      "78": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12018603": {
+    "n_elements": 41,
+    "n_chunks": 31,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 2,
+      "32": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12028177": {
+    "n_elements": 32,
+    "n_chunks": 38,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "15": 2,
+      "25": 2,
+      "26": 2,
+      "28": 2,
+      "29": 2,
+      "30": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC12030256": {
+    "n_elements": 29,
+    "n_chunks": 28,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12069046": {
+    "n_elements": 33,
+    "n_chunks": 32,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "25": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12073175": {
+    "n_elements": 31,
+    "n_chunks": 29,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "25": 2,
+      "26": 2,
+      "27": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12074817": {
+    "n_elements": 43,
+    "n_chunks": 34,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12121461": {
+    "n_elements": 69,
+    "n_chunks": 30,
+    "n_elements_covered": 69,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "40": 3,
+      "59": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC12125148": {
+    "n_elements": 42,
+    "n_chunks": 31,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "9": 2,
+      "39": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12125643": {
+    "n_elements": 33,
+    "n_chunks": 31,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "31": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12156965": {
+    "n_elements": 64,
+    "n_chunks": 44,
+    "n_elements_covered": 64,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "4": 2,
+      "43": 2,
+      "45": 2,
+      "48": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12158650": {
+    "n_elements": 49,
+    "n_chunks": 36,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12172969": {
+    "n_elements": 32,
+    "n_chunks": 28,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2,
+      "17": 2,
+      "20": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12174202": {
+    "n_elements": 34,
+    "n_chunks": 34,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 2,
+      "6": 2,
+      "10": 2,
+      "16": 2,
+      "17": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12179336": {
+    "n_elements": 68,
+    "n_chunks": 56,
+    "n_elements_covered": 68,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12180302": {
+    "n_elements": 56,
+    "n_chunks": 49,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12183984": {
+    "n_elements": 40,
+    "n_chunks": 47,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "21": 2,
+      "23": 12
+    },
+    "reordered_sequence": false
+  },
+  "PMC12188283": {
+    "n_elements": 55,
+    "n_chunks": 41,
+    "n_elements_covered": 55,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12193762": {
+    "n_elements": 29,
+    "n_chunks": 26,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12235200": {
+    "n_elements": 74,
+    "n_chunks": 50,
+    "n_elements_covered": 74,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12239230": {
+    "n_elements": 44,
+    "n_chunks": 37,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12251942": {
+    "n_elements": 37,
+    "n_chunks": 28,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12275366": {
+    "n_elements": 45,
+    "n_chunks": 41,
+    "n_elements_covered": 45,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "8": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12286672": {
+    "n_elements": 37,
+    "n_chunks": 28,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "31": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12294248": {
+    "n_elements": 75,
+    "n_chunks": 31,
+    "n_elements_covered": 75,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12316151": {
+    "n_elements": 41,
+    "n_chunks": 34,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12336026": {
+    "n_elements": 90,
+    "n_chunks": 81,
+    "n_elements_covered": 90,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "56": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12348642": {
+    "n_elements": 27,
+    "n_chunks": 23,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "25": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12351875": {
+    "n_elements": 40,
+    "n_chunks": 38,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "24": 2,
+      "28": 2,
+      "30": 2,
+      "31": 2,
+      "37": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12364638": {
+    "n_elements": 188,
+    "n_chunks": 105,
+    "n_elements_covered": 188,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12369211": {
+    "n_elements": 115,
+    "n_chunks": 117,
+    "n_elements_covered": 115,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "16": 2,
+      "21": 4,
+      "25": 2,
+      "30": 2,
+      "32": 2,
+      "49": 2,
+      "72": 3,
+      "80": 2,
+      "102": 2,
+      "108": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12372344": {
+    "n_elements": 53,
+    "n_chunks": 48,
+    "n_elements_covered": 53,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2,
+      "15": 2,
+      "26": 3,
+      "34": 2,
+      "38": 2,
+      "40": 2,
+      "42": 2,
+      "44": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12374418": {
+    "n_elements": 66,
+    "n_chunks": 40,
+    "n_elements_covered": 66,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "47": 4
+    },
+    "reordered_sequence": false
+  },
+  "PMC12378287": {
+    "n_elements": 58,
+    "n_chunks": 39,
+    "n_elements_covered": 58,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "32": 5
+    },
+    "reordered_sequence": false
+  },
+  "PMC12381604": {
+    "n_elements": 78,
+    "n_chunks": 40,
+    "n_elements_covered": 78,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12393927": {
+    "n_elements": 31,
+    "n_chunks": 22,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "22": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12399441": {
+    "n_elements": 56,
+    "n_chunks": 31,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12399801": {
+    "n_elements": 40,
+    "n_chunks": 36,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12411905": {
+    "n_elements": 40,
+    "n_chunks": 32,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12412414": {
+    "n_elements": 66,
+    "n_chunks": 47,
+    "n_elements_covered": 66,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12417292": {
+    "n_elements": 27,
+    "n_chunks": 22,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12430405": {
+    "n_elements": 22,
+    "n_chunks": 20,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12452380": {
+    "n_elements": 33,
+    "n_chunks": 34,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "31": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12468265": {
+    "n_elements": 48,
+    "n_chunks": 41,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12469517": {
+    "n_elements": 32,
+    "n_chunks": 30,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12471782": {
+    "n_elements": 73,
+    "n_chunks": 52,
+    "n_elements_covered": 73,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12472808": {
+    "n_elements": 20,
+    "n_chunks": 21,
+    "n_elements_covered": 20,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "13": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12491218": {
+    "n_elements": 33,
+    "n_chunks": 34,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "28": 2,
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12521438": {
+    "n_elements": 56,
+    "n_chunks": 39,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "44": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12570243": {
+    "n_elements": 63,
+    "n_chunks": 49,
+    "n_elements_covered": 63,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12591516": {
+    "n_elements": 36,
+    "n_chunks": 26,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "27": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12595891": {
+    "n_elements": 31,
+    "n_chunks": 26,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 3,
+      "17": 3,
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12596410": {
+    "n_elements": 35,
+    "n_chunks": 30,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12608366": {
+    "n_elements": 42,
+    "n_chunks": 27,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "40": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12615209": {
+    "n_elements": 34,
+    "n_chunks": 28,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12645786": {
+    "n_elements": 32,
+    "n_chunks": 32,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 3,
+      "28": 2,
+      "29": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12655047": {
+    "n_elements": 33,
+    "n_chunks": 22,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12655801": {
+    "n_elements": 32,
+    "n_chunks": 30,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12656570": {
+    "n_elements": 62,
+    "n_chunks": 39,
+    "n_elements_covered": 62,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12670050": {
+    "n_elements": 54,
+    "n_chunks": 50,
+    "n_elements_covered": 54,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "48": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12673781": {
+    "n_elements": 47,
+    "n_chunks": 41,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "33": 3,
+      "38": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12695133": {
+    "n_elements": 58,
+    "n_chunks": 41,
+    "n_elements_covered": 58,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12736160": {
+    "n_elements": 54,
+    "n_chunks": 39,
+    "n_elements_covered": 54,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12737628": {
+    "n_elements": 29,
+    "n_chunks": 24,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12816158": {
+    "n_elements": 40,
+    "n_chunks": 35,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "28": 2,
+      "32": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12845196": {
+    "n_elements": 108,
+    "n_chunks": 57,
+    "n_elements_covered": 108,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12848607": {
+    "n_elements": 43,
+    "n_chunks": 32,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12848795": {
+    "n_elements": 47,
+    "n_chunks": 31,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12878318": {
+    "n_elements": 41,
+    "n_chunks": 33,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12880044": {
+    "n_elements": 32,
+    "n_chunks": 25,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 3,
+      "21": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12880452": {
+    "n_elements": 38,
+    "n_chunks": 30,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "22": 2,
+      "24": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC12880692": {
+    "n_elements": 51,
+    "n_chunks": 47,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "41": 2,
+      "42": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12882572": {
+    "n_elements": 42,
+    "n_chunks": 29,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12895929": {
+    "n_elements": 46,
+    "n_chunks": 43,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "23": 2,
+      "27": 2,
+      "43": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC12899587": {
+    "n_elements": 57,
+    "n_chunks": 45,
+    "n_elements_covered": 57,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12959700": {
+    "n_elements": 34,
+    "n_chunks": 27,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12995671": {
+    "n_elements": 81,
+    "n_chunks": 50,
+    "n_elements_covered": 81,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC12996086": {
+    "n_elements": 36,
+    "n_chunks": 31,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "29": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13005813": {
+    "n_elements": 54,
+    "n_chunks": 43,
+    "n_elements_covered": 54,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "52": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13022038": {
+    "n_elements": 63,
+    "n_chunks": 58,
+    "n_elements_covered": 63,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "61": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13029368": {
+    "n_elements": 44,
+    "n_chunks": 24,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13029402": {
+    "n_elements": 47,
+    "n_chunks": 51,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "1": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "13": 2,
+      "18": 2,
+      "24": 2,
+      "45": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13029748": {
+    "n_elements": 26,
+    "n_chunks": 28,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "4": 2,
+      "24": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13035194": {
+    "n_elements": 33,
+    "n_chunks": 19,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13043012": {
+    "n_elements": 102,
+    "n_chunks": 77,
+    "n_elements_covered": 102,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13059362": {
+    "n_elements": 43,
+    "n_chunks": 29,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13062472": {
+    "n_elements": 60,
+    "n_chunks": 45,
+    "n_elements_covered": 60,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13067492": {
+    "n_elements": 89,
+    "n_chunks": 53,
+    "n_elements_covered": 89,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13086324": {
+    "n_elements": 42,
+    "n_chunks": 37,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13094964": {
+    "n_elements": 44,
+    "n_chunks": 36,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13100462": {
+    "n_elements": 52,
+    "n_chunks": 44,
+    "n_elements_covered": 52,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "46": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13105444": {
+    "n_elements": 56,
+    "n_chunks": 45,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13116703": {
+    "n_elements": 27,
+    "n_chunks": 24,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13119847": {
+    "n_elements": 58,
+    "n_chunks": 28,
+    "n_elements_covered": 58,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13120912": {
+    "n_elements": 97,
+    "n_chunks": 65,
+    "n_elements_covered": 97,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13122286": {
+    "n_elements": 29,
+    "n_chunks": 24,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13136182": {
+    "n_elements": 38,
+    "n_chunks": 36,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13175229": {
+    "n_elements": 92,
+    "n_chunks": 49,
+    "n_elements_covered": 92,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "47": 2,
+      "48": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13202407": {
+    "n_elements": 44,
+    "n_chunks": 45,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 6
+    },
+    "reordered_sequence": false
+  },
+  "PMC13214217": {
+    "n_elements": 77,
+    "n_chunks": 53,
+    "n_elements_covered": 77,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "25": 2,
+      "70": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13239292": {
+    "n_elements": 43,
+    "n_chunks": 44,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "30": 2,
+      "37": 2,
+      "39": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC13251652": {
+    "n_elements": 17,
+    "n_chunks": 14,
+    "n_elements_covered": 17,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13257896": {
+    "n_elements": 61,
+    "n_chunks": 52,
+    "n_elements_covered": 61,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13266437": {
+    "n_elements": 32,
+    "n_chunks": 30,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 2,
+      "15": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13278776": {
+    "n_elements": 34,
+    "n_chunks": 26,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13286102": {
+    "n_elements": 35,
+    "n_chunks": 27,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13290007": {
+    "n_elements": 26,
+    "n_chunks": 21,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13308959": {
+    "n_elements": 45,
+    "n_chunks": 33,
+    "n_elements_covered": 45,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13309420": {
+    "n_elements": 50,
+    "n_chunks": 38,
+    "n_elements_covered": 50,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2,
+      "47": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13366924": {
+    "n_elements": 84,
+    "n_chunks": 75,
+    "n_elements_covered": 84,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "9": 2,
+      "49": 3,
+      "52": 3,
+      "53": 3,
+      "63": 2,
+      "65": 2,
+      "70": 2,
+      "74": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13397939": {
+    "n_elements": 41,
+    "n_chunks": 37,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "37": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13427250": {
+    "n_elements": 46,
+    "n_chunks": 26,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13449356": {
+    "n_elements": 41,
+    "n_chunks": 35,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2,
+      "19": 2,
+      "20": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13456569": {
+    "n_elements": 48,
+    "n_chunks": 37,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "40": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13467964": {
+    "n_elements": 35,
+    "n_chunks": 28,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13481201": {
+    "n_elements": 90,
+    "n_chunks": 76,
+    "n_elements_covered": 90,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13488087": {
+    "n_elements": 45,
+    "n_chunks": 41,
+    "n_elements_covered": 45,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2,
+      "20": 2,
+      "29": 2,
+      "37": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13512022": {
+    "n_elements": 63,
+    "n_chunks": 54,
+    "n_elements_covered": 63,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13513416": {
+    "n_elements": 70,
+    "n_chunks": 61,
+    "n_elements_covered": 70,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "46": 2,
+      "63": 2,
+      "66": 3,
+      "69": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC13519598": {
+    "n_elements": 37,
+    "n_chunks": 33,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13537444": {
+    "n_elements": 38,
+    "n_chunks": 31,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC13553406": {
+    "n_elements": 57,
+    "n_chunks": 50,
+    "n_elements_covered": 57,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC1933430": {
+    "n_elements": 36,
+    "n_chunks": 26,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC2579913": {
+    "n_elements": 69,
+    "n_chunks": 29,
+    "n_elements_covered": 69,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC2642819": {
+    "n_elements": 46,
+    "n_chunks": 23,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "42": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC2831795": {
+    "n_elements": 31,
+    "n_chunks": 20,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC3089776": {
+    "n_elements": 29,
+    "n_chunks": 20,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC3091558": {
+    "n_elements": 34,
+    "n_chunks": 20,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "17": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC3141531": {
+    "n_elements": 66,
+    "n_chunks": 22,
+    "n_elements_covered": 66,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC3176217": {
+    "n_elements": 50,
+    "n_chunks": 24,
+    "n_elements_covered": 50,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC3305533": {
+    "n_elements": 36,
+    "n_chunks": 13,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC3557720": {
+    "n_elements": 60,
+    "n_chunks": 30,
+    "n_elements_covered": 60,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC3566955": {
+    "n_elements": 42,
+    "n_chunks": 28,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "21": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC3603256": {
+    "n_elements": 39,
+    "n_chunks": 34,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "33": 2,
+      "34": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC3668232": {
+    "n_elements": 69,
+    "n_chunks": 38,
+    "n_elements_covered": 69,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC3717135": {
+    "n_elements": 41,
+    "n_chunks": 21,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC3797825": {
+    "n_elements": 48,
+    "n_chunks": 42,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "44": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC3905102": {
+    "n_elements": 43,
+    "n_chunks": 30,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC4020750": {
+    "n_elements": 34,
+    "n_chunks": 29,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC4022434": {
+    "n_elements": 49,
+    "n_chunks": 29,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC4216374": {
+    "n_elements": 25,
+    "n_chunks": 24,
+    "n_elements_covered": 25,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "11": 2,
+      "13": 3,
+      "14": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4265401": {
+    "n_elements": 32,
+    "n_chunks": 26,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 4
+    },
+    "reordered_sequence": false
+  },
+  "PMC4374293": {
+    "n_elements": 37,
+    "n_chunks": 28,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 2,
+      "20": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC4377948": {
+    "n_elements": 28,
+    "n_chunks": 26,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "10": 2,
+      "25": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4385593": {
+    "n_elements": 79,
+    "n_chunks": 31,
+    "n_elements_covered": 79,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "50": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4405814": {
+    "n_elements": 27,
+    "n_chunks": 30,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 2,
+      "12": 2,
+      "14": 3,
+      "20": 2,
+      "21": 2,
+      "25": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4414432": {
+    "n_elements": 51,
+    "n_chunks": 38,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 2,
+      "32": 3,
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4496054": {
+    "n_elements": 43,
+    "n_chunks": 32,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC4514748": {
+    "n_elements": 52,
+    "n_chunks": 33,
+    "n_elements_covered": 52,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC4527125": {
+    "n_elements": 23,
+    "n_chunks": 20,
+    "n_elements_covered": 23,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4532160": {
+    "n_elements": 40,
+    "n_chunks": 22,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4562105": {
+    "n_elements": 46,
+    "n_chunks": 32,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC4584858": {
+    "n_elements": 22,
+    "n_chunks": 18,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4625452": {
+    "n_elements": 59,
+    "n_chunks": 41,
+    "n_elements_covered": 59,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 6
+    },
+    "reordered_sequence": false
+  },
+  "PMC4625969": {
+    "n_elements": 41,
+    "n_chunks": 34,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4700610": {
+    "n_elements": 31,
+    "n_chunks": 27,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "22": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4714480": {
+    "n_elements": 47,
+    "n_chunks": 41,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC4723633": {
+    "n_elements": 29,
+    "n_chunks": 27,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2,
+      "16": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC4776357": {
+    "n_elements": 35,
+    "n_chunks": 33,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "25": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4796457": {
+    "n_elements": 38,
+    "n_chunks": 26,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 2,
+      "25": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC4898385": {
+    "n_elements": 32,
+    "n_chunks": 30,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "24": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4936088": {
+    "n_elements": 40,
+    "n_chunks": 35,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 3,
+      "17": 4
+    },
+    "reordered_sequence": false
+  },
+  "PMC4962411": {
+    "n_elements": 38,
+    "n_chunks": 34,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 2,
+      "20": 2,
+      "22": 2,
+      "23": 2,
+      "24": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC4994732": {
+    "n_elements": 32,
+    "n_chunks": 25,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5024357": {
+    "n_elements": 72,
+    "n_chunks": 26,
+    "n_elements_covered": 72,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5048476": {
+    "n_elements": 26,
+    "n_chunks": 29,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 3,
+      "16": 3,
+      "17": 2,
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5121430": {
+    "n_elements": 34,
+    "n_chunks": 22,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5324301": {
+    "n_elements": 37,
+    "n_chunks": 31,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2,
+      "19": 3,
+      "25": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5333806": {
+    "n_elements": 39,
+    "n_chunks": 33,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5340351": {
+    "n_elements": 53,
+    "n_chunks": 48,
+    "n_elements_covered": 53,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "46": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5390447": {
+    "n_elements": 57,
+    "n_chunks": 42,
+    "n_elements_covered": 57,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "22": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC5398226": {
+    "n_elements": 43,
+    "n_chunks": 32,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5445186": {
+    "n_elements": 52,
+    "n_chunks": 30,
+    "n_elements_covered": 52,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5549351": {
+    "n_elements": 47,
+    "n_chunks": 27,
+    "n_elements_covered": 47,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5550537": {
+    "n_elements": 29,
+    "n_chunks": 25,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5556411": {
+    "n_elements": 37,
+    "n_chunks": 28,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5558949": {
+    "n_elements": 33,
+    "n_chunks": 26,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5606957": {
+    "n_elements": 16,
+    "n_chunks": 16,
+    "n_elements_covered": 16,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC5663403": {
+    "n_elements": 57,
+    "n_chunks": 42,
+    "n_elements_covered": 57,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5688189": {
+    "n_elements": 56,
+    "n_chunks": 37,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5710210": {
+    "n_elements": 34,
+    "n_chunks": 28,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5745627": {
+    "n_elements": 29,
+    "n_chunks": 31,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 7,
+      "25": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5778069": {
+    "n_elements": 48,
+    "n_chunks": 36,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5829683": {
+    "n_elements": 55,
+    "n_chunks": 61,
+    "n_elements_covered": 55,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "3": 2,
+      "28": 2,
+      "43": 2,
+      "46": 2,
+      "48": 3,
+      "52": 2,
+      "53": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC5839532": {
+    "n_elements": 36,
+    "n_chunks": 34,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "34": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5902955": {
+    "n_elements": 65,
+    "n_chunks": 52,
+    "n_elements_covered": 65,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "24": 2,
+      "25": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5904986": {
+    "n_elements": 21,
+    "n_chunks": 20,
+    "n_elements_covered": 21,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2,
+      "14": 2,
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5952512": {
+    "n_elements": 38,
+    "n_chunks": 28,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "24": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC5968500": {
+    "n_elements": 31,
+    "n_chunks": 25,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC5986435": {
+    "n_elements": 43,
+    "n_chunks": 30,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6011007": {
+    "n_elements": 23,
+    "n_chunks": 21,
+    "n_elements_covered": 23,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "4": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6019522": {
+    "n_elements": 28,
+    "n_chunks": 22,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "21": 2,
+      "24": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6068491": {
+    "n_elements": 26,
+    "n_chunks": 24,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC6092850": {
+    "n_elements": 75,
+    "n_chunks": 51,
+    "n_elements_covered": 75,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "69": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6123986": {
+    "n_elements": 28,
+    "n_chunks": 26,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 2,
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6150521": {
+    "n_elements": 39,
+    "n_chunks": 35,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "33": 2,
+      "36": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6163965": {
+    "n_elements": 27,
+    "n_chunks": 31,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "3": 2,
+      "14": 2,
+      "17": 2,
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6240290": {
+    "n_elements": 33,
+    "n_chunks": 26,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 4,
+      "14": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6265853": {
+    "n_elements": 42,
+    "n_chunks": 30,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6267905": {
+    "n_elements": 24,
+    "n_chunks": 24,
+    "n_elements_covered": 24,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "3": 2,
+      "5": 2,
+      "16": 2,
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6302747": {
+    "n_elements": 41,
+    "n_chunks": 30,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC6313802": {
+    "n_elements": 26,
+    "n_chunks": 27,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6327554": {
+    "n_elements": 36,
+    "n_chunks": 29,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 3,
+      "21": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6339421": {
+    "n_elements": 39,
+    "n_chunks": 31,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "21": 5
+    },
+    "reordered_sequence": false
+  },
+  "PMC6343283": {
+    "n_elements": 49,
+    "n_chunks": 43,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "28": 2,
+      "32": 4,
+      "46": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6435622": {
+    "n_elements": 20,
+    "n_chunks": 19,
+    "n_elements_covered": 20,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 2,
+      "17": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6539798": {
+    "n_elements": 31,
+    "n_chunks": 24,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC6551894": {
+    "n_elements": 84,
+    "n_chunks": 55,
+    "n_elements_covered": 84,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "48": 2,
+      "49": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6580555": {
+    "n_elements": 46,
+    "n_chunks": 41,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2,
+      "36": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC6593514": {
+    "n_elements": 36,
+    "n_chunks": 22,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6627386": {
+    "n_elements": 22,
+    "n_chunks": 22,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2,
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6629671": {
+    "n_elements": 39,
+    "n_chunks": 22,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6685956": {
+    "n_elements": 26,
+    "n_chunks": 27,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "1": 3,
+      "6": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6701623": {
+    "n_elements": 40,
+    "n_chunks": 32,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC6794890": {
+    "n_elements": 26,
+    "n_chunks": 29,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 3,
+      "14": 4,
+      "15": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6797244": {
+    "n_elements": 57,
+    "n_chunks": 49,
+    "n_elements_covered": 57,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "52": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6805457": {
+    "n_elements": 36,
+    "n_chunks": 27,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "32": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6818660": {
+    "n_elements": 64,
+    "n_chunks": 28,
+    "n_elements_covered": 64,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC6822458": {
+    "n_elements": 37,
+    "n_chunks": 30,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "23": 2,
+      "25": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6843900": {
+    "n_elements": 34,
+    "n_chunks": 21,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC6849229": {
+    "n_elements": 44,
+    "n_chunks": 36,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "25": 2,
+      "28": 3,
+      "40": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6888600": {
+    "n_elements": 37,
+    "n_chunks": 29,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC6905555": {
+    "n_elements": 62,
+    "n_chunks": 49,
+    "n_elements_covered": 62,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "59": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6907055": {
+    "n_elements": 26,
+    "n_chunks": 27,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6929376": {
+    "n_elements": 49,
+    "n_chunks": 43,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "8": 2,
+      "12": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6934625": {
+    "n_elements": 25,
+    "n_chunks": 24,
+    "n_elements_covered": 25,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "11": 2,
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6934653": {
+    "n_elements": 24,
+    "n_chunks": 37,
+    "n_elements_covered": 24,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "5": 5,
+      "7": 4,
+      "8": 4,
+      "10": 3,
+      "16": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC6937656": {
+    "n_elements": 46,
+    "n_chunks": 54,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 3,
+      "10": 2,
+      "19": 2,
+      "20": 2,
+      "23": 4,
+      "25": 2,
+      "28": 2,
+      "39": 2,
+      "43": 2,
+      "44": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7003363": {
+    "n_elements": 54,
+    "n_chunks": 56,
+    "n_elements_covered": 54,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "14": 3,
+      "15": 3,
+      "20": 4,
+      "27": 2,
+      "28": 2,
+      "29": 2,
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7006935": {
+    "n_elements": 41,
+    "n_chunks": 37,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7017507": {
+    "n_elements": 50,
+    "n_chunks": 42,
+    "n_elements_covered": 50,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "27": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7020372": {
+    "n_elements": 28,
+    "n_chunks": 28,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2,
+      "20": 2,
+      "21": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7023764": {
+    "n_elements": 40,
+    "n_chunks": 32,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7047389": {
+    "n_elements": 27,
+    "n_chunks": 28,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2,
+      "14": 2,
+      "17": 2,
+      "21": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7082941": {
+    "n_elements": 62,
+    "n_chunks": 41,
+    "n_elements_covered": 62,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "44": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7277733": {
+    "n_elements": 28,
+    "n_chunks": 24,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7282252": {
+    "n_elements": 57,
+    "n_chunks": 35,
+    "n_elements_covered": 57,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7301527": {
+    "n_elements": 48,
+    "n_chunks": 49,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "4": 4,
+      "22": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7310331": {
+    "n_elements": 25,
+    "n_chunks": 23,
+    "n_elements_covered": 25,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "21": 2,
+      "22": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7312873": {
+    "n_elements": 25,
+    "n_chunks": 13,
+    "n_elements_covered": 25,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7366491": {
+    "n_elements": 87,
+    "n_chunks": 52,
+    "n_elements_covered": 87,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7366897": {
+    "n_elements": 24,
+    "n_chunks": 26,
+    "n_elements_covered": 24,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "9": 2,
+      "21": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7400355": {
+    "n_elements": 24,
+    "n_chunks": 19,
+    "n_elements_covered": 24,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7409695": {
+    "n_elements": 42,
+    "n_chunks": 37,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "22": 2,
+      "23": 2,
+      "25": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7414840": {
+    "n_elements": 26,
+    "n_chunks": 28,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "11": 2,
+      "13": 2,
+      "14": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7432067": {
+    "n_elements": 32,
+    "n_chunks": 29,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "31": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7432769": {
+    "n_elements": 49,
+    "n_chunks": 34,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7444071": {
+    "n_elements": 31,
+    "n_chunks": 33,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "17": 2,
+      "18": 3,
+      "19": 2,
+      "20": 2,
+      "24": 2,
+      "25": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7458690": {
+    "n_elements": 35,
+    "n_chunks": 30,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "11": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7488146": {
+    "n_elements": 48,
+    "n_chunks": 55,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "4": 2,
+      "10": 2,
+      "14": 2,
+      "17": 2,
+      "25": 2,
+      "29": 3,
+      "32": 2,
+      "36": 2,
+      "37": 2,
+      "42": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7503601": {
+    "n_elements": 38,
+    "n_chunks": 36,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "11": 2,
+      "12": 2,
+      "27": 2,
+      "34": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7519571": {
+    "n_elements": 24,
+    "n_chunks": 25,
+    "n_elements_covered": 24,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 2,
+      "15": 2,
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7528157": {
+    "n_elements": 32,
+    "n_chunks": 30,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "4": 2,
+      "13": 2,
+      "20": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC7531089": {
+    "n_elements": 34,
+    "n_chunks": 28,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "22": 2,
+      "24": 2,
+      "25": 3,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7550143": {
+    "n_elements": 33,
+    "n_chunks": 27,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7551288": {
+    "n_elements": 24,
+    "n_chunks": 21,
+    "n_elements_covered": 24,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7551621": {
+    "n_elements": 27,
+    "n_chunks": 30,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "15": 2,
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7551991": {
+    "n_elements": 36,
+    "n_chunks": 36,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "21": 2,
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7559318": {
+    "n_elements": 139,
+    "n_chunks": 131,
+    "n_elements_covered": 139,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "126": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7561425": {
+    "n_elements": 28,
+    "n_chunks": 30,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 4,
+      "17": 2,
+      "22": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7576541": {
+    "n_elements": 34,
+    "n_chunks": 19,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7576843": {
+    "n_elements": 44,
+    "n_chunks": 36,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7579437": {
+    "n_elements": 31,
+    "n_chunks": 22,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7588126": {
+    "n_elements": 34,
+    "n_chunks": 30,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7641811": {
+    "n_elements": 20,
+    "n_chunks": 18,
+    "n_elements_covered": 20,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7690174": {
+    "n_elements": 40,
+    "n_chunks": 26,
+    "n_elements_covered": 40,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "39": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7690694": {
+    "n_elements": 28,
+    "n_chunks": 25,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "2": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7693664": {
+    "n_elements": 85,
+    "n_chunks": 64,
+    "n_elements_covered": 85,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "25": 2,
+      "75": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7693785": {
+    "n_elements": 51,
+    "n_chunks": 41,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7709414": {
+    "n_elements": 32,
+    "n_chunks": 40,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "9": 2,
+      "12": 5,
+      "15": 2,
+      "18": 4,
+      "19": 4,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7711500": {
+    "n_elements": 26,
+    "n_chunks": 27,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "23": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7724833": {
+    "n_elements": 32,
+    "n_chunks": 35,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "9": 2,
+      "12": 2,
+      "16": 4,
+      "17": 3,
+      "18": 2,
+      "21": 2,
+      "24": 2,
+      "28": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7763468": {
+    "n_elements": 91,
+    "n_chunks": 64,
+    "n_elements_covered": 91,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "25": 2,
+      "81": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC7788870": {
+    "n_elements": 38,
+    "n_chunks": 28,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "31": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7791733": {
+    "n_elements": 17,
+    "n_chunks": 24,
+    "n_elements_covered": 17,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 8,
+      "10": 5
+    },
+    "reordered_sequence": false
+  },
+  "PMC7798327": {
+    "n_elements": 61,
+    "n_chunks": 45,
+    "n_elements_covered": 61,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "41": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7804267": {
+    "n_elements": 28,
+    "n_chunks": 28,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "4": 3,
+      "6": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7816438": {
+    "n_elements": 36,
+    "n_chunks": 34,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "22": 3,
+      "30": 2,
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7915146": {
+    "n_elements": 22,
+    "n_chunks": 19,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7915488": {
+    "n_elements": 15,
+    "n_chunks": 26,
+    "n_elements_covered": 15,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "5": 4,
+      "6": 2,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7916410": {
+    "n_elements": 44,
+    "n_chunks": 34,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC7916547": {
+    "n_elements": 56,
+    "n_chunks": 32,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "45": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7916975": {
+    "n_elements": 77,
+    "n_chunks": 75,
+    "n_elements_covered": 77,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "24": 2,
+      "63": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7927074": {
+    "n_elements": 45,
+    "n_chunks": 31,
+    "n_elements_covered": 45,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "3": 2,
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7953798": {
+    "n_elements": 31,
+    "n_chunks": 26,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 2,
+      "21": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC7995592": {
+    "n_elements": 46,
+    "n_chunks": 45,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "23": 4,
+      "37": 2,
+      "44": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8022217": {
+    "n_elements": 26,
+    "n_chunks": 26,
+    "n_elements_covered": 26,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2,
+      "20": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8028783": {
+    "n_elements": 32,
+    "n_chunks": 29,
+    "n_elements_covered": 32,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 2,
+      "16": 2,
+      "18": 2,
+      "21": 2,
+      "28": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8049579": {
+    "n_elements": 67,
+    "n_chunks": 25,
+    "n_elements_covered": 67,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8059033": {
+    "n_elements": 37,
+    "n_chunks": 41,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2,
+      "9": 2,
+      "12": 2,
+      "14": 2,
+      "19": 2,
+      "22": 2,
+      "24": 2,
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8064206": {
+    "n_elements": 39,
+    "n_chunks": 30,
+    "n_elements_covered": 39,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8065464": {
+    "n_elements": 93,
+    "n_chunks": 39,
+    "n_elements_covered": 93,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8126931": {
+    "n_elements": 22,
+    "n_chunks": 22,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "4": 2,
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8143399": {
+    "n_elements": 35,
+    "n_chunks": 29,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8145290": {
+    "n_elements": 37,
+    "n_chunks": 34,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "27": 2,
+      "32": 2,
+      "33": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8148331": {
+    "n_elements": 49,
+    "n_chunks": 34,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8162796": {
+    "n_elements": 82,
+    "n_chunks": 82,
+    "n_elements_covered": 82,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "49": 3,
+      "64": 2,
+      "71": 2,
+      "74": 2,
+      "80": 2,
+      "81": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8181136": {
+    "n_elements": 36,
+    "n_chunks": 30,
+    "n_elements_covered": 36,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8219164": {
+    "n_elements": 41,
+    "n_chunks": 40,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "36": 2,
+      "39": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8220761": {
+    "n_elements": 43,
+    "n_chunks": 44,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "20": 2,
+      "22": 4,
+      "31": 3,
+      "32": 4,
+      "40": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8238960": {
+    "n_elements": 33,
+    "n_chunks": 46,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "2": 2,
+      "4": 2,
+      "5": 4,
+      "7": 4,
+      "11": 2,
+      "12": 2,
+      "15": 2,
+      "18": 2,
+      "29": 2,
+      "30": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8245739": {
+    "n_elements": 51,
+    "n_chunks": 41,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8252173": {
+    "n_elements": 52,
+    "n_chunks": 37,
+    "n_elements_covered": 52,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8266320": {
+    "n_elements": 33,
+    "n_chunks": 23,
+    "n_elements_covered": 33,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "28": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8268243": {
+    "n_elements": 35,
+    "n_chunks": 27,
+    "n_elements_covered": 35,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8289479": {
+    "n_elements": 27,
+    "n_chunks": 19,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8312849": {
+    "n_elements": 49,
+    "n_chunks": 36,
+    "n_elements_covered": 49,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8315843": {
+    "n_elements": 42,
+    "n_chunks": 45,
+    "n_elements_covered": 42,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "26": 2,
+      "37": 2,
+      "38": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8396743": {
+    "n_elements": 78,
+    "n_chunks": 78,
+    "n_elements_covered": 78,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "4": 2,
+      "7": 3,
+      "69": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8415104": {
+    "n_elements": 31,
+    "n_chunks": 24,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8469089": {
+    "n_elements": 48,
+    "n_chunks": 43,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "17": 2,
+      "20": 2,
+      "30": 2,
+      "45": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8524794": {
+    "n_elements": 25,
+    "n_chunks": 26,
+    "n_elements_covered": 25,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "12": 2,
+      "16": 2,
+      "17": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8529728": {
+    "n_elements": 56,
+    "n_chunks": 36,
+    "n_elements_covered": 56,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "37": 2,
+      "43": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC8537784": {
+    "n_elements": 89,
+    "n_chunks": 62,
+    "n_elements_covered": 89,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "10": 2,
+      "14": 2,
+      "62": 2,
+      "69": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC8543922": {
+    "n_elements": 48,
+    "n_chunks": 44,
+    "n_elements_covered": 48,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "35": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC8545586": {
+    "n_elements": 31,
+    "n_chunks": 26,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2,
+      "23": 2,
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8547559": {
+    "n_elements": 38,
+    "n_chunks": 31,
+    "n_elements_covered": 38,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "19": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8561896": {
+    "n_elements": 22,
+    "n_chunks": 20,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "18": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8603539": {
+    "n_elements": 29,
+    "n_chunks": 26,
+    "n_elements_covered": 29,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 3,
+      "17": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8619684": {
+    "n_elements": 51,
+    "n_chunks": 48,
+    "n_elements_covered": 51,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "7": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8672158": {
+    "n_elements": 27,
+    "n_chunks": 28,
+    "n_elements_covered": 27,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "14": 2,
+      "17": 2,
+      "20": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC8705993": {
+    "n_elements": 20,
+    "n_chunks": 19,
+    "n_elements_covered": 20,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8706789": {
+    "n_elements": 212,
+    "n_chunks": 63,
+    "n_elements_covered": 212,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8709040": {
+    "n_elements": 46,
+    "n_chunks": 43,
+    "n_elements_covered": 46,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "3": 2,
+      "44": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8746908": {
+    "n_elements": 101,
+    "n_chunks": 89,
+    "n_elements_covered": 101,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "47": 2,
+      "54": 2,
+      "58": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8767487": {
+    "n_elements": 41,
+    "n_chunks": 29,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8775367": {
+    "n_elements": 8,
+    "n_chunks": 15,
+    "n_elements_covered": 8,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "2": 2,
+      "5": 2,
+      "6": 5
+    },
+    "reordered_sequence": false
+  },
+  "PMC8792851": {
+    "n_elements": 85,
+    "n_chunks": 75,
+    "n_elements_covered": 85,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "3": 2,
+      "6": 2,
+      "41": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8805235": {
+    "n_elements": 34,
+    "n_chunks": 26,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "16": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8834749": {
+    "n_elements": 37,
+    "n_chunks": 37,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "1": 2,
+      "29": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8838979": {
+    "n_elements": 22,
+    "n_chunks": 13,
+    "n_elements_covered": 22,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8866367": {
+    "n_elements": 34,
+    "n_chunks": 34,
+    "n_elements_covered": 34,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "15": 4
+    },
+    "reordered_sequence": false
+  },
+  "PMC8867785": {
+    "n_elements": 23,
+    "n_chunks": 24,
+    "n_elements_covered": 23,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "6": 2,
+      "8": 2,
+      "12": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC8880569": {
+    "n_elements": 41,
+    "n_chunks": 34,
+    "n_elements_covered": 41,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "33": 2,
+      "37": 2,
+      "38": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8889844": {
+    "n_elements": 28,
+    "n_chunks": 17,
+    "n_elements_covered": 28,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC8938794": {
+    "n_elements": 31,
+    "n_chunks": 31,
+    "n_elements_covered": 31,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "26": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8960033": {
+    "n_elements": 91,
+    "n_chunks": 59,
+    "n_elements_covered": 91,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "0": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8981797": {
+    "n_elements": 30,
+    "n_chunks": 27,
+    "n_elements_covered": 30,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "21": 3
+    },
+    "reordered_sequence": false
+  },
+  "PMC8988539": {
+    "n_elements": 43,
+    "n_chunks": 37,
+    "n_elements_covered": 43,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "8": 2,
+      "38": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC8998887": {
+    "n_elements": 44,
+    "n_chunks": 42,
+    "n_elements_covered": 44,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "13": 2,
+      "42": 2
+    },
+    "reordered_sequence": false
+  },
+  "PMC9009491": {
+    "n_elements": 68,
+    "n_chunks": 56,
+    "n_elements_covered": 68,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {},
+    "reordered_sequence": false
+  },
+  "PMC9014621": {
+    "n_elements": 37,
+    "n_chunks": 29,
+    "n_elements_covered": 37,
+    "dropped_elements": [],
+    "multi_chunk_element_counts": {
+      "27": 2
+    },
+    "reordered_sequence": false
+  }
+}

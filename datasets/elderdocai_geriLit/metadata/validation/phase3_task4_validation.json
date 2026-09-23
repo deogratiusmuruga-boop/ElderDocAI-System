@@ -1,0 +1,31 @@
+{
+  "validation_ts": "2026-09-18T00:53:57.868272+00:00",
+  "validated_by": "validate_task4.py",
+  "all_checks_pass": true,
+  "checks": {
+    "accepted_500_represented_in_chunks": true,
+    "no_unexpected_pmcid": true,
+    "no_missing_accepted_pmcid": true,
+    "chunk_ids_globally_unique": true,
+    "chunk_id_format_deterministic": true,
+    "no_empty_chunks": true,
+    "required_fields_present": true,
+    "evidence_type_metadata_preserved": true,
+    "no_section_boundary_crossing": true,
+    "no_reordered_chunks": true,
+    "traceability_source_to_chunk": true,
+    "raw_rederivation_success": true,
+    "parent_section_id_valid": true,
+    "references_excluded_from_chunks": true,
+    "provenance_fields_complete": true,
+    "source_locators_valid": true,
+    "raw_jats_files_unchanged": true,
+    "task2_accepted_manifest_unchanged": true,
+    "task3_artifacts_unchanged": true,
+    "statistics_reproducible": true
+  },
+  "chunk_totals": {
+    "chunks": 17930,
+    "articles": 500
+  }
+}

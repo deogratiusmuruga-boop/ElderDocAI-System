@@ -1,0 +1,45 @@
+{
+  "validation_ts": "2026-09-22T00:57:00.879270+00:00",
+  "validated_by": "metadata/task9d_validate.py",
+  "all_checks_pass": true,
+  "checks": {
+    "source_candidates_134": true,
+    "accepted_134": true,
+    "zero_pending": true,
+    "zero_rejected": true,
+    "no_dup_candidate_ids": true,
+    "no_dup_final_ids": true,
+    "final_134": true,
+    "final_maps_to_originals": true,
+    "final_originals_unique": true,
+    "question_nonempty": true,
+    "pmcid_present": true,
+    "relevant_chunk_ids_present": true,
+    "gold_chunks_consistent": true,
+    "provenance_preserved": true,
+    "reviewed_at_populated": true,
+    "reviewer_notes_populated": true,
+    "final_ordering_deterministic": true,
+    "final_reproducible_signature": true,
+    "frozen_artifacts_unchanged": true,
+    "review_header_reports_completion": true
+  },
+  "final_signature_sha256": "5016f12211cf2928a9f243d0dbd8af7ed0f3a0bbcfbe485a8786285d80893178",
+  "counts": {
+    "final_size": 134,
+    "unique_pmcid": 46,
+    "unique_gold_chunks": 131,
+    "topics": {
+      "C01": 14,
+      "C02": 17,
+      "C03": 13,
+      "C04": 13,
+      "C05": 15,
+      "C06": 20,
+      "C07": 16,
+      "C08": 9,
+      "C09": 11,
+      "C10": 6
+    }
+  }
+}

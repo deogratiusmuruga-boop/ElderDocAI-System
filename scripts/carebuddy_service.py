@@ -24,14 +24,6 @@ from scripts.rag_chat import (
     extract_patient_id
 )
 
-from scripts.reliability_evaluation import (
-    evaluate_reliability
-)
-
-from scripts.adaptive_decision_controller import (
-    make_reliability_decision
-)
-
 
 # ============================================================
 # Conversation History Context Builder
@@ -269,10 +261,11 @@ def answer_question(
 
 
     # ========================================================
-    # Generate RAG Answer
+    # Generate RAG Answer (reliability-gated; reliability and
+    # decision are computed once inside the gate and reused here)
     # ========================================================
 
-    answer, evidence = generate_answer(
+    generation = generate_answer(
 
         question,
 
@@ -282,36 +275,15 @@ def answer_question(
 
         response_language=response_language,
 
-        return_evidence=True
+        return_evidence=True,
+
+        return_evaluation=True
     )
 
-
-    # ========================================================
-    # Reliability Evaluation
-    # ========================================================
-
-    reliability_report = (
-        evaluate_reliability(
-
-            query=question,
-
-            evidence_items=evidence
-
-        )
-    )
-
-
-    # ========================================================
-    # Adaptive Decision
-    # ========================================================
-
-    decision_result = (
-        make_reliability_decision(
-
-            reliability_report
-
-        )
-    )
+    answer = generation["answer"]
+    evidence = generation["evidence_items"]
+    reliability_report = generation["reliability"]
+    decision_result = generation["decision"]
 
 
     # ========================================================

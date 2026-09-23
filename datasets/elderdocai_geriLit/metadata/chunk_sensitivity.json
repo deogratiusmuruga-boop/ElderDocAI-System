@@ -1,0 +1,23 @@
+[
+  {
+    "target_words": 180,
+    "chunks_total": 19264,
+    "mean_wc": 147.42,
+    "median_wc": 133.0,
+    "max_chunks_per_article": 133
+  },
+  {
+    "target_words": 220,
+    "chunks_total": 17930,
+    "mean_wc": 158.39,
+    "median_wc": 150.0,
+    "max_chunks_per_article": 131
+  },
+  {
+    "target_words": 250,
+    "chunks_total": 16968,
+    "mean_wc": 167.37,
+    "median_wc": 161.0,
+    "max_chunks_per_article": 131
+  }
+]

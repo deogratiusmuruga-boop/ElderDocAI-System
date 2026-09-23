@@ -1,0 +1,24 @@
+{
+  "validation_ts": "2026-09-18T04:26:07.608001+00:00",
+  "validated_by": "metadata/task9b_build_candidates.py",
+  "all_checks_pass": true,
+  "checks": {
+    "candidate_id_unique": true,
+    "pmcid_exists": true,
+    "pmid_matches": true,
+    "chunk_id_exists": true,
+    "chunk_belongs_to_pmcid": true,
+    "question_nonempty": true,
+    "no_id_leak": true,
+    "question_unique": true,
+    "grounding_direct_or_multi": true,
+    "evidence_rationale_present": true,
+    "topic_present": true,
+    "chunk_substantive": true
+  },
+  "counts": {
+    "attempted": 4165,
+    "accepted": 134,
+    "rejected": 4031
+  }
+}

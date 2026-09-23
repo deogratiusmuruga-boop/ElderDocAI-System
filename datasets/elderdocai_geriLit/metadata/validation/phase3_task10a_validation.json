@@ -1,0 +1,24 @@
+{
+  "validation_ts": "2026-09-21T00:29:06.545975+00:00",
+  "validated_by": "metadata/task10a_validate.py",
+  "all_checks_pass": true,
+  "checks": {
+    "source_files_inspected": true,
+    "audit_file_exists": true,
+    "call_graph_documented": true,
+    "geri_lit_interface_documented": true,
+    "evidence_schemas_compared": true,
+    "integration_seam_identified": true,
+    "routing_options_evaluated": true,
+    "care_state_interaction_evaluated": true,
+    "reliability_compatibility_evaluated": true,
+    "offline_risks_evaluated": true,
+    "backward_compat_documented": true,
+    "task10b_plan_documented": true,
+    "frozen_artifacts_unchanged": true,
+    "gold16_unchanged": true,
+    "gold96_unchanged": true,
+    "accepted_manifest_unchanged": true
+  },
+  "note": "Read-only audit; production files unchanged."
+}

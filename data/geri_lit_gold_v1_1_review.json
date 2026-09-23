@@ -1,0 +1,1955 @@
+{
+  "dataset": "ElderDocAI-GeriLit-Gold",
+  "benchmark_version": "1.1",
+  "task": "phase3_task10g",
+  "generated_at_utc": "2026-09-22T02:20:05.454425+00:00",
+  "human_review_state": "ACCEPTED_COMPLETED - human review completed. All 121 candidates were manually reviewed and approved by the researcher (1 reviewer); no automated relevance judgment was used.",
+  "review_summary": {
+    "total_candidates": 121,
+    "reviewed": 121,
+    "accepted": 121,
+    "rejected": 0,
+    "pending": 0,
+    "reviewer_count": 1,
+    "review_method": "manual human review",
+    "inter_rater_reliability": "NOT_APPLICABLE_SINGLE_REVIEWER"
+  },
+  "review_records": [
+    {
+      "candidate_id": "GLG11-C001",
+      "final_benchmark_id": "GLG11-001",
+      "original_v1_0_id": "GLG-001",
+      "original_candidate_id": "GLG-C001",
+      "question": "According to the article, how does polypharmacy relate to disease burden in patients with comorbidities?",
+      "pmcid": "PMC10022263",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10022263__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C002",
+      "final_benchmark_id": "GLG11-002",
+      "original_v1_0_id": "GLG-002",
+      "original_candidate_id": "GLG-C002",
+      "question": "According to the article, what did the study report about medication in relation to proportions exposure recorded group among older adults?",
+      "pmcid": "PMC10022263",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10022263__BODY__009__PROSE__00016"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C003",
+      "final_benchmark_id": "GLG11-003",
+      "original_v1_0_id": "GLG-003",
+      "original_candidate_id": "GLG-C003",
+      "question": "According to the article, what did the study report about medical in relation to comorbidity defined pre existence among older adults?",
+      "pmcid": "PMC10022263",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10022263__BODY__005__PROSE__00008"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C004",
+      "final_benchmark_id": "GLG11-004",
+      "original_v1_0_id": "GLG-005",
+      "original_candidate_id": "GLG-C005",
+      "question": "According to the article, what did the study report about prescribing in relation to inappropriate led clinically improvements among older adults?",
+      "pmcid": "PMC10043750",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10043750__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C005",
+      "final_benchmark_id": "GLG11-005",
+      "original_v1_0_id": "GLG-007",
+      "original_candidate_id": "GLG-C007",
+      "question": "According to the article, what did the study report about deprescribing in relation to rationale development cofrail intervention among older adults?",
+      "pmcid": "PMC10043750",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10043750__BODY__007__PROSE__00009"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C006",
+      "final_benchmark_id": "GLG11-006",
+      "original_v1_0_id": "GLG-008",
+      "original_candidate_id": "GLG-C008",
+      "question": "According to the article, what did the study report about medications in relation to possible reasons convergence prescription among older adults?",
+      "pmcid": "PMC10043750",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10043750__BODY__015__PROSE__00029"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C007",
+      "final_benchmark_id": "GLG11-007",
+      "original_v1_0_id": "GLG-009",
+      "original_candidate_id": "GLG-C009",
+      "question": "According to the article, what did the study report about polypharmacy in relation to around world varies country among older adults?",
+      "pmcid": "PMC10147734",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10147734__BODY__001__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C008",
+      "final_benchmark_id": "GLG11-008",
+      "original_v1_0_id": "GLG-010",
+      "original_candidate_id": "GLG-C010",
+      "question": "According to the article, how does polypharmacy relate to contribute safe effective economic in older adults?",
+      "pmcid": "PMC10147734",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10147734__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C009",
+      "final_benchmark_id": "GLG11-009",
+      "original_v1_0_id": "GLG-012",
+      "original_candidate_id": "GLG-C012",
+      "question": "According to the article, what is the association between deprescribing and three studies conducted national levels two in older adults?",
+      "pmcid": "PMC10147734",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10147734__BODY__012__PROSE__00028"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C010",
+      "final_benchmark_id": "GLG11-010",
+      "original_v1_0_id": "GLG-013",
+      "original_candidate_id": "GLG-C013",
+      "question": "According to the article, how does adverse relate to multimorbidity polypharmacy changes drug pharmacokinetics pharmacodynamics in older adults?",
+      "pmcid": "PMC10206279",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10206279__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C011",
+      "final_benchmark_id": "GLG11-011",
+      "original_v1_0_id": "GLG-014",
+      "original_candidate_id": "GLG-C014",
+      "question": "What risks are associated with adverse drug event among older adults?",
+      "pmcid": "PMC10206279",
+      "topic": "C01",
+      "gold_relevant_chunk_ids": [
+        "PMC10206279__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C012",
+      "final_benchmark_id": "GLG11-012",
+      "original_v1_0_id": "GLG-015",
+      "original_candidate_id": "GLG-C015",
+      "question": "According to the article, what is the association between dementia and caregiver family social services rather medical in older adults?",
+      "pmcid": "PMC10002240",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10002240__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C013",
+      "final_benchmark_id": "GLG11-013",
+      "original_v1_0_id": "GLG-017",
+      "original_candidate_id": "GLG-C017",
+      "question": "According to the article, how does dementia relate to significant burden almost caregivers concerning alarming burden level in older adults?",
+      "pmcid": "PMC10002240",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10002240__BODY__000__PROSE__00004"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C014",
+      "final_benchmark_id": "GLG11-014",
+      "original_v1_0_id": "GLG-018",
+      "original_candidate_id": "GLG-C018",
+      "question": "According to the article, what did the study report about dementia in relation to depressive anxiety symptoms caregivers among older adults?",
+      "pmcid": "PMC10002240",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10002240__BODY__000__PROSE__00005"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C015",
+      "final_benchmark_id": "GLG11-015",
+      "original_v1_0_id": "GLG-019",
+      "original_candidate_id": "GLG-C019",
+      "question": "What factors may be associated with mild cognitive impairment in older adults?",
+      "pmcid": "PMC10008549",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10008549__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C016",
+      "final_benchmark_id": "GLG11-016",
+      "original_v1_0_id": "GLG-020",
+      "original_candidate_id": "GLG-C020",
+      "question": "According to the article, what did the study report about impairment in relation to mild cognitive mci often among older adults?",
+      "pmcid": "PMC10008549",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10008549__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C017",
+      "final_benchmark_id": "GLG11-017",
+      "original_v1_0_id": "GLG-021",
+      "original_candidate_id": "GLG-C021",
+      "question": "According to the article, what did the study report about impairment in relation to severity cognitive professional provided among older people?",
+      "pmcid": "PMC10008549",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10008549__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C018",
+      "final_benchmark_id": "GLG11-018",
+      "original_v1_0_id": "GLG-022",
+      "original_candidate_id": "GLG-C022",
+      "question": "According to the article, what is the association between impairment and instance previous study found mild moderate cognitive impairment in older adults?",
+      "pmcid": "PMC10008549",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10008549__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C019",
+      "final_benchmark_id": "GLG11-019",
+      "original_v1_0_id": "GLG-023",
+      "original_candidate_id": "GLG-C023",
+      "question": "According to the article, what is the association between cognitive and meta analysis based data participants people consuming high in older adults?",
+      "pmcid": "PMC10095830",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10095830__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C020",
+      "final_benchmark_id": "GLG11-020",
+      "original_v1_0_id": "GLG-024",
+      "original_candidate_id": "GLG-C024",
+      "question": "According to the article, what does the study report about cognitive in relation to hippocampal nerve growth factor in older adults?",
+      "pmcid": "PMC10095830",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10095830__BODY__000__PROSE__00004"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C021",
+      "final_benchmark_id": "GLG11-021",
+      "original_v1_0_id": "GLG-025",
+      "original_candidate_id": "GLG-C025",
+      "question": "According to the article, what did the study report about alzheimer in relation to risk disease ad dementias among older adults?",
+      "pmcid": "PMC10095830",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10095830__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C022",
+      "final_benchmark_id": "GLG11-022",
+      "original_v1_0_id": "GLG-026",
+      "original_candidate_id": "GLG-C026",
+      "question": "According to the article, what is the association between memory and memophenol group in older adults?",
+      "pmcid": "PMC10095830",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10095830__BODY__033__PROSE__00038"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C023",
+      "final_benchmark_id": "GLG11-023",
+      "original_v1_0_id": "GLG-027",
+      "original_candidate_id": "GLG-C027",
+      "question": "According to the article, what is the association between disease and use statins secondary prevention well established statin use in older adults?",
+      "pmcid": "PMC10174559",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10174559__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C024",
+      "final_benchmark_id": "GLG11-024",
+      "original_v1_0_id": "GLG-028",
+      "original_candidate_id": "GLG-C028",
+      "question": "According to the article, what did the study report about cognitive in relation to either decline adas cog among older adults?",
+      "pmcid": "PMC10174559",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10174559__BODY__009__PROSE__00013"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C025",
+      "final_benchmark_id": "GLG11-025",
+      "original_v1_0_id": "GLG-029",
+      "original_candidate_id": "GLG-C029",
+      "question": "What factors may be associated with cognitive decline in older adults?",
+      "pmcid": "PMC10174559",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10174559__BODY__011__PROSE__00018"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C026",
+      "final_benchmark_id": "GLG11-026",
+      "original_v1_0_id": "GLG-030",
+      "original_candidate_id": "GLG-C030",
+      "question": "According to the article, what did the study report about cognition in relation to defined ic composite physical among older adults?",
+      "pmcid": "PMC10276510",
+      "topic": "C02",
+      "gold_relevant_chunk_ids": [
+        "PMC10276510__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C027",
+      "final_benchmark_id": "GLG11-027",
+      "original_v1_0_id": "GLG-032",
+      "original_candidate_id": "GLG-C032",
+      "question": "According to the article, what is the association between diet and injurious falling table in older adults?",
+      "pmcid": "PMC10009923",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10009923__BODY__005__PROSE__00012"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C028",
+      "final_benchmark_id": "GLG11-028",
+      "original_v1_0_id": "GLG-033",
+      "original_candidate_id": "GLG-C033",
+      "question": "How may nutrition affect the health of older adults?",
+      "pmcid": "PMC10009923",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10009923__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C029",
+      "final_benchmark_id": "GLG11-029",
+      "original_v1_0_id": "GLG-034",
+      "original_candidate_id": "GLG-C034",
+      "question": "What nutritional considerations matter for older adults regarding nutrition?",
+      "pmcid": "PMC10009923",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10009923__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C030",
+      "final_benchmark_id": "GLG11-030",
+      "original_v1_0_id": "GLG-035",
+      "original_candidate_id": "GLG-C035",
+      "question": "What nutritional considerations matter for older adults regarding diet?",
+      "pmcid": "PMC10009923",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10009923__BODY__006__PROSE__00018"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C031",
+      "final_benchmark_id": "GLG11-031",
+      "original_v1_0_id": "GLG-036",
+      "original_candidate_id": "GLG-C036",
+      "question": "According to the article, what did the study report about malnutrition in relation to herein study including patients among older adults?",
+      "pmcid": "PMC10390524",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10390524__BODY__002__PROSE__00021"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C032",
+      "final_benchmark_id": "GLG11-032",
+      "original_v1_0_id": "GLG-037",
+      "original_candidate_id": "GLG-C037",
+      "question": "According to the article, what did the study report about malnutrition in relation to polypharmacy urinary incontinence depression among older adults?",
+      "pmcid": "PMC10390524",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10390524__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C033",
+      "final_benchmark_id": "GLG11-033",
+      "original_v1_0_id": "GLG-038",
+      "original_candidate_id": "GLG-C038",
+      "question": "According to the article, what did the study report about malnutrition in relation to only subjects mild problem among older adults?",
+      "pmcid": "PMC10390524",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10390524__BODY__001__PROSE__00014"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C034",
+      "final_benchmark_id": "GLG11-034",
+      "original_v1_0_id": "GLG-039",
+      "original_candidate_id": "GLG-C039",
+      "question": "How may micronutrient affect the health of older adults?",
+      "pmcid": "PMC10421189",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10421189__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C035",
+      "final_benchmark_id": "GLG11-035",
+      "original_v1_0_id": "GLG-040",
+      "original_candidate_id": "GLG-C040",
+      "question": "What dietary factors are associated with micronutrient in older adults?",
+      "pmcid": "PMC10421189",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10421189__BODY__003__PROSE__00005"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C036",
+      "final_benchmark_id": "GLG11-036",
+      "original_v1_0_id": "GLG-041",
+      "original_candidate_id": "GLG-C041",
+      "question": "According to the article, how does weight relate to sarcopenia defined skeletal muscle index kg women kg in older adults?",
+      "pmcid": "PMC10574358",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10574358__BODY__010__PROSE__00017"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C037",
+      "final_benchmark_id": "GLG11-037",
+      "original_v1_0_id": "GLG-042",
+      "original_candidate_id": "GLG-C042",
+      "question": "According to the article, what is the association between vitamin and higher frailty in older adults?",
+      "pmcid": "PMC10574358",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10574358__BODY__010__PROSE__00018"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C038",
+      "final_benchmark_id": "GLG11-038",
+      "original_v1_0_id": "GLG-043",
+      "original_candidate_id": "GLG-C043",
+      "question": "How may Mediterranean diet affect the health of older adults?",
+      "pmcid": "PMC10898038",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC10898038__BODY__012__PROSE__00025"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C039",
+      "final_benchmark_id": "GLG11-039",
+      "original_v1_0_id": "GLG-044",
+      "original_candidate_id": "GLG-C044",
+      "question": "How may vitamin D affect the health of older adults?",
+      "pmcid": "PMC11183121",
+      "topic": "C03",
+      "gold_relevant_chunk_ids": [
+        "PMC11183121__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C040",
+      "final_benchmark_id": "GLG11-040",
+      "original_v1_0_id": "GLG-045",
+      "original_candidate_id": "GLG-C045",
+      "question": "According to the article, what did the study report about exercise in relation to research ethics approved nested among older patients?",
+      "pmcid": "PMC10242997",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10242997__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C041",
+      "final_benchmark_id": "GLG11-041",
+      "original_v1_0_id": "GLG-046",
+      "original_candidate_id": "GLG-C046",
+      "question": "According to the article, what did the study report about exercise in relation to barriers included pre existing among older adults?",
+      "pmcid": "PMC10242997",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10242997__ABSTRACT__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C042",
+      "final_benchmark_id": "GLG11-042",
+      "original_v1_0_id": "GLG-047",
+      "original_candidate_id": "GLG-C047",
+      "question": "What barriers may limit exercise among older adults?",
+      "pmcid": "PMC10242997",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10242997__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C043",
+      "final_benchmark_id": "GLG11-043",
+      "original_v1_0_id": "GLG-048",
+      "original_candidate_id": "GLG-C048",
+      "question": "According to the article, what did the study report about limitations in relation to frailty characteristics include feelings among older adults?",
+      "pmcid": "PMC10242997",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10242997__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C044",
+      "final_benchmark_id": "GLG11-044",
+      "original_v1_0_id": "GLG-049",
+      "original_candidate_id": "GLG-C049",
+      "question": "According to the article, what did the study report about physical in relation to cognitive function later life among older adults?",
+      "pmcid": "PMC10296731",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10296731__BODY__002__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C045",
+      "final_benchmark_id": "GLG11-045",
+      "original_v1_0_id": "GLG-050",
+      "original_candidate_id": "GLG-C050",
+      "question": "According to the article, what is the association between activity and frailty in older adults?",
+      "pmcid": "PMC10390524",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10390524__BODY__001__PROSE__00008"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C046",
+      "final_benchmark_id": "GLG11-046",
+      "original_v1_0_id": "GLG-051",
+      "original_candidate_id": "GLG-C051",
+      "question": "What are the potential benefits of physical function for older adults?",
+      "pmcid": "PMC10445339",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10445339__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C047",
+      "final_benchmark_id": "GLG11-047",
+      "original_v1_0_id": "GLG-052",
+      "original_candidate_id": "GLG-C052",
+      "question": "According to the article, what did the study report about function in relation to periods physical inactivity although among older adults?",
+      "pmcid": "PMC10445339",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10445339__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C048",
+      "final_benchmark_id": "GLG11-048",
+      "original_v1_0_id": "GLG-053",
+      "original_candidate_id": "GLG-C053",
+      "question": "According to the article, what did the study report about function in relation to assessments will conducted hospital among older adults?",
+      "pmcid": "PMC10445339",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10445339__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C049",
+      "final_benchmark_id": "GLG11-049",
+      "original_v1_0_id": "GLG-054",
+      "original_candidate_id": "GLG-C054",
+      "question": "What are the potential benefits of resistance training for older adults?",
+      "pmcid": "PMC10574358",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10574358__BODY__020__PROSE__00038"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C050",
+      "final_benchmark_id": "GLG11-050",
+      "original_v1_0_id": "GLG-055",
+      "original_candidate_id": "GLG-C055",
+      "question": "According to the article, what did the study report about walking in relation to during comfortable although significant among older adults?",
+      "pmcid": "PMC10633991",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10633991__BODY__020__PROSE__00028"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C051",
+      "final_benchmark_id": "GLG11-051",
+      "original_v1_0_id": "GLG-056",
+      "original_candidate_id": "GLG-C056",
+      "question": "According to the article, what did the study report about physical in relation to simplified questionnaire rapidly diagnose among older adults?",
+      "pmcid": "PMC10675908",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10675908__BODY__006__PROSE__00013"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C052",
+      "final_benchmark_id": "GLG11-052",
+      "original_v1_0_id": "GLG-057",
+      "original_candidate_id": "GLG-C057",
+      "question": "According to the article, what did the study report about walking in relation to results go out rct among older adults?",
+      "pmcid": "PMC10712059",
+      "topic": "C04",
+      "gold_relevant_chunk_ids": [
+        "PMC10712059__BODY__000__PROSE__00005"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C053",
+      "final_benchmark_id": "GLG11-053",
+      "original_v1_0_id": "GLG-058",
+      "original_candidate_id": "GLG-C058",
+      "question": "According to the article, what is the association between mobility and study demonstrated health major factor in older adults?",
+      "pmcid": "PMC10001925",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10001925__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C054",
+      "final_benchmark_id": "GLG11-054",
+      "original_v1_0_id": "GLG-059",
+      "original_candidate_id": "GLG-C059",
+      "question": "According to the article, what is the association between mobility and ageing in older adults?",
+      "pmcid": "PMC10001925",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10001925__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C055",
+      "final_benchmark_id": "GLG11-055",
+      "original_v1_0_id": "GLG-060",
+      "original_candidate_id": "GLG-C060",
+      "question": "According to the article, what did the study report about mobility in relation to denotes ability move across among older adults?",
+      "pmcid": "PMC10001925",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10001925__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C056",
+      "final_benchmark_id": "GLG11-056",
+      "original_v1_0_id": "GLG-061",
+      "original_candidate_id": "GLG-C061",
+      "question": "According to the article, what did the study report about falls in relation to we assessed adverse unscheduled among older adults?",
+      "pmcid": "PMC10174559",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10174559__BODY__000__PROSE__00004"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C057",
+      "final_benchmark_id": "GLG11-057",
+      "original_v1_0_id": "GLG-062",
+      "original_candidate_id": "GLG-C062",
+      "question": "According to the article, what does the study report about falling in relation to growing evidence association multimorbidity in older adults?",
+      "pmcid": "PMC10234124",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10234124__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C058",
+      "final_benchmark_id": "GLG11-058",
+      "original_v1_0_id": "GLG-063",
+      "original_candidate_id": "GLG-C063",
+      "question": "According to the article, what did the study report about falls in relation to without chronic diseases among older adults?",
+      "pmcid": "PMC10234124",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10234124__ABSTRACT__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C059",
+      "final_benchmark_id": "GLG11-059",
+      "original_v1_0_id": "GLG-064",
+      "original_candidate_id": "GLG-C064",
+      "question": "What factors are associated with increased fear of falling in older adults?",
+      "pmcid": "PMC10234124",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10234124__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C060",
+      "final_benchmark_id": "GLG11-060",
+      "original_v1_0_id": "GLG-065",
+      "original_candidate_id": "GLG-C065",
+      "question": "According to the article, what is the association between falls and several epidemiological studies linked multimorbidity in older adults?",
+      "pmcid": "PMC10234124",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10234124__BODY__000__PROSE__00005"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C061",
+      "final_benchmark_id": "GLG11-061",
+      "original_v1_0_id": "GLG-066",
+      "original_candidate_id": "GLG-C066",
+      "question": "According to the article, what did the study report about balance in relation to usual acutely hospitalised patients among older adults?",
+      "pmcid": "PMC10445339",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10445339__BODY__000__PROSE__00004"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C062",
+      "final_benchmark_id": "GLG11-062",
+      "original_v1_0_id": "GLG-067",
+      "original_candidate_id": "GLG-C067",
+      "question": "What factors are associated with increased fall prevention in older adults?",
+      "pmcid": "PMC10447592",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10447592__BODY__016__PROSE__00029"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C063",
+      "final_benchmark_id": "GLG11-063",
+      "original_v1_0_id": "GLG-068",
+      "original_candidate_id": "GLG-C068",
+      "question": "According to the article, what is the association between fractures and deprescribing acheis in older adults?",
+      "pmcid": "PMC10447592",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10447592__BODY__017__PROSE__00030"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C064",
+      "final_benchmark_id": "GLG11-064",
+      "original_v1_0_id": "GLG-069",
+      "original_candidate_id": "GLG-C069",
+      "question": "According to the article, what did the study report about balance in relation to example resistance training part among older adults?",
+      "pmcid": "PMC10470185",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10470185__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C065",
+      "final_benchmark_id": "GLG11-065",
+      "original_v1_0_id": "GLG-071",
+      "original_candidate_id": "GLG-C071",
+      "question": "According to the article, what is recommended regarding falling in relation to visual function testing widely in older adults?",
+      "pmcid": "PMC10515075",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10515075__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C066",
+      "final_benchmark_id": "GLG11-066",
+      "original_v1_0_id": "GLG-072",
+      "original_candidate_id": "GLG-C072",
+      "question": "According to the article, what is the association between increasing and visual impairment key in older adults?",
+      "pmcid": "PMC10515075",
+      "topic": "C05",
+      "gold_relevant_chunk_ids": [
+        "PMC10515075__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C067",
+      "final_benchmark_id": "GLG11-067",
+      "original_v1_0_id": "GLG-073",
+      "original_candidate_id": "GLG-C073",
+      "question": "According to the article, what does the study report about failure in relation to risk present same patient in older adults?",
+      "pmcid": "PMC10017574",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10017574__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C068",
+      "final_benchmark_id": "GLG11-068",
+      "original_v1_0_id": "GLG-074",
+      "original_candidate_id": "GLG-C074",
+      "question": "According to the article, what did the study report about chronic in relation to previous hospitalizations comorbidities especially among older adults?",
+      "pmcid": "PMC10017574",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10017574__ABSTRACT__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C069",
+      "final_benchmark_id": "GLG11-069",
+      "original_v1_0_id": "GLG-075",
+      "original_candidate_id": "GLG-C075",
+      "question": "What factors are associated with heart failure in older adults?",
+      "pmcid": "PMC10017574",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10017574__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C070",
+      "final_benchmark_id": "GLG11-070",
+      "original_v1_0_id": "GLG-076",
+      "original_candidate_id": "GLG-C076",
+      "question": "According to the article, what did the study report about chronic in relation to latter category outpatients coexistence among older adults?",
+      "pmcid": "PMC10017574",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10017574__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C071",
+      "final_benchmark_id": "GLG11-071",
+      "original_v1_0_id": "GLG-077",
+      "original_candidate_id": "GLG-C077",
+      "question": "According to the article, what did the study report about multimorbidity in relation to out diabetic patients present among older adults?",
+      "pmcid": "PMC10089050",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10089050__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C072",
+      "final_benchmark_id": "GLG11-072",
+      "original_v1_0_id": "GLG-078",
+      "original_candidate_id": "GLG-C078",
+      "question": "According to the article, what did the study report about multimorbidity in relation to defined co occurrence two among older adults?",
+      "pmcid": "PMC10089050",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10089050__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C073",
+      "final_benchmark_id": "GLG11-073",
+      "original_v1_0_id": "GLG-079",
+      "original_candidate_id": "GLG-C079",
+      "question": "According to the article, what did the study report about diabetic in relation to diagnosed cases type patients among older adults?",
+      "pmcid": "PMC10089050",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10089050__BODY__001__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C074",
+      "final_benchmark_id": "GLG11-074",
+      "original_v1_0_id": "GLG-080",
+      "original_candidate_id": "GLG-C080",
+      "question": "According to the article, what did the study report about multimorbidity in relation to distribution towards group years among older adults?",
+      "pmcid": "PMC10089050",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10089050__BODY__002__PROSE__00010"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C075",
+      "final_benchmark_id": "GLG11-075",
+      "original_v1_0_id": "GLG-081",
+      "original_candidate_id": "GLG-C081",
+      "question": "According to the article, what does the study report about copd in relation to comorbidities share genetic lifestyle in older adults?",
+      "pmcid": "PMC10219583",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10219583__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C076",
+      "final_benchmark_id": "GLG11-076",
+      "original_v1_0_id": "GLG-082",
+      "original_candidate_id": "GLG-C082",
+      "question": "According to the article, how does copd relate to progressive development abnormalities conducting airways bronchitis bronchiolitis alveolar in older adults?",
+      "pmcid": "PMC10219583",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10219583__BODY__001__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C077",
+      "final_benchmark_id": "GLG11-077",
+      "original_v1_0_id": "GLG-083",
+      "original_candidate_id": "GLG-C083",
+      "question": "According to the article, what is recommended regarding copd in relation to biological responses clinical consequences in older adults?",
+      "pmcid": "PMC10219583",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10219583__BODY__002__PROSE__00010"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C078",
+      "final_benchmark_id": "GLG11-078",
+      "original_v1_0_id": "GLG-084",
+      "original_candidate_id": "GLG-C084",
+      "question": "According to the article, what is the association between diabetes and increased insulin resistance complications in older adults?",
+      "pmcid": "PMC10219583",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10219583__BODY__007__PROSE__00021"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C079",
+      "final_benchmark_id": "GLG11-079",
+      "original_v1_0_id": "GLG-085",
+      "original_candidate_id": "GLG-C085",
+      "question": "According to the article, what is the association between stroke and preparedness strongest in older adults?",
+      "pmcid": "PMC10409988",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10409988__BODY__000__PROSE__00004"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C080",
+      "final_benchmark_id": "GLG11-080",
+      "original_v1_0_id": "GLG-088",
+      "original_candidate_id": "GLG-C088",
+      "question": "According to the article, what did the study report about frailty in relation to risk falls cognitive impairment among older adults?",
+      "pmcid": "PMC10519081",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10519081__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C081",
+      "final_benchmark_id": "GLG11-081",
+      "original_v1_0_id": "GLG-091",
+      "original_candidate_id": "GLG-C091",
+      "question": "According to the article, what did the study report about cope in relation to vulnerability brought declines physiological among older adults?",
+      "pmcid": "PMC10574358",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10574358__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C082",
+      "final_benchmark_id": "GLG11-082",
+      "original_v1_0_id": "GLG-092",
+      "original_candidate_id": "GLG-C092",
+      "question": "According to the article, what did the study report about diabetes in relation to independent variables collected information among older adults?",
+      "pmcid": "PMC10578450",
+      "topic": "C06",
+      "gold_relevant_chunk_ids": [
+        "PMC10578450__BODY__003__PROSE__00012"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C083",
+      "final_benchmark_id": "GLG11-083",
+      "original_v1_0_id": "GLG-093",
+      "original_candidate_id": "GLG-C093",
+      "question": "According to the article, what does the study report about influences in relation to study investigated caregiver preparedness in older adults?",
+      "pmcid": "PMC10409988",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10409988__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C084",
+      "final_benchmark_id": "GLG11-084",
+      "original_v1_0_id": "GLG-094",
+      "original_candidate_id": "GLG-C094",
+      "question": "According to the article, what is the association between quality and lower risk multiple falls follow up adjusted binary in older adults?",
+      "pmcid": "PMC10515075",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10515075__BODY__006__PROSE__00013"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C085",
+      "final_benchmark_id": "GLG11-085",
+      "original_v1_0_id": "GLG-095",
+      "original_candidate_id": "GLG-C095",
+      "question": "According to the article, what did the study report about quality in relation to vill scores indicate better among older adults?",
+      "pmcid": "PMC10515075",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10515075__BODY__006__PROSE__00014"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C086",
+      "final_benchmark_id": "GLG11-086",
+      "original_v1_0_id": "GLG-096",
+      "original_candidate_id": "GLG-C096",
+      "question": "According to the article, what does the study report about mental in relation to vaccination showed potential health in older adults?",
+      "pmcid": "PMC10578450",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10578450__ABSTRACT__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C087",
+      "final_benchmark_id": "GLG11-087",
+      "original_v1_0_id": "GLG-097",
+      "original_candidate_id": "GLG-C097",
+      "question": "According to the article, what did the study report about mental in relation to usage antipsychotics drugs ahr among older adults?",
+      "pmcid": "PMC10578450",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10578450__BODY__006__PROSE__00021"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C088",
+      "final_benchmark_id": "GLG11-088",
+      "original_v1_0_id": "GLG-098",
+      "original_candidate_id": "GLG-C098",
+      "question": "According to the article, what is recommended regarding mental in relation to unvaccinated group suggesting possible in older adults?",
+      "pmcid": "PMC10578450",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10578450__BODY__007__PROSE__00031"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C089",
+      "final_benchmark_id": "GLG11-089",
+      "original_v1_0_id": "GLG-099",
+      "original_candidate_id": "GLG-C099",
+      "question": "According to the article, what did the study report about isolation in relation to dance reducing social documented among older adults?",
+      "pmcid": "PMC10601250",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10601250__BODY__021__PROSE__00036"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C090",
+      "final_benchmark_id": "GLG11-090",
+      "original_v1_0_id": "GLG-100",
+      "original_candidate_id": "GLG-C100",
+      "question": "According to the article, what does the study report about isolation in relation to findings underscore effectiveness aot in older adults?",
+      "pmcid": "PMC10697542",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10697542__ABSTRACT__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C091",
+      "final_benchmark_id": "GLG11-091",
+      "original_v1_0_id": "GLG-101",
+      "original_candidate_id": "GLG-C101",
+      "question": "According to the article, what is recommended regarding anxiety in relation to covid infection ci perception in older individuals?",
+      "pmcid": "PMC10709861",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10709861__ABSTRACT__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C092",
+      "final_benchmark_id": "GLG11-092",
+      "original_v1_0_id": "GLG-103",
+      "original_candidate_id": "GLG-C103",
+      "question": "According to the article, what did the study report about influencing in relation to potential covid hesitancy sex among older adults?",
+      "pmcid": "PMC10709861",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10709861__BODY__004__PROSE__00013"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C093",
+      "final_benchmark_id": "GLG11-093",
+      "original_v1_0_id": "GLG-104",
+      "original_candidate_id": "GLG-C104",
+      "question": "According to the article, what did the study report about depression in relation to recent examinations underscore invaluable among older adults?",
+      "pmcid": "PMC10742503",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10742503__BODY__000__PROSE__00003"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C094",
+      "final_benchmark_id": "GLG11-094",
+      "original_v1_0_id": "GLG-105",
+      "original_candidate_id": "GLG-C105",
+      "question": "According to the article, what did the study report about depression in relation to levels three six months among older adults?",
+      "pmcid": "PMC10742503",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10742503__BODY__015__PROSE__00022"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C095",
+      "final_benchmark_id": "GLG11-095",
+      "original_v1_0_id": "GLG-106",
+      "original_candidate_id": "GLG-C106",
+      "question": "According to the article, what is the association between depressive and caption in older adults?",
+      "pmcid": "PMC10761328",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10761328__BODY__012__TABLE__00018"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C096",
+      "final_benchmark_id": "GLG11-096",
+      "original_v1_0_id": "GLG-107",
+      "original_candidate_id": "GLG-C107",
+      "question": "According to the article, how does stress relate to self behaviors in older adults?",
+      "pmcid": "PMC10804633",
+      "topic": "C07",
+      "gold_relevant_chunk_ids": [
+        "PMC10804633__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C097",
+      "final_benchmark_id": "GLG11-097",
+      "original_v1_0_id": "GLG-109",
+      "original_candidate_id": "GLG-C109",
+      "question": "According to the article, what did the study report about informal in relation to stakeholder consultation primary health among older adults?",
+      "pmcid": "PMC10519081",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC10519081__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C098",
+      "final_benchmark_id": "GLG11-098",
+      "original_v1_0_id": "GLG-110",
+      "original_candidate_id": "GLG-C110",
+      "question": "How does caregiver burden affect family caregivers of older adults?",
+      "pmcid": "PMC10761328",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC10761328__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C099",
+      "final_benchmark_id": "GLG11-099",
+      "original_v1_0_id": "GLG-111",
+      "original_candidate_id": "GLG-C111",
+      "question": "According to the article, what did the study report about caregivers in relation to informal patients neurodegenerative diseases among older adults?",
+      "pmcid": "PMC10761328",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC10761328__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C100",
+      "final_benchmark_id": "GLG11-100",
+      "original_v1_0_id": "GLG-112",
+      "original_candidate_id": "GLG-C112",
+      "question": "According to the article, what did the study report about caregivers in relation to during pandemic informal patients among older adults?",
+      "pmcid": "PMC10761328",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC10761328__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C101",
+      "final_benchmark_id": "GLG11-101",
+      "original_v1_0_id": "GLG-113",
+      "original_candidate_id": "GLG-C113",
+      "question": "According to the article, what did the study report about caregivers in relation to seven databases scopus web among older adults?",
+      "pmcid": "PMC10804633",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC10804633__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C102",
+      "final_benchmark_id": "GLG11-102",
+      "original_v1_0_id": "GLG-114",
+      "original_candidate_id": "GLG-C114",
+      "question": "According to the article, what is the association between caregivers and based framework our study defined concept self article in older adults?",
+      "pmcid": "PMC10804633",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC10804633__BODY__016__PROSE__00029"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C103",
+      "final_benchmark_id": "GLG11-103",
+      "original_v1_0_id": "GLG-115",
+      "original_candidate_id": "GLG-C115",
+      "question": "According to the article, what does the study report about caregiving in relation to understanding knowledge skills required in elderly?",
+      "pmcid": "PMC11020407",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC11020407__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C104",
+      "final_benchmark_id": "GLG11-104",
+      "original_v1_0_id": "GLG-116",
+      "original_candidate_id": "GLG-C116",
+      "question": "According to the article, how does caregiving relate to chronic illnesses ongoing loss mental physical independence furthermore in older adults?",
+      "pmcid": "PMC11020407",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC11020407__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C105",
+      "final_benchmark_id": "GLG11-105",
+      "original_v1_0_id": "GLG-117",
+      "original_candidate_id": "GLG-C117",
+      "question": "According to the article, what did the study report about givers in relation to majority family sub saharan among older adults?",
+      "pmcid": "PMC11020407",
+      "topic": "C08",
+      "gold_relevant_chunk_ids": [
+        "PMC11020407__BODY__000__PROSE__00004"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C106",
+      "final_benchmark_id": "GLG11-106",
+      "original_v1_0_id": "GLG-118",
+      "original_candidate_id": "GLG-C118",
+      "question": "According to the article, what did the study report about vaccination in relation to previously received influenza times among older adults?",
+      "pmcid": "PMC10056148",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10056148__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C107",
+      "final_benchmark_id": "GLG11-107",
+      "original_v1_0_id": "GLG-119",
+      "original_candidate_id": "GLG-C119",
+      "question": "According to the article, how does vaccinating relate to forgetting times ci likely seek vaccination in older adults?",
+      "pmcid": "PMC10056148",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10056148__ABSTRACT__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C108",
+      "final_benchmark_id": "GLG11-108",
+      "original_v1_0_id": "GLG-120",
+      "original_candidate_id": "GLG-C120",
+      "question": "According to the article, what did the study report about vaccine in relation to received second dose rate among older adults?",
+      "pmcid": "PMC10056148",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10056148__BODY__000__PROSE__00004"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C109",
+      "final_benchmark_id": "GLG11-109",
+      "original_v1_0_id": "GLG-121",
+      "original_candidate_id": "GLG-C121",
+      "question": "According to the article, how does vaccine relate to distrust ingredients in older adults?",
+      "pmcid": "PMC10056148",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10056148__BODY__000__PROSE__00005"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C110",
+      "final_benchmark_id": "GLG11-110",
+      "original_v1_0_id": "GLG-123",
+      "original_candidate_id": "GLG-C123",
+      "question": "According to the article, how does prevents relate to adverse clinical in older adults?",
+      "pmcid": "PMC10421189",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10421189__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C111",
+      "final_benchmark_id": "GLG11-111",
+      "original_v1_0_id": "GLG-124",
+      "original_candidate_id": "GLG-C124",
+      "question": "According to the article, what is recommended regarding recommended in relation to level intakes nutrients evaluated in older adults?",
+      "pmcid": "PMC10421189",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10421189__BODY__003__PROSE__00005"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C112",
+      "final_benchmark_id": "GLG11-112",
+      "original_v1_0_id": "GLG-125",
+      "original_candidate_id": "GLG-C125",
+      "question": "According to the article, what does the study report about planning in relation to we provide overview comorbidities in older adults?",
+      "pmcid": "PMC10670366",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10670366__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C113",
+      "final_benchmark_id": "GLG11-113",
+      "original_v1_0_id": "GLG-126",
+      "original_candidate_id": "GLG-C126",
+      "question": "According to the article, what does the study report about planning in relation to article provides overview comorbidities in older adults?",
+      "pmcid": "PMC10670366",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10670366__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C114",
+      "final_benchmark_id": "GLG11-114",
+      "original_v1_0_id": "GLG-127",
+      "original_candidate_id": "GLG-C127",
+      "question": "According to the article, what does the study report about promotion in relation to share missed opportunities subject in older adults?",
+      "pmcid": "PMC10710345",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC10710345__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C115",
+      "final_benchmark_id": "GLG11-115",
+      "original_v1_0_id": "GLG-128",
+      "original_candidate_id": "GLG-C128",
+      "question": "According to the article, what did the study report about assessing in relation to depression scale gds pa among older adults?",
+      "pmcid": "PMC11314023",
+      "topic": "C09",
+      "gold_relevant_chunk_ids": [
+        "PMC11314023__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C116",
+      "final_benchmark_id": "GLG11-116",
+      "original_v1_0_id": "GLG-129",
+      "original_candidate_id": "GLG-C129",
+      "question": "According to the article, how does activities relate to strengthening pillars active aging policy in older adults?",
+      "pmcid": "PMC10201685",
+      "topic": "C10",
+      "gold_relevant_chunk_ids": [
+        "PMC10201685__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C117",
+      "final_benchmark_id": "GLG11-117",
+      "original_v1_0_id": "GLG-130",
+      "original_candidate_id": "GLG-C130",
+      "question": "What is known about active aging among older adults?",
+      "pmcid": "PMC10201685",
+      "topic": "C10",
+      "gold_relevant_chunk_ids": [
+        "PMC10201685__BODY__000__PROSE__00001"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C118",
+      "final_benchmark_id": "GLG11-118",
+      "original_v1_0_id": "GLG-131",
+      "original_candidate_id": "GLG-C131",
+      "question": "According to the article, what does the study report about healthy in relation to world organization proposed aging in older adults?",
+      "pmcid": "PMC10276510",
+      "topic": "C10",
+      "gold_relevant_chunk_ids": [
+        "PMC10276510__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C119",
+      "final_benchmark_id": "GLG11-119",
+      "original_v1_0_id": "GLG-132",
+      "original_candidate_id": "GLG-C132",
+      "question": "According to the article, what did the study report about healthy in relation to set ultimate goal aging among older adults?",
+      "pmcid": "PMC10276510",
+      "topic": "C10",
+      "gold_relevant_chunk_ids": [
+        "PMC10276510__BODY__000__PROSE__00002"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C120",
+      "final_benchmark_id": "GLG11-120",
+      "original_v1_0_id": "GLG-133",
+      "original_candidate_id": "GLG-C133",
+      "question": "According to the article, what does the study report about ageing in relation to cognitive decline high risk in older adults?",
+      "pmcid": "PMC11747994",
+      "topic": "C10",
+      "gold_relevant_chunk_ids": [
+        "PMC11747994__ABSTRACT__000__PROSE__00000"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    },
+    {
+      "candidate_id": "GLG11-C121",
+      "final_benchmark_id": "GLG11-121",
+      "original_v1_0_id": "GLG-134",
+      "original_candidate_id": "GLG-C134",
+      "question": "According to the article, what is recommended regarding healthy in relation to we piloted against control in older adults?",
+      "pmcid": "PMC11747994",
+      "topic": "C10",
+      "gold_relevant_chunk_ids": [
+        "PMC11747994__BODY__001__PROSE__00005"
+      ],
+      "review_status": "ACCEPTED",
+      "relevance_grade": 2,
+      "reviewer_notes": "Manually reviewed and approved by the researcher (human reviewer). No automated relevance judgment was used for this decision.",
+      "reviewed_at": "2026-09-22T02:20:05.454425+00:00"
+    }
+  ]
+}

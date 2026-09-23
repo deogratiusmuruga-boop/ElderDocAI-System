@@ -1,0 +1,24 @@
+{
+  "validation_ts": "2026-09-18T03:50:24.749416+00:00",
+  "validated_by": "metadata/task9a_topic_audit.py",
+  "all_checks_pass": true,
+  "checks": {
+    "pmcid_count_500": true,
+    "pmcid_unique_500": true,
+    "chunk_count_17930": true,
+    "pmid_499_present": true,
+    "abstract_present_499": true,
+    "body_present": true,
+    "frozen_artifacts_unchanged": true,
+    "topic_pcts_nonnegative": true,
+    "multilabel_singlelabel_distinguished": true,
+    "candidate_ids_traceable": true
+  },
+  "counts": {
+    "pmcids": 500,
+    "pmcids_unique": 500,
+    "pmids": 499,
+    "chunks": 17930,
+    "not_classified": 7
+  }
+}

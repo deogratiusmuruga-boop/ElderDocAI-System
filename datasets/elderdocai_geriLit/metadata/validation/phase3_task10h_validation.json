@@ -1,0 +1,258 @@
+{
+  "task": "phase3_task10h",
+  "generated_at_utc": "2026-09-22T04:48:55.617662+00:00",
+  "validated_by": "metadata/task10h_validate.py",
+  "n_questions": 121,
+  "checks": [
+    {
+      "check_id": "H1",
+      "description": "v1.1 benchmark exists with exact SHA-256",
+      "expected": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+      "actual": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H2",
+      "description": "v1.1 has 121 records, all ACCEPTED",
+      "expected": 121,
+      "actual": [
+        121,
+        121
+      ],
+      "result": "PASS"
+    },
+    {
+      "check_id": "H3",
+      "description": "no duplicate v1.1 IDs; no missing gold",
+      "expected": "unique 121",
+      "actual": 121,
+      "result": "PASS"
+    },
+    {
+      "check_id": "H4",
+      "description": "v1.0 control unchanged",
+      "expected": "28ef54faeec3b9a1cb8c1c79c9a478d8ea3618574b2787a82a74c1460f209c62",
+      "actual": "28ef54faeec3b9a1cb8c1c79c9a478d8ea3618574b2787a82a74c1460f209c62",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H5_chunks",
+      "description": "frozen chunks unchanged",
+      "expected": "62bfdde3c7e77cf56112e79a71bc79bdea70767f6b2625701e392bbb6581c6b3",
+      "actual": "62bfdde3c7e77cf56112e79a71bc79bdea70767f6b2625701e392bbb6581c6b3",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H5_embeddings",
+      "description": "frozen embeddings unchanged",
+      "expected": "b0905d2f96903dadc3cf5b4a737f330853656f846955de706f21bd714ce2dacf",
+      "actual": "b0905d2f96903dadc3cf5b4a737f330853656f846955de706f21bd714ce2dacf",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H5_faiss",
+      "description": "frozen faiss unchanged",
+      "expected": "b7016b9dabbab08ee68f875007b6db2b013af4472b1a3c0958af8a566b59f2b3",
+      "actual": "b7016b9dabbab08ee68f875007b6db2b013af4472b1a3c0958af8a566b59f2b3",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H5_bm25",
+      "description": "frozen bm25 unchanged",
+      "expected": "17f503240f2f9a13abf58c94359884b03b06bec1a5a59f63f921328e2a2c70c9",
+      "actual": "17f503240f2f9a13abf58c94359884b03b06bec1a5a59f63f921328e2a2c70c9",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H5_row_mapping",
+      "description": "frozen row_mapping unchanged",
+      "expected": "4d649f81d554c41ec7b63c65dce887466dfa6245745c568315735f1b93a1872b",
+      "actual": "4d649f81d554c41ec7b63c65dce887466dfa6245745c568315735f1b93a1872b",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H5",
+      "description": "all 5 frozen GeriLit artifacts unchanged",
+      "expected": "5/5",
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "check_id": "H6",
+      "description": "configuration K settings match Task 10D",
+      "expected": {
+        "dense_k": 5,
+        "sparse_k": 5,
+        "hybrid_k": 5,
+        "final_k": 3
+      },
+      "actual": {
+        "dense_k": 5,
+        "sparse_k": 5,
+        "hybrid_k": 5,
+        "final_k": 3
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "H7",
+      "description": "hybrid weights 0.6/0.4 preserved",
+      "expected": [
+        0.6,
+        0.4
+      ],
+      "actual": [
+        0.6,
+        0.4
+      ],
+      "result": "PASS"
+    },
+    {
+      "check_id": "H8",
+      "description": "all four configurations present with exact metrics",
+      "expected": [
+        "dense",
+        "sparse",
+        "hybrid",
+        "rerank"
+      ],
+      "actual": [
+        "dense",
+        "hybrid",
+        "rerank",
+        "sparse"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check_id": "H9",
+      "description": "ranking lengths respect config K caps",
+      "expected": {
+        "dense<=5": 5,
+        "sparse<=5": 5,
+        "hybrid<=5": 5,
+        "rerank<=3": 3
+      },
+      "actual": {
+        "dense": 5,
+        "sparse": 5,
+        "hybrid": 5,
+        "rerank": 3
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "H10",
+      "description": "every v1.1 question evaluated exactly once",
+      "expected": "121 unique",
+      "actual": [
+        121,
+        121
+      ],
+      "result": "PASS"
+    },
+    {
+      "check_id": "H11",
+      "description": "no duplicate evaluation rows",
+      "expected": 121,
+      "actual": 121,
+      "result": "PASS"
+    },
+    {
+      "check_id": "H12",
+      "description": "all gold chunks traceable to the frozen corpus",
+      "expected": "all present",
+      "actual": 121,
+      "result": "PASS"
+    },
+    {
+      "check_id": "H13",
+      "description": "all retrieved chunk ids exist in the corpus",
+      "expected": "all present",
+      "actual": 2178,
+      "result": "PASS"
+    },
+    {
+      "check_id": "H14",
+      "description": "all metrics within [0,1]",
+      "expected": "121x4x5",
+      "actual": 2420,
+      "result": "PASS"
+    },
+    {
+      "check_id": "H15",
+      "description": "results signature equals summary signature",
+      "expected": "f3accb4e27f7934de02ae13204e723778294e2bd773c025cbd9bcbe4179b5e9c",
+      "actual": "f3accb4e27f7934de02ae13204e723778294e2bd773c025cbd9bcbe4179b5e9c",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H16",
+      "description": "canonical signature matches recorded Task 10H runs",
+      "expected": "f3accb4e27f7934de02ae13204e723778294e2bd773c025cbd9bcbe4179b5e9c",
+      "actual": "f3accb4e27f7934de02ae13204e723778294e2bd773c025cbd9bcbe4179b5e9c",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H17",
+      "description": "benchmark integrity recorded by evaluation",
+      "expected": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+      "actual": [
+        "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+        "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check_id": "H18_task10d_results",
+      "description": "task10d_results unchanged (Task 10F baseline)",
+      "expected": "503b199ef8917d33df2eb30fadd4dbd47cfa3ae4c7549dc932710f92a0ddff86",
+      "actual": "503b199ef8917d33df2eb30fadd4dbd47cfa3ae4c7549dc932710f92a0ddff86",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H18_task10d_summary",
+      "description": "task10d_summary unchanged (Task 10F baseline)",
+      "expected": "e81230ec4a9502d717177633658842e8c15c292b0dab1cff69b9d0e5758972f4",
+      "actual": "e81230ec4a9502d717177633658842e8c15c292b0dab1cff69b9d0e5758972f4",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H18_task10e_analysis",
+      "description": "task10e_analysis unchanged (Task 10F baseline)",
+      "expected": "3a262687fcd775b385ed7d2959a8128db85828b9d095ad4edacef04e0155fe9b",
+      "actual": "3a262687fcd775b385ed7d2959a8128db85828b9d095ad4edacef04e0155fe9b",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H19",
+      "description": "Task 10G final benchmark unchanged",
+      "expected": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+      "actual": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H20",
+      "description": "Task 10G review artifact unchanged",
+      "expected": "999a90114d0467b50be6a7c6a552881ae9cb9bb50bcca13599dbea54a4a35c06",
+      "actual": "999a90114d0467b50be6a7c6a552881ae9cb9bb50bcca13599dbea54a4a35c06",
+      "result": "PASS"
+    },
+    {
+      "check_id": "H21",
+      "description": "Task 10E diagnostics still cover 134 queries",
+      "expected": 134,
+      "actual": 134,
+      "result": "PASS"
+    },
+    {
+      "check_id": "H22",
+      "description": "v1.0 methodological equivalence rerun matches Task 10D",
+      "expected": "0 mismatches over 134",
+      "actual": 0,
+      "result": "PASS"
+    }
+  ],
+  "n_passed": 29,
+  "n_failed": 0
+}
