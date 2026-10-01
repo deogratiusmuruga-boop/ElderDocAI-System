@@ -1,0 +1,120 @@
+{
+  "experiment1": {
+    "n": 121,
+    "metrics": {
+      "faithfulness": {
+        "n": 121,
+        "mean": 0.754132,
+        "sd": 0.396578,
+        "ci95_t": [
+          0.68347,
+          0.824794
+        ],
+        "ci95_bootstrap": [
+          0.681818,
+          0.822314
+        ]
+      },
+      "answer_relevance": {
+        "n": 121,
+        "mean": 0.671488,
+        "sd": 0.449575,
+        "ci95_t": [
+          0.591383,
+          0.751592
+        ],
+        "ci95_bootstrap": [
+          0.592975,
+          0.75
+        ]
+      },
+      "evidence_support": {
+        "n": 121,
+        "mean": 0.85283,
+        "sd": 0.24078,
+        "ci95_t": [
+          0.809928,
+          0.895732
+        ],
+        "ci95_bootstrap": [
+          0.80909,
+          0.893431
+        ]
+      }
+    },
+    "unsupported_claim_rate": {
+      "n_support": 28,
+      "n": 121,
+      "rate": 23.14,
+      "ci95_binomial": [
+        15.96,
+        31.68
+      ]
+    }
+  },
+  "experiment3": {
+    "n": 20,
+    "state_response_rate": {
+      "k": 7,
+      "n": 20,
+      "rate_pct": 35.0,
+      "ci95_binomial_pct": [
+        15.39,
+        59.22
+      ]
+    },
+    "appropriateness_rate": {
+      "k": 0,
+      "n": 20,
+      "rate_pct": 0.0,
+      "ci95_binomial_pct": [
+        0.0,
+        16.84
+      ]
+    }
+  },
+  "experiment4": {
+    "n": 121,
+    "metrics": {
+      "faithfulness": {
+        "n": 121,
+        "mean_delta": -0.194215,
+        "sd": 0.501547,
+        "ci95_t": [
+          -0.28358,
+          -0.10485
+        ],
+        "ci95_bootstrap": [
+          -0.283058,
+          -0.103306
+        ]
+      },
+      "answer_relevance": {
+        "n": 121,
+        "mean_delta": -0.140496,
+        "sd": 0.500929,
+        "ci95_t": [
+          -0.229751,
+          -0.051241
+        ],
+        "ci95_bootstrap": [
+          -0.229339,
+          -0.053719
+        ]
+      },
+      "evidence_support": {
+        "n": 121,
+        "mean_delta": -0.178488,
+        "sd": 0.265454,
+        "ci95_t": [
+          -0.225787,
+          -0.13119
+        ],
+        "ci95_bootstrap": [
+          -0.223836,
+          -0.130506
+        ]
+      }
+    }
+  }
+}

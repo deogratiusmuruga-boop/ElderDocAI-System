@@ -1,0 +1,7 @@
+metric,condition,mean,delta,ttest_p,wilcoxon_p,supported
+Faithfulness,vanilla,0.570248,-0.194215,4.1e-05,7.6e-05,True
+Answer relevance,vanilla,0.547521,-0.140496,0.002526,0.00281,True
+Evidence support,vanilla,0.676521,-0.178488,0.0,0.0,True
+Faithfulness,full,0.764463,-0.194215,4.1e-05,7.6e-05,True
+Answer relevance,full,0.688017,-0.140496,0.002526,0.00281,True
+Evidence support,full,0.85501,-0.178488,0.0,0.0,True

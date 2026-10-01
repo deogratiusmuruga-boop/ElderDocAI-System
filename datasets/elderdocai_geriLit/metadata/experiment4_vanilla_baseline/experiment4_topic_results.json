@@ -1,0 +1,62 @@
+{
+  "C01": {
+    "n": 11,
+    "faithfulness_delta_mean": -0.363636,
+    "relevance_delta_mean": -0.204545,
+    "support_delta_mean": -0.331227
+  },
+  "C02": {
+    "n": 15,
+    "faithfulness_delta_mean": -0.15,
+    "relevance_delta_mean": -0.083333,
+    "support_delta_mean": -0.10518
+  },
+  "C03": {
+    "n": 13,
+    "faithfulness_delta_mean": 0.019231,
+    "relevance_delta_mean": -0.115385,
+    "support_delta_mean": -0.060292
+  },
+  "C04": {
+    "n": 13,
+    "faithfulness_delta_mean": -0.211538,
+    "relevance_delta_mean": -0.269231,
+    "support_delta_mean": -0.1697
+  },
+  "C05": {
+    "n": 14,
+    "faithfulness_delta_mean": -0.267857,
+    "relevance_delta_mean": -0.142857,
+    "support_delta_mean": -0.132086
+  },
+  "C06": {
+    "n": 16,
+    "faithfulness_delta_mean": -0.25,
+    "relevance_delta_mean": -0.296875,
+    "support_delta_mean": -0.191425
+  },
+  "C07": {
+    "n": 14,
+    "faithfulness_delta_mean": -0.285714,
+    "relevance_delta_mean": 0.035714,
+    "support_delta_mean": -0.2011
+  },
+  "C08": {
+    "n": 9,
+    "faithfulness_delta_mean": -0.361111,
+    "relevance_delta_mean": 0.0,
+    "support_delta_mean": -0.275067
+  },
+  "C09": {
+    "n": 10,
+    "faithfulness_delta_mean": 0.125,
+    "relevance_delta_mean": -0.075,
+    "support_delta_mean": -0.27903
+  },
+  "C10": {
+    "n": 6,
+    "faithfulness_delta_mean": -0.166667,
+    "relevance_delta_mean": -0.25,
+    "support_delta_mean": -0.06545
+  }
+}

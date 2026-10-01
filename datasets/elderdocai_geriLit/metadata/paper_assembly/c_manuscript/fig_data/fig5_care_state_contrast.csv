@@ -1,0 +1,7 @@
+metric,condition,mean
+Faithfulness,A_low,0.8125
+Answer relevance,A_low,0.625
+Evidence support,A_low,0.8221
+Faithfulness,B_high,0.85
+Answer relevance,B_high,0.675
+Evidence support,B_high,0.81932

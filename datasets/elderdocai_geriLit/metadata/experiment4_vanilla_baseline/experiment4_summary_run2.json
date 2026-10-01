@@ -1,0 +1,183 @@
+{
+  "n_pairs": 121,
+  "condition_stats": {
+    "full": {
+      "faithfulness": {
+        "n": 121,
+        "mean": 0.754132,
+        "median": 1.0
+      },
+      "answer_relevance": {
+        "n": 121,
+        "mean": 0.679752,
+        "median": 1.0
+      },
+      "evidence_support": {
+        "n": 121,
+        "mean": 0.85283,
+        "median": 0.95
+      }
+    },
+    "vanilla": {
+      "faithfulness": {
+        "n": 121,
+        "mean": 0.570248,
+        "median": 1.0
+      },
+      "answer_relevance": {
+        "n": 121,
+        "mean": 0.543388,
+        "median": 0.75
+      },
+      "evidence_support": {
+        "n": 121,
+        "mean": 0.676521,
+        "median": 0.6786
+      }
+    }
+  },
+  "paired_statistics": {
+    "faithfulness": {
+      "n": 121,
+      "vanilla_mean": 0.570248,
+      "full_mean": 0.754132,
+      "paired_mean_difference": -0.183884,
+      "median_difference": 0.0,
+      "std_difference": 0.537905,
+      "count_vanilla_gt_full": 18,
+      "count_equal": 65,
+      "count_vanilla_lt_full": 38,
+      "paired_ttest_t": -3.760377,
+      "paired_ttest_p": 0.000264,
+      "ci95_mean_delta_t": [
+        -0.280704,
+        -0.087065
+      ],
+      "wilcoxon_statistic": 377.0,
+      "wilcoxon_p": 0.000382,
+      "statistically_supported": true
+    },
+    "answer_relevance": {
+      "n": 121,
+      "vanilla_mean": 0.543388,
+      "full_mean": 0.679752,
+      "paired_mean_difference": -0.136364,
+      "median_difference": 0.0,
+      "std_difference": 0.498957,
+      "count_vanilla_gt_full": 15,
+      "count_equal": 67,
+      "count_vanilla_lt_full": 39,
+      "paired_ttest_t": -3.00627,
+      "paired_ttest_p": 0.003222,
+      "ci95_mean_delta_t": [
+        -0.226173,
+        -0.046554
+      ],
+      "wilcoxon_statistic": 414.0,
+      "wilcoxon_p": 0.003739,
+      "statistically_supported": true
+    },
+    "evidence_support": {
+      "n": 121,
+      "vanilla_mean": 0.676521,
+      "full_mean": 0.85283,
+      "paired_mean_difference": -0.176308,
+      "median_difference": -0.2167,
+      "std_difference": 0.263426,
+      "count_vanilla_gt_full": 20,
+      "count_equal": 0,
+      "count_vanilla_lt_full": 101,
+      "paired_ttest_t": -7.362186,
+      "paired_ttest_p": 0.0,
+      "ci95_mean_delta_t": [
+        -0.223723,
+        -0.128893
+      ],
+      "wilcoxon_statistic": 1100.0,
+      "wilcoxon_p": 0.0,
+      "statistically_supported": true
+    }
+  },
+  "evidence_identity_ok": true,
+  "evidence_identity_fails": [],
+  "full_gate": {
+    "accept": 37,
+    "refine": 84,
+    "re_retrieve": 0,
+    "reject": 0,
+    "refinement_cases": 84,
+    "generation_permitted": 121,
+    "vanilla_generation": 121
+  },
+  "refusals": {
+    "full": 0,
+    "vanilla": 0
+  },
+  "errors": [],
+  "gold_in_evidence": {
+    "full": 33,
+    "vanilla": 33
+  },
+  "topic_level": {
+    "C01": {
+      "n": 11,
+      "faithfulness_delta_mean": -0.363636,
+      "relevance_delta_mean": -0.204545,
+      "support_delta_mean": -0.331227
+    },
+    "C02": {
+      "n": 15,
+      "faithfulness_delta_mean": -0.15,
+      "relevance_delta_mean": -0.083333,
+      "support_delta_mean": -0.10518
+    },
+    "C03": {
+      "n": 13,
+      "faithfulness_delta_mean": 0.019231,
+      "relevance_delta_mean": -0.115385,
+      "support_delta_mean": -0.060292
+    },
+    "C04": {
+      "n": 13,
+      "faithfulness_delta_mean": -0.211538,
+      "relevance_delta_mean": -0.269231,
+      "support_delta_mean": -0.1697
+    },
+    "C05": {
+      "n": 14,
+      "faithfulness_delta_mean": -0.196429,
+      "relevance_delta_mean": -0.142857,
+      "support_delta_mean": -0.123979
+    },
+    "C06": {
+      "n": 16,
+      "faithfulness_delta_mean": -0.28125,
+      "relevance_delta_mean": -0.328125,
+      "support_delta_mean": -0.199263
+    },
+    "C07": {
+      "n": 14,
+      "faithfulness_delta_mean": -0.25,
+      "relevance_delta_mean": 0.089286,
+      "support_delta_mean": -0.18685
+    },
+    "C08": {
+      "n": 9,
+      "faithfulness_delta_mean": -0.333333,
+      "relevance_delta_mean": 0.0,
+      "support_delta_mean": -0.2666
+    },
+    "C09": {
+      "n": 10,
+      "faithfulness_delta_mean": 0.125,
+      "relevance_delta_mean": -0.05,
+      "support_delta_mean": -0.27903
+    },
+    "C10": {
+      "n": 6,
+      "faithfulness_delta_mean": -0.166667,
+      "relevance_delta_mean": -0.25,
+      "support_delta_mean": -0.06545
+    }
+  }
+}

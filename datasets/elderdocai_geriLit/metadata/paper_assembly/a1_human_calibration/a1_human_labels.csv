@@ -1,0 +1,21 @@
+question_id,human_faithfulness,human_answer_relevance,human_evidence_support,human_unsupported_claim,notes
+GLG11-004,0.75,1,0.75,0,"Core medication/PIM claim is consistent with the evidence, but the specific last-two-weeks study result is not explicit in the abridged passages."
+GLG11-005,0.5,1,0.5,1,The provided excerpts discuss deprescribing and medicine concerns but do not explicitly support trust as the leading factor.
+GLG11-008,0.75,1,0.75,0,"Supported in substance by the person-centred medicines-optimisation/deprescribing passages, but the wording about reducing both polypharmacy and PIMs is somewhat imprecise."
+GLG11-011,1.0,1,1.0,0,"The evidence explicitly links strong anticholinergic medications/adverse medication events with delirium, cognitive impairment, and ADRD."
+GLG11-015,0.75,1,0.75,0,"The answer matches the stated study topic and likely result, but the specific prevalence and screening-tool results are not fully visible in the abridged evidence."
+GLG11-017,0.5,1,0.25,1,The supplied passages discuss cognitive impairment and nursing-home care but do not support the claimed improvement in quality of life or caregiver burden.
+GLG11-018,0.5,1,0.25,1,The supplied excerpts discuss frailty/cognitive decline but do not contain the claimed walking-speed and timed-up-and-go association.
+GLG11-022,1.0,1,1.0,0,The response appropriately states that the requested association could not be found in the supplied evidence.
+GLG11-030,0.5,1,0.5,1,Protein intake is not stated in the supplied passages; the evidence mentions muscle-mass loss but does not establish the claimed protein recommendation.
+GLG11-034,0.75,1,0.75,0,"Iron and vitamin C deficiency and poorer clinical outcomes are supported, but the broader wording about exercise capacity, hospitalization, and mortality is not fully established by the excerpts."
+GLG11-042,1.0,1,1.0,0,The listed barriers are directly represented in the COM-B evidence excerpt.
+GLG11-043,0.5,1,0.25,1,Fatigue/low energy is not present in the supplied evidence excerpts.
+GLG11-046,0.75,1,0.75,0,"The evidence supports timing/coordination exercise and mobility improvement, but the stronger claim that these exercises are specifically important for walking is only partially explicit."
+GLG11-050,1.0,1,1.0,0,The answer closely matches the explicit 1.93% comfortable-walking result and its nonsignificance.
+GLG11-078,0.75,1,0.75,0,"The evidence supports a relationship between diabetes and insulin resistance and discusses downstream metabolic/functional consequences, but the answer reverses/strengthens the relationship somewhat."
+GLG11-082,1.0,1,1.0,0,The answer is an appropriate evidence-bounded refusal because the supplied passages do not provide the requested diabetes/independent-variable result.
+GLG11-084,1.0,1,1.0,0,The answer correctly states that the requested association is not explicitly stated in the provided sources.
+GLG11-091,0.5,1,0.25,1,"The evidence discusses vaccine confidence, perceived COVID-19 susceptibility, and hesitancy, but does not support the specific claim about diminished anxiety."
+GLG11-101,1.0,1,1.0,0,The first evidence passage directly supports the seven-database search statement.
+GLG11-103,0.75,1,0.75,0,"The evidence supports caregivers' knowledge and skills for care, but 'provide quality care' is a mild interpretive extension."

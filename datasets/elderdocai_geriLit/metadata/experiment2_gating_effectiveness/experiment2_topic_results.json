@@ -1,0 +1,122 @@
+{
+  "C01": {
+    "n": 11,
+    "faithfulness_on_mean": 0.886364,
+    "faithfulness_off_mean": 0.886364,
+    "faithfulness_delta": 0.0,
+    "relevance_on_mean": 0.863636,
+    "relevance_off_mean": 0.840909,
+    "relevance_delta": 0.022727,
+    "evidence_support_on_mean": 0.959727,
+    "evidence_support_off_mean": 0.953664,
+    "evidence_support_delta": 0.006064
+  },
+  "C02": {
+    "n": 15,
+    "faithfulness_on_mean": 0.816667,
+    "faithfulness_off_mean": 0.816667,
+    "faithfulness_delta": 0.0,
+    "relevance_on_mean": 0.5,
+    "relevance_off_mean": 0.5,
+    "relevance_delta": 0.0,
+    "evidence_support_on_mean": 0.819573,
+    "evidence_support_off_mean": 0.819573,
+    "evidence_support_delta": 0.0
+  },
+  "C03": {
+    "n": 13,
+    "faithfulness_on_mean": 0.557692,
+    "faithfulness_off_mean": 0.557692,
+    "faithfulness_delta": 0.0,
+    "relevance_on_mean": 0.75,
+    "relevance_off_mean": 0.75,
+    "relevance_delta": 0.0,
+    "evidence_support_on_mean": 0.794469,
+    "evidence_support_off_mean": 0.794469,
+    "evidence_support_delta": 0.0
+  },
+  "C04": {
+    "n": 13,
+    "faithfulness_on_mean": 0.826923,
+    "faithfulness_off_mean": 0.826923,
+    "faithfulness_delta": 0.0,
+    "relevance_on_mean": 0.673077,
+    "relevance_off_mean": 0.692308,
+    "relevance_delta": -0.019231,
+    "evidence_support_on_mean": 0.844654,
+    "evidence_support_off_mean": 0.844654,
+    "evidence_support_delta": 0.0
+  },
+  "C05": {
+    "n": 14,
+    "faithfulness_on_mean": 0.821429,
+    "faithfulness_off_mean": 0.964286,
+    "faithfulness_delta": -0.142857,
+    "relevance_on_mean": 0.857143,
+    "relevance_off_mean": 0.857143,
+    "relevance_delta": 0.0,
+    "evidence_support_on_mean": 0.880443,
+    "evidence_support_off_mean": 0.894207,
+    "evidence_support_delta": -0.013764
+  },
+  "C06": {
+    "n": 16,
+    "faithfulness_on_mean": 0.78125,
+    "faithfulness_off_mean": 0.828125,
+    "faithfulness_delta": -0.046875,
+    "relevance_on_mean": 0.640625,
+    "relevance_off_mean": 0.609375,
+    "relevance_delta": 0.03125,
+    "evidence_support_on_mean": 0.813063,
+    "evidence_support_off_mean": 0.814412,
+    "evidence_support_delta": -0.00135
+  },
+  "C07": {
+    "n": 14,
+    "faithfulness_on_mean": 0.678571,
+    "faithfulness_off_mean": 0.678571,
+    "faithfulness_delta": 0.0,
+    "relevance_on_mean": 0.392857,
+    "relevance_off_mean": 0.392857,
+    "relevance_delta": 0.0,
+    "evidence_support_on_mean": 0.808621,
+    "evidence_support_off_mean": 0.810536,
+    "evidence_support_delta": -0.001914
+  },
+  "C08": {
+    "n": 9,
+    "faithfulness_on_mean": 0.888889,
+    "faithfulness_off_mean": 0.916667,
+    "faithfulness_delta": -0.027778,
+    "relevance_on_mean": 0.75,
+    "relevance_off_mean": 0.638889,
+    "relevance_delta": 0.111111,
+    "evidence_support_on_mean": 0.923656,
+    "evidence_support_off_mean": 0.935111,
+    "evidence_support_delta": -0.011456
+  },
+  "C09": {
+    "n": 10,
+    "faithfulness_on_mean": 0.675,
+    "faithfulness_off_mean": 0.7,
+    "faithfulness_delta": -0.025,
+    "relevance_on_mean": 0.65,
+    "relevance_off_mean": 0.75,
+    "relevance_delta": -0.1,
+    "evidence_support_on_mean": 0.96917,
+    "evidence_support_off_mean": 0.95917,
+    "evidence_support_delta": 0.01
+  },
+  "C10": {
+    "n": 6,
+    "faithfulness_on_mean": 0.5,
+    "faithfulness_off_mean": 0.5,
+    "faithfulness_delta": 0.0,
+    "relevance_on_mean": 0.791667,
+    "relevance_off_mean": 0.791667,
+    "relevance_delta": 0.0,
+    "evidence_support_on_mean": 0.728783,
+    "evidence_support_off_mean": 0.728783,
+    "evidence_support_delta": 0.0
+  }
+}

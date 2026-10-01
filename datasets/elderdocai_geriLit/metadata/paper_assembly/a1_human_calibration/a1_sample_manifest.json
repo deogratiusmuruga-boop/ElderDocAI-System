@@ -1,0 +1,195 @@
+{
+  "pre_registered": {
+    "seed": 42,
+    "n": 20,
+    "strata_definition": "faithfulness: high==1.0, partial==0.75, low<=0.5",
+    "allocation": {
+      "high": 11,
+      "partial": 4,
+      "low": 5
+    },
+    "population": 121
+  },
+  "items": [
+    {
+      "question_id": "GLG11-004",
+      "topic": "C01",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 0.95,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-005",
+      "topic": "C01",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-008",
+      "topic": "C01",
+      "stratum": "partial",
+      "judge_faithfulness": 0.75,
+      "judge_answer_relevance": 0.75,
+      "judge_evidence_support": 0.9444,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-011",
+      "topic": "C01",
+      "stratum": "low",
+      "judge_faithfulness": 0.0,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": true
+    },
+    {
+      "question_id": "GLG11-015",
+      "topic": "C02",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-017",
+      "topic": "C02",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 0.75,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-018",
+      "topic": "C02",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 0.75,
+      "judge_evidence_support": 0.9259,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-022",
+      "topic": "C02",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 0.0,
+      "judge_evidence_support": 0.1667,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-030",
+      "topic": "C03",
+      "stratum": "low",
+      "judge_faithfulness": 0.25,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 0.8182,
+      "judge_hallucination_flag": true
+    },
+    {
+      "question_id": "GLG11-034",
+      "topic": "C03",
+      "stratum": "partial",
+      "judge_faithfulness": 0.75,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-042",
+      "topic": "C04",
+      "stratum": "partial",
+      "judge_faithfulness": 0.75,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-043",
+      "topic": "C04",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 0.8,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-046",
+      "topic": "C04",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-050",
+      "topic": "C04",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 0.75,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-078",
+      "topic": "C06",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 0.8947,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-082",
+      "topic": "C06",
+      "stratum": "low",
+      "judge_faithfulness": 0.0,
+      "judge_answer_relevance": 0.0,
+      "judge_evidence_support": 0.1667,
+      "judge_hallucination_flag": true
+    },
+    {
+      "question_id": "GLG11-084",
+      "topic": "C07",
+      "stratum": "low",
+      "judge_faithfulness": 0.0,
+      "judge_answer_relevance": 0.0,
+      "judge_evidence_support": 0.5556,
+      "judge_hallucination_flag": true
+    },
+    {
+      "question_id": "GLG11-091",
+      "topic": "C07",
+      "stratum": "low",
+      "judge_faithfulness": 0.0,
+      "judge_answer_relevance": 0.0,
+      "judge_evidence_support": 1.0,
+      "judge_hallucination_flag": true
+    },
+    {
+      "question_id": "GLG11-101",
+      "topic": "C08",
+      "stratum": "high",
+      "judge_faithfulness": 1.0,
+      "judge_answer_relevance": 0.0,
+      "judge_evidence_support": 0.963,
+      "judge_hallucination_flag": false
+    },
+    {
+      "question_id": "GLG11-103",
+      "topic": "C08",
+      "stratum": "partial",
+      "judge_faithfulness": 0.75,
+      "judge_answer_relevance": 1.0,
+      "judge_evidence_support": 0.8571,
+      "judge_hallucination_flag": false
+    }
+  ]
+}

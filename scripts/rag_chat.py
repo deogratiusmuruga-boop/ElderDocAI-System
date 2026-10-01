@@ -866,6 +866,7 @@ def _run_gated_generation(
     response_language="en",
     assistance_plan=None,
     system_message="",
+    adaptive_context=None,
 ):
     """Reliability-gated answer flow.
 
@@ -992,6 +993,7 @@ def _run_gated_generation(
         conversation_context=conversation_context,
         response_language=response_language,
         assistance_plan=assistance_plan or {},
+        adaptive_context=adaptive_context,
     )
 
     response = ollama.chat(
@@ -1034,7 +1036,8 @@ def generate_answer(
     conversation_context="",
     response_language="en",
     return_evidence=False,
-    return_evaluation=False
+    return_evaluation=False,
+    adaptive_context=None
 ):
 
     print("\n" + "=" * 70)
@@ -1049,32 +1052,47 @@ def generate_answer(
         user_profile
     )
 
-    adaptive_context = get_adaptive_context(
-        patient_id=patient_id
-    )
-
-    adaptive_context_for_prompt = (
-        prepare_adaptive_context(
-            adaptive_context
+    if adaptive_context is not None:
+        # Real (non-synthetic) care-state override computed upstream.
+        adaptive_context_for_prompt = (
+            prepare_adaptive_context(
+                adaptive_context
+            )
         )
-    )
-
-    assistance_plan = None
-    assistance_plan_for_prompt = None
-
-    if adaptive_context:
-
-        assistance_plan = get_assistance_plan(
-            patient_id=patient_id,
-            window_start=adaptive_context.get("window_start"),
-            window_end=adaptive_context.get("window_end")
-        )
-
+        plan_record = adaptive_context.get("assistance_plan_record") or {}
+        assistance_plan = plan_record or None
         assistance_plan_for_prompt = (
             prepare_assistance_plan(
                 assistance_plan
             )
         )
+    else:
+        adaptive_context = get_adaptive_context(
+            patient_id=patient_id
+        )
+
+        adaptive_context_for_prompt = (
+            prepare_adaptive_context(
+                adaptive_context
+            )
+        )
+
+        assistance_plan = None
+        assistance_plan_for_prompt = None
+
+        if adaptive_context:
+
+            assistance_plan = get_assistance_plan(
+                patient_id=patient_id,
+                window_start=adaptive_context.get("window_start"),
+                window_end=adaptive_context.get("window_end")
+            )
+
+            assistance_plan_for_prompt = (
+                prepare_assistance_plan(
+                    assistance_plan
+                )
+            )
 
     print("\nAdaptive Context:")
 
@@ -1110,6 +1128,7 @@ def generate_answer(
         response_language=response_language,
         assistance_plan=assistance_plan_for_prompt,
         system_message=GENERATION_SYSTEM_PROMPT,
+        adaptive_context=adaptive_context_for_prompt,
     )
 
     answer = result["answer"]

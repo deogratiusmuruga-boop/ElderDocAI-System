@@ -1,0 +1,21 @@
+{
+  "run_id": "1",
+  "n": 20,
+  "signature": "1f345b943a91f7813fbbfb875b5d3ae3a2d140bb99beb2846aa137452f08e05a",
+  "question_set": "first 2 per topic, frozen v1.1 (read-only)",
+  "retrieval_backend": "geri_lit",
+  "llm_model": "llama3.2:latest",
+  "judge_model": "llama3.2:latest",
+  "judge_options": {
+    "temperature": 0,
+    "top_p": 0.1,
+    "top_k": 10
+  },
+  "now": "2026-09-22",
+  "states": {
+    "A": "LOW_ACTIVITY",
+    "B": "HIGH_ACTIVITY"
+  },
+  "finalized_at_utc": "2026-09-26T10:00:26Z",
+  "frozen_unchanged": true
+}

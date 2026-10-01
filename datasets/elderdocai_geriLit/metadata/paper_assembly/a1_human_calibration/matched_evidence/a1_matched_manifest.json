@@ -1,0 +1,72 @@
+{
+  "protocol_version": "1.0-matched-evidence",
+  "seed": 42,
+  "n": 20,
+  "selected_question_ids": [
+    "GLG11-004",
+    "GLG11-005",
+    "GLG11-008",
+    "GLG11-011",
+    "GLG11-015",
+    "GLG11-017",
+    "GLG11-018",
+    "GLG11-022",
+    "GLG11-030",
+    "GLG11-034",
+    "GLG11-042",
+    "GLG11-043",
+    "GLG11-046",
+    "GLG11-050",
+    "GLG11-078",
+    "GLG11-082",
+    "GLG11-084",
+    "GLG11-091",
+    "GLG11-101",
+    "GLG11-103"
+  ],
+  "source_experiment": "Experiment 1",
+  "source_run": "run1",
+  "source_artifact": "C:\\Users\\chosun\\Documents\\ElderDocAI-System\\datasets\\elderdocai_geriLit\\metadata\\experiment1_generation_evaluation\\experiment1_per_question_run1.json",
+  "source_artifact_sha256": "838c6d9147eff074a4626ac06bdc3ecf4da59948b731a3badf8b0542f3a01c07",
+  "benchmark_sha256": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+  "evidence_matching_statement": "For each question the annotator is shown evidence_full = \"\\n\".join(retrieved_evidence_texts) EXACTLY as recorded in the frozen Experiment 1 run-1 artifact: the same full final evidence texts, in the same order, without truncation, summarization, paraphrase, reordering, or added text. These are the evidence texts the Experiment 1 automated judge consumed.",
+  "evidence_ordering_statement": "Evidence items appear in the exact recorded order of retrieved_evidence_texts in the run-1 artifact.",
+  "blinding_statement": "The sheet contains only question_id, question, answer, evidence_full, and blank human rating fields. It exposes NO automated judge scores, judge reasoning, stratum, topic, gate decision, reliability, gold labels, or experiment condition.",
+  "support_bin_thresholds": {
+    "rule": "Automated continuous span-token coverage is mapped to the five-point scale; exact midpoint boundaries are assigned to the lower label.",
+    "bins": [
+      {
+        "lo": 0.0,
+        "hi": 0.125,
+        "label": 0.0
+      },
+      {
+        "lo": 0.125,
+        "hi": 0.375,
+        "label": 0.25
+      },
+      {
+        "lo": 0.375,
+        "hi": 0.625,
+        "label": 0.5
+      },
+      {
+        "lo": 0.625,
+        "hi": 0.875,
+        "label": 0.75
+      },
+      {
+        "lo": 0.875,
+        "hi": 1.0,
+        "label": 1.0
+      }
+    ]
+  },
+  "kappa_degeneracy_rule": "If either rater has a zero-variance marginal (>= 19 of 20 observations in one category), report: 'kappa = degenerate - zero-variance marginal' plus observed agreement (Po), expected agreement (Pe), and exact agreement. A degenerate kappa is NOT interpreted as ordinary disagreement. Numerical kappa is reported only when no marginal is degenerate and Pe < 0.90. This rule applies symmetrically to all evaluated categorical metrics.",
+  "pilot_relationship": "The original A1 pilot remains preserved as a historical methodological pilot (abridged evidence). The matched A1 is the primary human-judge calibration analysis; it supersedes the pilot for that purpose and is not a second independent estimate.",
+  "no_validation_claim": "This is an evaluator-concordance/calibration analysis. It does not validate or invalidate the judge; no claim about judge accuracy, precision, bias, or clinical validity is drawn from n=20.",
+  "human_fields_blank": true,
+  "no_agreement_computed": true,
+  "confirmation": "Human annotation fields are intentionally blank and no agreement statistics have been computed.",
+  "created_at_utc": "2026-09-29T06:33:07+00:00"
+}

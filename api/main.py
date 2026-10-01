@@ -73,6 +73,45 @@ if BASE_DIR not in sys.path:
 
 from database import get_db
 from models.user import UserProfile as UserProfileDB
+from models.medication import Medication as MedicationDB
+from models.appointment import Appointment as AppointmentDB
+
+
+# ============================================================
+# Real care-state signal loaders (SQLite)
+# ============================================================
+
+def _load_medications(user_id, db):
+    """Return active medication rows for the user (real system data)."""
+    if not user_id:
+        return []
+    rows = db.query(MedicationDB).filter(
+        MedicationDB.user_id == user_id).all()
+    return [
+        {
+            "medicine_name": m.medicine_name,
+            "dosage": m.dosage,
+            "time": m.time,
+            "frequency": m.frequency,
+        }
+        for m in rows
+    ]
+
+
+def _load_appointments(user_id, db):
+    """Return appointment rows for the user (real system data)."""
+    if not user_id:
+        return []
+    rows = db.query(AppointmentDB).filter(
+        AppointmentDB.user_id == user_id).all()
+    return [
+        {
+            "title": a.title,
+            "appointment_date": a.appointment_date,
+            "location": a.location,
+        }
+        for a in rows
+    ]
 
 
 # ============================================================
@@ -407,8 +446,11 @@ def ask_question(
 
             conversation_history=request.conversation_history,
 
-            response_language=response_language
+            response_language=response_language,
 
+            medications=_load_medications(request.user_id, db),
+
+            appointments=_load_appointments(request.user_id, db)
         )
 
         # ----------------------------------------------------

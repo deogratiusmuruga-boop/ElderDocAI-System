@@ -23,6 +23,7 @@ from scripts.rag_chat import (
     prepare_adaptive_context,
     extract_patient_id
 )
+from scripts.care_state import compute_care_state
 
 
 # ============================================================
@@ -232,7 +233,10 @@ def answer_question(
     question,
     user_profile=None,
     conversation_history=None,
-    response_language="en"
+    response_language="en",
+    medications=None,
+    appointments=None,
+    now=None,
 ):
     """
     Main CareBuddy service function.
@@ -265,6 +269,22 @@ def answer_question(
     # decision are computed once inside the gate and reused here)
     # ========================================================
 
+    # ========================================================
+    # Real (non-synthetic) adaptive care context
+    # ========================================================
+
+    real_adaptive_context = (
+        compute_care_state(
+            profile=user_profile,
+            medications=medications,
+            appointments=appointments,
+            conversation_history=conversation_history,
+            now=now,
+            patient_id=extract_patient_id(user_profile)
+        )
+        if user_profile is not None else None
+    )
+
     generation = generate_answer(
 
         question,
@@ -277,7 +297,12 @@ def answer_question(
 
         return_evidence=True,
 
-        return_evaluation=True
+        return_evaluation=True,
+
+        adaptive_context=(
+            dict(real_adaptive_context)
+            if real_adaptive_context is not None else None
+        )
     )
 
     answer = generation["answer"]
@@ -317,17 +342,10 @@ def answer_question(
     )
 
 
-    adaptive_context = (
-        get_adaptive_context(
-
-            patient_id=patient_id
-
-        )
-    )
-
+    adaptive_context = real_adaptive_context
 
     care_context = (
-        prepare_care_context(
+        prepare_care_context(  # noqa: SLF001 - service-internal reuse
             adaptive_context
         )
     )
@@ -339,15 +357,23 @@ def answer_question(
 
     if adaptive_context and isinstance(care_context, dict):
 
-        plan_record = get_assistance_plan(
-            patient_id=patient_id,
-            window_start=adaptive_context.get("window_start"),
-            window_end=adaptive_context.get("window_end")
-        )
+        if real_adaptive_context is not None:
+            # Real mechanism: plans produced alongside the real care state.
+            plan_record = real_adaptive_context.get(
+                "assistance_plan_record") or None
+            assistance_plan_for_api = prepare_assistance_plan(
+                plan_record)
+        else:
+            # Fallback (no profile): previous precomputed lookup path.
+            plan_record = get_assistance_plan(
+                patient_id=patient_id,
+                window_start=adaptive_context.get("window_start"),
+                window_end=adaptive_context.get("window_end")
+            )
 
-        assistance_plan_for_api = prepare_assistance_plan(
-            plan_record
-        )
+            assistance_plan_for_api = prepare_assistance_plan(
+                plan_record
+            )
 
         if assistance_plan_for_api:
 

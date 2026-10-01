@@ -1,0 +1,161 @@
+{
+  "run1_file": "experiment2_per_question_run1.json",
+  "run2_file": "experiment2_per_question_run2.json",
+  "run1_signature": "850929f60332c042c3ebfb6d993baf838e52754d4e9c08d38369d9f03c2b957a",
+  "run2_signature": "dd951665566171eb557338d7c3740cb1a457e04be947395840b4796988c9fb8a",
+  "signatures_identical": false,
+  "field_comparison": {
+    "initial_evidence_ids": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "initial_decision": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.decision": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.reliability": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.refinement_attempts": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.retrieval_attempts": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.refused": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.generated": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.evidence_ids": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.answer": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.faithfulness": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "on.answer_relevance": {
+      "identical": false,
+      "matching": 120,
+      "total": 121,
+      "mismatched_question_ids": [
+        "GLG11-017"
+      ]
+    },
+    "on.evidence_support": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "off.evidence_ids": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "off.refused": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "off.generated": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "off.answer": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "off.faithfulness": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "off.answer_relevance": {
+      "identical": false,
+      "matching": 119,
+      "total": 121,
+      "mismatched_question_ids": [
+        "GLG11-005",
+        "GLG11-017"
+      ]
+    },
+    "off.evidence_support": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "paired_differences": {
+      "identical": false,
+      "matching": 120,
+      "total": 121,
+      "mismatched_question_ids": [
+        "GLG11-005"
+      ]
+    }
+  },
+  "mismatched_question_ids": [
+    "GLG11-005",
+    "GLG11-017"
+  ],
+  "deterministic": false,
+  "deterministic_system": true,
+  "judge_relevance_nondeterminism": {
+    "on_mismatched": [
+      "GLG11-017"
+    ],
+    "off_mismatched": [
+      "GLG11-005",
+      "GLG11-017"
+    ],
+    "on_answers_identical": true,
+    "off_answers_identical": true,
+    "note": "LLM answer-relevance judge: same judge model+options re-run; boundary score (0.25 grid) varied on byte-identical generated answers under Ollama JSON mode. This is judge-instrument reproducibility, neither a gate nor a generation effect."
+  },
+  "note": "Substantive system fields compared for determinism; answer-relevance judge scores separated as a measurement instrument. Latency non-substantive."
+}

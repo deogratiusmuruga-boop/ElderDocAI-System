@@ -1,0 +1,212 @@
+{
+  "experiments": [
+    {
+      "name": "exp1",
+      "label": "Exp 1 - generation quality",
+      "n_questions_run1": 121,
+      "n_questions_run2": 121,
+      "metrics": [
+        {
+          "metric": "faithfulness",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "answer_relevance",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "evidence_support",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        }
+      ]
+    },
+    {
+      "name": "exp2",
+      "label": "Exp 2 - gating effectiveness",
+      "n_questions_run1": 121,
+      "n_questions_run2": 121,
+      "metrics": [
+        {
+          "metric": "gate_on_faithfulness",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "gate_on_answer_relevance",
+          "n": 121,
+          "exact_match": 99.17,
+          "cohens_kappa": 0.9848,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.25
+        },
+        {
+          "metric": "gate_on_evidence_support",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "gate_off_faithfulness",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "gate_off_answer_relevance",
+          "n": 121,
+          "exact_match": 98.35,
+          "cohens_kappa": 0.9695,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.25
+        },
+        {
+          "metric": "gate_off_evidence_support",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        }
+      ]
+    },
+    {
+      "name": "exp3",
+      "label": "Exp 3 - care-state adaptation",
+      "n_questions_run1": 20,
+      "n_questions_run2": 20,
+      "metrics": [
+        {
+          "metric": "A_faithfulness",
+          "n": 20,
+          "exact_match": 95.0,
+          "cohens_kappa": 0.8953,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.5
+        },
+        {
+          "metric": "A_answer_relevance",
+          "n": 20,
+          "exact_match": 90.0,
+          "cohens_kappa": 0.8214,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.25
+        },
+        {
+          "metric": "A_evidence_support",
+          "n": 20,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "B_faithfulness",
+          "n": 20,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "B_answer_relevance",
+          "n": 20,
+          "exact_match": 95.0,
+          "cohens_kappa": 0.9029,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.25
+        },
+        {
+          "metric": "B_evidence_support",
+          "n": 20,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "appropriateness",
+          "n": 20,
+          "exact_match": 95.0,
+          "cohens_kappa": 0.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 1
+        }
+      ]
+    },
+    {
+      "name": "exp4",
+      "label": "Exp 4 - vanilla RAG baseline",
+      "n_questions_run1": 121,
+      "n_questions_run2": 121,
+      "metrics": [
+        {
+          "metric": "full_faithfulness",
+          "n": 121,
+          "exact_match": 94.21,
+          "cohens_kappa": 0.8853,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 1.0
+        },
+        {
+          "metric": "full_answer_relevance",
+          "n": 121,
+          "exact_match": 96.69,
+          "cohens_kappa": 0.9371,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.25
+        },
+        {
+          "metric": "full_evidence_support",
+          "n": 121,
+          "exact_match": 90.08,
+          "cohens_kappa": 0.8784,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.2571
+        },
+        {
+          "metric": "vanilla_faithfulness",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        },
+        {
+          "metric": "vanilla_answer_relevance",
+          "n": 121,
+          "exact_match": 99.17,
+          "cohens_kappa": 0.9875,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.5
+        },
+        {
+          "metric": "vanilla_evidence_support",
+          "n": 121,
+          "exact_match": 100.0,
+          "cohens_kappa": 1.0,
+          "median_abs_diff": 0.0,
+          "max_abs_diff": 0.0
+        }
+      ]
+    }
+  ]
+}

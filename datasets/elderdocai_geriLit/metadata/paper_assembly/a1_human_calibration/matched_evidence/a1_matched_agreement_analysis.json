@@ -1,0 +1,170 @@
+{
+  "protocol_version": "1.0-matched-evidence",
+  "source_annotation_sheet_path": "C:\\Users\\chosun\\Documents\\ElderDocAI-System\\datasets\\elderdocai_geriLit\\metadata\\paper_assembly\\a1_human_calibration\\matched_evidence\\a1_matched_annotation_sheet_completed.csv",
+  "annotation_sheet_sha256": "70506d5d2fdc631f5af77b592c6cec8b8c6be4201d24b8e46ca7b4372d0bb1c3",
+  "matched_protocol_path": "C:\\Users\\chosun\\Documents\\ElderDocAI-System\\datasets\\elderdocai_geriLit\\metadata\\paper_assembly\\a1_human_calibration\\matched_evidence\\A1_MATCHED_ANNOTATION_PROTOCOL.md",
+  "experiment1_source_path": "C:\\Users\\chosun\\Documents\\ElderDocAI-System\\datasets\\elderdocai_geriLit\\metadata\\experiment1_generation_evaluation\\experiment1_per_question_run1.json",
+  "experiment1_source_sha256": "838c6d9147eff074a4626ac06bdc3ecf4da59948b731a3badf8b0542f3a01c07",
+  "n": 20,
+  "question_ids": [
+    "GLG11-004",
+    "GLG11-005",
+    "GLG11-008",
+    "GLG11-011",
+    "GLG11-015",
+    "GLG11-017",
+    "GLG11-018",
+    "GLG11-022",
+    "GLG11-030",
+    "GLG11-034",
+    "GLG11-042",
+    "GLG11-043",
+    "GLG11-046",
+    "GLG11-050",
+    "GLG11-078",
+    "GLG11-082",
+    "GLG11-084",
+    "GLG11-091",
+    "GLG11-101",
+    "GLG11-103"
+  ],
+  "support_bin_mapping": [
+    [
+      0.0,
+      0.125,
+      0.0
+    ],
+    [
+      0.125,
+      0.375,
+      0.25
+    ],
+    [
+      0.375,
+      0.625,
+      0.5
+    ],
+    [
+      0.625,
+      0.875,
+      0.75
+    ],
+    [
+      0.875,
+      1.0,
+      1.0
+    ]
+  ],
+  "support_bin_rule": "exact midpoint boundaries are assigned to the lower label",
+  "kappa_degeneracy_rule": "zero-variance marginal (>= 19/20 in one category) or Pe >= 0.90 => kappa reported as degenerate; numerical kappa only otherwise",
+  "verification_checks": {
+    "exactly_20_rows": true,
+    "no_duplicate_ids": true,
+    "identical_id_ordering": true,
+    "identical_question": true,
+    "identical_answer": true,
+    "identical_evidence_full": true,
+    "no_evidence_truncation": true,
+    "expected_columns_only": true,
+    "human_columns_populated": true,
+    "rating_domains_valid": true,
+    "all_ids_in_run1": true,
+    "frozen_sheet_sha256": "613261530541d0f55ff387e866bd2afa5c93c8c4d46fd9b248a6233a34e7193f",
+    "frozen_sheet_unchanged": true,
+    "all_pass": true
+  },
+  "statistics": {
+    "faithfulness": {
+      "n": 20,
+      "human_marginal": {
+        "0.75": 1,
+        "1.0": 19
+      },
+      "automated_marginal": {
+        "0.0": 4,
+        "0.25": 1,
+        "0.75": 4,
+        "1.0": 11
+      },
+      "exact_agreement_count": 12,
+      "exact_agreement_pct": 60.0,
+      "Po": 0.6,
+      "Pe": 0.5325,
+      "kappa_degenerate": true,
+      "kappa": "degenerate - zero-variance marginal",
+      "degenerate_reasons": [
+        "human_marginal_ge19_of_20"
+      ],
+      "within_one_bin_agreement_pct": 75.0
+    },
+    "answer_relevance": {
+      "n": 20,
+      "human_marginal": {
+        "0.75": 4,
+        "1.0": 16
+      },
+      "automated_marginal": {
+        "0.0": 5,
+        "0.75": 4,
+        "1.0": 11
+      },
+      "exact_agreement_count": 11,
+      "exact_agreement_pct": 55.0,
+      "Po": 0.55,
+      "Pe": 0.48,
+      "kappa_degenerate": false,
+      "kappa": 0.1346,
+      "degenerate_reasons": [],
+      "within_one_bin_agreement_pct": 75.0
+    },
+    "evidence_support": {
+      "n": 20,
+      "human_marginal": {
+        "0.75": 1,
+        "1.0": 19
+      },
+      "automated_marginal": {
+        "0.25": 2,
+        "0.5": 1,
+        "0.75": 3,
+        "1.0": 14
+      },
+      "exact_agreement_count": 13,
+      "exact_agreement_pct": 65.0,
+      "Po": 0.65,
+      "Pe": 0.6725,
+      "kappa_degenerate": true,
+      "kappa": "degenerate - zero-variance marginal",
+      "degenerate_reasons": [
+        "human_marginal_ge19_of_20"
+      ],
+      "within_one_bin_agreement_pct": 85.0
+    },
+    "unsupported_claim": {
+      "n": 20,
+      "human_marginal": {
+        "0.0": 20
+      },
+      "automated_marginal": {
+        "0": 15,
+        "1": 5
+      },
+      "exact_agreement_count": 15,
+      "exact_agreement_pct": 75.0,
+      "Po": 0.75,
+      "Pe": 0.75,
+      "kappa_degenerate": true,
+      "kappa": "degenerate - zero-variance marginal",
+      "degenerate_reasons": [
+        "human_marginal_ge19_of_20"
+      ],
+      "confusion": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 15,
+        "fn": 5
+      }
+    }
+  },
+  "analysis_timestamp_utc": "2026-09-29T08:04:49+00:00"
+}

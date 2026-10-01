@@ -1,0 +1,84 @@
+{
+  "run1_file": "experiment1_per_question_run1.json",
+  "run2_file": "experiment1_per_question_run2.json",
+  "run1_signature": "01879a90399ec50694bb59400d3b4e3968343f5ffc7bf7e6e6b10620d9452223",
+  "run2_signature": "01879a90399ec50694bb59400d3b4e3968343f5ffc7bf7e6e6b10620d9452223",
+  "signatures_identical": true,
+  "field_comparison": {
+    "retrieved_evidence_ids": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "reliability": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "decision": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "refinement_attempts": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "retrieval_attempts": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "refused": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "generated": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "answer": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "faithfulness": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "answer_relevance": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "evidence_support": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    },
+    "hallucination": {
+      "identical": true,
+      "matching": 121,
+      "total": 121,
+      "mismatched_question_ids": []
+    }
+  },
+  "mismatched_question_ids": [],
+  "deterministic": true,
+  "note": "Substantive fields compared. Latency and timestamps excluded. LLM generation configured temperature=0 / top_p=0.1 / top_k=10; judge uses the same deterministic sampling options."
+}

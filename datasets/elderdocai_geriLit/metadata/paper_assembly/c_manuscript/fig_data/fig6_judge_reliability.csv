@@ -1,0 +1,5 @@
+experiment,exact_match_min,exact_match_max,kappa_min,kappa_max
+exp1,100.0,100.0,1.0,1.0
+exp2,98.35,100.0,0.9695,1.0
+exp3,90.0,100.0,0.0,1.0
+exp4,90.08,100.0,0.8784,1.0

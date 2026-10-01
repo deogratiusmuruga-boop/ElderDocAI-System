@@ -17,7 +17,8 @@ def build_grounded_prompt(
     user_profile=None,
     conversation_context="",
     response_language="en",
-    assistance_plan=None
+    assistance_plan=None,
+    adaptive_context=None
 ):
 
     evidence_text = ""
@@ -41,6 +42,7 @@ def build_grounded_prompt(
     profile_context = format_user_profile_context(user_profile)
     language_instruction = build_language_instruction(response_language)
     assistance_plan_context = format_assistance_plan_context(assistance_plan)
+    care_state_context = _invoke_adaptive_context_renderer(adaptive_context)
 
     prompt = f"""
 
@@ -140,7 +142,7 @@ SOURCE INFORMATION
 {evidence_text}
 
 
-{profile_context}
+{profile_context}{care_state_context}
 
 
 {conversation_context}
@@ -184,6 +186,40 @@ No medical interpretation.
 """
 
     return prompt
+
+
+def _invoke_adaptive_context_renderer(adaptive_context):
+    """Render the deterministic real care-state block (none -> empty)."""
+    if not adaptive_context or not adaptive_context.get("available"):
+        return ""
+    cs = adaptive_context.get("care_state") or {}
+    transition = adaptive_context.get("transition") or {}
+    assistance = adaptive_context.get("adaptive_assistance") or {}
+    lines = [
+        "",
+        "",
+        "=====================================================",
+        "CARE-STATE CONTEXT (response adaptation, NOT evidence)",
+        "=====================================================",
+        f"Care state: {cs.get('state', 'UNKNOWN')}",
+        f"Overall score: {cs.get('overall_score')}",
+        f"Context status: {adaptive_context.get('context_status')}",
+    ]
+    if transition:
+        lines.append("Transition: %s (%s, magnitude %s)"
+                     % (transition.get("type", ""),
+                        transition.get("direction", ""),
+                        transition.get("magnitude", "")))
+    if assistance:
+        lines.append("Assistance mode: %s"
+                     % assistance.get("mode", "UNKNOWN"))
+        lines.append("Assistance priority: %s"
+                     % assistance.get("priority", "UNKNOWN"))
+    lines.append("This block only adapts response structure, tone, and "
+                 "pacing. It is not evidence, a diagnosis, or a risk "
+                 "prediction.")
+    lines.append("")
+    return "\n".join(lines)
 
 
 def format_user_profile_context(user_profile):

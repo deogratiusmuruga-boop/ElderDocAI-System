@@ -1,0 +1,5582 @@
+[
+  {
+    "pair_id": "GLG11-001",
+    "question_id": "GLG11-001",
+    "topic": "C01",
+    "question": "According to the article, how does polypharmacy relate to disease burden in patients with comorbidities?",
+    "gold_pmcid": "PMC10022263",
+    "gold_chunk_ids": [
+      "PMC10022263__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-001",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC11658714__BODY__000__PROSE__00028",
+        "PMC3603256__BODY__000__PROSE__00002",
+        "PMC10670184__BODY__003__PROSE__00019"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.777778,
+        "consistency": 1.0,
+        "overall_reliability": 0.782778
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Polypharmacy is associated with poorer treatment adherence in diabetic elderly patients, leading to a higher healthcare cost and potentially worse disease outcomes.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.75,
+      "answer_relevance_reason": "answers the main question but misses minor aspects",
+      "evidence_support": 0.8125,
+      "latency_seconds": 13.79,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-001",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC11658714__BODY__000__PROSE__00028",
+        "PMC3603256__BODY__000__PROSE__00002",
+        "PMC10670184__BODY__003__PROSE__00019"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.777778,
+        "consistency": 1.0,
+        "overall_reliability": 0.782778
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Polypharmacy is associated with a higher number of daily drug use and a higher rate of inappropriate medication use, particularly in patients with poorly controlled diabetes.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.485,
+      "error": null
+    },
+    "adaptation_judgment": true,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.25,
+      "evidence_support_delta": 0.1875
+    },
+    "appropriateness_reason": "answer_B does not show a higher attention response to safety and monitoring compared to answer_A, and the difference is not consistent with the described state difference"
+  },
+  {
+    "pair_id": "GLG11-002",
+    "question_id": "GLG11-002",
+    "topic": "C01",
+    "question": "According to the article, what did the study report about medication in relation to proportions exposure recorded group among older adults?",
+    "gold_pmcid": "PMC10022263",
+    "gold_chunk_ids": [
+      "PMC10022263__BODY__009__PROSE__00016"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-002",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10022263__BODY__009__PROSE__00016",
+        "PMC13100462__BODY__000__PROSE__00005",
+        "PMC5710210__ABSTRACT__000__PROSE__00000"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.733333,
+        "consistency": 1.0,
+        "overall_reliability": 0.778333
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Higher proportions of medication exposure were recorded in the group with comorbidities: antiretrovirals 49/51 (96.1%), acid-suppressive agents 85/103 (82.5%) and antibiotics 221/297 (74.4%) than in the non-comorbid group.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.689,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-002",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10022263__BODY__009__PROSE__00016",
+        "PMC13100462__BODY__000__PROSE__00005",
+        "PMC5710210__ABSTRACT__000__PROSE__00000"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.733333,
+        "consistency": 1.0,
+        "overall_reliability": 0.778333
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Higher proportions of medication exposure were recorded in the group with comorbidities: antiretrovirals 49/51 (96.1%), acid-suppressive agents 85/103 (82.5%) and antibiotics 221/297 (74.4%) than in the non-comorbid group.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.617,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "The answers are essentially the same, no difference in response to higher care need."
+  },
+  {
+    "pair_id": "GLG11-012",
+    "question_id": "GLG11-012",
+    "topic": "C02",
+    "question": "According to the article, what is the association between dementia and caregiver family social services rather medical in older adults?",
+    "gold_pmcid": "PMC10002240",
+    "gold_chunk_ids": [
+      "PMC10002240__BODY__000__PROSE__00002"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-012",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC12670050__BODY__007__PROSE__00017",
+        "PMC8059033__BODY__017__PROSE__00038",
+        "PMC7690694__BODY__014__PROSE__00022"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.692308,
+        "consistency": 1.0,
+        "overall_reliability": 0.774231
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Caregiver family social services are associated with a lower risk of caregiver burnout.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.25,
+      "faithfulness_reason": "Many unsupported statements",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.7778,
+      "latency_seconds": 0.406,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-012",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC12670050__BODY__007__PROSE__00017",
+        "PMC8059033__BODY__017__PROSE__00038",
+        "PMC7690694__BODY__014__PROSE__00022"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.692308,
+        "consistency": 1.0,
+        "overall_reliability": 0.774231
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Caregiver family social services are associated with a lower risk of caregiver burnout.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.25,
+      "faithfulness_reason": "Many unsupported statements",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.7778,
+      "latency_seconds": 0.327,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-013",
+    "question_id": "GLG11-013",
+    "topic": "C02",
+    "question": "According to the article, how does dementia relate to significant burden almost caregivers concerning alarming burden level in older adults?",
+    "gold_pmcid": "PMC10002240",
+    "gold_chunk_ids": [
+      "PMC10002240__BODY__000__PROSE__00004"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-013",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10002240__BODY__000__PROSE__00004",
+        "PMC8603539__BODY__013__PROSE__00025",
+        "PMC12316151__BODY__000__PROSE__00003"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.714286,
+        "consistency": 1.0,
+        "overall_reliability": 0.776429
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Caregivers of people with dementia experience a moderate amount of burden, with 5.7% being severely burdened.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 0.9167,
+      "latency_seconds": 0.443,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-013",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10002240__BODY__000__PROSE__00004",
+        "PMC8603539__BODY__013__PROSE__00025",
+        "PMC12316151__BODY__000__PROSE__00003"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.714286,
+        "consistency": 1.0,
+        "overall_reliability": 0.776429
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Caregivers of people with dementia experience a moderate to high amount of burden, with 5.7% being severely burdened.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.75,
+      "answer_relevance_reason": "The answer answers the main question but misses minor aspects.",
+      "evidence_support": 0.8462,
+      "latency_seconds": 0.379,
+      "error": null
+    },
+    "adaptation_judgment": true,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.75,
+      "evidence_support_delta": -0.0705
+    },
+    "appropriateness_reason": "answer_B does not show a significantly higher attention to burden level compared to answer_A, as both answers report the same percentage of severely burdened caregivers (5.7%) and use similar language to describe the burden level."
+  },
+  {
+    "pair_id": "GLG11-027",
+    "question_id": "GLG11-027",
+    "topic": "C03",
+    "question": "According to the article, what is the association between diet and injurious falling table in older adults?",
+    "gold_pmcid": "PMC10009923",
+    "gold_chunk_ids": [
+      "PMC10009923__BODY__005__PROSE__00012"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-027",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC7531089__BODY__000__PROSE__00005",
+        "PMC7531089__BODY__010__PROSE__00025",
+        "PMC12188283__BODY__000__PROSE__00001"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.6,
+        "consistency": 1.0,
+        "overall_reliability": 0.765
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "I couldn't find that information in the knowledge base.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.0,
+      "faithfulness_reason": "Answer contradicts evidence",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 0.1667,
+      "latency_seconds": 0.382,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-027",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC7531089__BODY__000__PROSE__00005",
+        "PMC7531089__BODY__010__PROSE__00025",
+        "PMC12188283__BODY__000__PROSE__00001"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.6,
+        "consistency": 1.0,
+        "overall_reliability": 0.765
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "There is no mention of diet in the provided sources.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.0,
+      "faithfulness_reason": "information not present in evidence",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 0.0,
+      "latency_seconds": 0.285,
+      "error": null
+    },
+    "adaptation_judgment": true,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": -0.1667
+    },
+    "appropriateness_reason": "answer_B is less attentive to safety and monitoring compared to answer_A, and the difference is arbitrary"
+  },
+  {
+    "pair_id": "GLG11-028",
+    "question_id": "GLG11-028",
+    "topic": "C03",
+    "question": "How may nutrition affect the health of older adults?",
+    "gold_pmcid": "PMC10009923",
+    "gold_chunk_ids": [
+      "PMC10009923__BODY__000__PROSE__00001"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-028",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10009923__BODY__000__PROSE__00001",
+        "PMC10953286__BODY__017__PROSE__00020",
+        "PMC12188283__BODY__000__PROSE__00001"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 1.0,
+        "consistency": 1.0,
+        "overall_reliability": 0.805
+      },
+      "decision": "ACCEPT",
+      "refinement_attempts": 0,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Nutrition can affect the health of older adults by reducing the risk of falls.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.75,
+      "answer_relevance_reason": "The answer answers the main question but misses minor aspects.",
+      "evidence_support": 0.875,
+      "latency_seconds": 0.42,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-028",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10009923__BODY__000__PROSE__00001",
+        "PMC10953286__BODY__017__PROSE__00020",
+        "PMC12188283__BODY__000__PROSE__00001"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 1.0,
+        "consistency": 1.0,
+        "overall_reliability": 0.805
+      },
+      "decision": "ACCEPT",
+      "refinement_attempts": 0,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Nutrition can affect the health of older adults by reducing the risk of falls.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.75,
+      "answer_relevance_reason": "The answer answers the main question but misses minor aspects.",
+      "evidence_support": 0.875,
+      "latency_seconds": 0.265,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-040",
+    "question_id": "GLG11-040",
+    "topic": "C04",
+    "question": "According to the article, what did the study report about exercise in relation to research ethics approved nested among older patients?",
+    "gold_pmcid": "PMC10242997",
+    "gold_chunk_ids": [
+      "PMC10242997__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-040",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10242997__BODY__002__PROSE__00005",
+        "PMC7559318__BODY__005__PROSE__00013",
+        "PMC10056148__BODY__006__PROSE__00010"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.733333,
+        "consistency": 1.0,
+        "overall_reliability": 0.778333
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "The PREHAB Study and nested descriptive qualitative study were conducted with ethics approval and followed the Consolidated Criteria for Reporting Qualitative Research (COREQ).",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.502,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-040",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10242997__BODY__002__PROSE__00005",
+        "PMC7559318__BODY__005__PROSE__00013",
+        "PMC10056148__BODY__006__PROSE__00010"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.733333,
+        "consistency": 1.0,
+        "overall_reliability": 0.778333
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "The PREHAB Study and nested descriptive qualitative study were conducted with ethics approval and followed the Consolidated Criteria for Reporting Qualitative Research (COREQ).",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.422,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-041",
+    "question_id": "GLG11-041",
+    "topic": "C04",
+    "question": "According to the article, what did the study report about exercise in relation to barriers included pre existing among older adults?",
+    "gold_pmcid": "PMC10242997",
+    "gold_chunk_ids": [
+      "PMC10242997__ABSTRACT__000__PROSE__00001"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-041",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC6797244__BODY__028__PROSE__00043",
+        "PMC5710210__ABSTRACT__000__PROSE__00000",
+        "PMC13100462__BODY__000__PROSE__00005"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.533333,
+        "consistency": 1.0,
+        "overall_reliability": 0.758333
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Older adults already have pre-existing barriers to exercise, such as lack of motivation, physical limitations, or previous negative experiences.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.3333,
+      "latency_seconds": 0.472,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-041",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC6797244__BODY__028__PROSE__00043",
+        "PMC5710210__ABSTRACT__000__PROSE__00000",
+        "PMC13100462__BODY__000__PROSE__00005"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.533333,
+        "consistency": 1.0,
+        "overall_reliability": 0.758333
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Older adults already have pre-existing barriers to exercise, such as lack of motivation, physical limitations, or previous negative experiences, which can make it harder to engage in exercise programs.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "The answer directly and completely addresses the question.",
+      "evidence_support": 0.35,
+      "latency_seconds": 0.499,
+      "error": null
+    },
+    "adaptation_judgment": true,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0167
+    },
+    "appropriateness_reason": "answer_B is more detailed but the difference is not significant enough to reflect a higher care need"
+  },
+  {
+    "pair_id": "GLG11-053",
+    "question_id": "GLG11-053",
+    "topic": "C05",
+    "question": "According to the article, what is the association between mobility and study demonstrated health major factor in older adults?",
+    "gold_pmcid": "PMC10001925",
+    "gold_chunk_ids": [
+      "PMC10001925__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-053",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC12188283__BODY__000__PROSE__00001",
+        "PMC13537444__BODY__001__PROSE__00005",
+        "PMC13100462__BODY__000__PROSE__00005"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.666667,
+        "consistency": 1.0,
+        "overall_reliability": 0.771667
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Bowel incontinence is associated with a reduced likelihood of falling in older adults.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.425,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-053",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC12188283__BODY__000__PROSE__00001",
+        "PMC13537444__BODY__001__PROSE__00005",
+        "PMC13100462__BODY__000__PROSE__00005"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.666667,
+        "consistency": 1.0,
+        "overall_reliability": 0.771667
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Bowel incontinence is associated with a reduced likelihood of falling in older adults.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.374,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "The answers are essentially the same, indicating no difference in response to the higher care need state."
+  },
+  {
+    "pair_id": "GLG11-054",
+    "question_id": "GLG11-054",
+    "topic": "C05",
+    "question": "According to the article, what is the association between mobility and ageing in older adults?",
+    "gold_pmcid": "PMC10001925",
+    "gold_chunk_ids": [
+      "PMC10001925__BODY__000__PROSE__00001"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-054",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC12188283__BODY__000__PROSE__00001",
+        "PMC13100462__BODY__000__PROSE__00005",
+        "PMC5710210__ABSTRACT__000__PROSE__00000"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.625,
+        "consistency": 0.666667,
+        "overall_reliability": 0.734167
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Mobility in older adults is associated with a reduced risk of falls, particularly when exercises that improve timing and coordination are included.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.9231,
+      "latency_seconds": 0.452,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-054",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC12188283__BODY__000__PROSE__00001",
+        "PMC13100462__BODY__000__PROSE__00005",
+        "PMC5710210__ABSTRACT__000__PROSE__00000"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.625,
+        "consistency": 0.666667,
+        "overall_reliability": 0.734167
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Mobility in older adults is associated with a reduced risk of falls, particularly when exercises that improve timing and coordination are included.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.9231,
+      "latency_seconds": 0.392,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-067",
+    "question_id": "GLG11-067",
+    "topic": "C06",
+    "question": "According to the article, what does the study report about failure in relation to risk present same patient in older adults?",
+    "gold_pmcid": "PMC10017574",
+    "gold_chunk_ids": [
+      "PMC10017574__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-067",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC12188283__BODY__000__PROSE__00001",
+        "PMC11251379__BODY__009__PROSE__00022",
+        "PMC8938794__BODY__002__PROSE__00005"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.571429,
+        "consistency": 1.0,
+        "overall_reliability": 0.762143
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "The study reports that the presence of bowel incontinence is associated with a positive correlation with falls in older adults, whereas the use of diuretics, impaired standing imbalance, impaired long-term memory, reduced range of motion, gastrointestinal disease, osteoporosis, arthritis, and cancer are negatively associated with falls.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "The answer directly and completely addresses the question.",
+      "evidence_support": 0.875,
+      "latency_seconds": 0.719,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-067",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC12188283__BODY__000__PROSE__00001",
+        "PMC11251379__BODY__009__PROSE__00022",
+        "PMC8938794__BODY__002__PROSE__00005"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.571429,
+        "consistency": 1.0,
+        "overall_reliability": 0.762143
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "The study reports that bowel incontinence may have a positive association with falls in older adults, while the use of diuretics, impaired standing imbalance, impaired long-term memory, reduced range of motion, gastrointestinal disease, osteoporosis, arthritis, and cancer are negatively associated with falls.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "The answer directly and completely addresses the question.",
+      "evidence_support": 0.9,
+      "latency_seconds": 0.626,
+      "error": null
+    },
+    "adaptation_judgment": true,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.025
+    },
+    "appropriateness_reason": "The difference in response is arbitrary and does not reflect a higher attention to safety or care need in state_B compared to state_A."
+  },
+  {
+    "pair_id": "GLG11-068",
+    "question_id": "GLG11-068",
+    "topic": "C06",
+    "question": "According to the article, what did the study report about chronic in relation to previous hospitalizations comorbidities especially among older adults?",
+    "gold_pmcid": "PMC10017574",
+    "gold_chunk_ids": [
+      "PMC10017574__ABSTRACT__000__PROSE__00001"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-068",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10670184__BODY__003__PROSE__00016",
+        "PMC13100462__BODY__000__PROSE__00005",
+        "PMC10056148__BODY__003__PROSE__00007"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.733333,
+        "consistency": 1.0,
+        "overall_reliability": 0.778333
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Older adults with comorbidities are more likely to have a higher number of medicines.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.25,
+      "faithfulness_reason": "Many unsupported statements",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 0.75,
+      "latency_seconds": 0.493,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-068",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10670184__BODY__003__PROSE__00016",
+        "PMC13100462__BODY__000__PROSE__00005",
+        "PMC10056148__BODY__003__PROSE__00007"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.733333,
+        "consistency": 1.0,
+        "overall_reliability": 0.778333
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Older adults with comorbidities are more likely to have a higher number of medicines.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.75,
+      "faithfulness_reason": "some important statements are unsupported",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 0.75,
+      "latency_seconds": 0.4,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.5,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "The difference between answer_A and answer_B is arbitrary, as they are identical."
+  },
+  {
+    "pair_id": "GLG11-083",
+    "question_id": "GLG11-083",
+    "topic": "C07",
+    "question": "According to the article, what does the study report about influences in relation to study investigated caregiver preparedness in older adults?",
+    "gold_pmcid": "PMC10409988",
+    "gold_chunk_ids": [
+      "PMC10409988__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-083",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10409988__BODY__012__PROSE__00026",
+        "PMC10409988__BODY__000__PROSE__00005",
+        "PMC10409988__BODY__012__PROSE__00027"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.461538,
+        "consistency": 1.0,
+        "overall_reliability": 0.751154
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Caregiver preparedness was significantly correlated with depression, and depression mediated between caregiver preparedness and the mental component quality of life.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "The answer directly and completely addresses the question.",
+      "evidence_support": 0.9286,
+      "latency_seconds": 0.537,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-083",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10409988__BODY__012__PROSE__00026",
+        "PMC10409988__BODY__000__PROSE__00005",
+        "PMC10409988__BODY__012__PROSE__00027"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.461538,
+        "consistency": 1.0,
+        "overall_reliability": 0.751154
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Caregiver preparedness was significantly correlated with depression, and depression mediated between caregiver preparedness and the mental component quality of life.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "The answer directly and completely addresses the question.",
+      "evidence_support": 0.9286,
+      "latency_seconds": 0.519,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "The answers are essentially the same, no difference in response to the higher care need state."
+  },
+  {
+    "pair_id": "GLG11-084",
+    "question_id": "GLG11-084",
+    "topic": "C07",
+    "question": "According to the article, what is the association between quality and lower risk multiple falls follow up adjusted binary in older adults?",
+    "gold_pmcid": "PMC10515075",
+    "gold_chunk_ids": [
+      "PMC10515075__BODY__006__PROSE__00013"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-084",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10234124__ABSTRACT__000__PROSE__00001",
+        "PMC12188283__BODY__000__PROSE__00001",
+        "PMC13214217__BODY__016__PROSE__00028"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.664552,
+        "support": 1.0,
+        "coverage": 0.642857,
+        "consistency": 1.0,
+        "overall_reliability": 0.818651
+      },
+      "decision": "ACCEPT",
+      "refinement_attempts": 0,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "The association between multimorbidity and falls and fear of falling (FOF) is significant in older adults, with multimorbidity being associated with an increased risk of FOF.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.75,
+      "faithfulness_reason": "Almost completely supported. Only tiny unsupported wording.",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 0.875,
+      "latency_seconds": 0.607,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-084",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10234124__ABSTRACT__000__PROSE__00001",
+        "PMC12188283__BODY__000__PROSE__00001",
+        "PMC13214217__BODY__016__PROSE__00028"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.664552,
+        "support": 1.0,
+        "coverage": 0.642857,
+        "consistency": 1.0,
+        "overall_reliability": 0.818651
+      },
+      "decision": "ACCEPT",
+      "refinement_attempts": 0,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "The association between multimorbidity and falls and fall of origin (FOF) is significant in the Chinese population, with multimorbidity being associated with an increased risk of FOF.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 0.875,
+      "latency_seconds": 0.496,
+      "error": null
+    },
+    "adaptation_judgment": true,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.25,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answer_B differs in a way that is not relevant to the association between quality and lower risk of multiple falls in older adults, and the association is not specified for the Chinese population"
+  },
+  {
+    "pair_id": "GLG11-097",
+    "question_id": "GLG11-097",
+    "topic": "C08",
+    "question": "According to the article, what did the study report about informal in relation to stakeholder consultation primary health among older adults?",
+    "gold_pmcid": "PMC10519081",
+    "gold_chunk_ids": [
+      "PMC10519081__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-097",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10519081__BODY__030__PROSE__00072",
+        "PMC10519081__BODY__005__PROSE__00039",
+        "PMC10519081__BODY__005__PROSE__00032"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.666667,
+        "consistency": 1.0,
+        "overall_reliability": 0.771667
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Involving informal carers in the process can help patients feel more supported to implement changes in medication.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.516,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-097",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10519081__BODY__030__PROSE__00072",
+        "PMC10519081__BODY__005__PROSE__00039",
+        "PMC10519081__BODY__005__PROSE__00032"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.666667,
+        "consistency": 1.0,
+        "overall_reliability": 0.771667
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Involving informal carers in the process can help patients feel more supported to implement changes in medication.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 0.0,
+      "answer_relevance_reason": "The answer does not address the question at all.",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.457,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-098",
+    "question_id": "GLG11-098",
+    "topic": "C08",
+    "question": "How does caregiver burden affect family caregivers of older adults?",
+    "gold_pmcid": "PMC10761328",
+    "gold_chunk_ids": [
+      "PMC10761328__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-098",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC12880692__ABSTRACT__000__PROSE__00000",
+        "PMC11750315__ABSTRACT__000__PROSE__00000",
+        "PMC7310331__ABSTRACT__000__PROSE__00000"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.875,
+        "consistency": 1.0,
+        "overall_reliability": 0.7925
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Caregiver burden can adversely affect both the family caregivers' own well-being and that of the patients, particularly those with moderate-to-severe dementia.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "The answer directly and completely addresses the question.",
+      "evidence_support": 0.9375,
+      "latency_seconds": 0.452,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-098",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC12880692__ABSTRACT__000__PROSE__00000",
+        "PMC11750315__ABSTRACT__000__PROSE__00000",
+        "PMC7310331__ABSTRACT__000__PROSE__00000"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.875,
+        "consistency": 1.0,
+        "overall_reliability": 0.7925
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Caregiver burden can adversely affect both the family caregivers' own well-being and that of the patients, particularly those with moderate-to-severe dementia.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "The answer directly and completely addresses the question.",
+      "evidence_support": 0.9375,
+      "latency_seconds": 0.37,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-106",
+    "question_id": "GLG11-106",
+    "topic": "C09",
+    "question": "According to the article, what did the study report about vaccination in relation to previously received influenza times among older adults?",
+    "gold_pmcid": "PMC10056148",
+    "gold_chunk_ids": [
+      "PMC10056148__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-106",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10056148__ABSTRACT__000__PROSE__00000",
+        "PMC10988905__BODY__009__PROSE__00024",
+        "PMC10056148__BODY__007__PROSE__00014"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.8,
+        "consistency": 1.0,
+        "overall_reliability": 0.785
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Those who had previously received an influenza vaccine were 1.9 times more likely to seek vaccination.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.47,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-106",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10056148__ABSTRACT__000__PROSE__00000",
+        "PMC10988905__BODY__009__PROSE__00024",
+        "PMC10056148__BODY__007__PROSE__00014"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.8,
+        "consistency": 1.0,
+        "overall_reliability": 0.785
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Those who had previously received an influenza vaccine were 1.9 times more likely to seek vaccination.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.397,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-107",
+    "question_id": "GLG11-107",
+    "topic": "C09",
+    "question": "According to the article, how does vaccinating relate to forgetting times ci likely seek vaccination in older adults?",
+    "gold_pmcid": "PMC10056148",
+    "gold_chunk_ids": [
+      "PMC10056148__ABSTRACT__000__PROSE__00001"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-107",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10063931__BODY__006__PROSE__00016",
+        "PMC10056148__ABSTRACT__000__PROSE__00000",
+        "PMC10534347__BODY__012__PROSE__00018"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.813062,
+        "support": 1.0,
+        "coverage": 0.583333,
+        "consistency": 1.0,
+        "overall_reliability": 0.857252
+      },
+      "decision": "ACCEPT",
+      "refinement_attempts": 0,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Those who had previously received an influenza vaccine were 1.9 times (95% CI 1.22–2.99) more likely to seek vaccination.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.75,
+      "faithfulness_reason": "only partially supported",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.532,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-107",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10063931__BODY__006__PROSE__00016",
+        "PMC10056148__ABSTRACT__000__PROSE__00000",
+        "PMC10534347__BODY__012__PROSE__00018"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.813062,
+        "support": 1.0,
+        "coverage": 0.583333,
+        "consistency": 1.0,
+        "overall_reliability": 0.857252
+      },
+      "decision": "ACCEPT",
+      "refinement_attempts": 0,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Those who had previously received an influenza vaccine were 1.9 times (95% CI 1.22–2.99) more likely to seek vaccination.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.75,
+      "faithfulness_reason": "only partially supported",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 1.0,
+      "latency_seconds": 0.431,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-116",
+    "question_id": "GLG11-116",
+    "topic": "C10",
+    "question": "According to the article, how does activities relate to strengthening pillars active aging policy in older adults?",
+    "gold_pmcid": "PMC10201685",
+    "gold_chunk_ids": [
+      "PMC10201685__ABSTRACT__000__PROSE__00000"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-116",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC10201685__BODY__000__PROSE__00023",
+        "PMC10201685__ABSTRACT__000__PROSE__00000",
+        "PMC10201685__BODY__000__PROSE__00003"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.66523,
+        "support": 1.0,
+        "coverage": 0.5,
+        "consistency": 1.0,
+        "overall_reliability": 0.804569
+      },
+      "decision": "ACCEPT",
+      "refinement_attempts": 0,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Participation in university activities contributed to strengthening the pillars that support the active aging policy, including lifelong learning, participation, health, and safety.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.9375,
+      "latency_seconds": 0.482,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-116",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC10201685__BODY__000__PROSE__00023",
+        "PMC10201685__ABSTRACT__000__PROSE__00000",
+        "PMC10201685__BODY__000__PROSE__00003"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.66523,
+        "support": 1.0,
+        "coverage": 0.5,
+        "consistency": 1.0,
+        "overall_reliability": 0.804569
+      },
+      "decision": "ACCEPT",
+      "refinement_attempts": 0,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Participation in university activities contributed to strengthening the pillars that support the active aging policy, including lifelong learning, participation, health, and safety.",
+      "gold_chunk_retrieved": true,
+      "faithfulness": 1.0,
+      "faithfulness_reason": "short explanation",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.9375,
+      "latency_seconds": 0.39,
+      "error": null
+    },
+    "adaptation_judgment": false,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": 0.0
+    },
+    "appropriateness_reason": "answers are essentially the same"
+  },
+  {
+    "pair_id": "GLG11-117",
+    "question_id": "GLG11-117",
+    "topic": "C10",
+    "question": "What is known about active aging among older adults?",
+    "gold_pmcid": "PMC10201685",
+    "gold_chunk_ids": [
+      "PMC10201685__BODY__000__PROSE__00001"
+    ],
+    "state_A": "LOW_ACTIVITY",
+    "state_B": "HIGH_ACTIVITY",
+    "state_difference": "LOW_ACTIVITY -> HIGH_ACTIVITY",
+    "score_A": 0.2825,
+    "score_B": 0.645,
+    "transition_type": "ESCALATION",
+    "transition_direction": "UP",
+    "condition_A": {
+      "adaptive_context": {
+        "patient_id": "GLG11-117",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "LOW_ACTIVITY",
+          "overall_score": 0.2825,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 0,
+            "Condition Burden": 3,
+            "Encounter Intensity": 0,
+            "Care Complexity": 3,
+            "Interaction Signal": 0
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "LOW",
+              "score": 0.1,
+              "count": 0
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "LOW",
+              "score": 0.15,
+              "count": 0
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "INITIAL",
+          "direction": "NONE",
+          "magnitude": 0.0,
+          "score_delta": 0.2825,
+          "previous_state": null,
+          "current_state": "LOW_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "INITIAL_OBSERVATION"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ACTIVITY_MAINTENANCE",
+          "priority": "LOW",
+          "reason_codes": [
+            "REAL_SIGNAL_LOW_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "low_activity",
+          "priority": "LOW",
+          "actions": [
+            {
+              "action": "MAINTAIN_ACTIVITY",
+              "reason": "low care need"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "LOW_ACTIVITY",
+      "overall_score": 0.2825,
+      "evidence_ids": [
+        "PMC13122286__BODY__000__BOXED_TEXT__00001",
+        "PMC12381604__BODY__000__BOXED_TEXT__00002",
+        "PMC13100462__BODY__000__PROSE__00005"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.714286,
+        "consistency": 1.0,
+        "overall_reliability": 0.776429
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Older adults who are actively engaged in activities are more likely to maintain their functional abilities and overall health.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.25,
+      "faithfulness_reason": "Many unsupported statements",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.3333,
+      "latency_seconds": 0.362,
+      "error": null
+    },
+    "condition_B": {
+      "adaptive_context": {
+        "patient_id": "GLG11-117",
+        "window_start": "2026-09-22",
+        "window_end": "2026-09-22",
+        "context_status": "ACTIVE",
+        "care_state": {
+          "state": "HIGH_ACTIVITY",
+          "overall_score": 0.645,
+          "has_documented_activity": true,
+          "event_summary": {
+            "Medication Burden": 7,
+            "Condition Burden": 3,
+            "Encounter Intensity": 3,
+            "Care Complexity": 3,
+            "Interaction Signal": 4
+          },
+          "dimensions": [
+            {
+              "name": "Medication Burden",
+              "level": "HIGH",
+              "score": 0.85,
+              "count": 7
+            },
+            {
+              "name": "Condition Burden",
+              "level": "MODERATE",
+              "score": 0.55,
+              "count": 3
+            },
+            {
+              "name": "Encounter Intensity",
+              "level": "HIGH",
+              "score": 0.8,
+              "count": 3
+            },
+            {
+              "name": "Care Complexity",
+              "level": "MODERATE",
+              "score": 0.425,
+              "count": 3
+            },
+            {
+              "name": "Interaction Signal",
+              "level": "MODERATE",
+              "score": 0.5,
+              "count": 4
+            }
+          ],
+          "interpretation": "Real care signals are combined deterministically into a single care-state label. It is not a diagnosis and does not predict medical risk."
+        },
+        "transition": {
+          "type": "ESCALATION",
+          "direction": "UP",
+          "magnitude": 3.625,
+          "score_delta": 0.3625,
+          "previous_state": "LOW_ACTIVITY",
+          "current_state": "HIGH_ACTIVITY",
+          "supporting_evidence": {
+            "basis": "DETERMINISTIC_RULE_BASED_REAL_SIGNALS"
+          }
+        },
+        "changed_dimensions": [
+          "Medication Burden",
+          "Condition Burden",
+          "Encounter Intensity",
+          "Care Complexity",
+          "Interaction Signal"
+        ],
+        "adaptive_assistance": {
+          "mode": "ESCALATED_SUPPORT",
+          "priority": "HIGH",
+          "reason_codes": [
+            "REAL_SIGNAL_HIGH_ACTIVITY"
+          ],
+          "reasons": [
+            "Deterministic rule-based estimation from real, current system signals."
+          ]
+        },
+        "assistance_plan_record": {
+          "assistance_strategy": "high_activity",
+          "priority": "HIGH",
+          "actions": [
+            {
+              "action": "ESCALATE_SUPPORT",
+              "reason": "high care need"
+            },
+            {
+              "action": "RECOMMEND_FOLLOW_UP",
+              "reason": "elevated burden"
+            }
+          ],
+          "safety_constraints": [
+            "These actions adapt response structure and pacing only; they are not clinical advice, diagnoses, or risk predictions.",
+            "Never turn a care-state label into a medical claim.",
+            "Remain grounded in retrieved evidence."
+          ]
+        }
+      },
+      "state": "HIGH_ACTIVITY",
+      "overall_score": 0.645,
+      "evidence_ids": [
+        "PMC13122286__BODY__000__BOXED_TEXT__00001",
+        "PMC12381604__BODY__000__BOXED_TEXT__00002",
+        "PMC13100462__BODY__000__PROSE__00005"
+      ],
+      "reliability": {
+        "authority": 0.85,
+        "relevance": 0.5,
+        "support": 1.0,
+        "coverage": 0.714286,
+        "consistency": 1.0,
+        "overall_reliability": 0.776429
+      },
+      "decision": "REFINE",
+      "refinement_attempts": 1,
+      "retrieval_attempts": 1,
+      "refused": false,
+      "generated": true,
+      "answer": "Older adults who are actively engaged in their health and well-being are more likely to maintain their functional abilities and live independently.",
+      "gold_chunk_retrieved": false,
+      "faithfulness": 0.25,
+      "faithfulness_reason": "Many unsupported statements",
+      "answer_relevance": 1.0,
+      "answer_relevance_reason": "short explanation",
+      "evidence_support": 0.2857,
+      "latency_seconds": 0.303,
+      "error": null
+    },
+    "adaptation_judgment": true,
+    "appropriateness_judgment": 0,
+    "paired_differences": {
+      "faithfulness_delta": 0.0,
+      "answer_relevance_delta": 0.0,
+      "evidence_support_delta": -0.0476
+    },
+    "appropriateness_reason": "answer_B is more supportive/monitoring-oriented, but the difference is not consistent with the described state difference, as both answers focus on the benefits of active engagement, rather than a higher level of care need in state_B"
+  }
+]

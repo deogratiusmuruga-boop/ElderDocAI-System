@@ -1,0 +1,454 @@
+{
+  "passed": true,
+  "total_checks": 89,
+  "passed_checks": 89,
+  "failed_checks": 0,
+  "benchmark_sha256": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+  "checks": [
+    {
+      "check": "benchmark_sha256_matches",
+      "passed": true,
+      "detail": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72"
+    },
+    {
+      "check": "benchmark_121_records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "benchmark_all_accepted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "benchmark_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "run1_121_records",
+      "passed": true,
+      "detail": "n=121"
+    },
+    {
+      "check": "run1_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "run1_exact_benchmark_id_set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "field_present_question_id",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_topic",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_question",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_gold_pmcid",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_gold_chunk_ids",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_initial_evidence_ids",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_initial_reliability",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_initial_decision",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_gate_on",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_gate_off",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "field_present_paired_differences",
+      "passed": true,
+      "detail": "missing []"
+    },
+    {
+      "check": "gate_on_field_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_decision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_reliability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_evidence_ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_refinement_attempts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_retrieval_attempts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_refused",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_generated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_faithfulness",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_answer_relevance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_evidence_support",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_hallucination",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_gold_chunk_retrieved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_latency_seconds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_on_field_error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_decision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_reliability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_evidence_ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_refused",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_generated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_faithfulness",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_answer_relevance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_evidence_support",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_hallucination",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_gold_chunk_retrieved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_latency_seconds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_field_error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_off_uses_shared_initial_evidence",
+      "passed": true,
+      "detail": "mismatch []"
+    },
+    {
+      "check": "gate_off_no_refinement_no_rere_retrieve",
+      "passed": true,
+      "detail": "mismatch []"
+    },
+    {
+      "check": "gate_budgets_frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "generation_options_frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "weights_frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thresholds_frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evaluator_prompts_imported",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_judge_options",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "stat_recompute_faithfulness",
+      "passed": true,
+      "detail": "reported=-0.02686 recomputed=-0.02686"
+    },
+    {
+      "check": "stat_recompute_answer_relevance",
+      "passed": true,
+      "detail": "reported=0.004132 recomputed=0.004132"
+    },
+    {
+      "check": "stat_recompute_evidence_support",
+      "passed": true,
+      "detail": "reported=-0.001467 recomputed=-0.001467"
+    },
+    {
+      "check": "frozen_benchmark_v1_0_present",
+      "passed": true,
+      "detail": "28ef54faeec3b9a1cb8c1c79c9a478d8ea3618574b2787a82a74c1460f209c62"
+    },
+    {
+      "check": "frozen_benchmark_v1_1_present",
+      "passed": true,
+      "detail": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72"
+    },
+    {
+      "check": "frozen_chunks_present",
+      "passed": true,
+      "detail": "62bfdde3c7e77cf56112e79a71bc79bdea70767f6b2625701e392bbb6581c6b3"
+    },
+    {
+      "check": "frozen_embeddings_present",
+      "passed": true,
+      "detail": "b0905d2f96903dadc3cf5b4a737f330853656f846955de706f21bd714ce2dacf"
+    },
+    {
+      "check": "frozen_faiss_present",
+      "passed": true,
+      "detail": "b7016b9dabbab08ee68f875007b6db2b013af4472b1a3c0958af8a566b59f2b3"
+    },
+    {
+      "check": "frozen_bm25_present",
+      "passed": true,
+      "detail": "17f503240f2f9a13abf58c94359884b03b06bec1a5a59f63f921328e2a2c70c9"
+    },
+    {
+      "check": "frozen_row_mapping_present",
+      "passed": true,
+      "detail": "4d649f81d554c41ec7b63c65dce887466dfa6245745c568315735f1b93a1872b"
+    },
+    {
+      "check": "frozen_reliability_config_present",
+      "passed": true,
+      "detail": "e1c94d7b727071c6566ac7129c2e5d48ceb1c124cab85030f4babff38b7e0d02"
+    },
+    {
+      "check": "frozen_eval_task10d_results_present",
+      "passed": true,
+      "detail": "503b199ef8917d33df2eb30fadd4dbd47cfa3ae4c7549dc932710f92a0ddff86"
+    },
+    {
+      "check": "frozen_eval_task10d_summary_present",
+      "passed": true,
+      "detail": "e81230ec4a9502d717177633658842e8c15c292b0dab1cff69b9d0e5758972f4"
+    },
+    {
+      "check": "frozen_eval_task10e_analysis_present",
+      "passed": true,
+      "detail": "3a262687fcd775b385ed7d2959a8128db85828b9d095ad4edacef04e0155fe9b"
+    },
+    {
+      "check": "frozen_eval_task3_summary_present",
+      "passed": true,
+      "detail": "13917f35492ef29eccbe1a1f15fe779c75b54aeaeb50f88259c82410f00e2ab8"
+    },
+    {
+      "check": "frozen_eval_exp1_per_question_present",
+      "passed": true,
+      "detail": "838c6d9147eff074a4626ac06bdc3ecf4da59948b731a3badf8b0542f3a01c07"
+    },
+    {
+      "check": "run2_121_records",
+      "passed": true,
+      "detail": "n=121"
+    },
+    {
+      "check": "repro_initial_evidence_ids_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_initial_decision_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_on_decision_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_on_refinement_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_on_retrieval_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_on_refused_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_on_evidence_ids_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_off_evidence_ids_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_on_answer_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_off_answer_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_on_faithfulness_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_off_faithfulness_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_on_support_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_off_support_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "repro_off_refused_identical",
+      "passed": true,
+      "detail": "121/121"
+    },
+    {
+      "check": "judge_relevance_answers_identical_on_mismatches",
+      "passed": true,
+      "detail": "on_bad=1 off_bad=2 (0.25-step borderline judge scores on identical generated answers)"
+    },
+    {
+      "check": "judge_relevance_mismatch_scope_small",
+      "passed": true,
+      "detail": "on_bad=1 off_bad=2"
+    },
+    {
+      "check": "system_fields_reproducible",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

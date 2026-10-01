@@ -1,0 +1,4 @@
+metric,mean,ci95_lo,ci95_hi,unsupported_pct
+faithfulness,0.754132,0.68347,0.824794,23.14
+answer_relevance,0.671488,0.591383,0.751592,
+evidence_support,0.85283,0.809928,0.895732,

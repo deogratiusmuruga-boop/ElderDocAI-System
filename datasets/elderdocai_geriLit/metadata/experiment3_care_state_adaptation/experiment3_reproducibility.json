@@ -1,0 +1,195 @@
+{
+  "run1_file": "experiment3_per_question_run1.json",
+  "run2_file": "experiment3_per_question_run2.json",
+  "run1_signature": "fad1873cc2345497ff89699838d18b6d81c6f3e3b5bb8500e4042af0c9ac0ad4",
+  "run2_signature": "06f6f84835b5dde8a3d75868933e1b1a95f5a5e370bb55c5d641d77173da0720",
+  "signatures_identical": false,
+  "field_comparison": {
+    "state_A": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "state_B": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "score_A": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "score_B": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "transition_type": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "transition_direction": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "adaptation_judgment": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "A.evidence_ids": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "A.reliability": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "A.decision": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "A.refinement_attempts": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "A.refused": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "A.generated": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "A.answer": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "A.faithfulness": {
+      "identical": false,
+      "matching": 19,
+      "total": 20,
+      "mismatched_pair_ids": [
+        "GLG11-068"
+      ]
+    },
+    "A.answer_relevance": {
+      "identical": false,
+      "matching": 18,
+      "total": 20,
+      "mismatched_pair_ids": [
+        "GLG11-013",
+        "GLG11-028"
+      ]
+    },
+    "A.evidence_support": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.evidence_ids": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.reliability": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.decision": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.refinement_attempts": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.refused": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.generated": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.answer": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.faithfulness": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "B.answer_relevance": {
+      "identical": false,
+      "matching": 19,
+      "total": 20,
+      "mismatched_pair_ids": [
+        "GLG11-028"
+      ]
+    },
+    "B.evidence_support": {
+      "identical": true,
+      "matching": 20,
+      "total": 20,
+      "mismatched_pair_ids": []
+    },
+    "appropriateness_judgment": {
+      "identical": false,
+      "matching": 19,
+      "total": 20,
+      "mismatched_pair_ids": [
+        "GLG11-001"
+      ]
+    }
+  },
+  "mismatched_pair_ids": [
+    "GLG11-001",
+    "GLG11-013",
+    "GLG11-028",
+    "GLG11-068"
+  ],
+  "deterministic": false,
+  "deterministic_system": true,
+  "note": "System fields (state inputs, evidence, decisions, answers) compared for determinism; LLM judge scores separated as measurement instrument. Latency non-substantive."
+}

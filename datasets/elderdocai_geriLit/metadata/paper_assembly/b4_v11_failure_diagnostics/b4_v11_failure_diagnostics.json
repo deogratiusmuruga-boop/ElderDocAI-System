@@ -1,0 +1,433 @@
+{
+  "n": 121,
+  "failure_taxonomy": {
+    "n_unsupported": 28,
+    "n_contradiction": 22,
+    "n_partial_low": 6,
+    "by_topic": [
+      {
+        "topic": "C01",
+        "n": 11,
+        "failures": 1,
+        "failure_rate_pct": 9.1
+      },
+      {
+        "topic": "C02",
+        "n": 15,
+        "failures": 3,
+        "failure_rate_pct": 20.0
+      },
+      {
+        "topic": "C03",
+        "n": 13,
+        "failures": 6,
+        "failure_rate_pct": 46.2
+      },
+      {
+        "topic": "C04",
+        "n": 13,
+        "failures": 2,
+        "failure_rate_pct": 15.4
+      },
+      {
+        "topic": "C05",
+        "n": 14,
+        "failures": 2,
+        "failure_rate_pct": 14.3
+      },
+      {
+        "topic": "C06",
+        "n": 16,
+        "failures": 3,
+        "failure_rate_pct": 18.8
+      },
+      {
+        "topic": "C07",
+        "n": 14,
+        "failures": 4,
+        "failure_rate_pct": 28.6
+      },
+      {
+        "topic": "C08",
+        "n": 9,
+        "failures": 1,
+        "failure_rate_pct": 11.1
+      },
+      {
+        "topic": "C09",
+        "n": 10,
+        "failures": 3,
+        "failure_rate_pct": 30.0
+      },
+      {
+        "topic": "C10",
+        "n": 6,
+        "failures": 3,
+        "failure_rate_pct": 50.0
+      }
+    ],
+    "by_decision": {
+      "ACCEPT": {
+        "n": 37,
+        "failures": 9,
+        "failure_rate_pct": 24.3
+      },
+      "REFINE": {
+        "n": 84,
+        "failures": 19,
+        "failure_rate_pct": 22.6
+      },
+      "RE-RETRIEVE": {
+        "n": 0,
+        "failures": 0,
+        "failure_rate_pct": null
+      },
+      "REJECT": {
+        "n": 0,
+        "failures": 0,
+        "failure_rate_pct": null
+      }
+    },
+    "gold_chunk_present_in_failures": 0,
+    "gold_chunk_absent_in_failures": 28,
+    "mean_reliability_of_failures": 0.7862
+  },
+  "gate_quality": {
+    "by_decision": {
+      "ACCEPT": {
+        "n": 37,
+        "mean_faithfulness": 0.723,
+        "mean_answer_relevance": 0.7635,
+        "mean_evidence_support": 0.8866,
+        "hallucination_rate_pct": 24.3,
+        "mean_initial_reliability": 0.83,
+        "mean_final_reliability": 0.83
+      },
+      "REFINE": {
+        "n": 84,
+        "mean_faithfulness": 0.7679,
+        "mean_answer_relevance": 0.631,
+        "mean_evidence_support": 0.838,
+        "hallucination_rate_pct": 22.6,
+        "mean_initial_reliability": 0.77,
+        "mean_final_reliability": 0.7701
+      },
+      "RE-RETRIEVE": null,
+      "REJECT": null
+    },
+    "reliability_faithfulness_spearman": 0.0607,
+    "gold_chunk_present_n": 33,
+    "gold_present_failure_rate_pct": 0.0,
+    "gold_absent_failure_rate_pct": 31.8
+  },
+  "failure_examples": [
+    {
+      "question_id": "GLG11-019",
+      "topic": "C02",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.1667,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is the association between cognitive and meta analysis based data participants people consuming high in older adults?",
+      "answer": "I couldn't find that information in the knowledge base."
+    },
+    {
+      "question_id": "GLG11-023",
+      "topic": "C02",
+      "decision": "ACCEPT",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 1.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is the association between disease and use statins secondary prevention well established statin use in older adults?",
+      "answer": "The association between statin use and secondary prevention in older adults is unclear."
+    },
+    {
+      "question_id": "GLG11-027",
+      "topic": "C03",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.1667,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is the association between diet and injurious falling table in older adults?",
+      "answer": "I couldn't find that information in the knowledge base."
+    },
+    {
+      "question_id": "GLG11-033",
+      "topic": "C03",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what did the study report about malnutrition in relation to only subjects mild problem among older adults?",
+      "answer": "I couldn't find that information in the knowledge base."
+    },
+    {
+      "question_id": "GLG11-051",
+      "topic": "C04",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.3333,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what did the study report about physical in relation to simplified questionnaire rapidly diagnose among older adults?",
+      "answer": "I couldn't find that information in the knowledge base."
+    },
+    {
+      "question_id": "GLG11-052",
+      "topic": "C04",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what did the study report about walking in relation to results go out rct among older adults?",
+      "answer": "I couldn't find that information in the knowledge base."
+    },
+    {
+      "question_id": "GLG11-075",
+      "topic": "C06",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.1667,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what does the study report about copd in relation to comorbidities share genetic lifestyle in older adults?",
+      "answer": "I couldn't find that information in the knowledge base."
+    },
+    {
+      "question_id": "GLG11-079",
+      "topic": "C06",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.7778,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is the association between stroke and preparedness strongest in older adults?",
+      "answer": "The association between stroke and preparedness is strongest in older adults with bowel incontinence."
+    },
+    {
+      "question_id": "GLG11-082",
+      "topic": "C06",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.1667,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what did the study report about diabetes in relation to independent variables collected information among older adults?",
+      "answer": "I couldn't find that information in the knowledge base."
+    },
+    {
+      "question_id": "GLG11-084",
+      "topic": "C07",
+      "decision": "ACCEPT",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.5556,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is the association between quality and lower risk multiple falls follow up adjusted binary in older adults?",
+      "answer": "The association between quality and lower risk multiple falls follow up adjusted binary in older adults is not explicitly stated in the provided sources."
+    },
+    {
+      "question_id": "GLG11-089",
+      "topic": "C07",
+      "decision": "ACCEPT",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what did the study report about isolation in relation to dance reducing social documented among older adults?",
+      "answer": "I couldn't find that information in the knowledge base."
+    },
+    {
+      "question_id": "GLG11-091",
+      "topic": "C07",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 1.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is recommended regarding anxiety in relation to covid infection ci perception in older individuals?",
+      "answer": "Diminished levels of anxiety exert a mitigating influence on vaccine hesitancy."
+    },
+    {
+      "question_id": "GLG11-092",
+      "topic": "C07",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 0.6429,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what did the study report about influencing in relation to potential covid hesitancy sex among older adults?",
+      "answer": "The study reported that the impact of gender on COVID-19 vaccination in older adults was not mentioned in the provided SOURCE information."
+    },
+    {
+      "question_id": "GLG11-107",
+      "topic": "C09",
+      "decision": "ACCEPT",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 1.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, how does vaccinating relate to forgetting times ci likely seek vaccination in older adults?",
+      "answer": "Those who are more likely to seek vaccination in older adults are those who have previously received an influenza vaccine."
+    },
+    {
+      "question_id": "GLG11-110",
+      "topic": "C09",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "evidence_support": 1.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, how does prevents relate to adverse clinical in older adults?",
+      "answer": "Providing clinical decision support during hospitalization improves deprescribing of potentially inappropriate medications."
+    },
+    {
+      "question_id": "GLG11-011",
+      "topic": "C01",
+      "decision": "ACCEPT",
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "evidence_support": 1.0,
+      "gold_chunk_retrieved": false,
+      "question": "What risks are associated with adverse drug event among older adults?",
+      "answer": "Older adults are at increased risk of delirium, general cognitive impairment, and Alzheimer’s disease and related disorders (ADRD) due to adverse drug events."
+    },
+    {
+      "question_id": "GLG11-036",
+      "topic": "C03",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.9,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, how does weight relate to sarcopenia defined skeletal muscle index kg women kg in older adults?",
+      "answer": "Women with a skeletal muscle index of ≤7.0 kg/m² are considered to have sarcopenia."
+    },
+    {
+      "question_id": "GLG11-061",
+      "topic": "C05",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.7778,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what did the study report about balance in relation to usual acutely hospitalised patients among older adults?",
+      "answer": "Older adults who received a multicomponent exercise intervention showed a balance improvement."
+    },
+    {
+      "question_id": "GLG11-063",
+      "topic": "C05",
+      "decision": "ACCEPT",
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.75,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is the association between fractures and deprescribing acheis in older adults?",
+      "answer": "Deprescribing acheis in older adults is associated with a reduced risk of fractures."
+    },
+    {
+      "question_id": "GLG11-111",
+      "topic": "C09",
+      "decision": "ACCEPT",
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "evidence_support": 1.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is recommended regarding recommended in relation to level intakes nutrients evaluated in older adults?",
+      "answer": "The recommended protein intake for older adults is 0.8 grams per kg body weight."
+    },
+    {
+      "question_id": "GLG11-118",
+      "topic": "C10",
+      "decision": "ACCEPT",
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.9444,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what does the study report about healthy in relation to world organization proposed aging in older adults?",
+      "answer": "The study reports that the increase in life expectancy of the population is linked to an increase in the number of people living with disabilities, including dementia, as the main risk factor for dementia."
+    },
+    {
+      "question_id": "GLG11-120",
+      "topic": "C10",
+      "decision": "REFINE",
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.6667,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what does the study report about ageing in relation to cognitive decline high risk in older adults?",
+      "answer": "The study does not report on cognitive decline high risk in older adults."
+    },
+    {
+      "question_id": "GLG11-032",
+      "topic": "C03",
+      "decision": "REFINE",
+      "faithfulness": 0.25,
+      "answer_relevance": 0.0,
+      "evidence_support": 1.0,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what did the study report about malnutrition in relation to polypharmacy urinary incontinence depression among older adults?",
+      "answer": "Women had a higher prevalence of anorexia and malnutrition (2.35% vs. 0.82%) compared to men."
+    },
+    {
+      "question_id": "GLG11-012",
+      "topic": "C02",
+      "decision": "REFINE",
+      "faithfulness": 0.25,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.7778,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is the association between dementia and caregiver family social services rather medical in older adults?",
+      "answer": "Caregiver family social services are associated with a lower risk of caregiver burnout."
+    },
+    {
+      "question_id": "GLG11-029",
+      "topic": "C03",
+      "decision": "REFINE",
+      "faithfulness": 0.25,
+      "answer_relevance": 1.0,
+      "evidence_support": 1.0,
+      "gold_chunk_retrieved": false,
+      "question": "What nutritional considerations matter for older adults regarding nutrition?",
+      "answer": "Perception of body weight is a frequently reported nutritional risk factor in older adults, as 62.6% judged their body weight as too high or low. Both overweight and underweight may lead to undernutrition."
+    },
+    {
+      "question_id": "GLG11-030",
+      "topic": "C03",
+      "decision": "REFINE",
+      "faithfulness": 0.25,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.8182,
+      "gold_chunk_retrieved": false,
+      "question": "What nutritional considerations matter for older adults regarding diet?",
+      "answer": "Older adults should pay attention to their protein intake to prevent loss of muscle mass."
+    },
+    {
+      "question_id": "GLG11-102",
+      "topic": "C08",
+      "decision": "ACCEPT",
+      "faithfulness": 0.25,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.6364,
+      "gold_chunk_retrieved": false,
+      "question": "According to the article, what is the association between caregivers and based framework our study defined concept self article in older adults?",
+      "answer": "The association between caregivers and the framework defined concept of self-care in older adults is small."
+    },
+    {
+      "question_id": "GLG11-117",
+      "topic": "C10",
+      "decision": "REFINE",
+      "faithfulness": 0.25,
+      "answer_relevance": 1.0,
+      "evidence_support": 0.2727,
+      "gold_chunk_retrieved": false,
+      "question": "What is known about active aging among older adults?",
+      "answer": "Older adults who engage in active aging are more likely to maintain their functional abilities and independence."
+    }
+  ]
+}

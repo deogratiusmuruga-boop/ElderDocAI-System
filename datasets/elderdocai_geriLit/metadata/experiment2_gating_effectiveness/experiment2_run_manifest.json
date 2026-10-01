@@ -1,0 +1,38 @@
+{
+  "run_id": "1",
+  "benchmark": "data/geri_lit_gold_v1_1.json",
+  "benchmark_sha256": "1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72",
+  "n": 121,
+  "signature": "e61bea37796a700ad4e414ef555762b3d15bbe5687f1ca6601fa1781547b2f2c",
+  "retrieval_backend": "geri_lit",
+  "llm_model": "llama3.2:latest",
+  "judge_model": "llama3.2:latest",
+  "judge_options": {
+    "temperature": 0,
+    "top_p": 0.1,
+    "top_k": 10
+  },
+  "generation_options": {
+    "temperature": 0,
+    "top_p": 0.1,
+    "top_k": 10
+  },
+  "reliability_thresholds": {
+    "accept": 0.8,
+    "refine": 0.65,
+    "re_retrieve": 0.45
+  },
+  "reliability_weights": {
+    "authority": 0.3,
+    "relevance": 0.3,
+    "support": 0.2,
+    "coverage": 0.1,
+    "consistency": 0.1
+  },
+  "gate_budgets": {
+    "MAX_REFINE": 1,
+    "MAX_RETRIEVE": 1
+  },
+  "finalized_at_utc": "2026-09-25T08:46:29Z",
+  "frozen_unchanged": true
+}
