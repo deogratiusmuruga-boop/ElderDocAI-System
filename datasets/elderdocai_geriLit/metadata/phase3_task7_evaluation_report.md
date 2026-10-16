@@ -9,7 +9,7 @@ computed because no legitimate GeriLit-mapped relevance judgments exist — labe
 manufactured.**
 
 ## 2. Repository state before implementation
-- Branch: `feature/mimic-pmc-migration`, HEAD `8b0696c` (unchanged throughout).
+- Branch: `release/geri-lit-v1.1`, HEAD `8b0696c` (unchanged throughout).
 - Working tree: `.gitignore` modified (pre-existing raw-ignore rules) + untracked
   `datasets/elderdocai_geriLit/`, `datasets/mimic_demo/`, and pre-existing excluded files.
   Nothing staged, committed, or pushed.
@@ -110,7 +110,7 @@ row_mapping). Verified unchanged.
 **None.** No legacy scripts, no Task 2–6 artifacts, no corpus/index/model files modified.
 
 ## 22. Git status
-- Branch: `feature/mimic-pmc-migration`; HEAD `8b0696c` (unchanged).
+- Branch: `release/geri-lit-v1.1`; HEAD `8b0696c` (unchanged).
 - Staged: none. Unstaged: `.gitignore` (pre-existing rules). Untracked: `datasets/elderdocai_geriLit/`,
   `datasets/mimic_demo/`, pre-existing excluded files. Nothing committed or pushed.
 

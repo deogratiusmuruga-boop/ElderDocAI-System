@@ -99,7 +99,7 @@ Verified unchanged (SHA-256):
 - `index/row_mapping.json`: `4d649f81d554c41ec7b63c65dce887466dfa6245745c568315735f1b93a1872b`
 
 ## 20. Git Status
-- Branch: `feature/mimic-pmc-migration`
+- Branch: `release/geri-lit-v1.1`
 - HEAD: `8b0696c` (gold checkpoint commit; unchanged)
 - Staged changes: none (`git diff --cached` empty)
 - Unstaged changes: `.gitignore` (pre-existing raw-data ignore rules from earlier tasks; not modified by Task 6)

@@ -115,7 +115,7 @@ None (evaluation-only; `scripts/rag_chat.py` retains the prior Task 10B
 4-line change; no new production modifications).
 
 ## Git status
-Branch `feature/mimic-pmc-migration`, HEAD `8b0696c`. Modified:
+Branch `release/geri-lit-v1.1`, HEAD `8b0696c`. Modified:
 `.gitignore` (pre-existing), `scripts/rag_chat.py` (10B). New untracked files:
 Task 10D artifacts above + pre-existing untracked dirs/files. **Nothing staged,
 committed, or pushed.**

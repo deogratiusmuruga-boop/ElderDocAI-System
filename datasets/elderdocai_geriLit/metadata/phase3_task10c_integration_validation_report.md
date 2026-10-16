@@ -116,7 +116,7 @@ All recomputed hashes unchanged (validator C16–C19):
 each with check_id/description/expected/actual/pass; all PASS.
 
 ## Git state (final)
-- Branch `feature/mimic-pmc-migration`, HEAD `8b0696c` (unchanged).
+- Branch `release/geri-lit-v1.1`, HEAD `8b0696c` (unchanged).
 - Modified: `scripts/rag_chat.py` (4 lines) + pre-existing `.gitignore`.
 - Untracked: Task 10C metadata files (validator, report, validation JSON/MD) +
   Task 10B router/adapter/tests + pre-existing untracked dirs/files.

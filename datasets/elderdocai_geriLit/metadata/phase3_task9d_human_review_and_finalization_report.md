@@ -85,7 +85,7 @@ Encoding applied to every record (decision already made by the researcher):
   `review_header_reports_completion`) pass on the corrected artifact.
 
 ## Git status
-- Branch `feature/mimic-pmc-migration`, HEAD `8b0696c` (unchanged).
+- Branch `release/geri-lit-v1.1`, HEAD `8b0696c` (unchanged).
 - Modified: `data/geri_lit_gold_review.json` (this task), `.gitignore`
   (pre-existing), `scripts/rag_chat.py` (Task 10B, pre-existing).
 - Untracked: `data/geri_lit_gold.json` + Task 9D metadata/scripts + prior

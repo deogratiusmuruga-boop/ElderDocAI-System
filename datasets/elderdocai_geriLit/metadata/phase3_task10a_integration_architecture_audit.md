@@ -8,7 +8,7 @@
 ---
 
 ## 1. Repository state (verified)
-- Branch: `feature/mimic-pmc-migration`, HEAD `8b0696c` (unchanged).
+- Branch: `release/geri-lit-v1.1`, HEAD `8b0696c` (unchanged).
 - `.gitignore` modified (pre-existing raw-ignore rules only); untracked
   `datasets/elderdocai_geriLit/`, `datasets/mimic_demo/`, GeriLit-Gold candidate/review
   files, and previously excluded files. Nothing staged/committed/pushed.
@@ -230,5 +230,5 @@ evaluated, backward-compat documented, Task 10B plan documented, frozen artifact
 unchanged, no production files modified. All TRUE.
 
 ## 12. Git status after audit
-- Branch `feature/mimic-pmc-migration`, HEAD `8b0696c`; only Task 10A metadata files
+- Branch `release/geri-lit-v1.1`, HEAD `8b0696c`; only Task 10A metadata files
   added (untracked); no production/source modifications; nothing staged/committed/pushed.

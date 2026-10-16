@@ -19,6 +19,25 @@ This repository also contains the **GeriLit-Gold v1.1** benchmark and the frozen
 
 ---
 
+## What this repository contains
+
+This repository holds two kinds of material, distinguished by release tag `v1.1`:
+
+**Paper / benchmark material (frozen, reported in the paper; pinned by tag `v1.1`)**
+- **GeriLit-Gold v1.1 benchmark** — `data/geri_lit_gold_v1_1.json` (121 questions, 45 PMCIDs, 116 gold chunks; SHA-256 `1488d164e067084ff244edc3969450edb9244e3ed0e1fe10e2120fdf9dadee72`), plus its candidate and human-review files.
+- **Frozen Experiment 1–4 outputs** — `datasets/elderdocai_geriLit/metadata/experiment{1..4}_*/`: two judge runs per experiment (`*_per_question_run{1,2}.json`), protocol, run manifest, reproducibility manifest, frozen-hash integrity records, and reports.
+- **Human calibration & manual classification** — `datasets/elderdocai_geriLit/metadata/paper_assembly/a1_human_calibration/` (annotation instructions/sheets, human labels, agreement statistics, matched-evidence calibration, and the 28-case manual classification of Experiment-1 unsupported-content flags), plus `a2_judge_reliability/`, `a3_confidence_intervals/`, and `b4_v11_failure_diagnostics/`.
+- **Corpus build recipe** — `datasets/elderdocai_geriLit/`: discovery/download/chunk/index scripts, specs (`corpus_specification.md`, `inclusion_exclusion_policy.md`, `license_policy.md`, `chunking_specification.md`), manifests, and metadata.
+- **Evaluation code and prompts** — the four experiment evaluation scripts (with the embedded `FAITHFULNESS_PROMPT` / `RELEVANCE_PROMPT` judge prompts), `evaluation/evaluation_queries.json`, and `scripts/evaluate_*.py`.
+
+**Development / application material (prototype, not part of the paper evaluation)**
+- **ElderDocAI RAG application** — `scripts/` (hybrid retrieval, reliability gating, grounded generation), FastAPI backend (`api/`), SQLAlchemy models (`models/`), runtime config (`config/`), tests (`tests/`), and the React frontend (`frontend/`).
+- **Synthea synthetic cohort** — `datasets/synthea/` (synthetic FHIR patient records used by the care-state layer; not real patient data).
+
+`requirements.txt` (pip-freeze snapshot) and this README live at the current branch head (`release/geri-lit-v1.1`); the paper's data availability statement points at release tag `v1.1`.
+
+---
+
 ## 2. Folder map
 
 ```

@@ -90,7 +90,7 @@ about retriever quality is made.
 - No package installation: **YES** · No retrieval optimization: **YES**
 
 ## H. Git
-- Branch `feature/mimic-pmc-migration` · HEAD `8b0696c` (unchanged)
+- Branch `release/geri-lit-v1.1` · HEAD `8b0696c` (unchanged)
 - Staged: **none** · Committed: **none** · Pushed: **none**
 - Modified (pre-existing): `.gitignore`, `scripts/rag_chat.py`
 - Newly created (Task 10H): `metadata/task10h_retrieval_evaluation.py` ·

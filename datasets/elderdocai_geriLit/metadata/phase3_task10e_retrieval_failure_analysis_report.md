@@ -185,7 +185,7 @@ revision (or retrieval re-tuning) is a separate, explicitly authorized task.
 
 ## 12. Git status
 
-Branch `feature/mimic-pmc-migration` · HEAD `8b0696c` (unchanged) · modified:
+Branch `release/geri-lit-v1.1` · HEAD `8b0696c` (unchanged) · modified:
 `.gitignore`, `scripts/rag_chat.py` (pre-existing) · untracked new: Task 10E
 artifacts · untracked pre-existing: GeriLit dir, mimic_demo, candidate/review/
 gold JSON, router/adapter/tests. **Nothing staged, committed, or pushed.**

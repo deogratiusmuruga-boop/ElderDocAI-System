@@ -82,7 +82,7 @@ None. No frozen benchmark, corpus, index, retriever, router, adapter, API,
 frontend, or production file was modified.
 
 ## Git status
-Branch `feature/mimic-pmc-migration` · HEAD `8b0696c` (unchanged).
+Branch `release/geri-lit-v1.1` · HEAD `8b0696c` (unchanged).
 Modified (pre-existing): `.gitignore`, `scripts/rag_chat.py`.
 Untracked new: Task 10G artifacts above (+ earlier Phase-3 artifacts).
 Untracked pre-existing: GeriLit dir, mimic_demo, candidate/review/gold JSON,

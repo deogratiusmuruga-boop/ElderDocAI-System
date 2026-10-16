@@ -90,7 +90,7 @@ created, frozen + Gold + manifest unchanged. Content-level determinism confirmed
 **None** (no existing file modified).
 
 ## GIT STATUS
-- Branch: `feature/mimic-pmc-migration` · HEAD: `8b0696c` (unchanged)
+- Branch: `release/geri-lit-v1.1` · HEAD: `8b0696c` (unchanged)
 - Modified: `.gitignore` (pre-existing raw-ignore rules only)
 - Untracked (new Task 9C): `data/geri_lit_gold_review.json` + the 5 metadata artifacts above
 - Untracked (pre-existing): `data/geri_lit_gold_candidates.json` (Task 9B),

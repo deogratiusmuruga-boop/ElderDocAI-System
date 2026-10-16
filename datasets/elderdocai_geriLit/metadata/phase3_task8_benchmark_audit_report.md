@@ -7,7 +7,7 @@ acquisition/mapping audit only. No corpus modification, no retrieval-metric
 computation, no ground-truth fabrication, no production integration, no commit/push.
 
 ## 2. Repository state before implementation
-- Branch `feature/mimic-pmc-migration` @ HEAD `8b0696c` (unchanged).
+- Branch `release/geri-lit-v1.1` @ HEAD `8b0696c` (unchanged).
 - `.gitignore` modified (pre-existing raw-ignore rules) + untracked
   `datasets/elderdocai_geriLit/`, `datasets/mimic_demo/`, pre-existing excluded files.
 - Frozen Task 6 hashes recorded prior: chunks `62bfdde3…`, embeddings `b0905d2f…`,
@@ -116,7 +116,7 @@ Verified unchanged (SHA-256) after the audit:
 - row_mapping `4d649f81d554c41ec7b63c65dce887466dfa6245745c568315735f1b93a1872b`
 
 ## 18. Git status
-- Branch `feature/mimic-pmc-migration`, HEAD `8b0696c` unchanged.
+- Branch `release/geri-lit-v1.1`, HEAD `8b0696c` unchanged.
 - Staged: none (`git diff --cached` empty). Unstaged: `.gitignore` (pre-existing rules).
 - Untracked: `datasets/elderdocai_geriLit/`, `datasets/mimic_demo/`, pre-existing excluded
   files. **Nothing committed or pushed.**
