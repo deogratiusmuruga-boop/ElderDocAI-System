@@ -27,6 +27,14 @@ venv/
 frontend/node_modules/
 frontend/build/
 # MIMIC credentialed/demo clinical data - never commit
-datasets/mimic_demo/raw/
+datasets/mimic_demo/
 # ElderDocAI-GeriLit - PMC OA raw full-text files (local only, never committed)
 datasets/elderdocai_geriLit/raw/
+
+# Scratch / accidental files (never commit)
+/_*.py
+/_*.log
+/scripts/_*.py
+/erschosun*
+/s -ExecutionPolicy*
+/data/evaluation_results/llm_baselines/llm_baselines_console_output.txt
