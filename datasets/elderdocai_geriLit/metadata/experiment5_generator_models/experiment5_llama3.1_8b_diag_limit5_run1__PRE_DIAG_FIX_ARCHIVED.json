@@ -1,0 +1,317 @@
+[
+  {
+    "question_id": "GLG11-001",
+    "topic": "C01",
+    "question": "According to the article, how does polypharmacy relate to disease burden in patients with comorbidities?",
+    "gold_pmcid": "PMC10022263",
+    "gold_chunk_ids": [
+      "PMC10022263__ABSTRACT__000__PROSE__00000"
+    ],
+    "retrieved_evidence_ids": [
+      "PMC11658714__BODY__000__PROSE__00028",
+      "PMC3603256__BODY__000__PROSE__00002",
+      "PMC10670184__BODY__003__PROSE__00019"
+    ],
+    "retrieved_evidence_texts": [
+      "Nevertheless, both Chinese and international guidelines on diabetes in the elderly contain fewer relative references to COPD [ 30 , 52 ]. As demonstrated by our analysis, the most significant comorbidities associated with T2DM are represented by the following conditions: HLP, HTN, and IHD. The reduction of cardiovascular mortality in patients through comprehensive lifestyle interventions and the early management of cardiometabolic risk has been recommended by experts, with the expectation that this approach will yield twice the results with half the effort [ 53 ]. In contrast, NAFLD, which has yet to be incorporated into the unified framework of CKMs, is strongly associated with the degree of obesity among T2DM patients [ 54 ]. Moreover, prolonged fatty infiltration results in liver fibrosis, which can contribute to an elevated risk of cardiovascular disease [ 55 , 56 ] and chronic kidney disease [ 57 , 58 ] in patients with T2DM. As previously discussed, the management of these comorbidities can often be effectively integrated to reduce the self-management burden on patients. Nevertheless, further clinical research is required, conducted by both specialists and general practicioners, to promote the development of high-quality evidence-based guidelines. This is particularly the case in the areas of barriers and facilitation strategies relating to lifestyle interventions [ 51 ], as well as how to identify potentially inappropriate medication use and to avoid prescribing cascades due to polypharmacy [ 50 ], for patients with COPD who have not been prioritised and included in guidelines. Considering the growing prominence of the biopsychosocial model of medicine, it is becoming increasingly evident that T2DM guidelines are shifting their attention towards NPDs, such as insomnia, anxiety, and depression.",
+      "Hypertension is a common disorder with an estimated prevalence of 22% to 27% worldwide, and it is an important risk factor for cardiovascular disease (CVD) such as stroke and myocardial infarction. 1 – 4 Patients with hypertension are primarily treated in general practice, making it the most frequent reason for consultations with general practitioners (GPs). 5 – 6 However, major studies of patients with hypertension are rarely based on populations from primary care. The importance of treating patients with hypertension to target blood pressure (BP) levels applies to patients with and without comorbidities. For example, patients with CVD have an increased risk of recurrent stroke or myocardial infarction if their BP is above recommended levels. 7 – 11 Only a few studies exist on the prevalence of hypertension and rates of BP control among patients with CVD; these studies are mainly based on small selected populations 7 , 12 – 14 or are not situated in primary care populations. 12 – 15 In Europe, BP control rates in hypertensive patients range from 21% to 57%. 2 , 16 – 18 The BP control rates are generally based on mixed populations of patients with and without comorbidities. Furthermore, patients with a chronic disease like hypertension often have 1 or more additional chronic comorbidity, 7 and when patients have 2 or more comorbidities, the treatment of each of the comorbidities is generally poorer, 19 – 23 which further affects a patient's chance of achieving BP control. To our knowledge, it has not been investigated how additional comorbidities are associated with BP control when patients already have diabetes and/or CVD. In this article, we aimed to analyze the association of comorbidities with BP control in a large cohort of hypertensive patients from primary care.",
+      "Adherence to the treatment is another issue in diabetic elderly with polypharmacy. Polypharmacy significantly reduced the treatment adherence of diabetic subjects in a study from the United States [ 24 ]. However, a recent study found that the number of medications was not associated with treatment adherence in diabetic elderly [ 25 ]. Medications increase the healthcare cost of the diabetic subjects [ 26 ]. Accordingly, attempts to prevent polypharmacy in the diabetic population significantly reduced the healthcare costs according to a study from Japan [ 27 ]. Treatment non-adherence not only prevents diabetic patients from reaching target blood sugar levels, but may also lead physicians to prescribe more medications to ensure diabetic regulation. In accordance with the literature data, we found that poorly controlled diabetes was associated with a higher number of daily drug use compared to the well-controlled diabetic elderly. Moreover, probably due to polypharmacy, the rate of inappropriate medication use according to the Beers Criteria was higher in poorly controlled subjects than in the elderly patients with well controlled type 2 diabetes mellitus."
+    ],
+    "retrieval_backend": "geri_lit",
+    "evidence_count": 3,
+    "initial_reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.777778,
+      "consistency": 1.0,
+      "overall_reliability": 0.782778
+    },
+    "initial_decision": "REFINE",
+    "reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.777778,
+      "consistency": 1.0,
+      "overall_reliability": 0.782778
+    },
+    "decision": "REFINE",
+    "retrieval_attempts": 1,
+    "refinement_attempts": 1,
+    "refused": false,
+    "generated": true,
+    "answer": "Polypharmacy significantly reduced treatment adherence in diabetic subjects, and was associated with a higher number of daily drug use and a higher rate of inappropriate medication use in patients with poorly controlled diabetes.",
+    "latency_seconds": 8.705,
+    "faithfulness": 1.0,
+    "faithfulness_reason": "short explanation",
+    "answer_relevance": 0.75,
+    "answer_relevance_reason": "The answer answers the main question but misses minor aspects.",
+    "evidence_support": 1.0,
+    "hallucination": false,
+    "gold_chunk_retrieved": false,
+    "error": null,
+    "generator_model": "llama3.1:8b",
+    "gen_calls": [
+      {
+        "model": "llama3.1:8b",
+        "prompt_eval_count": 1854,
+        "eval_count": 38,
+        "total_duration_ns": 8461480200
+      }
+    ],
+    "prompt_eval_count_max": 1854
+  },
+  {
+    "question_id": "GLG11-002",
+    "topic": "C01",
+    "question": "According to the article, what did the study report about medication in relation to proportions exposure recorded group among older adults?",
+    "gold_pmcid": "PMC10022263",
+    "gold_chunk_ids": [
+      "PMC10022263__BODY__009__PROSE__00016"
+    ],
+    "retrieved_evidence_ids": [
+      "PMC10022263__BODY__009__PROSE__00016",
+      "PMC13100462__BODY__000__PROSE__00005",
+      "PMC5710210__ABSTRACT__000__PROSE__00000"
+    ],
+    "retrieved_evidence_texts": [
+      "The baseline characteristics of the 333 patients with and without comorbidities are summarized in Table 1 . A total of 230/333 (69%) had comorbidities, while 102/333 (31%) did not report any history of comorbidities. The proportion of comorbidities was greater in patients aged over 60 years. Additionally, higher proportions of medication exposure were recorded in the group with comorbidities: antiretrovirals 49/51 (96.1%), acid-suppressive agents 85/103 (82.5%) and antibiotics 221/297 (74.4%) than in the non-comorbid group. Among the total number of patients who reported prior hospital admission in the preceding three months, 44/48 (91.7%) had comorbid conditions while those diagnosed with HO-CDI were 63/71 (88.7%). However, there were no proportional differences in the duration of hospitalization (≤30 or >30 days) in the comorbid and non-comorbid groups.",
+      "To address these gaps, this study utilised longitudinal data from the CLHLS, a nationally representative dataset, spanning 2008–2018. Leveraging multi‐wave data allowed us to capture dynamic changes in functional disability and living arrangements over a decade. Importantly, we analysed urban and rural populations separately to identify disparities and heterogeneity in aged care contexts. Specifically, this study addressed two research questions: (1) How are changes in ADL and IADL associated with living arrangement transitions among Chinese older adults? (2) To what extent do these associations differ between urban and rural populations? The findings aim to deepen understanding of the interplay between functional decline and living arrangements, and help provide empirical evidence to inform targeted, context‐sensitive, and equitable aged care policies in China.",
+      "What is the effectiveness of a timing and coordination group exercise program (On the Move) compared with a seated strength, endurance, and flexibility exercise program (usual care) for improving mobility in community-dwelling older adults? In this single-blind cluster-randomized trial that included 298 older adults, participants in the On the Move group had greater improvements in mobility than those in the usual-care group. Group exercise programs to improve mobility in older adults should include timing and coordination exercises that are important for walking."
+    ],
+    "retrieval_backend": "geri_lit",
+    "evidence_count": 3,
+    "initial_reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.733333,
+      "consistency": 1.0,
+      "overall_reliability": 0.778333
+    },
+    "initial_decision": "REFINE",
+    "reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.733333,
+      "consistency": 1.0,
+      "overall_reliability": 0.778333
+    },
+    "decision": "REFINE",
+    "retrieval_attempts": 1,
+    "refinement_attempts": 1,
+    "refused": false,
+    "generated": true,
+    "answer": "Higher proportions of medication exposure were recorded in the group with comorbidities, including antiretrovirals, acid-suppressive agents, and antibiotics.",
+    "latency_seconds": 0.881,
+    "faithfulness": 1.0,
+    "faithfulness_reason": "short explanation",
+    "answer_relevance": 1.0,
+    "answer_relevance_reason": "The answer directly and completely addresses the question.",
+    "evidence_support": 0.9231,
+    "hallucination": false,
+    "gold_chunk_retrieved": true,
+    "error": null,
+    "generator_model": "llama3.1:8b",
+    "gen_calls": [
+      {
+        "model": "llama3.1:8b",
+        "prompt_eval_count": 1392,
+        "eval_count": 32,
+        "total_duration_ns": 593965700
+      }
+    ],
+    "prompt_eval_count_max": 1392
+  },
+  {
+    "question_id": "GLG11-003",
+    "topic": "C01",
+    "question": "According to the article, what did the study report about medical in relation to comorbidity defined pre existence among older adults?",
+    "gold_pmcid": "PMC10022263",
+    "gold_chunk_ids": [
+      "PMC10022263__BODY__005__PROSE__00008"
+    ],
+    "retrieved_evidence_ids": [
+      "PMC6849229__BODY__011__PROSE__00029",
+      "PMC10009923__BODY__000__PROSE__00003",
+      "PMC6849229__BODY__012__PROSE__00033"
+    ],
+    "retrieved_evidence_texts": [
+      "In the absence of consensus on which patterns of comorbidity should be grouped together, we propose that trials report treatment effects according to the presence/absence of common comorbidities, as well as by multimorbidity counts. Ideally, comorbidities would be defined using medical history data collected in a systematic and standardised manner across trials. In the absence of standardised medical histories [ 9 , 37 ], some insights may be obtained from existing trials using drug-defined comorbidities, particularly where the focus is on conditions closely associated with particular drug classes (e.g. diabetes and glucose-lowering drugs) or on overall measures of multimorbidity, such as a count. Despite these challenges, using clinical trial data to estimate treatment effects in people with comorbidity or multimorbidity remains appealing because of limitations in the alternatives. For example, observational datasets rich in multimorbidity, such as electronic health records, are used to estimate treatment effects. However, despite methodological advances in this use of observational data, it remains controversial, as unmeasured confounding can result in apparent treatment benefits when none really exist [ 9 , 38 ].",
+      "In Iran, an older adult is defined as a person who is aged equal or more than 60 years. According to the results of a census carried out in 2017, 7.5 million people (equivalent to about 9.3% of the total population of Iran) are individuals who have reached their 60 s. It is estimated that in a decade, %10.7 of the Iranian population will be older adults [ 12 , 13 ]. Despite the importance of the possible effects of nutrition on the risk of accidents among the aging population, no study investigated this important association in Iran. This study aimed to identify the effect of nutrition on falls leading to fracture among Iranian older adults. The results will help us in understanding the nutritional predisposing factors of injuries among older adults. The results of our study will also contribute to the better and more effective falls preventive measures among older adults.",
+      "Clinical trial populations have a lower prevalence of comorbidity and multimorbidity than unselected community populations. Clinicians should exercise caution when applying disease-specific evidence and guidelines to people with comorbidity or multimorbidity. Nonetheless, comorbidity and multimorbidity are common in clinical trials. Given the limitations of observational data for estimating treatment effects, this suggests that standard industry-funded clinical trials are an underused resource for estimating treatment effects in multimorbidity. We would recommend that future disease-specific guidelines need to incorporate information concerning likely treatment effects in the context of the specific index condition and comorbidity or multimorbidity. To enable guideline developers to do so, triallists should at least report the prevalence of multimorbidity and a range of comorbidities among trial participants and should consider reporting treatment effect estimates stratified by comorbidity and/or multimorbidity. More general multimorbidity guidelines could also usefully include information in relation to this within any future guideline to permit more specific guidance for clinicians dealing with people with multimorbidity."
+    ],
+    "retrieval_backend": "geri_lit",
+    "evidence_count": 3,
+    "initial_reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.733333,
+      "consistency": 1.0,
+      "overall_reliability": 0.778333
+    },
+    "initial_decision": "REFINE",
+    "reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.733333,
+      "consistency": 1.0,
+      "overall_reliability": 0.778333
+    },
+    "decision": "REFINE",
+    "retrieval_attempts": 1,
+    "refinement_attempts": 1,
+    "refused": false,
+    "generated": true,
+    "answer": "I couldn't find that information in the knowledge base.",
+    "latency_seconds": 0.526,
+    "faithfulness": 0.0,
+    "faithfulness_reason": "Answer contradicts evidence",
+    "answer_relevance": 0.0,
+    "answer_relevance_reason": "The answer does not address the question at all.",
+    "evidence_support": 0.1667,
+    "hallucination": true,
+    "gold_chunk_retrieved": false,
+    "error": null,
+    "generator_model": "llama3.1:8b",
+    "gen_calls": [
+      {
+        "model": "llama3.1:8b",
+        "prompt_eval_count": 1539,
+        "eval_count": 12,
+        "total_duration_ns": 317186900
+      }
+    ],
+    "prompt_eval_count_max": 1539
+  },
+  {
+    "question_id": "GLG11-004",
+    "topic": "C01",
+    "question": "According to the article, what did the study report about prescribing in relation to inappropriate led clinically improvements among older adults?",
+    "gold_pmcid": "PMC10043750",
+    "gold_chunk_ids": [
+      "PMC10043750__BODY__000__PROSE__00001"
+    ],
+    "retrieved_evidence_ids": [
+      "PMC10798021__BODY__000__BOXED_TEXT__00002",
+      "PMC11251379__BODY__009__PROSE__00022",
+      "PMC5024357__BODY__000__PROSE__00012"
+    ],
+    "retrieved_evidence_texts": [
+      "What is already known about the topic? Polypharmacy and potentially inappropriate prescribing are prevalent in older people in general. Chronic medications are of limited benefit to older people with life-limiting illnesses at the end of life where the treatment goal shifts towards symptom control rather than disease cure. One potential solution to improve prescribing appropriateness among this vulnerable population is deprescribing, a supervised discontinuation of potentially inappropriate medicines. What this paper adds? This study shows that many older people received at least one medication of questionable clinical benefit or potentially inappropriate medication during the last two weeks of life. In the hospice setting, deprescribing was often reactive rather than proactive in routine clinical practice. Higher numbers of potentially inappropriate medications were identified when the two prescribing appropriateness tools were applied concurrently for the same patient than when each set of criteria was used separately. Implications for practice, theory or policy Routine adoption of deprescribing tools into clinical practice should guide treatment management decisions. Investigation of the practicality of concurrent application of two sets of prescribing appropriateness criteria in routine clinical practice is warranted in terms of time and resource. Implementation of a proactive deprescribing intervention could help in reducing inappropriate polypharmacy to a significant extent. There is an imperative need for deprescribing guidance, educational sessions, and training workshops which could assist clinicians to rationalise medicines use in this vulnerable population.",
+      "The explicit criteria that are widely used to address potentially inappropriate prescribing include the Beers Criteria [ 39 ], and the Screening Tool of Older Person’s Prescriptions/Screening Tool to Alert doctors to the Right Treatment (STOPP/START) Criteria [ 40 ], which were both updated in 2023. They are feasible to use in a busy environment and can be applied to any prescribed medication and large prescribing database, even if few clinical details are available. In relation to falls, the European Geriatric Medical Society published a Screening Tool of Older Persons Prescriptions in older adults with high fall risk (STOPPFall) [ 41 ], to support clinicians in the management of FRIDs and facilitate the deprescribing process, and is particularly useful to the community falls pharmacist in the setting we have described, and in healthcare settings where older people present with falls, in relation to optimising medicines in this patient group. The cause of falls is multifactorial in nature and a multidisciplinary approach to managing falls is recommended [ 3 , 5 , 13 , 42 ], thus further development of specialist pharmacist roles such as the community falls role which we have shown to be effective in improving the appropriateness of medicines, along with the use of existing tools by prescribers to address inappropriate prescribing is a potential solution to support medicines optimisation in this older population.",
+      "Older people are the main consumers of drugs due to the increasing incidence of chronic disease with advancing age. 39 Pharmacotherapy in the elderly requires knowledge of the age-dependent changes in pharmacokinetics and pharmacodynamics, as well as an assessment of comorbidity and concurrent drug therapy to reduce adverse effects. The factors predisposing to polypharmacy are poor health, multiple chronic diseases, multiple prescribing physicians, the patient’s expectations (e.g., in relation to therapeutic advances) and education, an increasing demand for health care, supplemental insurance, and reluctance to discontinue old medications. Polypharmacy increases the risk for inappropriate medications, 40 nonadherence to treatments, morbidity, mortality and adverse drug reactions. 37 Depending on the circumstances (e.g., why and how drugs are being administered), polypharmacy can be appropriate (potential benefits outweigh potential harms) or inappropriate (potential harms outweigh potential benefits). 35 Inappropriate prescribing in the elderly population is an emerging health issue and comprises the following: use of an inappropriate dose, formulation, duration and delivery of drugs; use of unnecessary drugs; omission of necessary medicines; and the risk of drug interactions and adverse drug events. 39 Errors in prescribing and in the omission of medicines are highly prevalent among medically stable older people in primary care as well. 41"
+    ],
+    "retrieval_backend": "geri_lit",
+    "evidence_count": 3,
+    "initial_reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.533333,
+      "consistency": 1.0,
+      "overall_reliability": 0.758333
+    },
+    "initial_decision": "REFINE",
+    "reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.533333,
+      "consistency": 1.0,
+      "overall_reliability": 0.758333
+    },
+    "decision": "REFINE",
+    "retrieval_attempts": 1,
+    "refinement_attempts": 1,
+    "refused": false,
+    "generated": true,
+    "answer": "The study shows that many older people received at least one medication of questionable clinical benefit or potentially inappropriate medication during the last two weeks of life.",
+    "latency_seconds": 0.907,
+    "faithfulness": 0.75,
+    "faithfulness_reason": "only partially supported by evidence, but still supported",
+    "answer_relevance": 1.0,
+    "answer_relevance_reason": "The answer directly and completely addresses the question.",
+    "evidence_support": 1.0,
+    "hallucination": false,
+    "gold_chunk_retrieved": false,
+    "error": null,
+    "generator_model": "llama3.1:8b",
+    "gen_calls": [
+      {
+        "model": "llama3.1:8b",
+        "prompt_eval_count": 1722,
+        "eval_count": 29,
+        "total_duration_ns": 670738200
+      }
+    ],
+    "prompt_eval_count_max": 1722
+  },
+  {
+    "question_id": "GLG11-005",
+    "topic": "C01",
+    "question": "According to the article, what did the study report about deprescribing in relation to rationale development cofrail intervention among older adults?",
+    "gold_pmcid": "PMC10043750",
+    "gold_chunk_ids": [
+      "PMC10043750__BODY__007__PROSE__00009"
+    ],
+    "retrieved_evidence_ids": [
+      "PMC13122286__BODY__000__BOXED_TEXT__00001",
+      "PMC13062472__BODY__000__BOXED_TEXT__00002",
+      "PMC13100462__BODY__000__PROSE__00005"
+    ],
+    "retrieved_evidence_texts": [
+      "What is already known about this subject Approximately one‐half of older adults take unnecessary or inappropriate medicine leading to functional decline, cognitive impairment, adverse drug events and increased health‐care costs. Understanding of the specific reasons older adults agree or hesitate to deprescribe can inform tailored deprescribing communication strategies. What this study adds The Patient Deprescribing Typology provides a framework for understanding what matters to older adults when they consider deprescribing. Trust in health‐care providers was the leading factor in older adults' statin deprescribing decisions (63.9%), followed by medicine concerns (40.7%), while patient‐specific factors and beliefs about continuation were less common.",
+      "What is already know about the topic? Polypharmacy and inappropriate medication use is common in people with life-limiting conditions, and is exacerbated by the addition of symptom management medication to a legacy of preventative treatments. While deprescribing can reduce the medication burden, it remains a complex and challenging intervention in people with life-limiting conditions. What this paper adds? A broad range of deprescribing outcomes are reported across clinical-, medication- and system-related impacts. Existing studies are mostly from the US and Australia with little representation from low-and middle-income countries. Deprescribing is generally safe, with most studies demonstrating no negative effects. However, careful monitoring is recommended to mitigate potential risk in minority of cases. Implication for practice, theory, or policy Careful monitoring is essential while implementing deprescribing interventions in individuals with life-limiting conditions. Further research is needed to strengthen the evidence base for deprescribing, particularly in relation to specific diseases and medication classes.",
+      "To address these gaps, this study utilised longitudinal data from the CLHLS, a nationally representative dataset, spanning 2008–2018. Leveraging multi‐wave data allowed us to capture dynamic changes in functional disability and living arrangements over a decade. Importantly, we analysed urban and rural populations separately to identify disparities and heterogeneity in aged care contexts. Specifically, this study addressed two research questions: (1) How are changes in ADL and IADL associated with living arrangement transitions among Chinese older adults? (2) To what extent do these associations differ between urban and rural populations? The findings aim to deepen understanding of the interplay between functional decline and living arrangements, and help provide empirical evidence to inform targeted, context‐sensitive, and equitable aged care policies in China."
+    ],
+    "retrieval_backend": "geri_lit",
+    "evidence_count": 3,
+    "initial_reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.533333,
+      "consistency": 1.0,
+      "overall_reliability": 0.758333
+    },
+    "initial_decision": "REFINE",
+    "reliability": {
+      "authority": 0.85,
+      "relevance": 0.5,
+      "support": 1.0,
+      "coverage": 0.533333,
+      "consistency": 1.0,
+      "overall_reliability": 0.758333
+    },
+    "decision": "REFINE",
+    "retrieval_attempts": 1,
+    "refinement_attempts": 1,
+    "refused": false,
+    "generated": true,
+    "answer": "I couldn't find that information in the knowledge base.",
+    "latency_seconds": 0.643,
+    "faithfulness": 0.0,
+    "faithfulness_reason": "contradicts evidence",
+    "answer_relevance": 0.0,
+    "answer_relevance_reason": "The answer does not address the question at all.",
+    "evidence_support": 0.1667,
+    "hallucination": true,
+    "gold_chunk_retrieved": false,
+    "error": null,
+    "generator_model": "llama3.1:8b",
+    "gen_calls": [
+      {
+        "model": "llama3.1:8b",
+        "prompt_eval_count": 1403,
+        "eval_count": 12,
+        "total_duration_ns": 445952700
+      }
+    ],
+    "prompt_eval_count_max": 1403
+  }
+]

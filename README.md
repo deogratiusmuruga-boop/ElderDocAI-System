@@ -142,6 +142,33 @@ python datasets/elderdocai_geriLit/metadata/experiment4_vanilla_baseline/experim
 
 `--limit N` optionally restricts each evaluation to the first N questions for diagnostics (default: all). Frozen per-question outputs are `experiment{N}_per_question_run{1,2}.json`; reproducibility signatures are in `experiment{N}_reproducibility.json`; protocol and integrity rules are in `experiment{N}_protocol.md`.
 
+### Experiment 5 (generator comparison)
+
+Generator-model ablation on GeriLit-Gold v1.1: five generator models run through the byte-identical frozen pipeline (retrieval, reliability gate, grounded prompt, `temperature 0 / top_p 0.1 / top_k 10`) with the unchanged `llama3.2:latest` judge. Only `--generator` differs. Two runs per model.
+
+| generator tag | digest (Ollama) | params | quant |
+|---|---|---|---|
+| `llama3.1:8b` | `46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e` | 8.0B | Q4_K_M |
+| `qwen2.5:7b` | `845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e` | 7.6B | Q4_K_M |
+| `mistral:7b` | `6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf` | 7.2B | Q4_K_M |
+| `gemma2:9b` | `ff02c3702f322b9e075e9568332d96c0a7028002f1a5a056e0a6784320a4db0b` | 9.2B | Q4_0 |
+| `phi3.5` | `61819fb370a3c1a9be6694869331e5f85f867a079e9271d66cb223acb81d04ba` | 3.8B | Q4_0 |
+
+Judge (unchanged everywhere): `llama3.2:latest`.
+
+```bash
+# per model, two runs (phi3.5 shown; repeat for the other four tags)
+python datasets/elderdocai_geriLit/metadata/experiment5_generator_models/experiment5_generation_evaluation.py --generator phi3.5 --run-id 1
+python datasets/elderdocai_geriLit/metadata/experiment5_generator_models/experiment5_generation_evaluation.py --generator phi3.5 --run-id 2
+
+# frozen retrieval-layer metrics (deterministic, no judge) — manuscript Table 8
+python datasets/elderdocai_geriLit/metadata/experiment5_generator_models/experiment5_retrieval_metrics.py
+```
+
+Outputs (per model, per run) live in `datasets/elderdocai_geriLit/metadata/experiment5_generator_models/`: `experiment5_<model>_per_question_run{1,2}.json`, `experiment5_<model>_summary_run{1,2}.json`, `experiment5_<model>_run_manifest_run{1,2}.json`, `experiment5_<model>_frozen_hashes_run{1,2}.json`, plus `experiment5_retrieval_metrics.json` and `experiment5_evaluator_diff_vs_experiment1.patch`.
+
+The Experiment 5 paper material (manuscript sections, figures, and the generator-comparison results) is on the default branch at tag `v1.1-paper-exp5`.
+
 ### Assembly / paper deliverables (read-only, reproduce with)
 
 ```bash

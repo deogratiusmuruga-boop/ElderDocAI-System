@@ -26,7 +26,7 @@ On the frozen GeriLit-Gold v1.1 benchmark (121 clinical questions, 45 PubMed
 Central articles), we report the locked evaluation of the final v1.1 stack:
 mean faithfulness **0.754** (95% CI 0.684–0.825), answer relevance **0.672**
 (0.591–0.752), and evidence support **0.853** (0.810–0.896), with an
-unsupported-claim rate of **23.1%** (95% binomial CI 16.0–31.7%).
+hallucination-flag rate of **23.1%** (95% binomial CI 16.0–31.7%).
 In a controlled comparison holding retrieved evidence identical across
 conditions, the full framework outperformed a minimal vanilla-RAG baseline on
 all three metrics (paired deltas −0.194, −0.140, −0.179 for faithfulness,
@@ -39,9 +39,23 @@ appropriate), reported descriptively rather than as a clinical claim.
 LLM-judge run-to-run reproducibility was high (90.0–100% exact match across
 metrics and experiments).
 
+In a generator-model ablation (Experiment 5) holding the same retrieval,
+reliability gate, grounded prompt, sampling options (temperature 0, top_p 0.1,
+top_k 10), and Llama‑3.2 judge constant, five open‑weight decoder models were
+evaluated on the identical 121‑question benchmark. Phi3.5 achieved the highest
+mean faithfulness (0.900–0.923; n = 120) and the lowest hallucination‑flag rate
+(6.6–8.3%), but exhibited a repeatable token‑repeat‑limit generation failure on
+one question in both runs; mistral:7b produced the most balanced quality with
+high evidence support (0.82) and a moderate hallucination‑flag rate of 15.7–17.4%.
+Retrieval metrics (Recall@k, Hit@k, Precision@k, MRR, nDCG@k, MAP) were
+computed from the ordered gold‑relevant‑chunk evidence and are reported
+separately (gold‑hit rate 27.3% for k=3; MRR = MAP = 0.2383), reflecting the
+frozen retrieval layer that is identical across all generator conditions.
+
 The central contribution is the *joint* evaluation discipline: frozen benchmark,
-pre-registered analyses, exhaustive validators, and transparent reporting of
-null results.
+pre-registered analyses, exhaustive validators, transparent reporting of
+null results, and a controlled generator-model comparison against five
+alternative decoder models.
 
 ---
 
@@ -64,15 +78,18 @@ grounded in retrieved evidence and be *measurably reliable* under a
 pre-registered evaluation protocol.
 
 This manuscript reports the Phase 3 evaluation of the final v1.1 stack. It
-makes three contributions: (1) a complete, frozen evaluation of generation
+makes four contributions: (1) a complete, frozen evaluation of generation
 quality on a purpose-built geriatric QA benchmark; (2) controlled ablations
 that measure the effects of the reliability gate, the grounded-prompt pathway,
-and the care-state mechanism; and (3) a reliability-quantification apparatus
+and the care-state mechanism; (3) a reliability-quantification apparatus
 (two-run judge reproducibility, confidence intervals, human-calibration
-infrastructure) that supports scientific reporting of LLM-judge-based metrics.
-We report honestly mixed results, including one statistically null ablation,
-because the evaluation discipline — not selectively positive outcomes — is the
-contribution.
+infrastructure) that supports scientific reporting of LLM-judge-based metrics;
+and (4) a generator-model comparison that isolates the effect of the generator
+LLM by holding retrieval, prompts, the reliability gate, and the judge
+unchanged, allowing comparison of five open‑weight decoder models under a
+single shared RAG pipeline. We report honestly mixed results, including one
+statistically null ablation, because the evaluation discipline — not
+selectively positive outcomes — is the contribution.
 
 ---
 
@@ -189,7 +206,9 @@ evidence set.
 0/0.25/0.5/0.75/1.0 scale by Llama 3.2 under a deterministic sampler, using the
 verbatim prompts from the evaluation suite. Evidence support is deterministic:
 the token-level overlap of the answer spans with the final evidence. An
-unsupported-claim (hallucination) flag = faithfulness ≤ 0.50; contradicting
+hallucination-flag = faithfulness ≤ 0.50 (flagged by the LLM judge; the flag
+does not classify the answer type — refusals, partial‑support, and
+contradictions are all captured under this binary flag); contradicting
 claims = faithfulness == 0.0.
 
 **4.3 Pre-registered statistical rules.** For paired ablations, a metric is
@@ -207,6 +226,41 @@ retrieval/generation pathway and do not constitute an evaluation of
 longitudinal care-state adaptation. Care-state/adaptive-assistance behavior was
 specifically evaluated in Experiment 3 using controlled state inputs; the
 121-question benchmark runs did not inject profile or care-state context.
+
+**4.6 Experiment 5 — generator-model ablation.** To isolate the contribution
+of the generator LLM, five open-weight decoder models — llama3.1:8b,
+qwen2.5:7b, mistral:7b, gemma2:9b, and phi3.5 — were evaluated on the identical
+121-question GeriLit-Gold v1.1 benchmark under a *single shared RAG pipeline*.
+Only the generator model string in the production generation call differs;
+retrieval, the reliability gate, the grounded prompt, the sampling options
+(temperature 0, top_p 0.1, top_k 10), and the Llama‑3.2 judge are held
+byte-identical to Experiment 1. This is a generator comparison within one RAG
+pipeline, not a comparison of five distinct RAG architectures.
+
+Each generator was run twice (run-id 1 and run-id 2) with identical inputs and
+sampling. Model identity (tag, digest, quantization) was recorded per run from
+`ollama show`. The number of context tokens is not explicitly set
+(`num_ctx` unset), matching Experiment 1; the Ollama server default context
+window therefore applies identically across all generators.
+
+**Evaluation metrics.** Faithfulness is the primary comparison metric;
+answer relevance and evidence support are reported as supporting metrics, and
+the hallucination-flag rate (faithfulness ≤ 0.50) and contradiction count
+(faithfulness == 0.0) are secondary flags. Because the benchmark has no gold
+reference *answers* (only gold evidence chunks), EM / F1 / ROUGE / BLEU /
+BERTScore are not computable and are not reported. RAGAS context-precision /
+context-recall and TruLens / ARES scorers would require additional judge
+tooling — incompatible with the frozen judge — and are therefore excluded
+(recorded as future work, Section 9).
+
+**Retrieval metrics.** Because the retrieval layer is frozen and byte-identical
+across all five generators, retrieval quality is computed once and reported
+separately from generator results. For each question, a retrieved chunk is
+relevant iff its chunk_id equals the question's gold relevant chunk. With the
+frozen cross-encoder rerank producing an ordered top-3 list (k ∈ {1, 2, 3}),
+we compute Recall@k, Hit@k, Precision@k, MRR, nDCG@k, and MAP. MAP equals MRR
+here because every question has exactly one gold chunk, so per-question
+average precision equals reciprocal rank.
 ---
 
 ## 5. Results
@@ -221,7 +275,7 @@ specifically evaluated in Experiment 3 using controlled state inputs; the
 | Answer relevance | 0.6715 | 0.4496 | [0.5914, 0.7516] |
 | Evidence support | 0.8528 | 0.2408 | [0.8099, 0.8957] |
 
-- Unsupported-claim rate (faithfulness ≤ 0.5): **23.1%** (28/121;
+- Hallucination-flag rate (faithfulness ≤ 0.5): **23.1%** (28/121;
   95% binomial CI [16.0%, 31.7%]).
 - Contradiction rate (faithfulness == 0.0): **18.2%** (22/121).
 - Judge reproducibility for this experiment was perfect between the two frozen
@@ -381,13 +435,83 @@ kappa collapses to 0.0 despite 95% exact match because run 1 rated all 20
 items identically (the kappa paradox); exact-match agreement is reported
 alongside kappa.
 
+### 5.7 Experiment 5 — Generator-model comparison (n = 121)
+
+Five generators were evaluated under the shared GeriLit pipeline (Section 4.6).
+All models produced complete (non-empty) answers on the benchmark; phi3.5 is
+the exception (see below). Judge reproducibility for Experiment 5 is reported
+alongside the two-run faithfulness means in Table 7.
+
+**Table 7. Generator-model comparison (R1/R2; faithfulness n = 121 except
+phi3.5 n = 120). 95% t-CIs for means; exact binomial CIs for rates.**
+
+| Generator | Faithfulness R1 (95% CI) | Faithfulness R2 (95% CI) | Ans. relevance (R1/R2) | Evidence support (R1/R2) | Hallucination-flag rate R1 (95% CI) | Hallucination-flag rate R2 (95% CI) | Contradiction (R1/R2) | Errors (R1/R2) | Runtime (s) |
+|---|---|---|---|---|---|---|---|---|---|
+| phi3.5 | 0.9000 (0.853–0.947) | 0.9229 (0.881–0.965) | 0.669 / 0.679 | 0.796 / 0.805 | 8.3% (10/121; 4.0–14.7%) | 6.6% (8/121; 2.9–12.6%) | 7 / 5 | 1 / 1 | 1121 |
+| mistral:7b | 0.8120 (0.749–0.875) | 0.8140 (0.751–0.877) | 0.713 / 0.709 | 0.816 / 0.818 | 17.4% (21/121; 11.1–25.3%) | 15.7% (19/121; 9.7–23.4%) | 15 / 16 | 0 / 0 | 334 |
+| gemma2:9b | 0.7149 (0.640–0.790) | 0.7417 (0.669–0.815) | 0.502 / 0.506 | 0.789 / 0.789 | 27.3% (33/121; 19.6–36.1%) | 25.6% (31/121; 18.1–34.4%) | 26 / 22 | 0 / 0 | 1275 |
+| llama3.1:8b | 0.6901 (0.612–0.768) | 0.6963 (0.619–0.773) | 0.572 / 0.554 | 0.779 / 0.778 | 30.6% (37/121; 22.5–39.6%) | 29.8% (36/121; 21.8–38.7%) | 29 / 28 | 0 / 0 | 214 |
+| qwen2.5:7b | 0.6446 (0.561–0.728) | 0.6322 (0.549–0.716) | 0.519 / 0.498 | 0.625 / 0.615 | 34.7% (42/121; 26.3–43.9%) | 35.5% (43/121; 27.1–44.8%) | 39 / 40 | 0 / 0 | 201 |
+
+Figure: `figures/fig7_generator_comparison.png`.
+
+Faithfulness varied substantially across generators — from 0.63–0.65
+(qwen2.5:7b) to 0.90–0.92 (phi3.5) — while run-to-run faithfulness differences
+within each generator were small (|Δ| ≤ 0.027). This indicates generator choice
+is a first-order source of quality variation under this fixed pipeline, but
+these are descriptive rankings: two run-level means per model do not constitute
+independent samples, and no paired between-model statistical test was applied.
+The five models' hallucination-flag rates are likewise reported descriptively
+(phi3.5 6.6–8.3% vs qwen2.5:7b 34.7–35.5%). The parameter count of the five
+models (3.8B–9.2B) does **not** monotonically predict quality — phi3.5
+(3.8B) outperformed gemma2:9b (9.2B) on faithfulness, so no parameter-scaling
+claim is made.
+
+**Table 8. Retrieval metrics — frozen retrieval layer (n = 121, k ∈ {1, 2, 3}).**
+
+| Metric | k=1 | k=2 | k=3 |
+|--------|-----|-----|-----|
+| Hit@k / Recall@k | 0.2066 | 0.2645 | **0.2727** |
+| Precision@k | 0.2066 | 0.1322 | 0.0909 |
+| nDCG@k | 0.2066 | 0.2431 | 0.2472 |
+| MRR | — | — | **0.2383** |
+| MAP | — | — | **0.2383** |
+
+Retrieval quality is reported separately because the retriever is frozen and
+byte-identical for every generator — it neither improves nor degrades across
+generator models. Gold-chunk hit rate (Hit@3) = 33/121 = 27.3%, exactly the
+fraction of questions whose gold chunk appears in the frozen top-3 evidence.
+MAP equals MRR because each question has a single gold chunk, so per-question
+average precision equals reciprocal rank.
+
+### 5.8 Experiment 5 — phi3.5 token-repeat-limit failure
+
+The only per-question generation error across the ten Experiment-5 runs is a
+repeatable failure of phi3.5 on question GLG11-001 in both runs, reported by
+the Ollama runtime as `ResponseError: prediction aborted, token repeat limit
+reached (status code 500)`. The identical question completed on every other
+generator and on the Experiment-1 llama3.2 baseline, and the failure reproduced
+across runs, so it is a stable, model-specific reproducibility issue rather than
+a transient server fault. The **underlying cause is unresolved**: the failure
+is reported descriptively and is not attributed to model architecture or to the
+(unset) context window, for which there is no evidence.
+
+Accounting: the errored record has `generated = False` and `faithfulness =
+None`, so it is excluded from the faithfulness, answer-relevance, and
+evidence-support means (denominator n = 120 for phi3.5 on those three metrics).
+It is **not** counted as a verified non-hallucinated answer; rather, the
+hallucination-flag denominator is the full n = 121 (the rate conservatively
+treats the error as neither a hallucination nor a clean answer, and the 1/121
+generation error is reported separately). Both phi3.5 runs report exactly one
+error (1/121).
+
 ---
 
 ## 6. Confidence Intervals (A3)
 
 All headline statistics carry interval estimates (Section 5; full output in
 `a3_confidence_intervals/a3_confidence_intervals.{json,md}`): Exp 1 means as
-95% t-CIs (Table 2), Exp 1 unsupported-claim rate as a 95% Clopper-Pearson CI
+95% t-CIs (Table 2), Exp 1 hallucination-flag rate as a 95% Clopper-Pearson CI
 ([16.0%, 31.7%]), Exp 3 rates as exact binomial CIs, and Exp 4 deltas as
 t-CIs that exclude 0 on all three metrics ([−0.2836, −0.1048],
 [−0.2298, −0.0512], [−0.2258, −0.1312]) — consistent with the hypothesis
@@ -481,11 +605,24 @@ Two-run exact match of 90–100% (A2) shows the judge is a stable instrument; th
 matched-evidence human–judge calibration (A1, Section 7) documents moderate
 human–judge exact agreement (55–75%), within-one-bin agreement of 75–85%,
 degenerate kappa for three metrics due to strong top-of-scale human rating
-concentration, and an unsupported-claim disagreement pattern (automated flag
+concentration, and a disagreement pattern on unsupported claims (automated flag
 5/20, human 0/20). Read together, these results are precisely why the
 reliability quantification (A2) and the human calibration (A1) belong in the
 paper rather than the supplement: high run-to-run stability does not by itself
 establish human concordance.
+
+**Generator choice is a first-order source of quality variance, but the judge
+shares a family with one generator.** Experiment 5 shows a faithfulness span of
+0.63–0.65 (qwen2.5:7b) to 0.90–0.92 (phi3.5) under an otherwise byte-identical
+pipeline, and hallucination-flag rates from 6.6% (phi3.5) to 35.5%
+(qwen2.5:7b). This indicates generator selection materially alters grounded
+generation quality within a single RAG design — a practically important lever
+for deployment. These are descriptive rankings, not significance claims, and
+are subject to a measured caveat: the Llama-3.2 judge shares the Llama model
+family with the llama3.1:8b generator (but not with phi3.5, mistral:7b,
+qwen2.5:7b, or gemma2:9b). Judge-family bias cannot be excluded by the current
+single-judge, single-annotator calibration (Section 7), and is recorded as an
+open measurement risk (Section 9).
 
 ---
 
@@ -514,11 +651,27 @@ establish human concordance.
 6. **Longitudinal care-state persistence.** Longitudinal care-state persistence
    and production-level state transitions were not evaluated.
 7. **Refusal quality is unlabeled.** The corpus has no ground-truth refusal
-   labels; refusals are counted within the unsupported bucket by the frozen
-   rubric (a conservative choice that inflates contradiction counts).
+   labels; refusals are counted within the hallucination-flag bucket by the
+   frozen rubric (a conservative choice that inflates contradiction counts).
 8. **Prompt differences in Exp 4.** The vanilla baseline is the minimal
    evidence-grounded prompt defined in the frozen protocol; it is a
    *minimal-baseline operationalization*, not a historical production prompt.
+9. **Generator comparison — judge-family bias.** The Llama-3.2 evaluation judge
+   shares the Llama model family with the llama3.1:8b generator (Experiment 5).
+   The single-judge design cannot exclude the possibility that faithfulness for
+   llama3.1:8b is measured more favorably than for out-of-family generators
+   (phi3.5, mistral:7b, qwen2.5:7b, gemma2:9b). This is unresolved and is
+   recorded as future work (multi-judge evaluation, Section 11).
+10. **phi3.5 token-repeat-limit failure.** phi3.5 failed deterministically on
+    1/121 questions (GLG11-001) in both runs (`ResponseError: 500, prediction
+    aborted, token repeat limit reached`). The cause is unresolved and is not
+    attributed to architecture or context window. Its three evaluation means
+    are computed over n = 120, and its hallucination-flag denominator is the
+    full 121 (the error is reported separately, not counted as a clean answer).
+11. **Generator rankings are descriptive.** Experiment 5 reports two run-level
+    means per generator. No paired between-model significance test was applied,
+    and the two runs are not independent benchmark samples; therefore no
+    "best model" claim is made, and no p-value is attached to the ranking.
 
 ---
 
@@ -542,6 +695,16 @@ establish human concordance.
   A1_MATCHED_ANNOTATION_PROTOCOL.md`, `a1_matched_annotation_sheet.csv`,
   `a1_matched_agreement_analysis.{json,md}` (completed annotation-sheet
   SHA-256 `70506d5d2fdc631f5af77b592c6cec8b8c6be4201d24b8e46ca7b4372d0bb1c3`).
+- **Experiment 5 reproducibility.** Five generators × 2 runs = 40 output files
+  (`experiment5_<generator_tag>_per_question_run{1,2}.json`,
+  `experiment5_<generator_tag>_summary_run{1,2}.json`,
+  `experiment5_<generator_tag>_frozen_hashes_run{1,2}.json`,
+  `experiment5_<generator_tag>_run_manifest_run{1,2}.json`) under
+  `datasets/elderdocai_geriLit/metadata/experiment5_generator_models/`. All 12
+  frozen-artifact SHA-256 hashes were verified unchanged before and after every
+  run; zero `FROZEN ARTIFACT` aborts. Generator tags (llama3.1:8b, qwen2.5:7b,
+  mistral:7b, gemma2:9b, phi3.5) and quantizations are recorded in
+  `experiment5_ollama_show_snapshot.json`.
 - All artifact directories and outputs referenced above are relative to
   `datasets/elderdocai_geriLit/metadata/paper_assembly/`.
 
@@ -555,11 +718,18 @@ contrast, its grounded generation pathway is what creates the advantage over a
 minimal RAG prompt. The same evaluation discipline that produced this headline
 result also surfaced two honest negatives — a null gating effect and an
 immature care-state adaptation — and an empirically grounded failure locus in
-retrieval coverage. We consider the reliability quantification apparatus
-(two-run judge reproducibility, interval estimates, and the pre-registered
-human-calibration protocol) as much a contribution as the benchmark numbers,
-because an evaluation that can report its own measurement risk is the
-prerequisite for trusting either positive or negative results.
+retrieval coverage. The generator-model comparison (Experiment 5) further
+shows that, holding retrieval, prompts, and the gate constant, generator choice
+alone spans a wide faithfulness range (0.63–0.92) and an 8.3%–35.5%
+hallucination-flag rate — but also a single unexplained phi3.5 failure that we
+would rather report than hide. We consider the reliability quantification
+apparatus (two-run judge reproducibility, interval estimates, and the
+pre-registered human-calibration protocol) as much a contribution as the
+benchmark numbers, because an evaluation that can report its own measurement
+risk is the prerequisite for trusting either positive or negative results.
+Future work is to repeat the generator comparison under multiple judges and to
+benchmark ElderDocAI against a broader set of RAG baselines — the present work
+compares generators within one pipeline, not competing RAG architectures.
 ---
 
 ## Appendix A — Dataset and system configuration (Table 1)
@@ -568,7 +738,9 @@ prerequisite for trusting either positive or negative results.
 |-----------|----------------|
 | Benchmark | GeriLit-Gold v1.1 (121 questions, 45 PMCIDs) |
 | Retrieval | dense BGE top-5 + BM25 top-5, hybrid 0.6/0.4, CrossEncoder rerank → top-3 |
-| Generator / judge | llama3.2:latest, temperature 0, top_p 0.1, top_k 10 |
+| Generator / judge (Exp 1–4) | llama3.2:latest, temperature 0, top_p 0.1, top_k 10 |
+| Generator (Exp 5) | llama3.1:8b, qwen2.5:7b, mistral:7b, gemma2:9b, phi3.5 (same sampler options, judge constant) |
+| Judge (all experiments) | llama3.2:latest, temperature 0, top_p 0.1, top_k 10 |
 | Reliability gate | ACCEPT ≥ 0.80, REFINE ≥ 0.65, RE-RETRIEVE ≥ 0.45, REJECT < 0.45 |
 | Judge scale | 0/0.25/0.5/0.75/1.0 (faithfulness, answer relevance; evidence support deterministic) |
 
@@ -600,6 +772,7 @@ Mean final reliability 0.788; refinement cases 84.
 | Fig 4 | `figures/fig4_vanilla_contrast.png` | Exp 4 FULL vs Vanilla-RAG (headline) |
 | Fig 5 | `figures/fig5_care_state_contrast.png` | Exp 3 care-state contrast |
 | Fig 6 | `figures/fig6_judge_reliability.png` | Judge run1-vs-run2 exact match |
+| Fig 7 | `figures/fig7_generator_comparison.png` | Exp 5 generator faithfulness/relevance contrast (5 models) |
 
 All figure-data CSVs: `fig_data/*.csv`; figure code: `c7_c8_figures.py`;
 narrative tables (verbatim frozen numbers): `c7_c8_narrative_tables.{md,json}`.

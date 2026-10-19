@@ -1,0 +1,50 @@
+﻿[
+    {
+        "model":  "llama3.2:latest",
+        "present":  true,
+        "digest":  "",
+        "parameters":  "3.2B",
+        "context_length":  "131072",
+        "quantization":  "Q4_K_M"
+    },
+    {
+        "model":  "llama3.1:8b",
+        "present":  true,
+        "digest":  "",
+        "parameters":  "8.0B",
+        "context_length":  "131072",
+        "quantization":  "Q4_K_M"
+    },
+    {
+        "model":  "qwen2.5:7b",
+        "present":  true,
+        "digest":  "",
+        "parameters":  "7.6B",
+        "context_length":  "32768",
+        "quantization":  "Q4_K_M"
+    },
+    {
+        "model":  "mistral:7b",
+        "present":  true,
+        "digest":  "",
+        "parameters":  "7.2B",
+        "context_length":  "32768",
+        "quantization":  "Q4_K_M"
+    },
+    {
+        "model":  "gemma2:9b",
+        "present":  true,
+        "digest":  "",
+        "parameters":  "9.2B",
+        "context_length":  "8192",
+        "quantization":  "Q4_0"
+    },
+    {
+        "model":  "phi3.5",
+        "present":  true,
+        "digest":  "",
+        "parameters":  "3.8B",
+        "context_length":  "131072",
+        "quantization":  "Q4_0"
+    }
+]
